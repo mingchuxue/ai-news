@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f3f0e8" />
+  <meta name="description" content="观澜收集实验室与媒体公开发布的人工智能资讯，标明来源，并按模型、功能、类型等多维标签筛选。" />
+  <meta property="og:title" content="观澜 · 人工智能资讯" />
+  <meta property="og:description" content="收集实验室与媒体公开发布的人工智能资讯，标明来源，多维标签筛选。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_CN" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="favicon.svg" />
+  <title>观澜 · 人工智能资讯</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <a class="skip" href="#main">跳到资讯列表</a>
+
+  <header class="top">
+    <a class="brand" href="./" aria-label="观澜首页">
+      <svg class="mark" viewBox="0 0 36 28" aria-hidden="true">
+        <path d="M2 10c4.2-6 7-6 11.2 0s7 6 11.2 0 7-6 11.2 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M2 18c4.2-5 7-5 11.2 0s7 5 11.2 0 7-5 11.2 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".45"/>
+      </svg>
+      <span class="brand-text">
+        <span class="wordmark">观澜</span>
+        <span class="tagline">人工智能资讯</span>
+      </span>
+    </a>
+
+    <label class="search" for="q">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M16 16l5 5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      <input id="q" type="search" placeholder="搜索标题、摘要或来源" autocomplete="off" enterkeyhint="search" />
+      <kbd class="hint">/</kbd>
+    </label>
+
+    <div class="top-actions">
+      <button type="button" class="text-btn" id="btn-fav" aria-pressed="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.6l1.7 3.7 4 .5-3 2.8.8 4-3.5-2-3.5 2 .8-4-3-2.8 4-.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+        收藏
+      </button>
+      <button type="button" class="text-btn" id="btn-about">关于</button>
+      <button type="button" class="filter-open" id="btn-filter" aria-controls="filters" aria-expanded="false">
+        筛选
+        <span class="badge" id="filter-badge" hidden>0</span>
+      </button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="filters" id="filters" aria-label="筛选">
+      <div class="filters-head">
+        <strong>筛选</strong>
+        <button type="button" class="text-btn" id="btn-reset">清除全部</button>
+        <button type="button" class="icon-close" id="btn-close-filters" aria-label="关闭筛选">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+      <div id="filter-body"></div>
+      <div class="filters-foot">
+        <button type="button" class="primary-btn" id="btn-apply">查看结果</button>
+      </div>
+    </aside>
+    <div class="filters-mask" id="filters-mask" hidden></div>
+
+    <main id="main">
+      <div class="active-bar" id="active-bar" hidden></div>
+      <div class="meta-row" id="meta-row">
+        <p class="count" id="count">正在载入…</p>
+        <p class="updated" id="updated"></p>
+      </div>
+      <div id="feed" class="feed" aria-live="polite"></div>
+      <div id="empty" class="empty" hidden>
+        <svg class="empty-mark" viewBox="0 0 36 28" aria-hidden="true">
+          <path d="M2 10c4.2-6 7-6 11.2 0s7 6 11.2 0 7-6 11.2 0" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          <path d="M2 18c4.2-5 7-5 11.2 0s7 5 11.2 0 7-5 11.2 0" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" opacity=".45"/>
+        </svg>
+        <h2>这一段里还没有符合条件的资讯</h2>
+        <p>换一组标签，或把时间范围放宽一些。</p>
+        <button type="button" class="primary-btn" id="btn-empty-reset">清除筛选</button>
+      </div>
+      <div id="error" class="empty" hidden>
+        <h2>资讯暂未载入</h2>
+        <p>请稍后刷新再试。</p>
+      </div>
+    </main>
+  </div>
+
+  <footer class="foot">
+    <p>资讯来自各来源的公开订阅，标题与摘要保留原文，版权归原作者。本站只做整理与筛选。</p>
+    <p id="foot-updated"></p>
+  </footer>
+
+  <dialog class="about" id="about" aria-labelledby="about-title">
+    <div class="about-head">
+      <h2 id="about-title">关于观澜</h2>
+      <button type="button" class="icon-close" id="btn-close-about" aria-label="关闭">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+    <div class="about-body" id="about-body"></div>
+  </dialog>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
