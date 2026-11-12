@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T17:56:53+08:00",
+  "updated_at": "2026-11-12T22:30:14+08:00",
   "window_days": 30,
-  "item_count": 1057,
+  "item_count": 1135,
   "taxonomy": {
     "models": [
       {
@@ -12,7 +12,7 @@
       {
         "id": "claude",
         "name": "Claude",
-        "count": 83
+        "count": 87
       },
       {
         "id": "gemini",
@@ -32,7 +32,7 @@
       {
         "id": "deepseek",
         "name": "DeepSeek",
-        "count": 6
+        "count": 7
       },
       {
         "id": "grok",
@@ -47,12 +47,12 @@
       {
         "id": "kimi",
         "name": "Kimi",
-        "count": 7
+        "count": 10
       },
       {
         "id": "doubao",
         "name": "豆包",
-        "count": 6
+        "count": 7
       },
       {
         "id": "hunyuan",
@@ -67,7 +67,7 @@
       {
         "id": "wenxin",
         "name": "文心",
-        "count": 8
+        "count": 9
       },
       {
         "id": "minimax",
@@ -139,7 +139,7 @@
       {
         "id": "image",
         "name": "图像生成",
-        "count": 4
+        "count": 5
       },
       {
         "id": "video",
@@ -154,27 +154,27 @@
       {
         "id": "coding",
         "name": "编程",
-        "count": 60
+        "count": 64
       },
       {
         "id": "agent",
         "name": "Agent",
-        "count": 149
+        "count": 155
       },
       {
         "id": "reasoning",
         "name": "推理",
-        "count": 16
+        "count": 17
       },
       {
         "id": "search",
         "name": "搜索",
-        "count": 12
+        "count": 13
       },
       {
         "id": "robotics",
         "name": "机器人",
-        "count": 31
+        "count": 34
       },
       {
         "id": "science",
@@ -189,59 +189,59 @@
       {
         "id": "healthcare",
         "name": "医疗",
-        "count": 14
+        "count": 17
       },
       {
         "id": "chip",
         "name": "算力芯片",
-        "count": 150
+        "count": 164
       },
       {
         "id": "safety",
         "name": "安全对齐",
-        "count": 32
+        "count": 35
       }
     ],
     "types": [
       {
         "id": "release",
         "name": "发布",
-        "count": 172
+        "count": 188
       },
       {
         "id": "research",
         "name": "研究论文",
-        "count": 146
+        "count": 147
       },
       {
         "id": "business",
         "name": "融资/商业",
-        "count": 87
+        "count": 97
       },
       {
         "id": "policy",
         "name": "政策/安全",
-        "count": 37
+        "count": 38
       },
       {
         "id": "opensource",
         "name": "开源",
-        "count": 85
+        "count": 86
       },
       {
         "id": "review",
         "name": "教程/评测",
-        "count": 62
+        "count": 66
       },
       {
         "id": "product",
         "name": "产品更新",
-        "count": 71
+        "count": 76
       },
       {
         "id": "opinion",
         "name": "观点评论",
-        "count": 46
+        "count": 49
       }
     ]
   },
@@ -254,7 +254,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 93
+      "count": 92
     },
     {
       "id": "nvidia-dev",
@@ -264,7 +264,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 44
+      "count": 43
     },
     {
       "id": "huggingface",
@@ -274,7 +274,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 31
+      "count": 32
     },
     {
       "id": "anthropic",
@@ -297,9 +297,9 @@
       "count": 20
     },
     {
-      "id": "google-ai",
-      "name": "Google AI",
-      "home": "https://blog.google/technology/ai/",
+      "id": "google-research",
+      "name": "Google Research",
+      "home": "https://research.google/blog/",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -307,9 +307,9 @@
       "count": 11
     },
     {
-      "id": "google-research",
-      "name": "Google Research",
-      "home": "https://research.google/blog/",
+      "id": "pytorch",
+      "name": "PyTorch",
+      "home": "https://pytorch.org/blog/",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -327,9 +327,9 @@
       "count": 10
     },
     {
-      "id": "pytorch",
-      "name": "PyTorch",
-      "home": "https://pytorch.org/blog/",
+      "id": "google-ai",
+      "name": "Google AI",
+      "home": "https://blog.google/technology/ai/",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -454,7 +454,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 121
+      "count": 145
     },
     {
       "id": "qbitai",
@@ -464,7 +464,7 @@
       "official": false,
       "ok": false,
       "error": "http 403",
-      "count": 95
+      "count": 102
     },
     {
       "id": "arxiv",
@@ -484,7 +484,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 60
+      "count": 63
     },
     {
       "id": "ithome",
@@ -494,7 +494,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 40
+      "count": 56
     },
     {
       "id": "siliconangle",
@@ -504,7 +504,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 30
+      "count": 35
     },
     {
       "id": "ft",
@@ -514,7 +514,17 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 27
+      "count": 29
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 26
     },
     {
       "id": "zdnet",
@@ -537,9 +547,9 @@
       "count": 23
     },
     {
-      "id": "guardian",
-      "name": "The Guardian",
-      "home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "id": "hackernews",
+      "name": "Hacker News",
+      "home": "https://news.ycombinator.com/",
       "region": "intl",
       "official": false,
       "ok": true,
@@ -564,17 +574,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 20
-    },
-    {
-      "id": "ieee",
-      "name": "IEEE Spectrum",
-      "home": "https://spectrum.ieee.org/topic/artificial-intelligence/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 18
+      "count": 21
     },
     {
       "id": "simonwillison",
@@ -587,13 +587,13 @@
       "count": 18
     },
     {
-      "id": "hackernews",
-      "name": "Hacker News",
-      "home": "https://news.ycombinator.com/",
+      "id": "ieee",
+      "name": "IEEE Spectrum",
+      "home": "https://spectrum.ieee.org/topic/artificial-intelligence/",
       "region": "intl",
       "official": false,
-      "ok": false,
-      "error": "http 502",
+      "ok": true,
+      "error": "",
       "count": 17
     },
     {
@@ -605,6 +605,26 @@
       "ok": true,
       "error": "",
       "count": 14
+    },
+    {
+      "id": "wired",
+      "name": "WIRED",
+      "home": "https://www.wired.com/tag/artificial-intelligence/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 14
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "home": "https://www.theverge.com/ai-artificial-intelligence",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 12
     },
     {
       "id": "infoq-cn",
@@ -620,26 +640,6 @@
       "id": "mittr",
       "name": "MIT Technology Review",
       "home": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 10
-    },
-    {
-      "id": "theverge",
-      "name": "The Verge",
-      "home": "https://www.theverge.com/ai-artificial-intelligence",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 10
-    },
-    {
-      "id": "wired",
-      "name": "WIRED",
-      "home": "https://www.wired.com/tag/artificial-intelligence/",
       "region": "intl",
       "official": false,
       "ok": true,
@@ -667,19 +667,19 @@
       "count": 9
     },
     {
-      "id": "wallstreetcn",
-      "name": "华尔街见闻",
-      "home": "https://wallstreetcn.com",
+      "id": "ifanr",
+      "name": "爱范儿",
+      "home": "https://www.ifanr.com/",
       "region": "cn",
       "official": false,
       "ok": true,
       "error": "",
-      "count": 8
+      "count": 9
     },
     {
-      "id": "ifanr",
-      "name": "爱范儿",
-      "home": "https://www.ifanr.com/",
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "home": "https://wallstreetcn.com",
       "region": "cn",
       "official": false,
       "ok": true,
@@ -694,7 +694,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 7
+      "count": 8
     },
     {
       "id": "engadget",
@@ -704,7 +704,17 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 6
+      "count": 7
+    },
+    {
+      "id": "tmtpost",
+      "name": "钛媒体",
+      "home": "https://www.tmtpost.com/",
+      "region": "cn",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 7
     },
     {
       "id": "interconnects",
@@ -732,8 +742,8 @@
       "home": "https://importai.substack.com/",
       "region": "intl",
       "official": false,
-      "ok": true,
-      "error": "",
+      "ok": false,
+      "error": "http 403",
       "count": 4
     },
     {
@@ -741,16 +751,6 @@
       "name": "AI Snake Oil",
       "home": "https://www.aisnakeoil.com/",
       "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 3
-    },
-    {
-      "id": "tmtpost",
-      "name": "钛媒体",
-      "home": "https://www.tmtpost.com/",
-      "region": "cn",
       "official": false,
       "ok": true,
       "error": "",
@@ -812,8 +812,8 @@
       "home": "https://www.semianalysis.com/",
       "region": "intl",
       "official": false,
-      "ok": true,
-      "error": "",
+      "ok": false,
+      "error": "http 429",
       "count": 0
     },
     {
@@ -829,6 +829,894 @@
   ],
   "items": [
     {
+      "id": "3a038bc09affaa11",
+      "title": "Meet Colette Kress, Nvidia’s New Interim CEO",
+      "url": "https://wired.com/story/who-is-colette-kress-the-woman-who-could-succeed-jensen-huang",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-12T22:14:33+08:00",
+      "excerpt": "Nvidia’s longtime chief financial officer helped transform the company into an AI powerhouse. Now she’s taking the reins following Jensen Huang’s resignation on Thursday.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "755d073ce92d3323",
+      "title": "I reviewed the Apple HomeView, ask me anything",
+      "url": "https://theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-12T22:10:00+08:00",
+      "excerpt": "Hi! I'm Jen Tuohy, The Verge's senior smart home reviewer. I've tested every smart display Amazon and Google have ever made, and for the past week I've been testing Apple's first: The $299 HomeView",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "d5e8c5b10dbceed6",
+      "title": "Jensen Huang is out as NVIDIA CEO",
+      "url": "https://engadget.com/2314584/jensen-huang-is-out-as-nvidia-ceo",
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "source_home": "https://www.engadget.com/",
+      "published": "2026-11-12T22:04:30+08:00",
+      "excerpt": "He has held the position since the company's founding.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "df877bc8037c5b29",
+      "title": "Clipto enables ChatGPT and Claude to search and analyze years of people’s meetings and video calls",
+      "url": "https://siliconangle.com/2026/11/12/clipto-enables-chatgpt-and-claude-to-search-and-analyze-years-of-peoples-meetings-and-video-calls",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-12T22:00:52+08:00",
+      "excerpt": "Artificial intelligence assistants such as ChatGPT and Claude have become essential tools for millions of workers worldwide, helping them compose emails in seconds",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gpt",
+        "claude"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "a209c1be248d7bb4",
+      "title": "Qvyon launches with $8M to improve safety for physical AI deployments",
+      "url": "https://siliconangle.com/2026/11/12/qvyon-launches-with-8m-to-improve-safety-for-physical-ai-deployments",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-12T22:00:18+08:00",
+      "excerpt": "Physical AI validation infrastructure and software development company Qvyon Technologies Inc. launched today with $8 million in total funding to help companies validate autonomous vehicles and robots before deployment",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "safety"
+      ],
+      "types": [
+        "release",
+        "business",
+        "product"
+      ]
+    },
+    {
+      "id": "3f669285777a25cd",
+      "title": "黄仁勋辞任英伟达 CEO，公司美股盘前跌幅扩大至 10%",
+      "url": "https://ithome.com/1/026/397.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T21:58:41+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，英伟达刚刚发布声明称，黄仁勋已辞去总裁、首席执行官及董事会成员职务，即刻生效。截至IT之家发稿，英伟达美股盘前跌幅扩大至 10%。 现任执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）已同意担任临时 CEO。在正式继任者确定之前，克雷斯将继续履行其执行副总裁兼首席财务官的职责。董事会目前已启动正式 CEO 的遴选工作，并将综合考量内部及外部候选人。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "397a29fe38eb5883",
+      "title": "Jensen Huang Resigns as Nvidia CEO",
+      "url": "https://wired.com/story/nvidia-ceo-jensen-huang-steps-down",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-12T21:58:06+08:00",
+      "excerpt": "Nvidia’s cofounder and chief executive resigned on Thursday after the company opened an investigation into his affair with an alleged Chinese intelligence asset.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "8100aaa2481a8460",
+      "title": "黄仁勋辞职后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯为临时首席执行官",
+      "url": "https://ithome.com/1/026/396.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T21:57:35+08:00",
+      "excerpt": "IT之家 11 月 12 日闪讯速报，黄仁勋辞职后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）为临时首席执行官。 英伟达董事会今日宣布，现任英伟达执行副总裁兼首席财务官科莱特 · 克雷斯已同意出任临时首席执行官。 在正式继任者确定之前，克雷斯在代行首席执行官职责的同时，将继续兼任执行副总裁兼首席财务官。董事会目前已启动正式首席执行官的遴选工作，并将统筹考虑内部及外部候选人。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "79702984acb5daa5",
+      "title": "Nvidia CEO Jensen Huang resigns amid spy, affair scandals",
+      "url": "https://theverge.com/ai-artificial-intelligence/1031689/jensen-huang-fired-nvidia",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-12T21:53:16+08:00",
+      "excerpt": "Nvidia's board announced that Jensen Huang - its longtime co-founder, president, and CEO - has resigned after reports of two extramarital affairs",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "729cef541139b1a6",
+      "title": "英伟达：黄仁勋辞去总裁、首席执行官和董事会成员职务，即刻生效",
+      "url": "https://ithome.com/1/026/394.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T21:51:13+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，英伟达董事会今日宣布，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。 英伟达现任执行副总裁兼首席财务官 Colette Kress 同意出任临时首席执行官。在正式继任者确定之前，Kress 将在继续担任执行副总裁兼首席财务官的同时，履行临时 CEO 职责。 董事会启动正式 CEO 的搜索工作，将在内部与外部候选人中遴选合适人选。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "search",
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "a3bdd0774416ef3b",
+      "title": "Chinese Workers Are Paying Their Own AI Bills to Stay Productive",
+      "url": "https://tmtpost.com/8203536.html",
+      "source_id": "tmtpost",
+      "source_name": "钛媒体",
+      "source_home": "https://www.tmtpost.com/",
+      "published": "2026-11-12T21:42:07+08:00",
+      "excerpt": "Generative AI has become daily infrastructure for millions of office and professional users in China. Employers rarely reimburse the subscriptions and API spend",
+      "lang": "en",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "fdb1d204724971d4",
+      "title": "新华三发布全新国产双路旗舰服务器 R4930 G7，单线程 IPC 性能提升超 15%",
+      "url": "https://ithome.com/1/026/391.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T21:26:54+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，新紫光集团今日宣布，旗下新华三完成 H3C UniServer R4930 G7 服务器核心平台迭代升级。这款自研国产双路旗舰 搭载全新一代国产处理器 ，从计算内核、内存带宽、AI 向量加速到底层 BMC 安全底座全方位跃升。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "safety"
+      ],
+      "types": [
+        "release",
+        "product"
+      ]
+    },
+    {
+      "id": "24d7fb83f2c2988f",
+      "title": "Nine Korean startups vie for a spot in Disrupt 2027’s Startup Battlefield 200 competition",
+      "url": "https://techcrunch.com/2026/11/12/nine-korean-startups-vie-for-a-spot-in-disrupt-2027s-startup-battlefield-200-competition",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-12T21:26:25+08:00",
+      "excerpt": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "healthcare"
+      ],
+      "types": []
+    },
+    {
+      "id": "55ea0da53199d999",
+      "title": "今天起，豆包工作接入更多模型了",
+      "url": "https://tmtpost.com/8202629.html",
+      "source_id": "tmtpost",
+      "source_name": "钛媒体",
+      "source_home": "https://www.tmtpost.com/",
+      "published": "2026-11-12T21:23:33+08:00",
+      "excerpt": "11月12日，豆包工作宣布正式接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，并推出限时特惠计划。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "deepseek",
+        "kimi",
+        "doubao"
+      ],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "7f11656528dabd9c",
+      "title": "实测百度文心5.5 Flash Preview：审美依然在线，编程全力争先",
+      "url": "https://tmtpost.com/8202831.html",
+      "source_id": "tmtpost",
+      "source_name": "钛媒体",
+      "source_home": "https://www.tmtpost.com/",
+      "published": "2026-11-12T21:23:09+08:00",
+      "excerpt": "百度发布最新基础模型，编程、3D 建模、知识工作、内容创作等表现突出。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "wenxin"
+      ],
+      "topics": [
+        "coding"
+      ],
+      "types": [
+        "release",
+        "review",
+        "product"
+      ]
+    },
+    {
+      "id": "c4abd3b07017a112",
+      "title": "苹果芯片掌舵人被视为英伟达潜在接班人 苏姿丰等科技高管也进入讨论名单",
+      "url": "https://cnbeta.com.tw/articles/tech/1586082.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T21:15:56+08:00",
+      "excerpt": "随着英伟达近年来在人工智能领域持续崛起，并成长为全球最具影响力的科技企业之一，关于公司未来领导层接班规划的话题正在受到业界广泛关注。最新报道称，苹果负责芯片研发业务的高级副总裁约翰尼·斯鲁吉（Johny Srouji）已成为外界讨论的潜在英伟达首席执行官人选之一。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "4b9bcb35c6f5c958",
+      "title": "Zimbabwean author Simbarashe Kundizeza cleared of using AI to write prize-winning story",
+      "url": "https://theguardian.com/books/2026/nov/12/zimbabwean-author-simbarashe-kundizeza-cleared-ai-caine-prize-winning-story",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-12T21:14:38+08:00",
+      "excerpt": "After a month-long investigation it was concluded that Kundizeza’s story The Blue Fighter, which won the £10,000 Caine prize",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "1bafa17d30b9c5b6",
+      "title": "AI helped UK defy expectations – but will economy’s resilience fizzle out?",
+      "url": "https://theguardian.com/business/2026/nov/12/ai-uk-economy-john-healey",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-12T21:08:12+08:00",
+      "excerpt": "Despite John Healey’s defiance, the economy faces threats from a tech slowdown and energy bills this winter AI helps UK economy grow at fastest pace for more than two years The forecasters were clear when John Healey",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "ae242140b846a900",
+      "title": "科大讯飞星火语音基座大模型 SparkAudio 1.0 上线 API 服务，支持 99 种语言、202 种方言",
+      "url": "https://ithome.com/1/026/386.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T21:07:18+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，科大讯飞今日宣布，讯飞星火语音基座大模型 SparkAudio 1.0 已在讯飞开放平台上线 API 服务， 开发者可直接接入调用 。 SparkAudio 1.0 支持文本和语音两个模态的输入以及文本模态的输出，可支持语音转写、多语言翻译、多方言识别、环境音理解、说话人分离、情感分析以及复杂的音频问答等场景任务的实现。 官方表示，过去处理音频大多采用级联方案：先把语音转成文字，再交给大模型理解。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "audio"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "9c90ace9534bf57f",
+      "title": "广汽埃安 Ray 7 车型上市：华为 192 线激光雷达、搭文远知行 L4 级 Robotaxi 同源大模型，限时价 11.47 万元起",
+      "url": "https://ithome.com/1/026/385.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T21:05:37+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，广汽宣布旗下埃安 Ray 7 车型现已正式上市，该车是 Ray 系列的首款中大型纯电轿车，车长近 5 米，采用低趴宽体设计，风阻系数低至 0.22Cd，面向年轻市场打造，定价为 12.38 万元起，上市限时价格 11.47 万元起",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "business"
+      ]
+    },
+    {
+      "id": "7cd746460bf60498",
+      "title": "Hatz AI raises $24M to help small businesses go AI-native through their MSPs",
+      "url": "https://siliconangle.com/2026/11/12/hatz-ai-raises-24m-to-help-small-businesses-go-ai-native-through-their-msps",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-12T21:00:47+08:00",
+      "excerpt": "Large enterprises have emerged as the foremost adopters of artificial intelligence technology, and it’s giving them an unfair advantage over their smaller competitors",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "9eb398bb7f58be41",
+      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "url": "https://infoq.cn/article/COuPKpA6rTf05C6JM10y",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ 中国",
+      "source_home": "https://www.infoq.cn/",
+      "published": "2026-11-12T21:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "9dec0a6b089d7c35",
+      "title": "高盛：AI投资明年将继续推动美国经济增长，资本开支增速或达8%",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE90NkJTYjY1OU05dG5XX2E5eWNMVVlfeDA2RGxDS3c2aWpLNXhDX0RNME1jSWw3ZWthc3cyaTY2TmZjSWhMQURJUnNLNEtRMGcwY1I0c2N2T2Q?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T20:56:26+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "ed82431386c379ad",
+      "title": "出轨丑闻爆发前黄仁勋曾谈及接班安排：希望下一任 CEO 来自英伟达内部",
+      "url": "https://ithome.com/1/026/381.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T20:39:57+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，英伟达 CEO 黄仁勋在婚外情风波震动公司前数周， 曾谈到自己的接班问题 。在 10 月 14 日录制、今天发布的彭博社《The Circuit》节目采访中，黄仁勋谈及自己的继任安排：“ 就像我可能被解雇一样，下一任 CEO 也得由公司聘请 。” 执掌英伟达 33 年的黄仁勋有一双儿女，且都在英伟达从事工作。女儿黄敏珊担任具身智能产品营销高级总监，儿子黄胜斌则担任机器人产品总监。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics",
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "b6ef0ff1b97b149f",
+      "title": "How can we create ‘supercooperative AI’?",
+      "url": "https://ft.com/content/3c9e005f-aaec-4efc-9d75-5102accfaef8?syn-25a6b1a6=1",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-12T20:30:04+08:00",
+      "excerpt": "New research suggests that truly transformational economic change will depend on agents learning to work as teams",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "research"
+      ]
+    },
+    {
+      "id": "9a5ec098c8b2ac13",
+      "title": "投资者静待黄仁勋命运落定 英伟达盘前下跌6%",
+      "url": "https://cnbeta.com.tw/articles/tech/1586080.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T20:14:55+08:00",
+      "excerpt": "有关婚外情的报道曝出后，英伟达董事会召开会议，商讨是否解除黄仁勋的首席执行官职务，英伟达股票周四应声下跌。据报道，黄仁勋与 Megaspeed 高管艾丽斯・黄存在恋爱关系。黄仁勋还与英伟达医疗健康业务副总裁金伯利・鲍威尔存在婚外情，鲍威尔直接向黄仁勋汇报工作。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "healthcare",
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "e21b09d26bb5dcc4",
+      "title": "乌克兰国防科技初创企业UFORCE估值达60亿美元 投资者押注经过实战检验的无人机",
+      "url": "https://cnbeta.com.tw/articles/tech/1586078.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T20:14:38+08:00",
+      "excerpt": "投资者愈发看好在乌克兰战场接受过实战检验的自主武器系统，乌克兰国防科技企业 UFORCE 完成 7 亿美元融资，估值达到 60 亿美元。UFORCE 研发空中、海上、陆地无人装备，以及用于协同调度装备的 AI 软件。该公司今年 3 月曾完成 5000 万美元融资，当时估值约 10 亿美元。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "fc15475c2ca42a29",
+      "title": "西门子 CEO 博乐仁：无论黄仁勋是否离职，与英伟达的合作都不会受影响",
+      "url": "https://ithome.com/1/026/374.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T20:10:00+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，据路透社报道，西门子 CEO 博乐仁（Roland Busch）表示，无论英伟达最终如何决定其创始人兼 CEO 黄仁勋（Jensen Huang）的去留，西门子都将继续与这家 AI 芯片巨头保持合作。 此前，有报道称黄仁勋涉及两起婚外情。面对相关风波，英伟达董事会正在考虑是否解除黄仁勋的 CEO 职务。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "6e3c43c196bcf36b",
+      "title": "Training a 1T-Parameter MoE on EU public infrastructure with PyTorch and TorchTitan",
+      "url": "https://pytorch.org/blog/training-a-1t-parameter-moe-on-eu-public-infrastructure-with-pytorch-and-torchtitan",
+      "source_id": "pytorch",
+      "source_name": "PyTorch",
+      "source_home": "https://pytorch.org/blog/",
+      "published": "2026-11-12T20:00:19+08:00",
+      "excerpt": "TL;DR Scaling pretraining for a ~1-trillion-parameter Mixture-of-Experts (MoE) model on shared, public infrastructure was previously considered unfeasible due to unique architectural and interconnect bottlenecks",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "c1ca0acb2bc5d2fb",
+      "title": "Epic CEO 斯威尼力挺黄仁勋：英伟达若罢免他，堪比当年苹果解雇乔布斯",
+      "url": "https://ithome.com/1/026/363.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T19:48:31+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，继不久前承认有过一段婚外情后，英伟达 CEO 黄仁勋又传出另一起婚外情的疑云，英伟达董事会因此考虑将他解职。 消息一出，科技界多位重量级人物在 X 上纷纷发声。这其中，Epic Games CEO 蒂姆 · 斯威尼的态度尤为鲜明。 斯威尼在推文中呼吁“救救黄仁勋”。“如果英伟达董事会真的这么做，那就跟当年 苹果解雇史蒂夫 · 乔布斯 一样愚蠢，还会严重损害美国的利益。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "f101ffad2bb3a113",
+      "title": "Anthropic IPO",
+      "url": "https://ipo.anthropic.com/us",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-12T19:46:41+08:00",
+      "excerpt": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 248 # Comments: 289",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "1bc057909b9e81f5",
+      "title": "Alibaba’s Chip Unit Heads for Hong Kong With Cloud Still in the Way",
+      "url": "https://tmtpost.com/8203405.html",
+      "source_id": "tmtpost",
+      "source_name": "钛媒体",
+      "source_home": "https://www.tmtpost.com/",
+      "published": "2026-11-12T19:46:05+08:00",
+      "excerpt": "Alibaba plans to list T-Head in Hong Kong after eight years inside the group. The unit has real silicon and a slice of China’s AI accelerator market",
+      "lang": "en",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "fe261bfe78fae275",
+      "title": "多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFB6WlV4M25acjU4czZ6RVg2cFRVX1ROX0Q1S3g2QW9jZW1aWEEzMEZGcUlTTVNDNHZxcXp3RUJ5MHBHU0kxdHJwTHoxaHNreURNdHV4Ng?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-12T19:36:20+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "multimodal",
+        "image"
+      ],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "c71956fa6b0c9115",
+      "title": "AWS 首席 AI 和技术官马特 · 伍德：优秀的工程师要爱上问题，而非现成解法",
+      "url": "https://ithome.com/1/026/359.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T19:31:53+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，据《商业内幕》今天（12 日）晚间报道，亚马逊云科技（AWS）首席 AI 与技术官马特 · 伍德认为，真正优秀的工程师应该更关注要解决的问题，而不是执着于某一种解决办法。“我们希望工程师 不要太迷恋自己提出的具体方案，而是把更多热情放在问题本身 。” 在他看来，优秀工程师不会只用 AI 写代码， 还会利用 AI 深入分析问题，并尝试不同的解决思路 。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
+      "types": []
+    },
+    {
+      "id": "6bf0dbec3adbd4d7",
+      "title": "Billions lost and markets roiled by one man’s indiscretion. Isn’t it now clear that these tech bros are too powerful? | Aditya Chakrabortty",
+      "url": "https://theguardian.com/commentisfree/2026/nov/12/billions-lost-markets-roiled-one-man-indiscretion-tech-bro-jensen-huang-affair-nvidia",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-12T19:17:51+08:00",
+      "excerpt": "Nvidia CEO Jensen Huang’s affair must be the costliest fling in human history – and a preview of what awaits when the tech bubble bursts One thing we all know about the tech billionaires is they are super-smart",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "product"
+      ]
+    },
+    {
+      "id": "eca2fe5fcb055abd",
+      "title": "千亿美元AI云市场，算力军备竞赛之后拼什么？",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lNldQZFA0cm40RzNzb3lsc3FyWk0xRUNVVkxwLVRBMXY1MmtwQUlzYWVTTGVxOEFiN3dXc1dSYlpVYTVQakg3Z1hfbjNDbXBw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T19:16:02+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "81ed05e7f690c998",
+      "title": "Nvidia board to decide Jensen Huang’s fate",
+      "url": "https://ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-12T19:08:31+08:00",
+      "excerpt": "Revelation of affair with subordinate piles pressure on CEO days after news of relationship with alleged Chinese spy",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "37176af75bf4f641",
+      "title": "OpenAI CEO 奥尔特曼现身超跑聚会，身旁停着数百万美元柯尼塞格",
+      "url": "https://ithome.com/1/026/355.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T19:08:23+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，萨姆 · 奥尔特曼（Sam Altman）不仅是硅谷科技圈的风云人物，也是一位不折不扣的汽车发烧友。 上周日，一名 TikTok 用户发布了一段视频，展示了一场颇为壮观的跑车聚会。视频中，大量跑车和豪华超跑停在一条蜿蜒的公路旁，车型从福特 Mustang、讴歌 NSX，到帕加尼 Utopia 和柯尼塞格 Regera。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "1f23f662f76e8201",
+      "title": "月之暗面徐天天：AI 迭代速度将继续加快",
+      "url": "https://ithome.com/1/026/353.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T19:07:44+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，据新浪财经报道，在今日“以发展应变局”为主题的第十七届财新峰会上，月之暗面金融行业与生态负责人徐天天发表讲话。 针对“AI 迭代速度是否还会加快”问题，徐天天表示， 当前整个 AI 智能远远未达到上限 。 她指出，这背后有三条增长曲线：其一，预训练算力曲线；其二，后训练与推理端曲线，AI 已从快思考转变为慢思考，展现思考链路；其三，智能体设计曲线，智能体设计越来越复杂，将导致智能上限提高。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "kimi"
+      ],
+      "topics": [
+        "agent",
+        "reasoning",
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "51e82ca08ce35044",
+      "title": "Agents that build their own databases are forcing a data foundation rethink",
+      "url": "https://siliconangle.com/2026/11/12/data-observability-becomes-must-ai-agents-build-databases-kubeconna",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-12T19:02:13+08:00",
+      "excerpt": "AI agents are changing how enterprises create, move and govern information, and data observability is turning into a prerequisite rather than a nice-to-have",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "236d106b3a38ec26",
+      "title": "NHS England deletes ‘misleading’ claim 137 trusts benefiting from Palantir AI tools",
+      "url": "https://theguardian.com/technology/2026/nov/12/nhs-england-deletes-misleading-claim-137-trusts-benefiting-from-palantir-ai-tools",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-12T19:00:47+08:00",
+      "excerpt": "Exclusive: The Guardian revealed 29 hospital trusts were not or hardly using the controversial patient data tech NHS England has deleted a claim from its website stating 137 hospital trusts are benefiting from",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "healthcare"
+      ],
+      "types": []
+    },
+    {
+      "id": "931a7f62acb80bf8",
+      "title": "Maga architects blame Big Tech and AI data centres for midterms rout",
+      "url": "https://ft.com/content/43da75e5-e8fd-4aea-8afb-e3d75c9f176f?syn-25a6b1a6=1",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-12T19:00:04+08:00",
+      "excerpt": "Head of Heritage Foundation admits Republicans’ embrace of Silicon Valley and the effect of Donald Trump’s Iran war cost them votes",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "9db097bd3bfe8d0f",
+      "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
+      "url": "https://infoq.cn/article/E7QKIMUz3h0G0IE5Paii",
+      "source_id": "infoq-cn",
+      "source_name": "InfoQ 中国",
+      "source_home": "https://www.infoq.cn/",
+      "published": "2026-11-12T19:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "6b6fce0fe05f8bd0",
+      "title": "摩根大通：股票ETF资金流入强劲，凸显出对AI交易至关重要的逢低买盘",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wb2VUd0ROSHR1Z0dyeFpNc0ZnUWMwNXFSek1OZTVDeWdBYWRCRmQxMXlHb3dVVGg3bUxsTkM2SkVpWU52VzcwMEVaVThCZ2FKR0haSzk0NlY?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T18:56:27+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "1784c6116bea082d",
+      "title": "英国第三季度经济扩张0.7%，人工智能成为“额外增长引擎”",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zcEVTZjUwQ2c4emE0Umt2aUxyMEhVNWJZWTBxNUhIcjVKZ19Pb1I3TmdiTExsMjZxOVpHMmNtdWU0WmE5RnpnamFjMmRjT04yVkJtQzk3S2o?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T18:56:24+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "29598edc76695845",
+      "title": "飞利浦弈威“27M4N8500V”27 英寸显示器发售：2K 360Hz QD-OLED，3499 元",
+      "url": "https://ithome.com/1/026/350.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T18:55:25+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，飞利浦旗下弈威“27M4N8500V”27 英寸显示器现已在京东发售，定价为 3499 元。 京东 飞利浦“27M4N8500V”显示器 3499 元 直达链接 IT之家获悉，这款显示器搭载全新一代 AI Sensor 智能感应器，支持人体位移和环境光变化双重自适应；两枚快捷键可一键切换专属配置文件；采用石墨烯 + 铝制散热模组。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "9ea9836e36e0005f",
+      "title": "iPhone Siri AI 体验：距离真正的 AI Phone，苹果还有多远？| 附开通指南",
+      "url": "https://ifanr.com/1688980",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_home": "https://www.ifanr.com/",
+      "published": "2026-11-12T18:47:53+08:00",
+      "excerpt": "这是一个更好的 Siri，但还不是一个合格的 Agent #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "review"
+      ]
+    },
+    {
+      "id": "db9b92685a6f20a7",
+      "title": "Anthropic 被曝为 Claude 加入限制：禁止生成宝可梦相关游戏素材",
+      "url": "https://ithome.com/1/026/348.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T18:45:49+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，随着 AI 被广泛用于生成艺术作品、视频乃至电子游戏素材，相关技术的发展速度已经超过了版权限制措施的完善速度。如今，游戏行业也开始采取行动。最新迹象显示，Claude 的开发商 Anthropic 已经为其大语言模型加入限制，禁止用户利用宝可梦（Pokémon）相关知识产权生成游戏素材。 IT之家注意到，这一发现最初来自日本媒体 Automaton 收集的用户反馈。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "claude"
+      ],
+      "topics": [
+        "text"
+      ],
+      "types": [
+        "policy"
+      ]
+    },
+    {
+      "id": "d7eaeb75ac84ac86",
+      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YRHgzb0dWZzRCZmxXWXRoM1RFczZyN0hVbXdmRGFsNW5saERfXzJXYkpaZGtiTER2bzhmVGE2dXBzNVlxbnZxUklQS0cxU013cFNjVw?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-12T18:45:33+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "1adf3240e35dbdfa",
+      "title": "Alex Karp Said He’s a ‘Progressive.’ OK! Here’s Some Other Stuff He’s Said Recently",
+      "url": "https://wired.com/story/alex-karp-said-hes-a-progressive-ok-heres-some-other-stuff-hes-said-recently",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-12T18:30:00+08:00",
+      "excerpt": "The Palantir CEO touted his “progressive” worldview in a recent interview. Let’s see how that lines up with his comments during the company’s earnings call two weeks ago.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "15c31bd270de8ed8",
       "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
       "url": "https://infoq.cn/article/7Pecd1CshYIMvCTeBhrm",
@@ -842,6 +1730,122 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "b65e1e142316ec75",
+      "title": "摩根大通：到 2030 年，美国人形机器人产量将达 30 万至 40 万台",
+      "url": "https://ithome.com/1/026/334.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T18:21:04+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，据路透社今天（12 日）报道，摩根大通最新预测显示，随着人形机器人从技术展示走向商业化应用，美国人形机器人产量 到 2030 年将达到 30 万至 40 万台 ，2035 年进一步增至约 150 万台。 劳动力短缺、使用成本下降和产能扩大，正推动制造、物流和仓储企业采用人形机器人，以替代重复性人工劳动。 不过，人形机器人的大规模应用仍面临 硬件、AI 训练数据、算力和产能 等方面的限制。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics",
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "8fb4c69dc18c3427",
+      "title": "Google Wanted Spirit Airlines Data. Flight Attendants Found a Way to Opt Out",
+      "url": "https://wired.com/story/google-wanted-spirit-airlines-data-flight-attendants-found-a-way-to-opt-out",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-12T18:15:00+08:00",
+      "excerpt": "The union representing flight attendants for the defunct airline struck a deal with Google to scrub sensitive employee records from a $10 million data sale.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "eb770621f8dcd538",
+      "title": "Anthropic启动IPO路演，估值已缩水6000亿美元",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5RTEhGMVdGaWxMbVRETDZNdFl3ckJOTjZiVEtpRVowTWJXWVpsVHg4c21HeWlXYzNvMFF3SU55bWlRcjdMWnBLLVE0Tm84eG1DaFlfTg?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-12T18:11:29+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "b1220ed75bae4ae8",
+      "title": "联想拯救者公布游戏《燕云十六声》定制版 Y700 五代平板电脑",
+      "url": "https://ithome.com/1/026/302.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T18:10:35+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，联想 (Lenovo) 拯救者 (Legion) 官方刚刚确认将同游戏《燕云十六声》展开联动， 携手推出联想 AI 平板拯救者 Y700 五代燕云定制版 。 IT之家注意到，这款联名定制设备似乎拥有独特后盖，装饰以叶脉、扇面，扇面上则有文字和花卉点缀。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "e34532186dec949e",
+      "title": "马斯克Grok泄露自家机密！SpaceX特斯拉工资绩效全曝光",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE13NFY3OW9aWTBGakdDZDdYUl9kRFRLYTJPd0hXMHRDNS1McktjX0VDckFBaUs1UFpPMjJVWVdZTWVWNnBvQTFFbFB0SGt1LWt1V0ZWdw?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-12T18:08:24+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "a4b83cae746ea37a",
+      "title": "联合航空禁止Muse、Instinct等AI智能体预订航班",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PYVNaQVg5UDdEYmZFaktVU3Y5dDVRaHI4c3ZhV2dKbTFiUGxrblQwWkIxMzViTWpSQnJ6SjVLSjROM3FndkpzMmVEZmx0cWZhYlJrT2dRRjE?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T18:01:17+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "98e35e0c420cc1c7",
+      "title": "Nebuly wants to help enterprises understand exactly what their AI investments are worth after raising $21M",
+      "url": "https://siliconangle.com/2026/11/12/nebuly-wants-to-help-enterprises-understand-exactly-what-their-ai-investments-are-worth-after-raising-21m",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-12T18:00:35+08:00",
+      "excerpt": "An Italian startup called Nebuly S.r.l. says it’s going to help organizations better understand the impact their investments in artificial intelligence have on their bottom lines after raising $21 million in funding",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
     },
     {
       "id": "f644595365aac456",
@@ -882,6 +1886,21 @@
       ]
     },
     {
+      "id": "623e01a301fef07b",
+      "title": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1SVE5wYUhoTXQ0aXI2XzUwb3BDX3hJNllHSUFtb2cwQUpOWVd2dEpmaVNkVE5vMnhGWFhfYjI0eUQ2RTBodUVwU01wNFdndU5XbHNGbA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-12T17:34:06+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "f0c1f80166f307f6",
       "title": "韩国公布端侧 AI 半导体路线图，计划到 2030 年完成 10 款芯片开发验证",
       "url": "https://ithome.com/1/026/284.htm",
@@ -896,6 +1915,23 @@
       "topics": [
         "robotics",
         "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "0990939c7d6ea9f7",
+      "title": "Holiday Extras is rethinking what it can build with Codex",
+      "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-12T17:30:00+08:00",
+      "excerpt": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding"
       ],
       "types": []
     },
@@ -948,6 +1984,25 @@
       "topics": [],
       "types": [
         "release"
+      ]
+    },
+    {
+      "id": "6812ee4f6467dc59",
+      "title": "姚期智杨植麟首次联手给 AI 出的博士级题目，Kimi 多画出了「关键一条边」",
+      "url": "https://leiphone.com/category/ai/3vRqaeAILJdgRlhL.html",
+      "source_id": "leiphone",
+      "source_name": "雷峰网",
+      "source_home": "https://www.leiphone.com/",
+      "published": "2026-11-12T17:09:00+08:00",
+      "excerpt": "Kimi 刷新 629 条边图论参考纪录，只多加了1条边，为什么数学界等了这么多年？ 作者丨 郑佳美 编辑丨岑 峰 给 124 个点连线，不能出现三角形，也不能出现四边形。此前的参考记录是 629 条——数学界认为这已经接近极限。而Kimi K3 构造出了 630 条边的图，并通过程序验证。 多1条边，听起来不多。但在组合数学里，你每试图多塞进一条边，都需要在全图 124 个点之间重新完成一次精密的结构大重构。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "kimi"
+      ],
+      "topics": [],
+      "types": [
+        "opinion"
       ]
     },
     {
@@ -1088,21 +2143,6 @@
       "types": []
     },
     {
-      "id": "3603497401c66499",
-      "title": "千万级投入、180万票房，首部AI院线电影何以遇冷？",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5aNVlOZWFZbk5BaXhMQmwxcDlMQTZOVUtQUTM2T3BMc2lTTUgxRGI0VzlZaFZ0RWNhOVNwZG5lM0pOQkZ3R2M5X3Z5WWw2ZHM?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T16:15:23+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "de989bce593160f6",
       "title": "百度创始人李彦宏：AI的下一幕是智能组织",
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1wNklLSk02X25DT1NhQTVNQW42YkszUWtzRENfLUg5Vl9MTVRZX0QtTG1WWXJLLTlkc3VSWjhob1gzTUxNNV9FSWZ6aTNpN1FFMEpRczg2TUpVWUxWZXVnaDZkeWNLVmFSbzM4VmgyN0pwbXBqemVaaFpmZ3c?oc=5",
@@ -1132,38 +2172,6 @@
       "topics": [
         "safety"
       ],
-      "types": []
-    },
-    {
-      "id": "15159ceeffe1621f",
-      "title": "SpaceX正研发AI芯片机架，降低对英伟达配套零部件依赖",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRRlpoQlNNbWJ6YkszRmUwLWNCMUFZZEVYTGt6aHJOY1pxNVR3ajF4d3JaZ2tkYk0wM0VJSkNRMGN6T2NDZXpjNEFOam9oQkJCbWlpa29DbC0?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T16:01:07+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
-    },
-    {
-      "id": "79300e4cb5539ab0",
-      "title": "张一鸣再发声谈字节AI：追平OpenAI与Anthropic“最早2029年或2030年”",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UcnVLZ3J6anlaamhTSkQzcjkwQ01EdzJBSmptaDAwSkRsOUwta1o0TXZxNThFZGRqV05fSDVEZnVBaTE3RTNxTTljdXBDZFhsM0kyaVlQWVg?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T16:01:03+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
       "types": []
     },
     {
@@ -1294,6 +2302,21 @@
       ]
     },
     {
+      "id": "302bae7e66a483fc",
+      "title": "Why Every AI Model Will Ship as a Torrent",
+      "url": "https://pirateface.co/articles/every-ai-model-should-be-a-torrent",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-12T15:20:22+08:00",
+      "excerpt": "Article URL: https://pirateface.co/articles/every-ai-model-should-be-a-torrent Comments URL: https://news.ycombinator.com/item?id=50464055 Points: 30 # Comments: 13",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "c5d41d1d1c41c824",
       "title": "海光信息总经理沙超群：预计明年量产新一代 CPU，性能对标国际水平",
       "url": "https://ithome.com/1/026/099.htm",
@@ -1355,23 +2378,6 @@
         "research",
         "opinion"
       ]
-    },
-    {
-      "id": "ef4fa118c84dee60",
-      "title": "Anthropic：AI有望10年内攻克癌症等疑难病症",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zRnRxWHlPWFlhOEF4RmlyeVVUZDBkNHpUaG1Xc2E2U3Znbl83YUhBekpGdTFoQzdUYVpSZ2I3bUtVNU1UME85bzhCd1EwMUg3aTd5cFJIQ2Q?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T15:10:51+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [
-        "claude"
-      ],
-      "topics": [],
-      "types": []
     },
     {
       "id": "8ec9b39089e72fd7",
@@ -1807,23 +2813,6 @@
       ]
     },
     {
-      "id": "9eb398bb7f58be41",
-      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "url": "https://infoq.cn/article/COuPKpA6rTf05C6JM10y",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ 中国",
-      "source_home": "https://www.infoq.cn/",
-      "published": "2026-11-12T13:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
       "id": "6d47360a6ef83aec",
       "title": "马斯克回应 Anthropic“提前终止 SpaceX 算力租赁合作”：我们乐意收回，但对方实际情况可能相反",
       "url": "https://www.ithome.com/1/026/035.htm",
@@ -1880,7 +2869,7 @@
     },
     {
       "id": "0f3b6a8887d156e4",
-      "title": "State dinners to scrutiny: Nvidia’s Huang falls out of favour in Trump’s Washington",
+      "title": "Huang falls out of favour in Washington",
       "url": "https://ft.com/content/9ca8ba83-5a3c-409e-96d9-abee1323b688?syn-25a6b1a6=1",
       "source_id": "ft",
       "source_name": "Financial Times",
@@ -1890,9 +2879,7 @@
       "lang": "en",
       "region": "intl",
       "models": [],
-      "topics": [
-        "chip"
-      ],
+      "topics": [],
       "types": []
     },
     {
@@ -2154,25 +3141,6 @@
         "chip"
       ],
       "types": []
-    },
-    {
-      "id": "9db097bd3bfe8d0f",
-      "title": "谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
-      "url": "https://infoq.cn/article/E7QKIMUz3h0G0IE5Paii",
-      "source_id": "infoq-cn",
-      "source_name": "InfoQ 中国",
-      "source_home": "https://www.infoq.cn/",
-      "published": "2026-11-12T11:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": [
-        "release"
-      ]
     },
     {
       "id": "dac6ace6e693e150",
@@ -2613,23 +3581,6 @@
       "types": []
     },
     {
-      "id": "81ed05e7f690c998",
-      "title": "Nvidia board to decide Jensen Huang’s fate",
-      "url": "https://ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
-      "source_id": "ft",
-      "source_name": "Financial Times",
-      "source_home": "https://www.ft.com/artificial-intelligence",
-      "published": "2026-11-12T09:13:24+08:00",
-      "excerpt": "Revelation of affair with subordinate piles pressure on CEO days after news of relationship with alleged Chinese spy",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
-    },
-    {
       "id": "8ae6b699d02a8d89",
       "title": "在进博会上感受AI产业新脉动--国际",
       "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vMlR1ODc3TjZnMjc0OTNJblNiQl9rcFRXcUd5aUM1YmlKdTlTbDl5Tkk2VVptTWJQRkZFTEtZNWxvcHlRRlpuWnJ5M3JXdS1MSzN3TkZWZF9qVUlGNVliVUtleTVHZ0ZPMnF5dg?oc=5",
@@ -2724,6 +3675,43 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "56dac742ff29ffe2",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-11-12T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource",
+        "review"
+      ]
+    },
+    {
+      "id": "b06379671ede1f62",
+      "title": "Supporting research on AI and children’s safety",
+      "url": "https://openai.com/index/children-first-declaration",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-12T08:00:00+08:00",
+      "excerpt": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "safety"
+      ],
+      "types": [
+        "research"
+      ]
     },
     {
       "id": "f28f90d2895a812c",
@@ -3021,7 +4009,7 @@
       "source_name": "The Verge",
       "source_home": "https://www.theverge.com/ai-artificial-intelligence",
       "published": "2026-11-12T06:44:36+08:00",
-      "excerpt": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from the New York Times about a second alleged extramarital affair",
+      "excerpt": "Nvidia's board is preparing to dismiss CEO Jensen Huang following a report from The New York Times about a second alleged extramarital affair",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3120,12 +4108,12 @@
     {
       "id": "53bc56e14c08d499",
       "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
-      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/",
+      "url": "https://cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T05:24:35+08:00",
-      "excerpt": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 485 # Comments: 469",
+      "excerpt": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 605 # Comments: 631",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3424,6 +4412,40 @@
       "types": []
     },
     {
+      "id": "808edecb22284507",
+      "title": "AI代码暴涨30%，现实交付却为0？SoduWork要给脱缰的Agent立规矩",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PbVdyYzRkTzNCUW1fZmdFaENCUTVrcTU4cHJseGE1Q24xYWpvVmpHTFlPaFg0M0dxT0JweDhDQU5wM1JNeFY5LWdOWDE3dw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:41:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
+      "types": []
+    },
+    {
+      "id": "21c0d020042e84dc",
+      "title": "李彦宏，为什么要建一座AI时代的新厂房？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5jaHRiZ1JTQWowd2tiWVVOUm0zN1dXVk8yanNGaE5uNk9EVW5sTXh2eGIydmR2d1JCWUxyOFkzdGdzdUlMeGZ2NmhBUllNdw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:38:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opinion"
+      ]
+    },
+    {
       "id": "6f3c74a04fea158f",
       "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
       "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
@@ -3434,6 +4456,68 @@
       "excerpt": "Fractile has now become one of the top-funded players in the race for purpose-built AI chips.",
       "lang": "en",
       "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "814a9a3cfad04e0c",
+      "title": "Anthropic CEO：AI或在十年内攻克癌症、心脏病、精神疾病",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9WVncweUMyaXkzVzhmWnBHR3lVTjdhblpvbUVTR2tIdC1vNjhCY2tzWEEzYWdqZ093RW1panR0UmY4eDFBbkw2aHhWVWFMQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:33:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "b8b00f70d8ed6853",
+      "title": "AI能从DNA锁定致病细胞了，谷歌AlphaGenome 2帮助糖尿病癌症寻找新药靶点",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00eTlRSTFIdkZ2bVVTdFdvNjVFajd1dnRuUUVuSEIzNFVudkJwTlp0TUVqMW1HbU9LaEhxanBPX2VQUjVZRy1Sdkp4X2V2Zw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:33:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "6f2a8ffb4ce2a3aa",
+      "title": "AI漫剧的风口，吹不动普通人的发财梦",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XamRjMlczRDNvemxRd3d4NG4xYmQ1Sjd1VVZHQ2tDbmNVdklLT0d2QjFDY2FJRWloVWp4ME1qeVMtSFZ4NGFWN0JZN3RyZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:32:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "ec77ae9cc4ed75e3",
+      "title": "Character.AI都要破产了，AI陪伴却开始闷声赚大钱",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkYTQ3MVhucnVZa1NMVlJvSXJDWERCUXA1amc3QkpLeElSNnU0aV9tajRWUE9wWG1odGxQYnQ3YnRiNWxURTcxb3hsV0tFZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:31:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
       "models": [],
       "topics": [],
       "types": []
@@ -3456,6 +4540,21 @@
       ]
     },
     {
+      "id": "5728040ebbeb66f1",
+      "title": "游戏爆火后，离被AI抄袭只剩一星期",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZdWJCT3ZaTzZDUE9sTlFKcXVkbURYVjVhLXUwSlJhU2ZEZGlaUS1RUEZHUUxxRkx3ek1SRnIyVWZzaTB4d3YzWldlOUJoZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:28:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "94fcbf10f80778a7",
       "title": "Congress to call Jensen Huang in to answer for alleged Chinese spy affair",
       "url": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair",
@@ -3470,6 +4569,21 @@
       "topics": [
         "chip"
       ],
+      "types": []
+    },
+    {
+      "id": "bc4eef8b6ffd067a",
+      "title": "WorkBuddy、Codex把AI竞争推向任务交付，可靠性成为硬门槛",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85QkJmcml0TWVNamo3LXk5THRJN25Vdk0zZUR5S1J0Q0FqUWo5V0EwSWtOOGtSQnJxa3N0Nm1XTVJ3bmVVaHRzTDdDVmItQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:22:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
       "types": []
     },
     {
@@ -3493,14 +4607,29 @@
       ]
     },
     {
+      "id": "ef49997b8b340866",
+      "title": "AI短剧越做越快，红果为何被一张脸难住？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yN2xmcTA2OVh3WTZINTcxQTFHb2lUbHpUOEZpUUNpOHZHU1U1YmdxNWpUTktTbFZZUWF1MGdtOXQ3VEg5SG9ZQnh5aHhvQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:17:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "4443c3f3c02e5e8a",
       "title": "Retirement Savings Are Fueling the AI Bubble",
-      "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/",
+      "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T03:06:43+08:00",
-      "excerpt": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 148 # Comments: 148",
+      "excerpt": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 161 # Comments: 175",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3523,9 +4652,24 @@
       "types": []
     },
     {
+      "id": "2dca23700360e9f0",
+      "title": "张一鸣再谈字节AI：最早2029年追平OpenAI与Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RMmptSjFRWkFBRUd1NGJoc2RTTllxZHNaa2F6VGRzZlFXYmhoX3RtNzVHRUxVRW44LXBqRlFxeEY1c1VoMDE1aURLUy1mdw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T02:48:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "8c8ec26635df108d",
       "title": "Laser-armed AI submarine robots patrol Norwegian salmon farms, killing sea lice",
-      "url": "https://www.tomshardware.com/tech-industry/drones/3-500-ai-laser-robots-patrol-norwegian-salmon-farms-killing-sea-lice-parasites-get-zapped-by-high-tech-alternative-to-harsh-chemical-baths",
+      "url": "https://tomshardware.com/tech-industry/drones/3-500-ai-laser-robots-patrol-norwegian-salmon-farms-killing-sea-lice-parasites-get-zapped-by-high-tech-alternative-to-harsh-chemical-baths",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
@@ -3536,6 +4680,23 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "8bfd2ea2ea293366",
+      "title": "iPhone Siri AI 体验：距离真正的 AI Phone，苹果还有多远？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QX1Z6d1RVeEdITzVzWDZOT2NicWhPTkx6SWp4V2Y1ZWx3aW1kdmxMTl93aTdfMG9IWUtfcnMydjhHN09mQU9PMTNaRS1IQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T02:39:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "review"
+      ]
     },
     {
       "id": "a285beab135c11e7",
@@ -3569,21 +4730,51 @@
     },
     {
       "id": "cce714811b519a82",
-      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "title": "Gemini Decisions API",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-      "source_id": "google-ai",
-      "source_name": "Google AI",
-      "source_home": "https://blog.google/technology/ai/",
-      "published": "2026-11-12T02:00:00+08:00",
-      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-12T02:32:42+08:00",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 496 # Comments: 148",
       "lang": "en",
       "region": "intl",
       "models": [
         "gemini"
       ],
-      "topics": [
-        "multimodal"
-      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "41ac4a66b294dd6f",
+      "title": "AI生产力革命，为什么需要一座「新厂房」？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lemNldDNtMWlicVR2ak1qWXllUW5hTU5HLVBiSko4RzFOakdfMmtLQkVMR2VQQjdUNDFYb0Z0TEpOYVV0NjhGY0lrV3pfQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T02:31:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "04c368ab7227fa25",
+      "title": "从聊天到办事：“华米荣OV”的AI助手之争",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1xUmptM0gzYUtJcmxIeFRiS1c3N3VqN2JNQ3ZRZjQzdGMzYzBVc1BSd3NjRkt5RVZ6UENrNjhCNWp4NTQ1SGwtSE00WVhhQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T02:30:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
       "types": []
     },
     {
@@ -3827,12 +5018,12 @@
     {
       "id": "e05d76cd33608993",
       "title": "AI, activity, and outcomes in software engineering",
-      "url": "https://cabird.com/talks/shipping-faster/",
+      "url": "https://cabird.com/talks/shipping-faster",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T00:33:28+08:00",
-      "excerpt": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 111 # Comments: 102",
+      "excerpt": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 122 # Comments: 109",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3977,6 +5168,21 @@
       "types": []
     },
     {
+      "id": "1b3ae64702d7dee9",
+      "title": "千万级投入、180万票房，首部AI院线电影何以遇冷？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GNl8wSHpkYk9CM2RVcXd0WEs2bWdnOWN0TGMxSF9Tck5fZjk3VkJPeThTUHdsdzZidC1HRl9PemstMTVlUXQteXRSSmR3QQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T00:13:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "6b5c76194e342328",
       "title": "千万级投入仅收180万票房 首部AI院线电影为何遇冷？",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBELVhoemdmS3lxQUFGYUR3VzJVX0RfdVFQUmFEVHE1YlotT1RVZW9zYm9NMXNNNldnTXJIRlhWMjZpTjdqaUk3LU00YXNVcWRSTUFB?oc=5",
@@ -4107,6 +5313,23 @@
       "types": []
     },
     {
+      "id": "15159ceeffe1621f",
+      "title": "SpaceX正研发AI芯片机架，降低对英伟达配套零部件依赖",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBRRlpoQlNNbWJ6YkszRmUwLWNCMUFZZEVYTGt6aHJOY1pxNVR3ajF4d3JaZ2tkYk0wM0VJSkNRMGN6T2NDZXpjNEFOam9oQkJCbWlpa29DbC0?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T23:27:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "b771aaab0ba53ac0",
       "title": "DeepMind发布AlphaGenome 2 深入单个细胞寻找遗传变异与疾病之间的联系",
       "url": "https://cnbeta.com.tw/articles/tech/1585976.htm",
@@ -4134,6 +5357,21 @@
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
       "published": "2026-11-11T23:21:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "79300e4cb5539ab0",
+      "title": "张一鸣再发声谈字节AI：追平OpenAI与Anthropic“最早2029年或2030年”",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UcnVLZ3J6anlaamhTSkQzcjkwQ01EdzJBSmptaDAwSkRsOUwta1o0TXZxNThFZGRqV05fSDVEZnVBaTE3RTNxTTljdXBDZFhsM0kyaVlQWVg?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T23:20:00+08:00",
       "excerpt": "",
       "lang": "zh",
       "region": "cn",
@@ -4179,6 +5417,23 @@
       ]
     },
     {
+      "id": "ef4fa118c84dee60",
+      "title": "Anthropic：AI有望10年内攻克癌症等疑难病症",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zRnRxWHlPWFlhOEF4RmlyeVVUZDBkNHpUaG1Xc2E2U3Znbl83YUhBekpGdTFoQzdUYVpSZ2I3bUtVNU1UME85bzhCd1EwMUg3aTd5cFJIQ2Q?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T23:08:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "bcade4c83459f935",
       "title": "Adobe扩大Windows on Arm支持范围 InDesign和InCopy支持原生运行",
       "url": "https://cnbeta.com.tw/articles/tech/1585972.htm",
@@ -4199,23 +5454,6 @@
       ]
     },
     {
-      "id": "6619f09dbc0d0a8f",
-      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
-      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
-      "published": "2026-11-11T23:00:00+08:00",
-      "excerpt": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
       "id": "ddb95c61a535c749",
       "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
       "url": "https://theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
@@ -4233,6 +5471,23 @@
       "types": [
         "release"
       ]
+    },
+    {
+      "id": "6619f09dbc0d0a8f",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-11T23:00:00+08:00",
+      "excerpt": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
     },
     {
       "id": "e879c6fc35d4933f",
@@ -4392,6 +5647,21 @@
       "types": []
     },
     {
+      "id": "6e40d6043154dab3",
+      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+      "url": "https://theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-11T22:00:00+08:00",
+      "excerpt": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "0ccfb511c0c877ba",
       "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
       "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
@@ -4406,21 +5676,6 @@
       "topics": [
         "agent"
       ],
-      "types": []
-    },
-    {
-      "id": "6e40d6043154dab3",
-      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
-      "url": "https://theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-      "source_id": "theverge",
-      "source_name": "The Verge",
-      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
-      "published": "2026-11-11T22:00:00+08:00",
-      "excerpt": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
       "types": []
     },
     {
@@ -4641,7 +5896,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T20:05:22+08:00",
-      "excerpt": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 953 # Comments: 350",
+      "excerpt": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1018 # Comments: 374",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -4752,6 +6007,21 @@
       "types": []
     },
     {
+      "id": "4f832e6b2a1a26c4",
+      "title": "36氪 WISE 了不起的OPC｜Workshop 招募啦！",
+      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xTkFqSFZGak9yX0dxZDBja0Jka0FqX3BpM1VTWlQzUHNuN2FOZnFva0pReEJsU1pWbDlpUnlybkxDTDdJcnlQdVZtbzhSUWtCOEE?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T19:31:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "19ce561e0c41f8a0",
       "title": "AI花26分58秒就能搓出一款，增量游戏又火了？",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zVGVuX2hTT0Z4d1FzM3E5aFpTaktfQUVidDAwek5fZVYwa2JGVnZaaVdTODVRazgxWkRHTkZYUjRCTy10WnZhN1d6bDZFdw?oc=5",
@@ -4767,9 +6037,9 @@
       "types": []
     },
     {
-      "id": "4f832e6b2a1a26c4",
-      "title": "36氪 WISE 了不起的OPC｜Workshop 招募啦！",
-      "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE0xTkFqSFZGak9yX0dxZDBja0Jka0FqX3BpM1VTWlQzUHNuN2FOZnFva0pReEJsU1pWbDlpUnlybkxDTDdJcnlQdVZtbzhSUWtCOEE?oc=5",
+      "id": "5d7f81db6d56da75",
+      "title": "AI仅需26分58秒即可生成 增量游戏再度爆火引行业热议",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaUmE2SnQ5STJHVlhtbmVLQ0h6cnliX1hSNVdqeEJ4QmNaNnNDUkdKOFZzQ1V6VnBleDZOUGY0cGhGSk1TbG1LZ0E0azF4aG0yUXNN?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -4919,9 +6189,9 @@
       "types": []
     },
     {
-      "id": "d6117bf4637667e2",
-      "title": "Grok Bot大升级，AI 同事开始抢活干",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YVktVUG9JUzRmTkN4bXhtZXdEUXpHQVhCYUJrU0pQandjVjJVR0JhTERQbFNJUGk1SzQtR1ZpQ0V1c3Y1OUZHOGhHejIxZw?oc=5",
+      "id": "521e8171126a2f1a",
+      "title": "Grok Bot重大升级 AI同事正式上岗接管工作任务",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82UV8xN3dBdlBlWjVISzMxSEVLQ2VMR2hfXy1NQ3QwaXdNU3lJU0p5Zy1tUkk0cTFvRXhlZmh0UWx4TDVrTWtybnpMMkhmdURrUGRJ?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -4938,9 +6208,9 @@
       ]
     },
     {
-      "id": "521e8171126a2f1a",
-      "title": "Grok Bot重大升级 AI同事正式上岗接管工作任务",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82UV8xN3dBdlBlWjVISzMxSEVLQ2VMR2hfXy1NQ3QwaXdNU3lJU0p5Zy1tUkk0cTFvRXhlZmh0UWx4TDVrTWtybnpMMkhmdURrUGRJ?oc=5",
+      "id": "d6117bf4637667e2",
+      "title": "Grok Bot大升级，AI 同事开始抢活干",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YVktVUG9JUzRmTkN4bXhtZXdEUXpHQVhCYUJrU0pQandjVjJVR0JhTERQbFNJUGk1SzQtR1ZpQ0V1c3Y1OUZHOGhHejIxZw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -5197,7 +6467,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T16:51:45+08:00",
-      "excerpt": "Article URL: https://osssaysno.com Comments URL: https://news.ycombinator.com/item?id=50451102 Points: 62 # Comments: 107",
+      "excerpt": "Article URL: https://osssaysno.com Comments URL: https://news.ycombinator.com/item?id=50451102 Points: 64 # Comments: 109",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -5242,6 +6512,25 @@
       ]
     },
     {
+      "id": "716807f15b1d758d",
+      "title": "刚刚，谷歌发布首款决策模型 Gemini Decision 1：9 项测试拿下 7 项第一，准确率最高92.2%",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkS0lTRWMwTnl2djRkQ3d4dUo5eUJwLVI1SXc2cVJOdFpZZW1ZeDVod0N5WWtvOXJQeXdvQUhTOWo4OGhkdGlwWURGUGxOZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T16:29:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
       "id": "df8ddd93b7cd7451",
       "title": "Token登上“双十一”货架：AI推理火了，灰色中转站也来了",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBJRHhMeHBsSjl1Y1R3SEJpcFdUYl9sNzZJeDV5eHlrSHFNSEFsYjU5MS1mSzNCVnJMX25tLUpKNHNMckZ4WDJ5bG5velVmdw?oc=5",
@@ -5259,9 +6548,39 @@
       "types": []
     },
     {
+      "id": "4744673ae249a02e",
+      "title": "反数据中心浪潮下AI交易能走多远？核心关键看GPU租赁价格走势",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9hUFlsdXpqRmdCZzJ6c3poNGpEZG41bVB6MnBvMUs5UTd2bzM4UkRBMkhtNllTcjlpeFNkb20tdmx1WDc0dVBPVGRBN0tXend2ekVN?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T16:28:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "96cb0c955f6094a0",
       "title": "AI短剧的造富幻觉和内容重构",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9Pa0J2SExhOGdhSkFkRWtLcDFtWldJZzZlbUZQTmpWV2pISTdyb2Z2VHdUUTZvS1Jqdkozdno5NXpwNXBYRFJzU0NiR1luZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T16:26:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "138d5eaeaaabc5f0",
+      "title": "AI短剧造富幻觉解析与内容重构深度探索",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1HQzdsdFNfRFZENnJfVms2dFR3MFBYbEVnbW9CV19HQnFka05tUzZDS2w1S2ozckZFSXM2Q0xZNzFfcTlUQ1NNdWdYZldlUnZxb0FN?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -5432,7 +6751,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T15:39:12+08:00",
-      "excerpt": "Article URL: https://github.com/NeuraCryption/SPECTRA Comments URL: https://news.ycombinator.com/item?id=50450729 Points: 23 # Comments: 1",
+      "excerpt": "Article URL: https://github.com/NeuraCryption/SPECTRA Comments URL: https://news.ycombinator.com/item?id=50450729 Points: 24 # Comments: 1",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -5502,6 +6821,23 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "39bb180b05f6a91b",
+      "title": "从批阅机到教师工作台 近半年校内AI新功能全解析",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB4amxuZmhxazY1MmRMMGx4Y3lnWW00NWtWYXhuVWxON3hESFFhN1lkQ0t3ZHJVTWxRR0ZVWXRnNnNlUThrNkQxc2E1aHRrWkt2Q2tJ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T15:30:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "product"
+      ]
     },
     {
       "id": "4b934cb369327f10",
@@ -6226,12 +7562,12 @@
     {
       "id": "ee7b3c26684447e7",
       "title": "AI is becoming an information gateway. Audiences still don’t want it making news",
-      "url": "https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/",
+      "url": "https://niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T08:15:33+08:00",
-      "excerpt": "Article URL: https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/ Comments URL: https://news.ycombinator.com/item?id=50448174 Points: 57 # Comments: 77",
+      "excerpt": "Article URL: https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/ Comments URL: https://news.ycombinator.com/item?id=50448174 Points: 58 # Comments: 86",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -6410,12 +7746,12 @@
     {
       "id": "f7afa1dd4ce8d146",
       "title": "Tracking Anthropic-discovered vulnerabilities",
-      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update",
+      "url": "https://vulncheck.com/blog/anthropic-glasswing-november-update",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T06:17:56+08:00",
-      "excerpt": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 448 # Comments: 219",
+      "excerpt": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 456 # Comments: 218",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -6515,12 +7851,12 @@
     {
       "id": "77d255b4e9ac58d2",
       "title": "Apple has new Mac app coming to make running local AI models easy",
-      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/",
+      "url": "https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T05:25:03+08:00",
-      "excerpt": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 526 # Comments: 532",
+      "excerpt": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 540 # Comments: 545",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -7404,6 +8740,25 @@
       "types": []
     },
     {
+      "id": "5ca4dc7b6d88cb31",
+      "title": "Businesses in ChatGPT – OpenAI",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-11T02:10:40+08:00",
+      "excerpt": "Article URL: https://openai.com/index/introducing-businesses-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=50443944 Points: 38 # Comments: 13",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gpt"
+      ],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
       "id": "128f161620efc86e",
       "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
       "url": "https://arxiv.org/abs/2611.14432v1",
@@ -7437,6 +8792,21 @@
       "types": [
         "research"
       ]
+    },
+    {
+      "id": "3588ceed41552e46",
+      "title": "Work at the Frontier: AI's effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-11T02:02:54+08:00",
+      "excerpt": "Article URL: https://openai.com/index/ai-effect-on-freelance-work Comments URL: https://news.ycombinator.com/item?id=50443838 Points: 43 # Comments: 21",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "aa0ce666a081dde0",
@@ -7576,7 +8946,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T01:55:07+08:00",
-      "excerpt": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 283 # Comments: 216",
+      "excerpt": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 286 # Comments: 217",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -7666,7 +9036,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T01:44:44+08:00",
-      "excerpt": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 132 # Comments: 85",
+      "excerpt": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 136 # Comments: 86",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -8310,12 +9680,12 @@
     {
       "id": "a525fa830b85f106",
       "title": "Gemini 4 Carbon is now available",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available",
       "source_id": "hackernews",
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T00:07:15+08:00",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ Comments URL: https://news.ycombinator.com/item?id=50442303 Points: 293 # Comments: 164",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ Comments URL: https://news.ycombinator.com/item?id=50442303 Points: 294 # Comments: 164",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -9361,7 +10731,7 @@
     },
     {
       "id": "f8c1a7370c130fe5",
-      "title": "Formal Verification of Signal’s Protocol with Gemini",
+      "title": "Introducing AlphaProof Code: a breakthrough in verifying complex software at depth",
       "url": "https://deepmind.google/blog/introducing-alphaproof-code",
       "source_id": "deepmind",
       "source_name": "Google DeepMind",
@@ -9370,14 +10740,14 @@
       "excerpt": "AlphaProof Code agents wrote over three million lines of machine-checked proof in Lean to verify the core cryptographic protections in Signal down to machine instructions.",
       "lang": "en",
       "region": "intl",
-      "models": [
-        "gemini"
-      ],
+      "models": [],
       "topics": [
         "agent",
         "science"
       ],
-      "types": []
+      "types": [
+        "release"
+      ]
     },
     {
       "id": "e0fc88b9f7321b26",
@@ -9702,21 +11072,6 @@
       ]
     },
     {
-      "id": "bb7825397ec11bc2",
-      "title": "Muse登陆Apple Watch 个人Agent入场 AI硬件各寻出路",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwUW5rM1pCY0Q5aUNqb0FUQW1XRmtEMkFiVnZWS1VjQ1lTal9EaFJQZHJZT1dQLXE5b05uTTBEV0FKS2l5aE42THBLUzJZTmJxc3RJ?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-10T18:11:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "abecfa48fe00f68c",
       "title": "AI时代的数据资产三本账：构建核心数据价值体系与数字化转型指南",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wVGVYa0l2MmQ5M0tJclctZFFmUkxMendHLXpERVZtZXpsTnF1Z1dFTXVneEdKeVZQSEdRREZuX3dlRHltSXdFaE84R3Y2ZTAyMVZz?oc=5",
@@ -9732,6 +11087,21 @@
       "types": [
         "review"
       ]
+    },
+    {
+      "id": "bb7825397ec11bc2",
+      "title": "Muse登陆Apple Watch 个人Agent入场 AI硬件各寻出路",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAwUW5rM1pCY0Q5aUNqb0FUQW1XRmtEMkFiVnZWS1VjQ1lTal9EaFJQZHJZT1dQLXE5b05uTTBEV0FKS2l5aE42THBLUzJZTmJxc3RJ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-10T18:11:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "c7d403879805b8d6",
@@ -9768,9 +11138,9 @@
       ]
     },
     {
-      "id": "3ac2cf6cde380052",
-      "title": "恋陪AI大败局",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3UnR4RzItOGRabnFXNFhHbDhtQkNEcTBLQ0tlQXh5RUMxc3habnNlNnVwRFdEZ3hmZWdlMWZpTGNOdXBEMml4N2U0VklQQQ?oc=5",
+      "id": "5eddd31d471cf235",
+      "title": "恋陪AI大败局：深度复盘项目崩塌核心原因与行业警示",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lN1FVX1JQZkwxWFhocHRUODhDRFJfMjJfaXZRMmNFOUxEcHVwYU1EbllRUnctREZSQ3NFVHpUM0ZvYWI4ZjMwNjI2U3JWc3FnY3Zn?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -9783,9 +11153,9 @@
       "types": []
     },
     {
-      "id": "5eddd31d471cf235",
-      "title": "恋陪AI大败局：深度复盘项目崩塌核心原因与行业警示",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lN1FVX1JQZkwxWFhocHRUODhDRFJfMjJfaXZRMmNFOUxEcHVwYU1EbllRUnctREZSQ3NFVHpUM0ZvYWI4ZjMwNjI2U3JWc3FnY3Zn?oc=5",
+      "id": "3ac2cf6cde380052",
+      "title": "恋陪AI大败局",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3UnR4RzItOGRabnFXNFhHbDhtQkNEcTBLQ0tlQXh5RUMxc3habnNlNnVwRFdEZ3hmZWdlMWZpTGNOdXBEMml4N2U0VklQQQ?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -9871,25 +11241,6 @@
       "types": [
         "research",
         "review"
-      ]
-    },
-    {
-      "id": "5ca4dc7b6d88cb31",
-      "title": "Introducing Businesses in ChatGPT",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-10T18:00:00+08:00",
-      "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gpt"
-      ],
-      "topics": [],
-      "types": [
-        "release"
       ]
     },
     {
@@ -10447,23 +11798,6 @@
       "topics": [],
       "types": [
         "review"
-      ]
-    },
-    {
-      "id": "3588ceed41552e46",
-      "title": "Work at the Frontier: AI’s effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-10T15:00:00+08:00",
-      "excerpt": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "research"
       ]
     },
     {
@@ -11094,40 +12428,6 @@
       ]
     },
     {
-      "id": "724fae9251483a53",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-11-10T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "3229de0d919212c3",
-      "title": "Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-11-10T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
       "id": "0df0bcd411cfca0b",
       "title": "Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment",
       "url": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
@@ -11176,6 +12476,40 @@
       "topics": [],
       "types": [
         "research"
+      ]
+    },
+    {
+      "id": "724fae9251483a53",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-11-10T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "3229de0d919212c3",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-11-10T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
       ]
     },
     {
@@ -12935,23 +14269,6 @@
       ]
     },
     {
-      "id": "b58fee4edbbb5f7a",
-      "title": "Australian universities are creating AI-native graduates",
-      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-06T01:00:00+08:00",
-      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gpt"
-      ],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "48f399a0d9a24cf0",
       "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
       "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os",
@@ -12967,6 +14284,23 @@
         "healthcare",
         "chip"
       ],
+      "types": []
+    },
+    {
+      "id": "b58fee4edbbb5f7a",
+      "title": "Australian universities are creating AI-native graduates",
+      "url": "https://openai.com/index/australian-universities-ai-native-graduates",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-06T01:00:00+08:00",
+      "excerpt": "Australian universities are expanding access to ChatGPT and bringing AI into teaching and learning to prepare students for an AI-enabled workforce.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gpt"
+      ],
+      "topics": [],
       "types": []
     },
     {
@@ -13040,6 +14374,23 @@
       ]
     },
     {
+      "id": "34aa5b1d1b261a3e",
+      "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory",
+      "url": "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-11-06T00:00:00+08:00",
+      "excerpt": "In an AI factory, high bandwidth memory (HBM)is the fastest, most expensive, and most contested memory tier. Every byte spent on a redundant weight copy, an...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "763a8148826c7aad",
       "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
       "url": "https://microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
@@ -13058,23 +14409,6 @@
         "research",
         "review"
       ]
-    },
-    {
-      "id": "34aa5b1d1b261a3e",
-      "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory",
-      "url": "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-11-06T00:00:00+08:00",
-      "excerpt": "In an AI factory, high bandwidth memory (HBM)is the fastest, most expensive, and most contested memory tier. Every byte spent on a redundant weight copy, an...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
     },
     {
       "id": "513dfed9debcff88",
@@ -13338,6 +14672,23 @@
       "types": []
     },
     {
+      "id": "7a69c1b89eda0814",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "source_id": "apple-ml",
+      "source_name": "Apple Machine Learning",
+      "source_home": "https://machinelearning.apple.com/",
+      "published": "2026-11-05T08:00:00+08:00",
+      "excerpt": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG)",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "search"
+      ],
+      "types": []
+    },
+    {
       "id": "89209ab642b10e25",
       "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "url": "https://huggingface.co/blog/phonon-tts",
@@ -13356,23 +14707,6 @@
         "release",
         "opensource"
       ]
-    },
-    {
-      "id": "7a69c1b89eda0814",
-      "title": "Faster Retrieval for Better, More Efficient RAG",
-      "url": "https://machinelearning.apple.com/research/faster-retrieval",
-      "source_id": "apple-ml",
-      "source_name": "Apple Machine Learning",
-      "source_home": "https://machinelearning.apple.com/",
-      "published": "2026-11-05T08:00:00+08:00",
-      "excerpt": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG)",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "search"
-      ],
-      "types": []
     },
     {
       "id": "c0d7b0808284d182",
@@ -13732,6 +15066,40 @@
       ]
     },
     {
+      "id": "6dce07a68e3e73d4",
+      "title": "Together Compiler: Continual Compilation for AI inference",
+      "url": "https://together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+      "source_id": "together",
+      "source_name": "Together AI",
+      "source_home": "https://www.together.ai/blog",
+      "published": "2026-11-04T08:00:00+08:00",
+      "excerpt": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "c85c05ceb65f5eda",
+      "title": "Polymorphic Inference: self-tuning inference for open models",
+      "url": "https://together.ai/blog/polymorphic-inference",
+      "source_id": "together",
+      "source_name": "Together AI",
+      "source_home": "https://www.together.ai/blog",
+      "published": "2026-11-04T08:00:00+08:00",
+      "excerpt": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
       "id": "0a437d67f2effbc5",
       "title": "Introducing Images 2.6",
       "url": "https://openai.com/index/introducing-images-2-6",
@@ -13770,40 +15138,6 @@
       "topics": [
         "agent",
         "reasoning"
-      ],
-      "types": []
-    },
-    {
-      "id": "6dce07a68e3e73d4",
-      "title": "Together Compiler: Continual Compilation for AI inference",
-      "url": "https://together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
-      "source_id": "together",
-      "source_name": "Together AI",
-      "source_home": "https://www.together.ai/blog",
-      "published": "2026-11-04T08:00:00+08:00",
-      "excerpt": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
-      "id": "c85c05ceb65f5eda",
-      "title": "Polymorphic Inference: self-tuning inference for open models",
-      "url": "https://together.ai/blog/polymorphic-inference",
-      "source_id": "together",
-      "source_name": "Together AI",
-      "source_home": "https://www.together.ai/blog",
-      "published": "2026-11-04T08:00:00+08:00",
-      "excerpt": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
       ],
       "types": []
     },
@@ -14049,6 +15383,21 @@
       "types": []
     },
     {
+      "id": "a278fa1fc8b29407",
+      "title": "普林斯顿AI Lab出题，「空间智能」大考：人类83.3%，大模型最高39.7%",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvR1BCZzM2U09wOHZlYk0zTTQ3aWhSSkluNWJkVTdZcDVVYUE4RnN3dDdIWmdvNm8wel9OeUhNcmg4eFJuLUhBb2NNSk04UQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-03T16:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "c6690e2abcfd767f",
       "title": "苹果被曝的新产品，中国央企8个月前已装进公共卫生间",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1OYnZiME82RnVZdTR2NWxHS0wzcXNLRi1iZVdmU3hmc1RoTnVMbWsxZy15VUdqR21lSzI5TnpuUEl3aElNcUJQdUZDYjhaTlJnNHdfeg?oc=5",
@@ -14123,6 +15472,21 @@
       "types": []
     },
     {
+      "id": "f20aa0a9a1f223ed",
+      "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
+      "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+      "source_id": "apple-ml",
+      "source_name": "Apple Machine Learning",
+      "source_home": "https://machinelearning.apple.com/",
+      "published": "2026-11-03T08:00:00+08:00",
+      "excerpt": "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "20954e3ac0ff87f7",
       "title": "CWE-bench v2: More coverage, quality, and transparency",
       "url": "https://huggingface.co/blog/cwe-bench",
@@ -14155,21 +15519,6 @@
       "types": [
         "opensource"
       ]
-    },
-    {
-      "id": "f20aa0a9a1f223ed",
-      "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
-      "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
-      "source_id": "apple-ml",
-      "source_name": "Apple Machine Learning",
-      "source_home": "https://machinelearning.apple.com/",
-      "published": "2026-11-03T08:00:00+08:00",
-      "excerpt": "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "3d509e27bae229a3",
@@ -14276,6 +15625,23 @@
       "types": []
     },
     {
+      "id": "1ea828d9cbeb2842",
+      "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
+      "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-11-03T02:00:00+08:00",
+      "excerpt": "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "6fd6ad7938fa5bc5",
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
@@ -14306,23 +15672,6 @@
       "region": "intl",
       "models": [],
       "topics": [],
-      "types": []
-    },
-    {
-      "id": "1ea828d9cbeb2842",
-      "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
-      "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-11-03T02:00:00+08:00",
-      "excerpt": "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
       "types": []
     },
     {
@@ -14570,21 +15919,6 @@
       "types": []
     },
     {
-      "id": "ff138f709a7e7c37",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-02T08:00:00+08:00",
-      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "598c6194c0d34c23",
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
@@ -14602,6 +15936,21 @@
       "types": [
         "review"
       ]
+    },
+    {
+      "id": "ff138f709a7e7c37",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-02T08:00:00+08:00",
+      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "9c7c8759efa30077",
@@ -15375,6 +16724,21 @@
       ]
     },
     {
+      "id": "50da5e6273890fde",
+      "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iNVZGNGlEY2NFR3kzR2pzSHotR05WQkpVamZDRGEtT3NpOGlnTE0tZmtBcWh2V2c3YzMyMFZqbzdVbXJOZURPYW15cWtsQS1GbEFqUQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-10-29T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "f587a008837b8869",
       "title": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE51Vi1HWDNnRHhibW1FVzIxWmRyVEdERWx6c3FHZlJIRnhRWWNZT0dSTldpdUFqT2phdmFTQWtJbi1sZ1lVUi12MlRmMWx3T21EVGpDVA?oc=5",
@@ -15966,6 +17330,23 @@
       "types": []
     },
     {
+      "id": "c6329a986f18633d",
+      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+      "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-10-27T23:00:00+08:00",
+      "excerpt": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "d42fb1eb3362412f",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "url": "https://openai.com/index/retell-ai",
@@ -15988,23 +17369,6 @@
         "business",
         "review"
       ]
-    },
-    {
-      "id": "c6329a986f18633d",
-      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-      "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-10-27T23:00:00+08:00",
-      "excerpt": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
     },
     {
       "id": "42c92fbc7a083083",
@@ -16093,6 +17457,23 @@
       "region": "cn",
       "models": [],
       "topics": [],
+      "types": []
+    },
+    {
+      "id": "6e466f71a26c6bc7",
+      "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Gczh6WmFxVHNnTnlCR09iTDFUclpSbTBzZENrd0dYNjExMFJoUDJpeXFydEx4QV8zVTBCUXZESFlVY1liLU9ibTZVWXRGSHIzRGplSQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-10-27T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics"
+      ],
       "types": []
     },
     {
@@ -16185,23 +17566,6 @@
       ]
     },
     {
-      "id": "8cb333260a17a324",
-      "title": "How Check Point accelerates vulnerability research with Daybreak",
-      "url": "https://openai.com/index/check-point-daybreak",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-10-27T08:00:00+08:00",
-      "excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "research"
-      ]
-    },
-    {
       "id": "ffb4d3665a1d4c50",
       "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
       "url": "https://together.ai/blog/auto-repair-for-together-gpu-clusters",
@@ -16217,6 +17581,23 @@
         "chip"
       ],
       "types": []
+    },
+    {
+      "id": "8cb333260a17a324",
+      "title": "How Check Point accelerates vulnerability research with Daybreak",
+      "url": "https://openai.com/index/check-point-daybreak",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-10-27T08:00:00+08:00",
+      "excerpt": "With OpenAI Daybreak, Check Point speeds up the research behind new security protections, enabling its analysts to turn vulnerability intelligence into customer defenses faster.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ]
     },
     {
       "id": "063c371f6239ac93",
@@ -16875,6 +18256,21 @@
       "types": []
     },
     {
+      "id": "faa75303498c8b4f",
+      "title": "科大讯飞首发星辰TaaS平台，让Token真正成为千行百业的生产力",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TV0JGZjFCcTlxcTZzb0FUQTRsTzN6b0NhYjRKdDI4WGtGaHU2S3I3T3ZvQTEyYjNIenZaMXJDdFhuM3BLUlJKTVh1V2VHekI1b2JCNA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-10-23T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "394b2a1301890ba1",
       "title": "一张5090跑起34B实时世界模型，国产玩家拿下英伟达大奖！",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE42QjY4Vk5JbFR0VVR6S2ZOaXlpWkZyTWpXM3FPak1oQ2h4MFFyVTUyN2Ftc0lORmJFTWo0WjJBMGdhSElGYXpGSFZsaEtNZE1talFUSw?oc=5",
@@ -16941,21 +18337,6 @@
       "topics": [
         "image"
       ],
-      "types": []
-    },
-    {
-      "id": "faa75303498c8b4f",
-      "title": "科大讯飞首发星辰TaaS平台，让Token真正成为千行百业的生产力",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1TV0JGZjFCcTlxcTZzb0FUQTRsTzN6b0NhYjRKdDI4WGtGaHU2S3I3T3ZvQTEyYjNIenZaMXJDdFhuM3BLUlJKTVh1V2VHekI1b2JCNA?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-23T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
       "types": []
     },
     {
@@ -17114,6 +18495,23 @@
       ]
     },
     {
+      "id": "676b58ceeee7bff8",
+      "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+      "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-10-23T00:00:00+08:00",
+      "excerpt": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "ccc3219ff3a46714",
       "title": "Flint-interactive: A language for creating interactive data visualizations",
       "url": "https://microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
@@ -17131,23 +18529,6 @@
       "types": [
         "research"
       ]
-    },
-    {
-      "id": "676b58ceeee7bff8",
-      "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
-      "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-10-23T00:00:00+08:00",
-      "excerpt": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
     },
     {
       "id": "655df0fb22ace891",
@@ -18654,23 +20035,6 @@
       ]
     },
     {
-      "id": "4046eeecbe56b543",
-      "title": "Proof-based general-purpose computing with Magnetar",
-      "url": "https://microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
-      "source_id": "microsoft-research",
-      "source_name": "Microsoft Research",
-      "source_home": "https://www.microsoft.com/en-us/research/blog/",
-      "published": "2026-10-16T00:00:00+08:00",
-      "excerpt": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "research"
-      ]
-    },
-    {
       "id": "1d4cff712a9a1281",
       "title": "Google Antigravity: Accelerating Antimicrobial Peptide Search",
       "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
@@ -18687,6 +20051,23 @@
         "science"
       ],
       "types": []
+    },
+    {
+      "id": "4046eeecbe56b543",
+      "title": "Proof-based general-purpose computing with Magnetar",
+      "url": "https://microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar",
+      "source_id": "microsoft-research",
+      "source_name": "Microsoft Research",
+      "source_home": "https://www.microsoft.com/en-us/research/blog/",
+      "published": "2026-10-16T00:00:00+08:00",
+      "excerpt": "Zero-knowledge proofs can verify computing results without rerunning workloads or exposing sensitive data. Magnetar helps bring them into the mainstream with support for standard programming languages",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ]
     },
     {
       "id": "12f70f9144a8a1f1",
@@ -18813,46 +20194,6 @@
       ]
     },
     {
-      "id": "9d251ac6836a600d",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "multimodal"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "3733c75a28bf26df",
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "url": "https://huggingface.co/blog/flux-3",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "flux"
-      ],
-      "topics": [
-        "image"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
       "id": "98e6a11f87f3c75f",
       "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
       "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
@@ -18909,20 +20250,43 @@
       ]
     },
     {
-      "id": "dd00c04c9b95848e",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
+      "id": "9d251ac6836a600d",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
       "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "excerpt": "",
       "lang": "en",
       "region": "intl",
       "models": [],
-      "topics": [],
+      "topics": [
+        "multimodal"
+      ],
       "types": [
-        "review"
+        "opensource"
+      ]
+    },
+    {
+      "id": "3733c75a28bf26df",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "flux"
+      ],
+      "topics": [
+        "image"
+      ],
+      "types": [
+        "opensource"
       ]
     },
     {
@@ -18943,6 +20307,23 @@
       ],
       "types": [
         "opensource"
+      ]
+    },
+    {
+      "id": "dd00c04c9b95848e",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "review"
       ]
     },
     {
@@ -19341,61 +20722,6 @@
         "gemini"
       ],
       "topics": [],
-      "types": []
-    },
-    {
-      "id": "01fed557964ce224",
-      "title": "NVIDIA Run:ai Is Now Open Source as Part of NVIDIA DSX AI Factory Platform",
-      "url": "https://developer.nvidia.com/blog/nvidia-runai-is-now-open-source-as-part-of-nvidia-dsx-ai-factory-platform",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-10-13T22:19:40+08:00",
-      "excerpt": "NVIDIA is making the full NVIDIA Run:ai platform available as open source software, giving customers, developers, and ecosystem partners access to...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "b9dcdda324f20786",
-      "title": "Google DeepMind’s New Resident Philosopher Tackles AI Ethics",
-      "url": "https://spectrum.ieee.org/ai-ethics-deepmind-philosopher-shevlin",
-      "source_id": "ieee",
-      "source_name": "IEEE Spectrum",
-      "source_home": "https://spectrum.ieee.org/topic/artificial-intelligence/",
-      "published": "2026-10-13T21:00:03+08:00",
-      "excerpt": "How should humans relate to generative AI ? In what ways do we, or should we, treat a large language model (LLM) as if it were a person? If an AI became conscious",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "text"
-      ],
-      "types": []
-    },
-    {
-      "id": "ffc748cb8d88a919",
-      "title": "Higgsfield takes AI video from 1 minute to over 10",
-      "url": "https://openai.com/index/higgsfield-longer-videos-voice",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-10-13T20:00:00+08:00",
-      "excerpt": "Higgsfield brings creators longer videos with GPT-6 Astra, precise visuals with GPT-Image-2.5, and a path to voice filmmaking with GPT-Live.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gpt"
-      ],
-      "topics": [
-        "audio"
-      ],
       "types": []
     }
   ]
