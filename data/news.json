@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-13T01:19:31+08:00",
+  "updated_at": "2026-11-13T05:09:24+08:00",
   "window_days": 30,
-  "item_count": 1490,
+  "item_count": 1549,
   "taxonomy": {
     "models": [
       {
         "id": "gpt",
         "name": "GPT",
-        "count": 60
+        "count": 61
       },
       {
         "id": "claude",
         "name": "Claude",
-        "count": 114
+        "count": 115
       },
       {
         "id": "gemini",
         "name": "Gemini",
-        "count": 54
+        "count": 64
       },
       {
         "id": "llama",
@@ -47,7 +47,7 @@
       {
         "id": "kimi",
         "name": "Kimi",
-        "count": 19
+        "count": 20
       },
       {
         "id": "doubao",
@@ -67,7 +67,7 @@
       {
         "id": "wenxin",
         "name": "文心",
-        "count": 12
+        "count": 13
       },
       {
         "id": "minimax",
@@ -129,12 +129,12 @@
       {
         "id": "text",
         "name": "文本",
-        "count": 43
+        "count": 46
       },
       {
         "id": "multimodal",
         "name": "多模态",
-        "count": 12
+        "count": 14
       },
       {
         "id": "image",
@@ -154,17 +154,17 @@
       {
         "id": "coding",
         "name": "编程",
-        "count": 99
+        "count": 104
       },
       {
         "id": "agent",
         "name": "Agent",
-        "count": 217
+        "count": 231
       },
       {
         "id": "reasoning",
         "name": "推理",
-        "count": 25
+        "count": 26
       },
       {
         "id": "search",
@@ -179,7 +179,7 @@
       {
         "id": "science",
         "name": "科学",
-        "count": 44
+        "count": 47
       },
       {
         "id": "education",
@@ -194,49 +194,49 @@
       {
         "id": "chip",
         "name": "算力芯片",
-        "count": 232
+        "count": 244
       },
       {
         "id": "safety",
         "name": "安全对齐",
-        "count": 44
+        "count": 45
       }
     ],
     "types": [
       {
         "id": "release",
         "name": "发布",
-        "count": 255
+        "count": 265
       },
       {
         "id": "research",
         "name": "研究论文",
-        "count": 192
+        "count": 194
       },
       {
         "id": "business",
         "name": "融资/商业",
-        "count": 121
+        "count": 127
       },
       {
         "id": "policy",
         "name": "政策/安全",
-        "count": 44
+        "count": 46
       },
       {
         "id": "opensource",
         "name": "开源",
-        "count": 105
+        "count": 108
       },
       {
         "id": "review",
         "name": "教程/评测",
-        "count": 97
+        "count": 100
       },
       {
         "id": "product",
         "name": "产品更新",
-        "count": 101
+        "count": 103
       },
       {
         "id": "opinion",
@@ -248,7 +248,7 @@
       {
         "id": "x",
         "name": "推特",
-        "count": 276
+        "count": 284
       }
     ]
   },
@@ -261,7 +261,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 92
+      "count": 95
     },
     {
       "id": "nvidia-dev",
@@ -281,7 +281,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 31
+      "count": 32
     },
     {
       "id": "aws-ml",
@@ -291,7 +291,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 24
+      "count": 29
     },
     {
       "id": "anthropic",
@@ -311,12 +311,22 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 13
+      "count": 16
     },
     {
       "id": "pytorch",
       "name": "PyTorch",
       "home": "https://pytorch.org/blog/",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 13
+    },
+    {
+      "id": "x-together",
+      "name": "Together AI（推特）",
+      "home": "https://x.com/togethercompute",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -337,6 +347,16 @@
       "id": "x-cohere",
       "name": "Cohere（推特）",
       "home": "https://x.com/cohere",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 12
+    },
+    {
+      "id": "x-deepmind",
+      "name": "Google DeepMind（推特）",
+      "home": "https://x.com/GoogleDeepMind",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -414,16 +434,6 @@
       "count": 12
     },
     {
-      "id": "x-together",
-      "name": "Together AI（推特）",
-      "home": "https://x.com/togethercompute",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 12
-    },
-    {
       "id": "x-kling",
       "name": "可灵（推特）",
       "home": "https://x.com/Kling_ai",
@@ -444,9 +454,29 @@
       "count": 12
     },
     {
-      "id": "x-deepmind",
-      "name": "Google DeepMind（推特）",
-      "home": "https://x.com/GoogleDeepMind",
+      "id": "apple-ml",
+      "name": "Apple Machine Learning",
+      "home": "https://machinelearning.apple.com/",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 11
+    },
+    {
+      "id": "x-claude",
+      "name": "Claude（推特）",
+      "home": "https://x.com/claudeai",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 11
+    },
+    {
+      "id": "google-ai",
+      "name": "Google AI",
+      "home": "https://blog.google/technology/ai/",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -492,36 +522,6 @@
       "ok": true,
       "error": "",
       "count": 11
-    },
-    {
-      "id": "apple-ml",
-      "name": "Apple Machine Learning",
-      "home": "https://machinelearning.apple.com/",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 10
-    },
-    {
-      "id": "x-claude",
-      "name": "Claude（推特）",
-      "home": "https://x.com/claudeai",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 10
-    },
-    {
-      "id": "google-ai",
-      "name": "Google AI",
-      "home": "https://blog.google/technology/ai/",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 9
     },
     {
       "id": "x-googleai",
@@ -604,6 +604,16 @@
       "count": 6
     },
     {
+      "id": "x-microsoftai",
+      "name": "Microsoft AI（推特）",
+      "home": "https://x.com/MicrosoftAI",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 6
+    },
+    {
       "id": "microsoft-research",
       "name": "Microsoft Research",
       "home": "https://www.microsoft.com/en-us/research/blog/",
@@ -622,16 +632,6 @@
       "ok": true,
       "error": "",
       "count": 6
-    },
-    {
-      "id": "x-microsoftai",
-      "name": "Microsoft AI（推特）",
-      "home": "https://x.com/MicrosoftAI",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 5
     },
     {
       "id": "mistral",
@@ -694,16 +694,6 @@
       "count": 2
     },
     {
-      "id": "github-ai",
-      "name": "GitHub",
-      "home": "https://github.blog/tag/ai/",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 1
-    },
-    {
       "id": "nvidia",
       "name": "NVIDIA",
       "home": "https://blogs.nvidia.com/",
@@ -712,6 +702,16 @@
       "ok": true,
       "error": "",
       "count": 1
+    },
+    {
+      "id": "github-ai",
+      "name": "GitHub",
+      "home": "https://github.blog/tag/ai/",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 0
     },
     {
       "id": "qwen",
@@ -741,7 +741,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 170
+      "count": 172
     },
     {
       "id": "qbitai",
@@ -751,7 +751,17 @@
       "official": false,
       "ok": false,
       "error": "http 403",
-      "count": 105
+      "count": 104
+    },
+    {
+      "id": "cnbeta",
+      "name": "cnBeta",
+      "home": "https://www.cnbeta.com.tw/",
+      "region": "cn",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 87
     },
     {
       "id": "arxiv",
@@ -764,16 +774,6 @@
       "count": 85
     },
     {
-      "id": "cnbeta",
-      "name": "cnBeta",
-      "home": "https://www.cnbeta.com.tw/",
-      "region": "cn",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 82
-    },
-    {
       "id": "ithome",
       "name": "IT之家",
       "home": "https://www.ithome.com/",
@@ -781,7 +781,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 63
+      "count": 64
     },
     {
       "id": "siliconangle",
@@ -791,17 +791,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 35
-    },
-    {
-      "id": "ft",
-      "name": "Financial Times",
-      "home": "https://www.ft.com/artificial-intelligence",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 30
+      "count": 38
     },
     {
       "id": "techcrunch",
@@ -811,17 +801,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 29
-    },
-    {
-      "id": "guardian",
-      "name": "The Guardian",
-      "home": "https://www.theguardian.com/technology/artificialintelligenceai",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 28
+      "count": 35
     },
     {
       "id": "zdnet",
@@ -831,7 +811,27 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 27
+      "count": 33
+    },
+    {
+      "id": "ft",
+      "name": "Financial Times",
+      "home": "https://www.ft.com/artificial-intelligence",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 31
+    },
+    {
+      "id": "guardian",
+      "name": "The Guardian",
+      "home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 30
     },
     {
       "id": "oschina",
@@ -844,16 +844,6 @@
       "count": 23
     },
     {
-      "id": "hackernews",
-      "name": "Hacker News",
-      "home": "https://news.ycombinator.com/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 22
-    },
-    {
       "id": "latentspace",
       "name": "Latent Space",
       "home": "https://www.latent.space/",
@@ -864,9 +854,39 @@
       "count": 21
     },
     {
+      "id": "theverge",
+      "name": "The Verge",
+      "home": "https://www.theverge.com/ai-artificial-intelligence",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 20
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "home": "https://news.ycombinator.com/",
+      "region": "intl",
+      "official": false,
+      "ok": false,
+      "error": "http 502",
+      "count": 19
+    },
+    {
       "id": "simonwillison",
       "name": "Simon Willison",
       "home": "https://simonwillison.net/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 18
+    },
+    {
+      "id": "wired",
+      "name": "WIRED",
+      "home": "https://www.wired.com/tag/artificial-intelligence/",
       "region": "intl",
       "official": false,
       "ok": true,
@@ -884,16 +904,6 @@
       "count": 17
     },
     {
-      "id": "theverge",
-      "name": "The Verge",
-      "home": "https://www.theverge.com/ai-artificial-intelligence",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 17
-    },
-    {
       "id": "arstechnica",
       "name": "Ars Technica",
       "home": "https://arstechnica.com/tag/artificial-intelligence/",
@@ -901,22 +911,22 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 14
-    },
-    {
-      "id": "wired",
-      "name": "WIRED",
-      "home": "https://www.wired.com/tag/artificial-intelligence/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 14
+      "count": 16
     },
     {
       "id": "x-jiqizhixin",
       "name": "机器之心（推特）",
       "home": "https://x.com/jiqizhixin",
+      "region": "cn",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 13
+    },
+    {
+      "id": "wallstreetcn",
+      "name": "华尔街见闻",
+      "home": "https://wallstreetcn.com",
       "region": "cn",
       "official": false,
       "ok": true,
@@ -964,6 +974,16 @@
       "count": 10
     },
     {
+      "id": "engadget",
+      "name": "Engadget",
+      "home": "https://www.engadget.com/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 9
+    },
+    {
       "id": "sciencedaily",
       "name": "ScienceDaily",
       "home": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
@@ -974,16 +994,6 @@
       "count": 9
     },
     {
-      "id": "wallstreetcn",
-      "name": "华尔街见闻",
-      "home": "https://wallstreetcn.com",
-      "region": "cn",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 8
-    },
-    {
       "id": "leiphone",
       "name": "雷峰网",
       "home": "https://www.leiphone.com/",
@@ -992,16 +1002,6 @@
       "ok": true,
       "error": "",
       "count": 8
-    },
-    {
-      "id": "engadget",
-      "name": "Engadget",
-      "home": "https://www.engadget.com/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 7
     },
     {
       "id": "tmtpost",
@@ -1048,6 +1048,16 @@
       "name": "AI Snake Oil",
       "home": "https://www.aisnakeoil.com/",
       "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 3
+    },
+    {
+      "id": "sciencenet",
+      "name": "科学网",
+      "home": "https://www.sciencenet.cn",
+      "region": "cn",
       "official": false,
       "ok": true,
       "error": "",
@@ -1104,9 +1114,9 @@
       "count": 1
     },
     {
-      "id": "sciencenet",
-      "name": "科学网",
-      "home": "https://www.sciencenet.cn",
+      "id": "caixin",
+      "name": "财新",
+      "home": "https://www.caixin.com",
       "region": "cn",
       "official": false,
       "ok": true,
@@ -1136,6 +1146,953 @@
   ],
   "items": [
     {
+      "id": "201fd1b4ac76177f",
+      "title": "AI智能体声称发现玛雅文明失落遗址 但这个地点早已被记录",
+      "url": "https://cnbeta.com.tw/articles/science/1586144.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T04:55:27+08:00",
+      "excerpt": "人工智能智能体正在尝试进入考古学等专业研究领域，但一项近期引发关注的所谓发现，却暴露出AI工具在科学研究中的一个问题：它们可能识别出了真实存在的目标，却未能判断这些目标是否早已为人所知。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent",
+        "science"
+      ],
+      "types": [
+        "research"
+      ]
+    },
+    {
+      "id": "53d483022ae16817",
+      "title": "黄仁勋被曝还与英伟达另一名员工存在婚外关系 涉及关系增至三起",
+      "url": "https://cnbeta.com.tw/articles/tech/1586142.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T04:54:06+08:00",
+      "excerpt": "英伟达创始人黄仁勋被曝还曾与公司内部另一名员工保持过一段此前未被公开报道的亲密关系。这意味着，围绕黄仁勋的婚外关系争议又出现新的情况。路透社援引两名知情人士称，这段关系涉及一名英伟达员工。出于隐私考虑，路透社没有公布该员工的姓名，也没有披露双方关系持续的时间及其他具体细节。报道指出，这名员工与此前被媒体报道的两名女性并非同一人。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "policy"
+      ]
+    },
+    {
+      "id": "bb58cca2541ebad4",
+      "title": "Kubernetes gets a second act as AI agents turn one prompt into thousands of inference calls",
+      "url": "https://siliconangle.com/2026/11/12/agentic-ai-systems-push-kubernetes-second-act-kubeconna",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-13T04:52:08+08:00",
+      "excerpt": "The rise of agentic AI systems is giving Kubernetes, long valued for its reliability and predictability, an unexpected second act",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "e9b2308e4ac312d9",
+      "title": "Four Amazon Bedrock inference choices that affect cost",
+      "url": "https://aws.amazon.com/blogs/machine-learning/four-amazon-bedrock-inference-choices-that-affect-cost",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-13T04:51:55+08:00",
+      "excerpt": "Your Amazon Bedrock inference bill can keep climbing even after you tune prompts and application logic. Four request-level choices (cache duration, service tier, reasoning effort",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "reasoning"
+      ],
+      "types": []
+    },
+    {
+      "id": "936e95893f28cae9",
+      "title": "When tasked to create an interactive 3D water and glass visualizer, Gemini 4 Hydrogen was able…",
+      "url": "https://x.com/GeminiApp/status/2120982456203694352",
+      "source_id": "x-gemini",
+      "source_name": "Gemini（推特）",
+      "source_home": "https://x.com/GeminiApp",
+      "published": "2026-11-13T04:49:58+08:00",
+      "excerpt": "to simulate real-time light refraction, reflection, and color dispersion using WebGL2 and pure math.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "a75c45fe404d2a32",
+      "title": "4 insights from Block Builderlab Launch Event 2026: AI agents join the team as working colleagues",
+      "url": "https://siliconangle.com/2026/11/12/block-builderlab-launch-event-2026-ai-agents-join-team",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-13T04:48:47+08:00",
+      "excerpt": "At Block Builderlab Launch Event 2026, AI agents moved out of single-player chat windows and into shared workspaces. There they work beside people as named, auditable members of the team. Block Inc",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "53632fc1e891e8fd",
+      "title": "Jensen Huang Didn’t Name His Own Replacement as One of Tech’s Most Powerful Women",
+      "url": "https://wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-13T04:35:11+08:00",
+      "excerpt": "A recent WIRED investigation explored the complicated definition of “power” for women in the industry. Jensen Huang’s answers now appear to show his blind spots.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "59e6069642142652",
+      "title": "Microsoft Ignite starts next week, November 17!",
+      "url": "https://x.com/MicrosoftAI/status/2120977464264462816",
+      "source_id": "x-microsoftai",
+      "source_name": "Microsoft AI（推特）",
+      "source_home": "https://x.com/MicrosoftAI",
+      "published": "2026-11-13T04:30:07+08:00",
+      "excerpt": "The MAI team is bringing something new: new models, demos, and speaker sessions from the people who built them.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "92467d3f16d5f88c",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T04:26:47+08:00",
+      "excerpt": "Reuters is withholding the name of the new employee linked to Huang, but says she is an employee of Nvidia.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "d4f067a901925720",
+      "title": "Introducing Claude Meetings: add Claude to your team’s video call and it builds docs…",
+      "url": "https://x.com/claudeai/status/2120973994191094179",
+      "source_id": "x-claude",
+      "source_name": "Claude（推特）",
+      "source_home": "https://x.com/claudeai",
+      "published": "2026-11-13T04:16:20+08:00",
+      "excerpt": "whiteboards, and other artifacts with you while you’re still talking. Starting to roll out in beta on Team and Enterprise plans.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [
+        "release",
+        "product"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "195f26b887a7a268",
+      "title": "Google retools Kubernetes for AI agents instead of building a new stack",
+      "url": "https://siliconangle.com/2026/11/12/agentic-workloads-push-google-retool-kubernetes-agents-kubeconna",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-13T04:01:17+08:00",
+      "excerpt": "Agentic workloads are pushing Kubernetes into territory its creators never planned for. Agents generate untrusted code on the fly",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "372847c9499451eb",
+      "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+      "url": "https://openai.com/index/amplitude",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-13T04:00:00+08:00",
+      "excerpt": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "product"
+      ]
+    },
+    {
+      "id": "cec0a96991f8ae67",
+      "title": "Several Microsoft services appear to be down – what we know",
+      "url": "https://zdnet.com/business/microsoft-outage-outlook-teams-copilot",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-13T03:45:52+08:00",
+      "excerpt": "Reports of the outage are beginning to drop as Microsoft restarts affected servers.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "e33e592d7bb3b407",
+      "title": "Google正式发布Gemini 4 Hydrogen 速度与智能水平大幅提升",
+      "url": "https://cnbeta.com.tw/articles/tech/1586138.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T03:45:42+08:00",
+      "excerpt": "Google于2026年11月12日正式推出新一代人工智能模型Gemini 4 Hydrogen。这款模型原本被外界预期会沿用Flash命名体系，但Google最终选择了全新的Hydrogen名称，将其定位为面向日常使用、快速编程和智能体工作流程的高效率模型。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "75e8b5158ffa2b00",
+      "title": "No, AI agents did not discover a previously unknown Maya site",
+      "url": "https://theverge.com/ai-artificial-intelligence/1032125/ai-agents-maya-site-archeology-discovery",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-13T03:42:40+08:00",
+      "excerpt": "Armed with a team of AI agents, Google researcher Pietro Miotti claimed earlier this week to have discovered a potentially unmapped Maya site in Mexico",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "ce875120f51bb0e2",
+      "title": "SpaceX计划在亚利桑那州和德克萨斯州投资740亿美元建设数据中心项目",
+      "url": "https://cnbeta.com.tw/articles/tech/1586136.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T03:40:53+08:00",
+      "excerpt": "SpaceX计划建造两个超级计算设施，以推动其快速增长的人工智能业务，包括在亚利桑那州新建一个价值500亿美元的基地。埃隆·马斯克的公司在周四宣布，正在德克萨斯州和亚利桑那州建设更多基础设施项目——包括计算项目和运营燃气发电厂——总投资达740亿美元。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "business"
+      ]
+    },
+    {
+      "id": "07954871619e5c33",
+      "title": "英伟达首任主席及临时首席执行官致员工的备忘录全文",
+      "url": "https://cnbeta.com.tw/articles/tech/1586134.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T03:39:59+08:00",
+      "excerpt": "英伟达与将公司打造成行业领军芯片制造商的创始人黄仁勋切割后，临时首席执行官Colette Kress和首任董事会主席Harvey Jones发表了致员工的备忘录解释这些变化： 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "094ccde19770acf8",
+      "title": "poetiq uses together post-training to launch complex rl research workloads quickly, while…",
+      "url": "https://x.com/togethercompute/status/2120962588800393271",
+      "source_id": "x-together",
+      "source_name": "Together AI（推特）",
+      "source_home": "https://x.com/togethercompute",
+      "published": "2026-11-13T03:31:01+08:00",
+      "excerpt": "keeping complete algorithmic control over their setup fast to launch, with the training loop still fully theirs https://together.ai/post-training",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "research"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "c8c5dc29297d2e3d",
+      "title": "Tokenomics at scale: Track and cap Amazon Bedrock spend per IAM principal with CUR 2.0 and AWS Budgets",
+      "url": "https://aws.amazon.com/blogs/machine-learning/tokenomics-at-scale-track-and-cap-amazon-bedrock-spend-per-iam-principal-with-cur-2-0-and-aws-budgets",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-13T03:29:55+08:00",
+      "excerpt": "Get per-identity Amazon Bedrock cost visibility and enforceable spend limits using only AWS-native features, with no application code for the common case",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "875637b2c34d1326",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T03:27:45+08:00",
+      "excerpt": "Powered by Gemini 4 Hydrogen, Google's AI Mode is getting better at understanding complex queries, surfacing relevant links, and delivering richer visual responses.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "e83c58e84787dff1",
+      "title": "Who is Collette Kress, NVIDIA's interim CEO?",
+      "url": "https://engadget.com/2315274/who-is-collette-kress-nvidia-ceo",
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "source_home": "https://www.engadget.com/",
+      "published": "2026-11-13T03:26:47+08:00",
+      "excerpt": "Kress spent 25 years in various finance roles before joining NVIDIA in 2013",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "a67e1509e9c05d5d",
+      "title": "Google rolls out Gemini 4 Hydrogen, finally replacing 3.8 Flash",
+      "url": "https://arstechnica.com/google/2026/11/google-rolls-out-gemini-4-hydrogen-finally-replacing-3-8-flash",
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "source_home": "https://arstechnica.com/tag/artificial-intelligence/",
+      "published": "2026-11-13T03:23:03+08:00",
+      "excerpt": "Gemini 4 Hydrogen isn't getting a slow, security-conscious release like Carbon and Argon.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "1ffc07f395279101",
+      "title": "A look back before we look forward... Since Build we have shipped 14 models.",
+      "url": "https://x.com/MicrosoftAI/status/2120958174299664403",
+      "source_id": "x-microsoftai",
+      "source_name": "Microsoft AI（推特）",
+      "source_home": "https://x.com/MicrosoftAI",
+      "published": "2026-11-13T03:13:28+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "9e2a0d63f81356d0",
+      "title": "Estimating a reaction’s procurement cost tests more than recognizing chemical names.",
+      "url": "https://x.com/jiqizhixin/status/2120957802772582411",
+      "source_id": "x-jiqizhixin",
+      "source_name": "机器之心（推特）",
+      "source_home": "https://x.com/jiqizhixin",
+      "published": "2026-11-13T03:12:00+08:00",
+      "excerpt": "ChemCost, from Carnegie Mellon, Notre Dame, UNC Chapel Hill and Pittsburgh researchers, turns chemical purchasing into a reproducible agent benchmark. Three details explain the challenge: 1",
+      "lang": "en",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "review"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "d3c21aad125298df",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T03:11:00+08:00",
+      "excerpt": "Nectar's new AI agent automates influencer marketing, helping brands discover creators, manage outreach and partnerships, and track campaign results.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "a88bddb17214a029",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-11-13T03:07:35+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text"
+      ],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "6736945d4ac448cd",
+      "title": "Jensen Huang’s $470 Billion Affair",
+      "url": "https://wired.com/story/uncanny-valley-podcast-jensen-huangs-dollar470-billion-affair",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-13T02:59:58+08:00",
+      "excerpt": "This week on “Uncanny Valley,” the team unpacks the Nvidia CEO’s affair with an alleged Chinese spy and what that means for the AI industry.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "81bcb5c122b27570",
+      "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
+      "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "source_home": "https://arstechnica.com/tag/artificial-intelligence/",
+      "published": "2026-11-13T02:57:45+08:00",
+      "excerpt": "Families confront Google after teen’s lawsuit labels Gemini a “suicide coach.”",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "policy"
+      ]
+    },
+    {
+      "id": "1929b651b8a2e3e4",
+      "title": "Jensen Huang was a busted flush at Nvidia – he had to go | Nils Pratley",
+      "url": "https://theguardian.com/technology/nils-pratley-on-finance/2026/nov/12/jensen-huang-was-a-busted-flush-at-nvidia-he-had-to-go",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-13T02:46:48+08:00",
+      "excerpt": "CEO was viewed as ‘irreplaceable’, but recklessness of affair with a woman regarded by US officials as a Chinese spy made him a political liability Half the tech world made up its mind before the facts could be assessed",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "4e46e49750fb65fe",
+      "title": "Optimizing cost per task and proving agent ROI on Amazon Bedrock",
+      "url": "https://aws.amazon.com/blogs/machine-learning/optimizing-cost-per-task-and-proving-agent-roi-on-amazon-bedrock",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-13T02:43:19+08:00",
+      "excerpt": "Comparing per-token prices hides the real cost of running a model on Amazon Bedrock. This post shows how to calculate the true cost per task across four hidden cost drivers, reduce it with caching, routing",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "review"
+      ]
+    },
+    {
+      "id": "63b5d9b990858a27",
+      "title": "Roku drops smart home products to focus on streaming – what that means for your devices",
+      "url": "https://zdnet.com/home-and-office/roku-discontinues-smart-home-products",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-13T02:43:08+08:00",
+      "excerpt": "Roku is winding down its smart home business following its sale to Fox. Here’s what to know.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "83054ecb029e1c53",
+      "title": "Building a self-service LLM gateway with Amazon Bedrock and LiteLLM",
+      "url": "https://aws.amazon.com/blogs/machine-learning/building-a-self-service-llm-gateway-with-amazon-bedrock-and-litellm",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-13T02:41:12+08:00",
+      "excerpt": "Build a self-service LLM gateway with LiteLLM on AWS Fargate that puts Amazon Bedrock foundation models behind an OpenAI-compatible API",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text"
+      ],
+      "types": []
+    },
+    {
+      "id": "3903c89c61e50edc",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T02:39:23+08:00",
+      "excerpt": "Jensen Huang’s resignation raises questions about Nvidia’s commitment to open source AI, including its Hugging Face acquisition, open-weight models, and advocacy against restrictions",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business",
+        "opensource"
+      ]
+    },
+    {
+      "id": "d60d797cdcc1ae43",
+      "title": "谷歌发布 Gemini 4 Hydrogen 模型：主打日常编程与智能体工作流，百万 Token 输入 1.5 美元",
+      "url": "https://ithome.com/1/026/446.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-13T02:17:17+08:00",
+      "excerpt": "IT之家 11 月 13 日消息，谷歌正式推出 Gemini 4 Hydrogen 模型，主打快速执行与高效运行，面向日常编码和智能体工作流场景，将 Gemini 4 系列能力全面下放至所有层级用户。 输入：每百万 Tokens 1.50 美元 （IT之家注：现汇率约合 10.0 元人民币） 输出：每百万 Tokens 7.50 美元 （现汇率约合 50.1 元人民币） 该定价覆盖 全 100 万 Token 上下文窗口",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gemini"
+      ],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "74a7ead4079603e4",
+      "title": "Attention, Android power users: This app unlocks 30+ features you won’t find in Settings",
+      "url": "https://zdnet.com/uncategorized/essentials-android-app-power-user-settings",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-13T02:15:00+08:00",
+      "excerpt": "Is Android Settings not delivering enough power? The Essentials app features 30+ mods and tweaks – but you won’t find it in the Play Store",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "78397eaf147cfe84",
+      "title": "Oh, Palantir is ‘progressive’ now, is it?",
+      "url": "https://theverge.com/ai-artificial-intelligence/1032126/alex-baby-you-were-recorded-on-video",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-13T02:06:54+08:00",
+      "excerpt": "I had other things to do today, but Alex Karp's pathetic attempt to pivot back to the left gave me no choice but to put them on hold",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "0f4e9a2d49c6f8b1",
+      "title": "Gemini 4 Hydrogen is rolling out today to all users globally on desktop, mobile, and web.",
+      "url": "https://x.com/GeminiApp/status/2120941398971318410",
+      "source_id": "x-gemini",
+      "source_name": "Gemini（推特）",
+      "source_home": "https://x.com/GeminiApp",
+      "published": "2026-11-13T02:06:49+08:00",
+      "excerpt": "Free users will get access to Gemini 4 Hydrogen via auto model selection when it’s the appropriate model for the prompt. Learn more about Gemini models and auto model selection: https://goo.gle/4AxH40q",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "01b2dea6cc209fac",
+      "title": "Google DeepMind Staff Tap the UK Government to Escalate Their Unionization Fight",
+      "url": "https://wired.com/story/google-deepmind-staff-escalate-their-union-fight",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-13T02:05:41+08:00",
+      "excerpt": "After initial talks stalled, workers at Google DeepMind are trying to bypass company management in their bid to unionize.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "7b8de9fff4d385f0",
+      "title": "Today, we’re growing the Gemini 4 model series by introducing Gemini 4 Hydrogen.",
+      "url": "https://x.com/GoogleAI/status/2120940683233984862",
+      "source_id": "x-googleai",
+      "source_name": "Google AI（推特）",
+      "source_home": "https://x.com/GoogleAI",
+      "published": "2026-11-13T02:03:58+08:00",
+      "excerpt": "While Gemini 4 Carbon tackles your hardest problems, Hydrogen brings cutting-edge intelligence to everyone — with speed and efficiency for everyday coding and agentic workflows",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "release"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "5c54b83ec75713d8",
+      "title": "Gemini 4 Hydrogen is here, bringing cutting-edge intelligence to everyone for fast, everyday help.",
+      "url": "https://x.com/GeminiApp/status/2120940601319260164",
+      "source_id": "x-gemini",
+      "source_name": "Gemini（推特）",
+      "source_home": "https://x.com/GeminiApp",
+      "published": "2026-11-13T02:03:39+08:00",
+      "excerpt": "It makes it easier to get things done, following your instructions more closely, calling the right tools, and getting you to a reliable output with less back-and-forth. 🧵",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "5b921d0331b0765b",
+      "title": "Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows.",
+      "url": "https://x.com/GoogleDeepMind/status/2120940338869055788",
+      "source_id": "x-deepmind",
+      "source_name": "Google DeepMind（推特）",
+      "source_home": "https://x.com/GoogleDeepMind",
+      "published": "2026-11-13T02:02:36+08:00",
+      "excerpt": "It finishes tasks 2.5x faster than 3.8 Flash and surpasses Argon on the @ArtificialAnlys Intelligence Index.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [
+        "multimodal",
+        "coding"
+      ],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "ad614f81e42f72e5",
+      "title": "Google Search gets a major upgrade with Gemini 4 Hydrogen",
+      "url": "https://blog.google/products-and-platforms/products/search/gemini-4-hydrogen-search-upgrade",
+      "source_id": "google-ai",
+      "source_name": "Google AI",
+      "source_home": "https://blog.google/technology/ai/",
+      "published": "2026-11-13T02:00:00+08:00",
+      "excerpt": "Rotating carousel of cards with text \"Gemini 4 Hydrogen\" \"Now in Google Search\" and examples from the Google Search UI",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "85bacafff42444d7",
+      "title": "Run agents securely and efficiently with the next generation AgentCore runtime",
+      "url": "https://aws.amazon.com/blogs/machine-learning/run-agents-securely-and-efficiently-with-the-next-generation-agentcore-runtime",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-13T01:59:59+08:00",
+      "excerpt": "AI agents now run multi-step workloads for hours and act on behalf of users, raising the bar for secure, scalable agent compute",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "f414a027de5670ca",
+      "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
+      "url": "https://wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-13T01:59:15+08:00",
+      "excerpt": "Since the scandal involving an alleged Chinese spy began, Nvidia has lost an eye-watering sum from its market value.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "2e66941eb4f672d3",
+      "title": "You can force Gemini to forget about you now – how to edit its Memory",
+      "url": "https://zdnet.com/innovation/google-gemini-memory-summary-user-control",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-13T01:58:52+08:00",
+      "excerpt": "A new option called Memory summary lets you see and control the things that Gemini AI knows about you.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "review"
+      ]
+    },
+    {
+      "id": "bab1840978b81f39",
+      "title": "Ex-NVIDIA CEO Jensen Huang is set to testify before Congress this month",
+      "url": "https://engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month",
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "source_home": "https://www.engadget.com/",
+      "published": "2026-11-13T01:53:08+08:00",
+      "excerpt": "House Foreign Affairs Chair Brian Mast said a hearing with Jensen Huang will take place before Thanksgiving.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "9858a905eb5197a2",
+      "title": "Jensen Huang built an AI kingdom. Now he’s gone, will Nvidia’s ramparts be breached?",
+      "url": "https://theguardian.com/technology/2026/nov/12/jensen-huang-built-an-ai-kingdom-now-hes-gone-will-nvidias-ramparts-be-breached",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-13T01:50:35+08:00",
+      "excerpt": "CEO’s affair and resignation has brought company’s murky corporate contracts and supply chains into sharp focus Can the AI economy survive without its “central bank”? What does Jensen Huang’s fall mean for the world’s",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "9f25e6e86e4b220f",
+      "title": "Google Wallet just turned your Android phone into a digital house key – how it works",
+      "url": "https://zdnet.com/home-and-office/google-wallet-digital-home-keys-smart-locks",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-13T01:50:24+08:00",
+      "excerpt": "Google is moving digital keys out of individual smart lock apps and into the Google Wallet.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "0a3a3741b20c2318",
+      "title": "The Jensen Huang scandal is hardly over",
+      "url": "https://theverge.com/ai-artificial-intelligence/1032069/jensen-huang-resignation-affair-chips-smuggling",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-13T01:44:33+08:00",
+      "excerpt": "I was certain, until the story of Jensen Huang's second affair hit, that Huang was bulletproof. After all, why wouldn't he be? He's placed himself indispensably at the center of the AI industry and famously had no",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "5c8a7e2ce9e472f4",
+      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T01:36:40+08:00",
+      "excerpt": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business",
+        "opensource"
+      ]
+    },
+    {
+      "id": "322f998ba4d6dbd2",
+      "title": "United Airlines blocks AI agents from booking flights, citing cybersecurity risks",
+      "url": "https://techcrunch.com/2026/11/12/united-airlines-blocks-ai-agents-from-booking-flights-citing-cybersecurity-risks",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T01:17:58+08:00",
+      "excerpt": "The airline said it will not allow customers to use AI agents to book flights and manage reservations.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "23dcec36a597b57b",
+      "title": "Google’s Pixel Tag tracker won’t work as well on older Android phones – check our list",
+      "url": "https://zdnet.com/tech/google-pixel-tag-android-tracker-bluetooth-6-0-older-phones",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-13T01:11:16+08:00",
+      "excerpt": "Several of the tracker’s best features require Bluetooth 6.0-compatible device.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "ca80552a275a9336",
       "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
       "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
@@ -1143,7 +2100,7 @@
       "source_name": "TechCrunch",
       "source_home": "https://techcrunch.com/category/artificial-intelligence/",
       "published": "2026-11-13T01:00:52+08:00",
-      "excerpt": "SoftBank lost over $3 billion pre-ordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "excerpt": "SoftBank lost over $3 billion preordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -1151,6 +2108,21 @@
       "types": [
         "business"
       ]
+    },
+    {
+      "id": "0cefd18c08c5c4ac",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T01:00:00+08:00",
+      "excerpt": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "4ae3018d79171170",
@@ -1178,21 +2150,6 @@
       "source_home": "https://www.theverge.com/ai-artificial-intelligence",
       "published": "2026-11-13T01:00:00+08:00",
       "excerpt": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "0cefd18c08c5c4ac",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
-      "published": "2026-11-13T01:00:00+08:00",
-      "excerpt": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -1483,6 +2440,23 @@
       "excerpt": "IT之家 11 月 12 日消息，黄仁勋离任英伟达 CEO 后，美国总统特朗普随即呼吁苹果执行董事长蒂姆 · 库克接掌英伟达。 今天（12 日）晚间，特朗普在 Truth Social 发文称， 能够接替黄仁勋的人“只有一个”—— 苹果公司的蒂姆 · 库克 。“一位传奇来接替另一位传奇！” 据IT之家了解，卸任苹果 CEO 后，库克改任执行董事长。",
       "lang": "zh",
       "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "60e6c95226b4bdff",
+      "title": "Jensen jeopardy will disrupt the AI industry",
+      "url": "https://ft.com/content/42bfcbcb-7121-492b-8e1d-0aceacd093e2?syn-25a6b1a6=1",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-12T23:56:31+08:00",
+      "excerpt": "The Nvidia boss’s departure could deepen the technological rift between Washington and Beijing",
+      "lang": "en",
+      "region": "intl",
       "models": [],
       "topics": [
         "chip"
@@ -1926,7 +2900,7 @@
     },
     {
       "id": "bcf7e80ddd203a2d",
-      "title": "US workers are fighting to protect their jobs from AI – and winning",
+      "title": "US public workers are fighting to protect their jobs from AI – and some are winning",
       "url": "https://theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai",
       "source_id": "guardian",
       "source_name": "The Guardian",
@@ -1976,6 +2950,23 @@
       "types": [
         "policy"
       ]
+    },
+    {
+      "id": "c5c92a58b75b6f50",
+      "title": "月之暗面徐天天：AI能力远未达到上限 还在加速进化",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55SG1EaFdfdFVUblNqc3A0dk0xY01PWXJsUm41SUZkdDE1dVlLVlAyWUthY3dvckYtYWFGamUwNHlDYmdHemVaNlZFT0tLNFR0cnZMQXJpSGJxdzhXZ05xSA?oc=5",
+      "source_id": "caixin",
+      "source_name": "财新",
+      "source_home": "https://www.caixin.com",
+      "published": "2026-11-12T22:48:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "kimi"
+      ],
+      "topics": [],
+      "types": []
     },
     {
       "id": "34d6d7e218622de6",
@@ -2369,6 +3360,23 @@
       "types": []
     },
     {
+      "id": "901cee242a9a7dd8",
+      "title": "中国首个“电-氢-衍生物”耦合大模型成果在《自然》发表",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nZkVIUnU4LXU5OWlvTU5zQUlvV2RQY2ZTRzFsb180S2FxanFna3JDN1FTS0NOOVBEYnNDczlwakw1clJXLURHYkxjc2RiYzEyWmFqNDZraDNiVkZqQkFhcWRMR2hTQQ?oc=5",
+      "source_id": "sciencenet",
+      "source_name": "科学网",
+      "source_home": "https://www.sciencenet.cn",
+      "published": "2026-11-12T21:36:06+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": []
+    },
+    {
       "id": "fdb1d204724971d4",
       "title": "新华三发布全新国产双路旗舰服务器 R4930 G7，单线程 IPC 性能提升超 15%",
       "url": "https://ithome.com/1/026/391.htm",
@@ -2396,7 +3404,7 @@
       "source_name": "TechCrunch",
       "source_home": "https://techcrunch.com/category/artificial-intelligence/",
       "published": "2026-11-12T21:26:25+08:00",
-      "excerpt": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the US.",
+      "excerpt": "The startups work across the deep tech sector, including healthcare, fintech, energy, semiconductors, and AI. All nine are looking to enter the U.S.",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -2585,6 +3593,23 @@
       ]
     },
     {
+      "id": "ba94cd8b602dcdc6",
+      "title": "百度想重构大模型调度的入口",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9USS1naktrWmwwdm1mSkQzMVFPWGtDRW4tc00zSk10NWlKZzAwLUM5TTRRRzlnNS1seWx3ZTVXRjJKMXdERHZuZWNKdTVVM3FiVnM4?oc=5",
+      "source_id": "wallstreetcn",
+      "source_name": "华尔街见闻",
+      "source_home": "https://wallstreetcn.com",
+      "published": "2026-11-12T20:46:12+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "wenxin"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "ed82431386c379ad",
       "title": "出轨丑闻爆发前黄仁勋曾谈及接班安排：希望下一任 CEO 来自英伟达内部",
       "url": "https://ithome.com/1/026/381.htm",
@@ -2691,6 +3716,23 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "6b019d5b722a90d4",
+      "title": "霍华德·马克斯：一个外行对AI的思考，谁能从AI投资中赚到钱？",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11LTlNVUJ2SFdXeHZWWVhmWGRVajhMbS1XQzNoUVJ2ZnA4SjU5WHRTXzBtNDg2Q3A1T1hmTTBvcWRycTlrSXJqMllwT0xENy1Pc1Zv?oc=5",
+      "source_id": "wallstreetcn",
+      "source_name": "华尔街见闻",
+      "source_home": "https://wallstreetcn.com",
+      "published": "2026-11-12T19:52:58+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
     },
     {
       "id": "50c6842a00e1af0b",
@@ -2983,6 +4025,21 @@
       ]
     },
     {
+      "id": "950a21a5fb384b35",
+      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE45X2phSnJyWlpBMFc2bXVxV3MzbjV1SUlFMk4yZVJjeW1QM25DQkRsS3NiZy1nTTJ6akJSd0dHUEpUcURuR2N6cmo0NA?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T18:58:49+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "29598edc76695845",
       "title": "飞利浦弈威“27M4N8500V”27 英寸显示器发售：2K 360Hz QD-OLED，3499 元",
       "url": "https://ithome.com/1/026/350.htm",
@@ -3038,21 +4095,6 @@
       "types": [
         "policy"
       ]
-    },
-    {
-      "id": "d7eaeb75ac84ac86",
-      "title": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5YRHgzb0dWZzRCZmxXWXRoM1RFczZyN0hVbXdmRGFsNW5saERfXzJXYkpaZGtiTER2bzhmVGE2dXBzNVlxbnZxUklQS0cxU013cFNjVw?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-11-12T18:45:33+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "84bf7524904bb4a9",
@@ -3624,6 +4666,21 @@
       "types": [
         "release"
       ]
+    },
+    {
+      "id": "cdb136079a607629",
+      "title": "张一鸣：字节AI最早2029年或2030年追平OpenAI与Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9fdS1rY1JrSi1UM0gwaEh6eVpuVEhYV1hqOFlFU3pERUNaOEY2Tk9fQ3UteUVmRjhDOHBxM3RQcG8wWmpCcGNUbFZ5MlF2TGJ2NVc4?oc=5",
+      "source_id": "wallstreetcn",
+      "source_name": "华尔街见闻",
+      "source_home": "https://wallstreetcn.com",
+      "published": "2026-11-12T15:56:25+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "c660313a750eed16",
@@ -5255,6 +6312,26 @@
       "types": []
     },
     {
+      "id": "7ca0fec9fce8c54e",
+      "title": "Theoretical Limits of Language Model Alignment",
+      "url": "https://machinelearning.apple.com/research/theoretical-limits-alignment",
+      "source_id": "apple-ml",
+      "source_name": "Apple Machine Learning",
+      "source_home": "https://machinelearning.apple.com/",
+      "published": "2026-11-12T08:00:00+08:00",
+      "excerpt": "Language model (LM) alignment improves model outputs to reflect human preferences while preserving the capabilities of the base model",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text",
+        "safety"
+      ],
+      "types": [
+        "product"
+      ]
+    },
+    {
       "id": "56dac742ff29ffe2",
       "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
       "url": "https://huggingface.co/blog/3d-lora-finetuning",
@@ -6141,6 +7218,21 @@
       "types": []
     },
     {
+      "id": "850c0644106f9238",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-12T03:54:00+08:00",
+      "excerpt": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "40b3469495104d52",
       "title": "Using wearables to enable cardiovascular-kidney-metabolic (CKM) risk profiling for personalized coaching",
       "url": "https://research.google/blog/using-wearables-to-enable-cardiovascular-kidney-metabolic-ckm-risk-profiling-for-personalized-coaching",
@@ -6158,21 +7250,6 @@
       "types": [
         "research"
       ]
-    },
-    {
-      "id": "850c0644106f9238",
-      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
-      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
-      "published": "2026-11-12T03:54:00+08:00",
-      "excerpt": "CoreWeave is increasingly asking customers to pay up front, borrowing against specific contracts, and even looking to short-term deals that could lead to higher prices, according to the company’s third-quarter earnings.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "2f59cacb1f12cb5b",
@@ -6227,6 +7304,23 @@
       "types": []
     },
     {
+      "id": "808edecb22284507",
+      "title": "AI代码暴涨30%，现实交付却为0？SoduWork要给脱缰的Agent立规矩",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PbVdyYzRkTzNCUW1fZmdFaENCUTVrcTU4cHJseGE1Q24xYWpvVmpHTFlPaFg0M0dxT0JweDhDQU5wM1JNeFY5LWdOWDE3dw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:41:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
+      "types": []
+    },
+    {
       "id": "b35af1b8d77925a5",
       "title": "AI代码暴涨30%现实交付为0？SoduWork为失控Agent立规矩",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TY05YYlgwNkphQkxsa21mN1VNWUVtcjFySFU4eTkzZzZ5YXRncDFxS3RUUGxxSnJoR1dremRPNkRoa2l3NkxxVEU1WnVVbl94VFZZ?oc=5",
@@ -6244,20 +7338,18 @@
       "types": []
     },
     {
-      "id": "808edecb22284507",
-      "title": "AI代码暴涨30%，现实交付却为0？SoduWork要给脱缰的Agent立规矩",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PbVdyYzRkTzNCUW1fZmdFaENCUTVrcTU4cHJseGE1Q24xYWpvVmpHTFlPaFg0M0dxT0JweDhDQU5wM1JNeFY5LWdOWDE3dw?oc=5",
+      "id": "754d3b2eea72f572",
+      "title": "李彦宏为何要打造AI时代新厂房？深度解析百度智能云AI工厂布局战略逻辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9STFFKNWczdnVmSmdENjk2TTdlZXl2VUx0c3JFbXZYVDREVGhUbm9PSExZOU1OWWNPdHpQaC02cGJueHZXU0xHODRsZE1rVFBWMWhB?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T03:41:00+08:00",
+      "published": "2026-11-12T03:38:00+08:00",
       "excerpt": "",
       "lang": "zh",
       "region": "cn",
       "models": [],
-      "topics": [
-        "coding"
-      ],
+      "topics": [],
       "types": []
     },
     {
@@ -6276,21 +7368,6 @@
       "types": [
         "opinion"
       ]
-    },
-    {
-      "id": "754d3b2eea72f572",
-      "title": "李彦宏为何要打造AI时代新厂房？深度解析百度智能云AI工厂布局战略逻辑",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9STFFKNWczdnVmSmdENjk2TTdlZXl2VUx0c3JFbXZYVDREVGhUbm9PSExZOU1OWWNPdHpQaC02cGJueHZXU0xHODRsZE1rVFBWMWhB?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T03:38:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "6f3c74a04fea158f",
@@ -6340,13 +7417,13 @@
       "types": []
     },
     {
-      "id": "6f2a8ffb4ce2a3aa",
-      "title": "AI漫剧的风口，吹不动普通人的发财梦",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XamRjMlczRDNvemxRd3d4NG4xYmQ1Sjd1VVZHQ2tDbmNVdklLT0d2QjFDY2FJRWloVWp4ME1qeVMtSFZ4NGFWN0JZN3RyZw?oc=5",
+      "id": "1882c09e6cb4a758",
+      "title": "AI锁定DNA致病细胞 谷歌AlphaGenome 2助力糖尿病癌症新药靶点研发",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1abmI5eDBnNnJ1OWpBWnppb2FDN1l6dE5EdWJkYlVDVXZ1d2E0bzYwb1Q1bEVhY1ZMNEJ2ektMLWtDZnVhY25iREE5eHVQX2xNZnZn?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T03:32:00+08:00",
+      "published": "2026-11-12T03:33:00+08:00",
       "excerpt": "",
       "lang": "zh",
       "region": "cn",
@@ -6370,9 +7447,24 @@
       "types": []
     },
     {
-      "id": "ec77ae9cc4ed75e3",
-      "title": "Character.AI都要破产了，AI陪伴却开始闷声赚大钱",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkYTQ3MVhucnVZa1NMVlJvSXJDWERCUXA1amc3QkpLeElSNnU0aV9tajRWUE9wWG1odGxQYnQ3YnRiNWxURTcxb3hsV0tFZw?oc=5",
+      "id": "6f2a8ffb4ce2a3aa",
+      "title": "AI漫剧的风口，吹不动普通人的发财梦",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XamRjMlczRDNvemxRd3d4NG4xYmQ1Sjd1VVZHQ2tDbmNVdklLT0d2QjFDY2FJRWloVWp4ME1qeVMtSFZ4NGFWN0JZN3RyZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:32:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "1b9f5f3347f7cdcf",
+      "title": "Character.AI濒临破产 AI陪伴赛道逆势闷声赚大钱",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2Yi1MZXozenowclpSaXMyNXZrTFZ5UFJKRGljREFPZmIyRVdCU1lTd2pCUHdlcnZaeUhUcXJtUnNUR3oxVjY1UGNKd19aWVQzbFIw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -6385,9 +7477,9 @@
       "types": []
     },
     {
-      "id": "1b9f5f3347f7cdcf",
-      "title": "Character.AI濒临破产 AI陪伴赛道逆势闷声赚大钱",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2Yi1MZXozenowclpSaXMyNXZrTFZ5UFJKRGljREFPZmIyRVdCU1lTd2pCUHdlcnZaeUhUcXJtUnNUR3oxVjY1UGNKd19aWVQzbFIw?oc=5",
+      "id": "ec77ae9cc4ed75e3",
+      "title": "Character.AI都要破产了，AI陪伴却开始闷声赚大钱",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkYTQ3MVhucnVZa1NMVlJvSXJDWERCUXA1amc3QkpLeElSNnU0aV9tajRWUE9wWG1odGxQYnQ3YnRiNWxURTcxb3hsV0tFZw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -6417,9 +7509,9 @@
       ]
     },
     {
-      "id": "5728040ebbeb66f1",
-      "title": "游戏爆火后，离被AI抄袭只剩一星期",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZdWJCT3ZaTzZDUE9sTlFKcXVkbURYVjVhLXUwSlJhU2ZEZGlaUS1RUEZHUUxxRkx3ek1SRnIyVWZzaTB4d3YzWldlOUJoZw?oc=5",
+      "id": "bb7ebc5e29821706",
+      "title": "游戏爆火后 距离被AI抄袭仅剩一星期",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WVzc2M09paHBCdUk4ejFOMDl2Qjl3TFN6SUdOV3FPeWZJQXhleHdqcEJjTlFBeUtrMlIyQUQzQ01QdURJZzYwaUZaRnlWS3dXa3Fz?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -6432,9 +7524,9 @@
       "types": []
     },
     {
-      "id": "bb7ebc5e29821706",
-      "title": "游戏爆火后 距离被AI抄袭仅剩一星期",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WVzc2M09paHBCdUk4ejFOMDl2Qjl3TFN6SUdOV3FPeWZJQXhleHdqcEJjTlFBeUtrMlIyQUQzQ01QdURJZzYwaUZaRnlWS3dXa3Fz?oc=5",
+      "id": "5728040ebbeb66f1",
+      "title": "游戏爆火后，离被AI抄袭只剩一星期",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZdWJCT3ZaTzZDUE9sTlFKcXVkbURYVjVhLXUwSlJhU2ZEZGlaUS1RUEZHUUxxRkx3ek1SRnIyVWZzaTB4d3YzWldlOUJoZw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -6708,23 +7800,6 @@
       "types": []
     },
     {
-      "id": "cce714811b519a82",
-      "title": "Gemini Decisions API",
-      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "source_home": "https://news.ycombinator.com/",
-      "published": "2026-11-12T02:32:42+08:00",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 532 # Comments: 153",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "41ac4a66b294dd6f",
       "title": "AI生产力革命，为什么需要一座「新厂房」？",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1lemNldDNtMWlicVR2ak1qWXllUW5hTU5HLVBiSko4RzFOakdfMmtLQkVMR2VQQjdUNDFYb0Z0TEpOYVV0NjhGY0lrV3pfQQ?oc=5",
@@ -6804,6 +7879,25 @@
       "platforms": [
         "x"
       ]
+    },
+    {
+      "id": "cce714811b519a82",
+      "title": "Gemini Decisions API: Fast, calibrated multimodal decisions",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api",
+      "source_id": "google-ai",
+      "source_name": "Google AI",
+      "source_home": "https://blog.google/technology/ai/",
+      "published": "2026-11-12T02:00:00+08:00",
+      "excerpt": "Meet the Gemini Decisions API, powered by our state-of-the-art model Gemini Decision for fast, calibrated multimodal decisions.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [
+        "multimodal"
+      ],
+      "types": []
     },
     {
       "id": "a4b83cae746ea37a",
@@ -7333,21 +8427,6 @@
       ]
     },
     {
-      "id": "bad6ee94c35695d3",
-      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
-      "source_id": "google-ai",
-      "source_name": "Google AI",
-      "source_home": "https://blog.google/technology/ai/",
-      "published": "2026-11-12T00:00:00+08:00",
-      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "f0476f4b70e90c24",
       "title": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
       "url": "https://theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
@@ -7356,6 +8435,21 @@
       "source_home": "https://www.theverge.com/ai-artificial-intelligence",
       "published": "2026-11-12T00:00:00+08:00",
       "excerpt": "Google has cooked up a new experimental AI tool called Tabletop that generates customized collaborative hubs to help you coordinate with family, and friends",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "bad6ee94c35695d3",
+      "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop",
+      "source_id": "google-ai",
+      "source_name": "Google AI",
+      "source_home": "https://blog.google/technology/ai/",
+      "published": "2026-11-12T00:00:00+08:00",
+      "excerpt": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -8511,9 +9605,9 @@
       ]
     },
     {
-      "id": "521e8171126a2f1a",
-      "title": "Grok Bot重大升级 AI同事正式上岗接管工作任务",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82UV8xN3dBdlBlWjVISzMxSEVLQ2VMR2hfXy1NQ3QwaXdNU3lJU0p5Zy1tUkk0cTFvRXhlZmh0UWx4TDVrTWtybnpMMkhmdURrUGRJ?oc=5",
+      "id": "d6117bf4637667e2",
+      "title": "Grok Bot大升级，AI 同事开始抢活干",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YVktVUG9JUzRmTkN4bXhtZXdEUXpHQVhCYUJrU0pQandjVjJVR0JhTERQbFNJUGk1SzQtR1ZpQ0V1c3Y1OUZHOGhHejIxZw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -8530,9 +9624,9 @@
       ]
     },
     {
-      "id": "d6117bf4637667e2",
-      "title": "Grok Bot大升级，AI 同事开始抢活干",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1YVktVUG9JUzRmTkN4bXhtZXdEUXpHQVhCYUJrU0pQandjVjJVR0JhTERQbFNJUGk1SzQtR1ZpQ0V1c3Y1OUZHOGhHejIxZw?oc=5",
+      "id": "521e8171126a2f1a",
+      "title": "Grok Bot重大升级 AI同事正式上岗接管工作任务",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82UV8xN3dBdlBlWjVISzMxSEVLQ2VMR2hfXy1NQ3QwaXdNU3lJU0p5Zy1tUkk0cTFvRXhlZmh0UWx4TDVrTWtybnpMMkhmdURrUGRJ?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -8817,24 +9911,6 @@
       "types": []
     },
     {
-      "id": "4e94c4a2a9ff5649",
-      "title": "AI数据中心初创公司Torus完成5亿美元融资，推出集成储能系统的模块化数据中心",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IbWlaanhfYWZjd2pkU1NrV0JXU2xMSkIyQmg5SUNleEJNQlY3dHRSLWdGbURPVml4T21KbDRoMWxBT3IyS25uZ3M4R0R3VzhsVXVmYXY3cV8?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-11T16:49:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": [
-        "release",
-        "business"
-      ]
-    },
-    {
       "id": "f69c81b292d509c2",
       "title": "AI data center startup Torus has closed a $500 million financing round and launched a modular data center integrated with energy storage systems.",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oWEg1NDh4bzVBbkptaUI3NXp4ZmoxUng1bnl2em0yUGhPTnh1aExoSzBuSUo3WjZCZmtuZXhRSnpQMlJBV3Y4c25aMDlxLWVJdkNEdXlnTk05QmI4Q2FXWQ?oc=5",
@@ -8851,6 +9927,24 @@
       ],
       "types": [
         "release"
+      ]
+    },
+    {
+      "id": "4e94c4a2a9ff5649",
+      "title": "AI数据中心初创公司Torus完成5亿美元融资，推出集成储能系统的模块化数据中心",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IbWlaanhfYWZjd2pkU1NrV0JXU2xMSkIyQmg5SUNleEJNQlY3dHRSLWdGbURPVml4T21KbDRoMWxBT3IyS25uZ3M4R0R3VzhsVXVmYXY3cV8?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T16:49:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "business"
       ]
     },
     {
@@ -9274,21 +10368,6 @@
       "types": []
     },
     {
-      "id": "b83525cb6d93651b",
-      "title": "如何打造一家真正赚钱的迷你 AI 公司",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAySXM4cXBoaVhBa2dDWGVsTjY5ZGd2bXFuWk11b1VPUE5zLUZfNjJFcllKOXNBQ050ZFFORDlTUzVaUzl1dkVJem9GczZudw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-11T15:18:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "fca4a1c3496dd266",
       "title": "2024创业指南 如何打造一家真正赚钱的迷你AI公司 低成本高盈利AI创业全攻略",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1JSlhMOS1seWxqZi16Z0lCLWV5UllJeGtieXZlYXZzVXlNdTlNZ1lkdWFCcGR2dGM5MGp4Vk5ndjRPa1NwQnM1TV8xU1hRLTk4SVQw?oc=5",
@@ -9304,6 +10383,21 @@
       "types": [
         "review"
       ]
+    },
+    {
+      "id": "b83525cb6d93651b",
+      "title": "如何打造一家真正赚钱的迷你 AI 公司",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFAySXM4cXBoaVhBa2dDWGVsTjY5ZGd2bXFuWk11b1VPUE5zLUZfNjJFcllKOXNBQ050ZFFORDlTUzVaUzl1dkVJem9GczZudw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T15:18:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "9b0091da55329758",
@@ -9341,21 +10435,6 @@
       ]
     },
     {
-      "id": "67da3890358368de",
-      "title": "AI时代，我们的工作方式该如何改变？",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sVTFnX2ZTSlZqZjJNSGE5cEhNbzRfR0UyZkFrbXBxSGZ0Q3ZqODRqcnk0VTQ3cFZSRDVHZ0ZXSmZNM1I2dVhZNkJWMU0tZw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-11T15:06:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "1da6b8e43fa54e49",
       "title": "AI时代工作方式革新指南：职场人如何借助人工智能实现高效转型与职业升级",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95bHZHdGNoM0JPRnNpV0JlSkY4Tm9XY042TU1tcS1RQTdIQnlnVHA0RlpaRlViYjdURjJITFlKUC1ScC1rUGNMMnI2emlVNzZVT19Z?oc=5",
@@ -9372,6 +10451,21 @@
         "review",
         "product"
       ]
+    },
+    {
+      "id": "67da3890358368de",
+      "title": "AI时代，我们的工作方式该如何改变？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sVTFnX2ZTSlZqZjJNSGE5cEhNbzRfR0UyZkFrbXBxSGZ0Q3ZqODRqcnk0VTQ3cFZSRDVHZ0ZXSmZNM1I2dVhZNkJWMU0tZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T15:06:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "f669f496b89aea74",
@@ -9508,6 +10602,27 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "1d0a63171f2d0eeb",
+      "title": "OpenAI推出“Businesses in ChatGPT”测试版",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9FdmJRdzQyQ292ZHlyazRRa1RCbXdYUXF5d2lUN1ZPUnl1TE8xdW4zUVZXdUhnZkRuZzl3WW5jRy1vbXhkSHJiWnUyWUxFaXBEal80cnJ3RHZaXzBBS2E1TDQyTWxTdw?oc=5",
+      "source_id": "sciencenet",
+      "source_name": "科学网",
+      "source_home": "https://www.sciencenet.cn",
+      "published": "2026-11-11T14:15:41+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gpt"
+      ],
+      "topics": [
+        "science"
+      ],
+      "types": [
+        "release"
+      ]
     },
     {
       "id": "7e55520292d831fb",
@@ -10386,6 +11501,23 @@
       ]
     },
     {
+      "id": "ce4a3191bb146313",
+      "title": "IPO路演日加码企业办公市场！Anthropic推出多款AI工具，正面挑战微软Office",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBucXlqM0xCYXZYTWlwNE5SaU5VeTJQUWRSODh3WW5LclhpbHJCQW1BaFFVX3NfTzJQcnZQaExTNDVQbVhUUGVjZlhQcGpwdkhhaVJJ?oc=5",
+      "source_id": "wallstreetcn",
+      "source_name": "华尔街见闻",
+      "source_home": "https://wallstreetcn.com",
+      "published": "2026-11-11T05:11:55+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
       "id": "f4453fca2edadf0d",
       "title": "英伟达独立董事聘请外部律所 对黄仁勋事件展开调查",
       "url": "https://cnbeta.com.tw/articles/tech/1585842.htm",
@@ -10895,6 +12027,26 @@
       ]
     },
     {
+      "id": "d88c7f4e6e98ab4a",
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "url": "https://arxiv.org/abs/2611.14511v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-11T02:56:32+08:00",
+      "excerpt": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "science"
+      ],
+      "types": [
+        "research"
+      ]
+    },
+    {
       "id": "3e1919c777ea2db3",
       "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
       "url": "https://latent.space/p/naiveai",
@@ -10914,26 +12066,6 @@
       "types": [
         "review",
         "opinion"
-      ]
-    },
-    {
-      "id": "d88c7f4e6e98ab4a",
-      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
-      "url": "https://arxiv.org/abs/2611.14511v1",
-      "source_id": "arxiv",
-      "source_name": "arXiv",
-      "source_home": "https://arxiv.org",
-      "published": "2026-11-11T02:56:32+08:00",
-      "excerpt": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent",
-        "science"
-      ],
-      "types": [
-        "research"
       ]
     },
     {
@@ -11368,25 +12500,6 @@
       "types": []
     },
     {
-      "id": "5ca4dc7b6d88cb31",
-      "title": "Businesses in ChatGPT – OpenAI",
-      "url": "https://openai.com/index/introducing-businesses-chatgpt",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "source_home": "https://news.ycombinator.com/",
-      "published": "2026-11-11T02:10:40+08:00",
-      "excerpt": "Article URL: https://openai.com/index/introducing-businesses-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=50443944 Points: 38 # Comments: 13",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gpt"
-      ],
-      "topics": [],
-      "types": [
-        "release"
-      ]
-    },
-    {
       "id": "aa1b5b0d814041f1",
       "title": "Now in beta: Businesses in ChatGPT.",
       "url": "https://x.com/OpenAI/status/2120216592395174382",
@@ -11444,21 +12557,6 @@
       "types": [
         "research"
       ]
-    },
-    {
-      "id": "3588ceed41552e46",
-      "title": "Work at the Frontier: AI's effect on freelance work",
-      "url": "https://openai.com/index/ai-effect-on-freelance-work",
-      "source_id": "hackernews",
-      "source_name": "Hacker News",
-      "source_home": "https://news.ycombinator.com/",
-      "published": "2026-11-11T02:02:54+08:00",
-      "excerpt": "Article URL: https://openai.com/index/ai-effect-on-freelance-work Comments URL: https://news.ycombinator.com/item?id=50443838 Points: 43 # Comments: 21",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "aa0ce666a081dde0",
@@ -13213,6 +14311,21 @@
       "types": []
     },
     {
+      "id": "e11d8fcf8258a49a",
+      "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
+      "url": "https://wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-10T22:00:00+08:00",
+      "excerpt": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local AI models.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "66ed14c6418f09b7",
       "title": "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps.",
       "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration",
@@ -13230,21 +14343,6 @@
       "types": [
         "business"
       ]
-    },
-    {
-      "id": "e11d8fcf8258a49a",
-      "title": "This New Linux-Based Desktop Operating System Is Built for AI Nerds",
-      "url": "https://wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds",
-      "source_id": "wired",
-      "source_name": "WIRED",
-      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
-      "published": "2026-11-10T22:00:00+08:00",
-      "excerpt": "Built by Cyanogen’s cofounder, Kora is a next-gen alternative to Windows and macOS built for power users running local AI models.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "884316b62aa8d08d",
@@ -14237,6 +15335,25 @@
       ]
     },
     {
+      "id": "5ca4dc7b6d88cb31",
+      "title": "Introducing Businesses in ChatGPT",
+      "url": "https://openai.com/index/introducing-businesses-chatgpt",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-10T18:00:00+08:00",
+      "excerpt": "Manage your business information, get insights about how your business shows up, and turn interest into action in ChatGPT.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gpt"
+      ],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
       "id": "a4723d3271b77a04",
       "title": "Antalia-2 Mini: A 7.6-million-parameter Turkish text-to-speech model trained entirely on synthetic speech",
       "url": "https://arxiv.org/abs/2611.13811v1",
@@ -14844,6 +15961,23 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "3588ceed41552e46",
+      "title": "Work at the Frontier: AI’s effect on freelance work",
+      "url": "https://openai.com/index/ai-effect-on-freelance-work",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-10T15:00:00+08:00",
+      "excerpt": "New research from OpenAI and Upwork finds shifting demand for freelance work, new skill combinations, and larger budgets and more hours for AI-related projects.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ]
     },
     {
       "id": "116b3e8cc8279f96",
@@ -21481,6 +22615,23 @@
       ]
     },
     {
+      "id": "cbc7ba5f5139050f",
+      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tQ2M3RG5uakpRZ00zX2tQS0FodFRXNHVaeThzZy1EaEYyU0p3aGdCQ2s4M25qdmE5dG94SlUxaVVTM0Y2Ykw2SWdVZEQ3TjUwN3NFWA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-02T16:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
       "id": "a17958fc8eddd994",
       "title": "GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFAzT3c4MDRvazFqMGJLLUUtM1prblFXQ2tSdktPVlBkTlhEZFkwUE8wTmZPQ0E0UXh2R1BDaVBjNHlZV3FVM0VTRUI2QW4xOE9Wd1BlbQ?oc=5",
@@ -21497,23 +22648,6 @@
       ],
       "topics": [],
       "types": []
-    },
-    {
-      "id": "cbc7ba5f5139050f",
-      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tQ2M3RG5uakpRZ00zX2tQS0FodFRXNHVaeThzZy1EaEYyU0p3aGdCQ2s4M25qdmE5dG94SlUxaVVTM0Y2Ykw2SWdVZEQ3TjUwN3NFWA?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-11-02T16:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ]
     },
     {
       "id": "7e2b6e137b9f38cc",
@@ -21546,6 +22680,21 @@
       "types": []
     },
     {
+      "id": "ff138f709a7e7c37",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-02T08:00:00+08:00",
+      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "598c6194c0d34c23",
       "title": "Qodo builds context into AI code review with Codex",
       "url": "https://openai.com/index/qodo-codex-plugin",
@@ -21563,21 +22712,6 @@
       "types": [
         "review"
       ]
-    },
-    {
-      "id": "ff138f709a7e7c37",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-02T08:00:00+08:00",
-      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "9c7c8759efa30077",
@@ -26941,6 +28075,23 @@
       ]
     },
     {
+      "id": "9dbc0d55ff9123c6",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-10-19T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
       "id": "ff29f2e74f0b217c",
       "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
       "url": "https://together.ai/blog/together-post-training",
@@ -26957,23 +28108,6 @@
       ],
       "topics": [],
       "types": []
-    },
-    {
-      "id": "9dbc0d55ff9123c6",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-19T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ]
     },
     {
       "id": "66d5720ec836838d",
@@ -27199,6 +28333,23 @@
       ]
     },
     {
+      "id": "1d7d75b47c31f4d0",
+      "title": "How Grupo Boticário uses AI to strengthen human connections",
+      "url": "https://openai.com/index/grupo-boticario",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-10-16T08:00:00+08:00",
+      "excerpt": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
       "id": "827221925d8dc2bc",
       "title": "How Localiza reorganized work around generative AI",
       "url": "https://openai.com/index/localiza-generative-ai",
@@ -27214,23 +28365,6 @@
       ],
       "topics": [
         "coding",
-        "agent"
-      ],
-      "types": []
-    },
-    {
-      "id": "1d7d75b47c31f4d0",
-      "title": "How Grupo Boticário uses AI to strengthen human connections",
-      "url": "https://openai.com/index/grupo-boticario",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-10-16T08:00:00+08:00",
-      "excerpt": "Almost 50 years after starting in a compounding pharmacy in Paraná, the group operates a proprietary agent platform that autonomously resolves up to 80% of resellers’ operational requests—enabling the sales force to",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
         "agent"
       ],
       "types": []
@@ -27736,6 +28870,26 @@
       ]
     },
     {
+      "id": "7f2975ae8e0c0069",
+      "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
+      "url": "https://machinelearning.apple.com/research/plan-retrieve-tool-discovery",
+      "source_id": "apple-ml",
+      "source_name": "Apple Machine Learning",
+      "source_home": "https://machinelearning.apple.com/",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text",
+        "agent"
+      ],
+      "types": [
+        "research"
+      ]
+    },
+    {
       "id": "98e6a11f87f3c75f",
       "title": "Local and Distributed Large LLM Inference with MLX and RDMA on Mac Studio",
       "url": "https://machinelearning.apple.com/research/mlx-distributed-inference",
@@ -27772,46 +28926,6 @@
       "types": []
     },
     {
-      "id": "7f2975ae8e0c0069",
-      "title": "Plan or Retrieve First? A Scale Study of Tool Discovery Architectures",
-      "url": "https://machinelearning.apple.com/research/plan-retrieve-tool-discovery",
-      "source_id": "apple-ml",
-      "source_name": "Apple Machine Learning",
-      "source_home": "https://machinelearning.apple.com/",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "Tool-augmented LLM agents discover relevant APIs from large registries before planning execution, yet finite context windows prohibit injecting all tool definitions into a single prompt",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "text",
-        "agent"
-      ],
-      "types": [
-        "research"
-      ]
-    },
-    {
-      "id": "e91685213861b0f8",
-      "title": "Meta Muse Spark Open is live on Together AI",
-      "url": "https://together.ai/blog/meta-muse-spark-open",
-      "source_id": "together",
-      "source_name": "Together AI",
-      "source_home": "https://www.together.ai/blog",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "coding",
-        "agent"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
       "id": "9d251ac6836a600d",
       "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
@@ -27846,6 +28960,26 @@
       ],
       "topics": [
         "image"
+      ],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "e91685213861b0f8",
+      "title": "Meta Muse Spark Open is live on Together AI",
+      "url": "https://together.ai/blog/meta-muse-spark-open",
+      "source_id": "together",
+      "source_name": "Together AI",
+      "source_home": "https://www.together.ai/blog",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent"
       ],
       "types": [
         "opensource"
@@ -28302,66 +29436,6 @@
       ],
       "types": [
         "review"
-      ]
-    },
-    {
-      "id": "27926bdded4aecd9",
-      "title": "MAI-Image-2.6 & MAI-Image-2.6-Flash now available in Vercel!",
-      "url": "https://x.com/MicrosoftAI/status/2110111241566114252",
-      "source_id": "x-microsoftai",
-      "source_name": "Microsoft AI（推特）",
-      "source_home": "https://x.com/MicrosoftAI",
-      "published": "2026-10-14T04:51:38+08:00",
-      "excerpt": "MAI-Image-2.6 and MAI-Image-2.6-Flash from @MicrosoftAI are live on AI Gateway. Both handle text rendering, photorealism, and targeted edits",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "release"
-      ],
-      "platforms": [
-        "x"
-      ]
-    },
-    {
-      "id": "e56a61c04114d23c",
-      "title": "We’ve been exploring the potential of using Gemini 4 Argon to accelerate research @Google.",
-      "url": "https://x.com/GoogleAI/status/2110083927620591769",
-      "source_id": "x-googleai",
-      "source_name": "Google AI（推特）",
-      "source_home": "https://x.com/GoogleAI",
-      "published": "2026-10-14T03:03:06+08:00",
-      "excerpt": "One of our tests was using videos of humans performing fun tasks (game of bags, anyone?) to autonomously spin up training simulations, rather than relying entirely on manual programming",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": [
-        "research"
-      ],
-      "platforms": [
-        "x"
-      ]
-    },
-    {
-      "id": "49fe8a3fc3d9ad0e",
-      "title": "GitHub’s model for secret detection: Finding more secrets with less noise",
-      "url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise",
-      "source_id": "github-ai",
-      "source_name": "GitHub",
-      "source_home": "https://github.blog/tag/ai/",
-      "published": "2026-10-14T01:56:33+08:00",
-      "excerpt": "GitHub’s context-aware secret classifier improves detection quality, raises weighted acceptance by 11.5%, and reduces median scan execution time by 86%",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "business",
-        "product"
       ]
     }
   ]
