@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12T22:51:05+08:00",
+  "updated_at": "2026-11-13T01:19:31+08:00",
   "window_days": 30,
-  "item_count": 1433,
+  "item_count": 1490,
   "taxonomy": {
     "models": [
       {
@@ -17,7 +17,7 @@
       {
         "id": "gemini",
         "name": "Gemini",
-        "count": 55
+        "count": 54
       },
       {
         "id": "llama",
@@ -154,12 +154,12 @@
       {
         "id": "coding",
         "name": "编程",
-        "count": 98
+        "count": 99
       },
       {
         "id": "agent",
         "name": "Agent",
-        "count": 214
+        "count": 217
       },
       {
         "id": "reasoning",
@@ -174,7 +174,7 @@
       {
         "id": "robotics",
         "name": "机器人",
-        "count": 40
+        "count": 42
       },
       {
         "id": "science",
@@ -189,12 +189,12 @@
       {
         "id": "healthcare",
         "name": "医疗",
-        "count": 21
+        "count": 22
       },
       {
         "id": "chip",
         "name": "算力芯片",
-        "count": 199
+        "count": 232
       },
       {
         "id": "safety",
@@ -206,37 +206,37 @@
       {
         "id": "release",
         "name": "发布",
-        "count": 245
+        "count": 255
       },
       {
         "id": "research",
         "name": "研究论文",
-        "count": 190
+        "count": 192
       },
       {
         "id": "business",
         "name": "融资/商业",
-        "count": 107
+        "count": 121
       },
       {
         "id": "policy",
         "name": "政策/安全",
-        "count": 41
+        "count": 44
       },
       {
         "id": "opensource",
         "name": "开源",
-        "count": 104
+        "count": 105
       },
       {
         "id": "review",
         "name": "教程/评测",
-        "count": 93
+        "count": 97
       },
       {
         "id": "product",
         "name": "产品更新",
-        "count": 97
+        "count": 101
       },
       {
         "id": "opinion",
@@ -281,7 +281,17 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 32
+      "count": 31
+    },
+    {
+      "id": "aws-ml",
+      "name": "AWS Machine Learning",
+      "home": "https://aws.amazon.com/blogs/machine-learning/",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 24
     },
     {
       "id": "anthropic",
@@ -294,14 +304,24 @@
       "count": 23
     },
     {
-      "id": "aws-ml",
-      "name": "AWS Machine Learning",
-      "home": "https://aws.amazon.com/blogs/machine-learning/",
+      "id": "x-gemini",
+      "name": "Gemini（推特）",
+      "home": "https://x.com/GeminiApp",
       "region": "intl",
       "official": true,
       "ok": true,
       "error": "",
-      "count": 20
+      "count": 13
+    },
+    {
+      "id": "pytorch",
+      "name": "PyTorch",
+      "home": "https://pytorch.org/blog/",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 13
     },
     {
       "id": "x-anthropic",
@@ -317,16 +337,6 @@
       "id": "x-cohere",
       "name": "Cohere（推特）",
       "home": "https://x.com/cohere",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 12
-    },
-    {
-      "id": "x-gemini",
-      "name": "Gemini（推特）",
-      "home": "https://x.com/GeminiApp",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -397,16 +407,6 @@
       "id": "x-perplexity",
       "name": "Perplexity（推特）",
       "home": "https://x.com/perplexity_ai",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 12
-    },
-    {
-      "id": "pytorch",
-      "name": "PyTorch",
-      "home": "https://pytorch.org/blog/",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -521,7 +521,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 10
+      "count": 9
     },
     {
       "id": "x-googleai",
@@ -531,7 +531,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 10
+      "count": 9
     },
     {
       "id": "deepmind",
@@ -741,7 +741,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 164
+      "count": 170
     },
     {
       "id": "qbitai",
@@ -751,7 +751,7 @@
       "official": false,
       "ok": false,
       "error": "http 403",
-      "count": 102
+      "count": 105
     },
     {
       "id": "arxiv",
@@ -771,7 +771,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 63
+      "count": 82
     },
     {
       "id": "ithome",
@@ -781,7 +781,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 57
+      "count": 63
     },
     {
       "id": "siliconangle",
@@ -801,6 +801,16 @@
       "official": false,
       "ok": true,
       "error": "",
+      "count": 30
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "home": "https://techcrunch.com/category/artificial-intelligence/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
       "count": 29
     },
     {
@@ -811,7 +821,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 26
+      "count": 28
     },
     {
       "id": "zdnet",
@@ -821,7 +831,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 25
+      "count": 27
     },
     {
       "id": "oschina",
@@ -854,16 +864,6 @@
       "count": 21
     },
     {
-      "id": "techcrunch",
-      "name": "TechCrunch",
-      "home": "https://techcrunch.com/category/artificial-intelligence/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 21
-    },
-    {
       "id": "simonwillison",
       "name": "Simon Willison",
       "home": "https://simonwillison.net/",
@@ -877,6 +877,16 @@
       "id": "ieee",
       "name": "IEEE Spectrum",
       "home": "https://spectrum.ieee.org/topic/artificial-intelligence/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 17
+    },
+    {
+      "id": "theverge",
+      "name": "The Verge",
+      "home": "https://www.theverge.com/ai-artificial-intelligence",
       "region": "intl",
       "official": false,
       "ok": true,
@@ -902,16 +912,6 @@
       "ok": true,
       "error": "",
       "count": 14
-    },
-    {
-      "id": "theverge",
-      "name": "The Verge",
-      "home": "https://www.theverge.com/ai-artificial-intelligence",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 12
     },
     {
       "id": "x-jiqizhixin",
@@ -944,6 +944,16 @@
       "count": 10
     },
     {
+      "id": "xinhua",
+      "name": "新华网",
+      "home": "https://www.news.cn",
+      "region": "cn",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 10
+    },
+    {
       "id": "ifanr",
       "name": "爱范儿",
       "home": "https://www.ifanr.com/",
@@ -958,16 +968,6 @@
       "name": "ScienceDaily",
       "home": "https://www.sciencedaily.com/news/computers_math/artificial_intelligence/",
       "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 9
-    },
-    {
-      "id": "xinhua",
-      "name": "新华网",
-      "home": "https://www.news.cn",
-      "region": "cn",
       "official": false,
       "ok": true,
       "error": "",
@@ -1104,6 +1104,16 @@
       "count": 1
     },
     {
+      "id": "sciencenet",
+      "name": "科学网",
+      "home": "https://www.sciencenet.cn",
+      "region": "cn",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 1
+    },
+    {
       "id": "semianalysis",
       "name": "SemiAnalysis",
       "home": "https://www.semianalysis.com/",
@@ -1126,6 +1136,848 @@
   ],
   "items": [
     {
+      "id": "ca80552a275a9336",
+      "title": "SoftBank’s billion-dollar loss may have put a cap on AI’s natural gas ambitions",
+      "url": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T01:00:52+08:00",
+      "excerpt": "SoftBank lost over $3 billion pre-ordering natural gas turbines to power AI data centers. Here's what the loss means to power markets.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "4ae3018d79171170",
+      "title": "AI chatbots are recommending fake retail websites, study finds",
+      "url": "https://theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-13T01:00:00+08:00",
+      "excerpt": "Shoppers using AI chatbots to research products or find places to buy items could be directed to imposters and other risky websites, a new study found",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ]
+    },
+    {
+      "id": "5fb6d7fe9d2dea3c",
+      "title": "More game developers are starting to use generative AI",
+      "url": "https://theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-13T01:00:00+08:00",
+      "excerpt": "More video game developers are using generative AI tools in their jobs compared to last year, according to the GDC Festival of Gaming's latest annual industry survey",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "0cefd18c08c5c4ac",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T01:00:00+08:00",
+      "excerpt": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "b71d04e861ab9a92",
+      "title": "黄仁勋将在感恩节前赴国会作证",
+      "url": "https://cnbeta.com.tw/articles/tech/1586126.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T00:51:48+08:00",
+      "excerpt": "佛罗里达州共和党籍众议员、众议院外交事务委员会主席布莱恩・马斯特周四向记者透露，英伟达前首席执行官黄仁勋将在感恩节前到国会出席听证会作证。马斯特说：“他已经同意到场，我们正在协商具体日期。” 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "policy"
+      ]
+    },
+    {
+      "id": "2b3e88d75635667f",
+      "title": "散户逢低抄底英伟达",
+      "url": "https://cnbeta.com.tw/articles/tech/1586124.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T00:51:22+08:00",
+      "excerpt": "黄仁勋辞职消息传出后，散户投资者蜂拥入场买入英伟达（NVDA）股票。万达研究（Vanda Research）的数据显示，该股迎来该机构有统计以来个人投资者最高的开盘买盘。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "research",
+        "business"
+      ]
+    },
+    {
+      "id": "b024e1b375f6d88e",
+      "title": "Fast by Default: Compile-Time Heuristics for Helion Kernels",
+      "url": "https://pytorch.org/blog/fast-by-default-compile-time-heuristics-for-helion-kernels",
+      "source_id": "pytorch",
+      "source_name": "PyTorch",
+      "source_home": "https://pytorch.org/blog/",
+      "published": "2026-11-13T00:45:26+08:00",
+      "excerpt": "TL;DR Helion now uses compile-time heuristics that analyze a kernel’s IR and dataflow to pick fast settings without slow autotuning. It classifies the kernel as matmul, reduction, or pointwise and..",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "637878bafbfc8ecf",
+      "title": "Fitbit users can’t see Google Health metrics after update – how to fix it",
+      "url": "https://zdnet.com/tech/fitbit-health-metrics-missing-software-update-how-to-fix",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-13T00:41:38+08:00",
+      "excerpt": "Google says it’s working on a fix – meantime, users have found workarounds.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "healthcare"
+      ],
+      "types": [
+        "review",
+        "product"
+      ]
+    },
+    {
+      "id": "12fa0edf3f2ae6dd",
+      "title": "婚外情风波以来 黄仁勋持股市值缩水超2700亿元",
+      "url": "https://cnbeta.com.tw/articles/tech/1586122.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T00:39:22+08:00",
+      "excerpt": "11月12日晚间，英伟达创始人黄仁勋因婚外情风波辞去公司CEO、总裁及董事职务。与此同时，英伟达股价持续承压。按最新公开持股数据估算，自10月29日相关事件首次曝光以来，黄仁勋及其关联实体所持英伟达股票的账面市值已缩水约407亿美元，折合人民币约2717亿元。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "7a59ff84e16852ac",
+      "title": "Hugging Face首席执行官谈黄仁勋辞职：“令人无比难过的一天”",
+      "url": "https://cnbeta.com.tw/articles/tech/1586120.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T00:38:43+08:00",
+      "excerpt": "Hugging Face 首席执行官克莱芒・德朗格对黄仁勋被英伟达罢免一事深感惋惜。他在领英发文表示：“这真是令人无比难过的一天。”英伟达于 9 月达成协议，拟收购开源 AI 模型头部平台 Hugging Face，交易金额约 119 亿美元。公司向美国证券交易委员会提交文件，预计这笔交易将于 2027 年上半年完成交割。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business",
+        "opensource"
+      ]
+    },
+    {
+      "id": "84e09ec4256c60cd",
+      "title": "黄仁勋离开英伟达 或给数十亿美元慈善捐赠计划增添变数",
+      "url": "https://cnbeta.com.tw/articles/tech/1586118.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T00:38:35+08:00",
+      "excerpt": "就在辞去英伟达首席执行官前夕，黄仁勋正逐步成长为美国最重要的慈善家之一。凭借庞大的个人财富，他与妻子洛莉共同运营着美国规模最大的私人基金会之一，基金会资产规模约 90 亿美元。这对夫妻在 2007 年共同创立并共管该基金会，如今基金会的未来走向尚不明朗。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "d949da90b8c379ac",
+      "title": "马斯克放出话有意聘用黄仁勋 预测市场借这起风波开展押注",
+      "url": "https://cnbeta.com.tw/articles/tech/1586116.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T00:38:25+08:00",
+      "excerpt": "周三，埃隆・马斯克在社交平台发帖表示，他很乐意聘用刚刚卸任的英伟达前首席执行官黄仁勋。此前已有报道披露，英伟达又曝出黄仁勋的另一段婚外情丑闻。在周四事件落地之前，各大预测市场上，有关黄仁勋辞职或被罢免的押注概率一路飙升。如今相关赌约已经结算，交易者已经开始押注英伟达潜在继任者，以及黄仁勋的个人后续事态。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "92d02f742b918330",
+      "title": "报道：英伟达临时CEO科莱特·克雷斯一直试图遏制公司最激进的豪赌",
+      "url": "https://cnbeta.com.tw/articles/tech/1586114.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T00:37:59+08:00",
+      "excerpt": "英伟达周四任命其长期担任首席财务官的科莱特·克雷斯（Colette Kress）为临时首席执行官。前任CEO黄仁勋的突然辞职引发了一场充满不确定性的巨大风暴，这一任命将迫使这位财务老将带领公司穿越这场危机。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "aa4bf4548cc5dfc6",
+      "title": "Jensen Huang agrees to testify before Congress",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T00:36:37+08:00",
+      "excerpt": "Huang, who was ousted as CEO following reports of an alleged affair with a woman suspected of spying for China, agreed to testify Wednesday after several senior lawmakers threatened to subpoena him.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "aff4b2c65530b3e6",
+      "title": "Five ways Jensen Huang’s ouster from Nvidia could damage the AI industry",
+      "url": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T00:32:33+08:00",
+      "excerpt": "Nvidia's ousted CEO Jensen Huang's downfall isn’t just your run-of-the-mill salacious billionaire sex scandal. He was using his influence to push the AI industry in some very specific ways.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "11a9f97485e11126",
+      "title": "Jensen Huang is out. What did China want from him?",
+      "url": "https://theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-13T00:30:00+08:00",
+      "excerpt": "Today, we’re talking about the Jensen Huang scandal at Nvidia, which is developing so quickly that we had to do an emergency update of this intro minutes before publishing this episode",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "product"
+      ]
+    },
+    {
+      "id": "2b9ae3f1409fb5aa",
+      "title": "From washing dishes at Denny’s to rockstar of AI: the rise and fall of Nvidia’s Jensen Huang",
+      "url": "https://theguardian.com/technology/2026/nov/12/rise-and-fall-of-nvidia-ceo-jensen-huang-profile",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-13T00:17:31+08:00",
+      "excerpt": "Technical expertise and an ability to engage gave the chipmaker’s co-founder, who has now resigned, the edge with customers and investors Jensen Huang resigns as Nvidia CEO after alleged affairs Jensen Huang wasn’t",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "6d29ea24a6e6fee7",
+      "title": "Migrate to Amazon Bedrock Managed Knowledge Base with your coding agent",
+      "url": "https://aws.amazon.com/blogs/machine-learning/migrate-to-amazon-bedrock-managed-knowledge-base-with-your-coding-agent",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-13T00:16:45+08:00",
+      "excerpt": "The migration guide in the amazon-bedrock skill helps you migrate a customer-managed Amazon Bedrock knowledge base to a Managed Knowledge Base",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "review"
+      ]
+    },
+    {
+      "id": "44722bd030259051",
+      "title": "Trump floats Apple chairman Tim Cook as Jensen Huang’s successor",
+      "url": "https://techcrunch.com/2026/11/12/trump-floats-apple-chairman-tim-cook-as-jensen-huangs-successor",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T00:12:44+08:00",
+      "excerpt": "In a post on Truth Social, President Trump says only one man can take Jensen Huang's place as head of Nvidia: Tim Cook.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "59dd491fdb930bcf",
+      "title": "黄仁勋辞职后，特朗普呼吁苹果执行董事长库克接任英伟达 CEO",
+      "url": "https://ithome.com/1/026/439.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T23:57:36+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，黄仁勋离任英伟达 CEO 后，美国总统特朗普随即呼吁苹果执行董事长蒂姆 · 库克接掌英伟达。 今天（12 日）晚间，特朗普在 Truth Social 发文称， 能够接替黄仁勋的人“只有一个”—— 苹果公司的蒂姆 · 库克 。“一位传奇来接替另一位传奇！” 据IT之家了解，卸任苹果 CEO 后，库克改任执行董事长。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "2b752a117ce94a0a",
+      "title": "特朗普发文谈英伟达人事变动 建议苹果执行董事长库克接任",
+      "url": "https://cnbeta.com.tw/articles/tech/1586112.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:53:59+08:00",
+      "excerpt": "美国总统唐纳德·特朗普通过其社交平台 Truth Social 发文，对英伟达联合创始人兼首席执行官黄仁勋的卸任发表了看法，并公开建议由苹果公司执行董事长蒂姆·库克接替其职位。 特朗普在帖文中写道：“鉴于黄仁勋——他此前干得非常出色——已经辞职，现在只有一个合适的人选能接替他的位置，那就是苹果公司的蒂姆·库克。这是一位传奇取代另一位传奇！” 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "7a38ea6d249116d6",
+      "title": "黄仁勋辞职后，多位科技圈大佬发声",
+      "url": "https://cnbeta.com.tw/articles/tech/1586110.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:53:00+08:00",
+      "excerpt": "英伟达官宣黄仁勋辞去总裁，CEO和董事职务即刻生效后，引发科技圈与投资界关注。英伟达长期合作伙伴Epic Games首席执行官蒂姆·斯威尼、Hugging Face首席执行官克莱门特·德朗格等人在社交平台X上表达遗憾，币安创始人赵长鹏则直言，英伟达让黄仁勋辞职“是个错误”。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "d17e7671bdb9e4ce",
+      "title": "英伟达新任CEO为美国籍 曾在微软公司工作13年",
+      "url": "https://cnbeta.com.tw/articles/tech/1586104.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:48:58+08:00",
+      "excerpt": "11月12日，黄仁勋辞去总裁、首席执行官及董事会成员职务。现任执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）已同意担任临时CEO。根据公开权威资料，接替黄仁勋出任英伟达临时CEO的科莱特·克雷斯（Colette Kress）实为美国籍，并非印度裔。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "ee129214e4fa1cd8",
+      "title": "Read Nvidia’s internal emails about the ‘extraordinarily difficult period’ amid CEO shakeup",
+      "url": "https://theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-12T23:48:12+08:00",
+      "excerpt": "Jensen Huang resigned as CEO of Nvidia this morning, a company he co-founded in 1993. The decision came following the company's board opening an investigation into multiple extramarital affairs Huang had with a direct",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "2ad8636cd0ace7c5",
+      "title": "黄仁勋辞去CEO 没能走出乔布斯的困境",
+      "url": "https://cnbeta.com.tw/articles/tech/1586102.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:47:59+08:00",
+      "excerpt": "11月12日早间，X上有人喊话马斯克：“埃隆，请聘请黄仁勋。”马斯克只回了五个字：“那将是我的荣幸。”同一时间，英伟达董事会正在开会讨论的，正是要不要罢免这位创始人。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "9937cbfd2f0dc6a7",
+      "title": "英伟达临时CEO科莱特·克雷斯发表内部信：我对公司、对未来充满信心",
+      "url": "https://cnbeta.com.tw/articles/tech/1586100.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:46:37+08:00",
+      "excerpt": "11月12日，今日晚间，英伟达临时CEO科莱特·克雷斯向全体员工发出内部备忘录。其内容如下： 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "5c3ef39315be2784",
+      "title": "分析师悲观研判：失去黄仁勋，英伟达前景不明",
+      "url": "https://cnbeta.com.tw/articles/tech/1586096.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:42:28+08:00",
+      "excerpt": "黄仁勋对英伟达股东而言价值几何？不少华尔街分析师认为，分量很重。在黄仁勋被罢免前夕，花旗集团分析师阿提夫·马利克、帕帕·西拉连夜将目标价从285美元下调至225美元。他们写道：“黄仁勋在战略、产品愿景、客户关系以及投资者信心层面都处于核心位置，管理层更迭会给股价带来不确定性压力。”花旗仍维持英伟达买入评级，盘前股价为163美元。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "d3206ea89ca22b21",
+      "title": "Build composable, interoperable multi-agent systems with A2A on AWS",
+      "url": "https://aws.amazon.com/blogs/machine-learning/build-composable-interoperable-multi-agent-systems-with-a2a-on-aws",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-12T23:42:21+08:00",
+      "excerpt": "Build a composable, interoperable multi-agent system on AWS with the Agent-to-Agent (A2A) protocol. A LangChain orchestrator on Amazon ECS communicates with a Strands agent on Amazon Bedrock AgentCore across",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "4c11d4b3e46ab08c",
+      "title": "黄仁勋辞去英伟达总裁、CEO及董事职务",
+      "url": "https://cnbeta.com.tw/articles/tech/1586094.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:40:31+08:00",
+      "excerpt": "在曝出两段婚外情之后，黄仁勋已经辞职。英伟达于周四对外表示，首席财务官科莱特・克雷斯同意出任临时首席执行官，直至确定正式继任人选。董事会已经启动下一任首席执行官的遴选工作，内部人才与外部候选人都将纳入考量。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "9ed2099ae4857f6f",
+      "title": "Fine-grained access control for Amazon Bedrock Managed Knowledge Base tools",
+      "url": "https://aws.amazon.com/blogs/machine-learning/fine-grained-access-control-for-amazon-bedrock-managed-knowledge-base-tools",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-12T23:40:24+08:00",
+      "excerpt": "Learn how to expose an Amazon Bedrock Managed Knowledge Base to AI agents as MCP tools through Amazon Bedrock AgentCore Gateway while keeping per-user access control",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "review"
+      ]
+    },
+    {
+      "id": "aaac033ed34760c2",
+      "title": "黄仁勋夫妇共同控制英伟达巨额财富 在他辞职后股权安排变得更加复杂",
+      "url": "https://cnbeta.com.tw/articles/tech/1586092.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:39:19+08:00",
+      "excerpt": "根据律师的分析和美国证券交易委员会（SEC）的申报文件，黄仁勋持有的价值1400亿美元的英伟达股份，大部分由他与妻子洛丽·黄（Lori Huang）共同拥有的信托持有。随着黄仁勋辞去公司职务，这种安排给英伟达股票及其个人财务前景增添了更多不确定性。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "aff6802cc567cefa",
+      "title": "From prototype to production: Engineering agents with Agent DLC",
+      "url": "https://aws.amazon.com/blogs/machine-learning/from-prototype-to-production-engineering-agents-with-agent-dlc",
+      "source_id": "aws-ml",
+      "source_name": "AWS Machine Learning",
+      "source_home": "https://aws.amazon.com/blogs/machine-learning/",
+      "published": "2026-11-12T23:38:47+08:00",
+      "excerpt": "Agents stall between demo and release when teams lack a repeatable way to measure how good an agent is and whether the last change helped",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "1447c52b300c38a1",
+      "title": "Jensen Huang is out at Nvidia — who is Colette Kress, his interim replacement?",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-12T23:37:29+08:00",
+      "excerpt": "Nvidia CFO Colette Kress is taking over as an interim replacement for longtime CEO Jensen Huang, who is embroiled in scandal.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "6a36abf11861914d",
+      "title": "黄仁勋辞职 英伟达临时CEO：持续推进各项工作 巩固领先地位",
+      "url": "https://cnbeta.com.tw/articles/tech/1586090.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:34:46+08:00",
+      "excerpt": "英伟达CEO黄仁勋辞职，科莱特・克雷斯出任临时首席执行官。消息一出，英伟达股价暴跌超10%。英伟达对黄仁勋表达致敬： “黄仁勋为英伟达作出的贡献意义深远。英伟达是全球最具影响力的科技公司之一。董事会与公司感谢黄仁勋为企业以及整个行业带来的不可估量的贡献。” 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "749ff3ffac20cc19",
+      "title": "黄仁勋辞任英伟达 CEO 重创全球 AI 概念股，AMD、博通逆势上涨",
+      "url": "https://ithome.com/1/026/437.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T23:34:45+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，据路透社报道，黄仁勋因婚外情丑闻持续发酵而辞去英伟达 CEO，引发 全球 AI 概念股周四大跌 。 英伟达领导层突遭变动，也让原本就面临融资和监管压力的 AI 行业增添了新的风险。 英伟达宣布，CFO 科莱特 · 克雷斯将暂任 CEO，公司同时寻找正式接班人。 作为 AI 产业链的核心企业，英伟达不仅供应芯片，还为采用其芯片的数据中心等基础设施项目提供资金支持，这种商业模式因循环融资问题受到质疑。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release",
+        "business",
+        "policy"
+      ]
+    },
+    {
+      "id": "1612deeeb2f8fb78",
+      "title": "Keep your eyes up and your day moving with Gemini on intelligent eyewear.",
+      "url": "https://x.com/GeminiApp/status/2120901953505177996",
+      "source_id": "x-gemini",
+      "source_name": "Gemini（推特）",
+      "source_home": "https://x.com/GeminiApp",
+      "published": "2026-11-12T23:30:04+08:00",
+      "excerpt": "Just say \"Hey Gemini\" to explore street art, get book recs from the shelf ahead, translate in real time, or check your calendar on the spot",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "4f00985a6b896861",
+      "title": "英伟达CEO黄仁勋辞职 AMD、博通股价大涨",
+      "url": "https://cnbeta.com.tw/articles/tech/1586088.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:27:05+08:00",
+      "excerpt": "英伟达宣布黄仁勋辞职，董事会任命首席财务官科莱特・克雷斯担任临时首席执行官。消息传出后，周四早盘 AMD 股价上涨约 3%，博通最高涨幅达 6%。两家企业均为英伟达的竞争对手，此番上涨延续了周三的涨势。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "3fb5bdfc3f89fdaf",
+      "title": "英伟达官宣黄仁勋辞职 称贡献极其深远 CFO临时接任",
+      "url": "https://cnbeta.com.tw/articles/tech/1586086.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:21:50+08:00",
+      "excerpt": "英伟达董事会今日宣布，黄仁勋（Jensen Huang）已辞去总裁、首席执行官以及董事职务，辞呈即刻生效。公司现任执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）将出任临时首席执行官。在正式继任者确定前，克雷斯将同时兼任执行副总裁、首席财务官与临时CEO。董事会已启动常设首席执行官的遴选工作，内部、外部候选人都将纳入考量范围。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "92be29e34717850c",
+      "title": "黄仁勋辞去总裁、CEO及董事职务 原CFO兼任临时CEO",
+      "url": "https://cnbeta.com.tw/articles/tech/1586084.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-12T23:19:34+08:00",
+      "excerpt": "当地时间11月12日美股盘前，英伟达董事会宣布，黄仁勋已辞去总裁、首席执行官及董事职务，即刻生效。英伟达现任执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）已同意出任临时首席执行官。在正式继任者获任之前，克雷斯将在担任临时首席执行官的同时，继续担任执行副总裁兼首席财务官。董事会正在启动正式首席执行官的遴选工作，将同时考虑内部及外部候选人。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "bfccb2d38562aef8",
+      "title": "Norwest pushes deeper into AI with new $4B fund",
+      "url": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-12T23:18:14+08:00",
+      "excerpt": "This is the investment firm's largest fund to date.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "c895d9713d7baeec",
+      "title": "If the November Windows update fails to install on your PC, here’s what to do",
+      "url": "https://zdnet.com/tech/microsoft-windows-november-update-fails-install-some-pcs",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-12T23:11:08+08:00",
+      "excerpt": "This month’s security update is failing on some systems already running the preview update released in October. But there is a fix afoot.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "product"
+      ]
+    },
+    {
+      "id": "cb2ea192aa0ce1b3",
+      "title": "黄仁勋辞去 CEO 后，英伟达首任董事会主席哈维 · 琼斯发表内部信",
+      "url": "https://ithome.com/1/026/431.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T23:03:43+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，黄仁勋辞去英伟达总裁、首席执行官及董事会成员职务后，成为英伟达首任董事会主席的哈维 · 琼斯（Harvey Jones）向英伟达员工发布内部备忘录。 琼斯拥有超过 30 年的创业、科技企业管理和风险投资经验，曾任新思科技 CEO 及执行董事长。 路透社获得了备忘录的副本，IT之家附译文如下： 各位英伟达员工： 我写信是想向大家通报一项重要决定。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release",
+        "business"
+      ]
+    },
+    {
+      "id": "660711644cdc9dc9",
+      "title": "Cyberattack on Fireworks AI allowed hackers to access Notion customers’ chat transcripts",
+      "url": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-12T23:02:28+08:00",
+      "excerpt": "This is Fireworks' second data breach in as many months.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "eb0c65b2b58fbc7a",
+      "title": "Nvidia CEO Jensen Huang has resigned. What happens next?",
+      "url": "https://theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-12T23:01:31+08:00",
+      "excerpt": "After the leather-jacketed CEO, president, and co-founder of Nvidia, Jensen Huang, acknowledged an affair with Megaspeed exec Alice Huang, his company initially announced an investigation",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "bcf7e80ddd203a2d",
+      "title": "US workers are fighting to protect their jobs from AI – and winning",
+      "url": "https://theguardian.com/technology/2026/nov/12/us-workers-governments-unions-ai",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-12T23:00:44+08:00",
+      "excerpt": "As governments adopt AI, workers are gaining ground in how it’s used and securing safeguards against its harms In the shadow of Silicon Valley, workers for the city of Oakland, California",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "3ade50a38f0ce074",
+      "title": "英伟达临时 CEO 科莱特 · 克雷斯发表内部信：我对公司、对未来充满信心，你们是最宝贵的力量",
+      "url": "https://ithome.com/1/026/428.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T22:52:17+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，今天晚间，英伟达临时 CEO 科莱特 · 克雷斯向全体员工发出内部备忘录。路透社获得了备忘录的副本，其内容如下： 各位英伟达同事： 我对公司和公司的未来充满信心 。更重要的是，我相信在座的每一位员工，相信我们的客户和合作伙伴，也相信我们每天都在全球经济中发挥着不可或缺的作用。 董事会、高管团队和我都深知，过去这段时间 对大家来说极其艰难 。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "f98f612fda85d6f2",
+      "title": "Google pushes privacy angle as Gemini-powered smartglasses debut starting at $395",
+      "url": "https://arstechnica.com/google/2026/11/google-pushes-privacy-angle-as-gemini-powered-smartglasses-debut-starting-at-395",
+      "source_id": "arstechnica",
+      "source_name": "Ars Technica",
+      "source_home": "https://arstechnica.com/tag/artificial-intelligence/",
+      "published": "2026-11-12T22:50:17+08:00",
+      "excerpt": "The first Gemini smartglasses are a collab between Google, Samsung, Gentle Monster, and Warby Parker.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "policy"
+      ]
+    },
+    {
       "id": "34d6d7e218622de6",
       "title": "Integrating SGLang into Spyre in Under a Week with AI",
       "url": "https://pytorch.org/blog/integrating-sglang-into-spyre-in-under-a-week-with-ai",
@@ -1142,6 +1994,27 @@
         "agent"
       ],
       "types": []
+    },
+    {
+      "id": "c5ab843c2767ee15",
+      "title": "英伟达发布 GeForce 621.24 Game Ready 驱动：为《战锤 40000：战争黎明 4》优化，《燕云十六声》新增 DLSS 5",
+      "url": "https://ithome.com/1/026/425.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T22:42:34+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，英伟达今日发布 GeForce Game Ready 621.24 显卡驱动，新版本为《战锤 40000：战争黎明 4》（Warhammer 40,000: Dawn of War IV）以及《神力科莎：拉力赛》（Assetto Corsa Rally）提供最佳游戏体验",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release",
+        "review",
+        "product"
+      ]
     },
     {
       "id": "ba03603fac8472ce",
@@ -1161,6 +2034,25 @@
       "types": []
     },
     {
+      "id": "adf23bbf9abe8f03",
+      "title": "黄仁勋辞去 CEO 后，英伟达市值失守 4 万亿美元",
+      "url": "https://ithome.com/1/026/424.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-12T22:34:42+08:00",
+      "excerpt": "IT之家 11 月 12 日消息，黄仁勋辞任 CEO 后，英伟达市值失守 4 万亿美元 （IT之家注：现汇率约合 26.74 万亿元人民币） 。 先前，英伟达股价一度大跌 14%，市值蒸发近 6,000 亿美元 （现汇率约合 4.01 万亿元人民币） 。截至IT之家发稿，跌幅收窄至 7.51%。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
       "id": "ef98f01e800c5260",
       "title": "The unfolding Jensen Huang scandal: a timeline",
       "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline",
@@ -1169,6 +2061,23 @@
       "source_home": "https://techcrunch.com/category/artificial-intelligence/",
       "published": "2026-11-12T22:30:01+08:00",
       "excerpt": "Jensen Huang has resigned from Nvidia following an affair, which could have ramifications for national security as the U.S. and China race to develop the most advanced AI infrastructure.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "aeb723ba39f8a795",
+      "title": "Jensen Huang is gone. Will the AI industry pay the price?",
+      "url": "https://ft.com/content/dd9072bd-e8a3-4f8e-9985-550aa80a2fd4?syn-25a6b1a6=1",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-12T22:22:30+08:00",
+      "excerpt": "Nvidia chief’s fall could unravel the web of financial dependencies that helped fuel the AI boom",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -1280,7 +2189,7 @@
       "source_name": "Engadget",
       "source_home": "https://www.engadget.com/",
       "published": "2026-11-12T22:04:30+08:00",
-      "excerpt": "He has held the position since the company's founding.",
+      "excerpt": "He has held the position since the company's founding in 1993, but has recently been embroiled in an international scandal.",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -1367,13 +2276,13 @@
     },
     {
       "id": "8100aaa2481a8460",
-      "title": "黄仁勋辞职后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯为临时首席执行官",
+      "title": "黄仁勋辞去 CEO 后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯为临时首席执行官",
       "url": "https://ithome.com/1/026/396.htm",
       "source_id": "ithome",
       "source_name": "IT之家",
       "source_home": "https://www.ithome.com/",
       "published": "2026-11-12T21:57:35+08:00",
-      "excerpt": "IT之家 11 月 12 日消息，黄仁勋辞职后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）为临时首席执行官。 英伟达董事会今日宣布，现任英伟达执行副总裁兼首席财务官科莱特 · 克雷斯已同意出任临时首席执行官。 在正式继任者确定之前，克雷斯在代行首席执行官职责的同时，将继续兼任执行副总裁兼首席财务官。 董事会目前已启动正式首席执行官的遴选工作，并将统筹考虑内部及外部候选人 。",
+      "excerpt": "IT之家 11 月 12 日消息，黄仁勋辞去总裁、首席执行官及董事会成员职务后，英伟达任命执行副总裁兼首席财务官科莱特 · 克雷斯（Colette Kress）为临时首席执行官。 英伟达董事会今日宣布，现任英伟达执行副总裁兼首席财务官科莱特 · 克雷斯已同意出任临时首席执行官。 在正式继任者确定之前，克雷斯在代行首席执行官职责的同时，将继续兼任执行副总裁兼首席财务官。",
       "lang": "zh",
       "region": "cn",
       "models": [],
@@ -1784,6 +2693,23 @@
       "types": []
     },
     {
+      "id": "50c6842a00e1af0b",
+      "title": "人工智能加速新型冷冻保护剂研发",
+      "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBzQ0JBU1lQcTl2aGRfS2VlSS1ZdkFDUHVnOTRSbVFwTzNaMjlEM2NsOXpkU0FrbkhxS2ZtSkY5emNpV0E0cy1qZjY5dG9Ka0FDdkItQVh3WHRFWHh4bzAyQ19wZ0IzZw?oc=5",
+      "source_id": "sciencenet",
+      "source_name": "科学网",
+      "source_home": "https://www.sciencenet.cn",
+      "published": "2026-11-12T19:49:01+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": []
+    },
+    {
       "id": "c1ca0acb2bc5d2fb",
       "title": "Epic CEO 斯威尼力挺黄仁勋：英伟达若罢免他，堪比当年苹果解雇乔布斯",
       "url": "https://ithome.com/1/026/363.htm",
@@ -1808,7 +2734,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T19:46:41+08:00",
-      "excerpt": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 268 # Comments: 302",
+      "excerpt": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 537 # Comments: 566",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -1853,21 +2779,6 @@
       "types": [
         "opensource"
       ]
-    },
-    {
-      "id": "219862fa9caa5478",
-      "title": "AI能从DNA锁定致病细胞了，谷歌AlphaGenome 2帮助糖尿病癌症寻找新药靶点",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VeVdVWXVKcVlqV2haWnpFblFBOElhWVpQNU5Ba3ZodHpFUDFJemR5MmxnVlNpdncxem5uTFQ1Wlk4Y0gyZmtwYjdwS2E1Ym8?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T19:35:53+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "c71956fa6b0c9115",
@@ -1946,25 +2857,6 @@
       ],
       "types": [
         "product"
-      ]
-    },
-    {
-      "id": "eca2fe5fcb055abd",
-      "title": "千亿美元AI云市场，算力军备竞赛之后拼什么？",
-      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lNldQZFA0cm40RzNzb3lsc3FyWk0xRUNVVkxwLVRBMXY1MmtwQUlzYWVTTGVxOEFiN3dXc1dSYlpVYTVQakg3Z1hfbjNDbXBw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T19:16:02+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": [
-        "business"
       ]
     },
     {
@@ -2091,36 +2983,6 @@
       ]
     },
     {
-      "id": "6b6fce0fe05f8bd0",
-      "title": "摩根大通：股票ETF资金流入强劲，凸显出对AI交易至关重要的逢低买盘",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wb2VUd0ROSHR1Z0dyeFpNc0ZnUWMwNXFSek1OZTVDeWdBYWRCRmQxMXlHb3dVVGg3bUxsTkM2SkVpWU52VzcwMEVaVThCZ2FKR0haSzk0NlY?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T18:56:27+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "1784c6116bea082d",
-      "title": "英国第三季度经济扩张0.7%，人工智能成为“额外增长引擎”",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zcEVTZjUwQ2c4emE0Umt2aUxyMEhVNWJZWTBxNUhIcjVKZ19Pb1I3TmdiTExsMjZxOVpHMmNtdWU0WmE5RnpnamFjMmRjT04yVkJtQzk3S2o?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T18:56:24+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "29598edc76695845",
       "title": "飞利浦弈威“27M4N8500V”27 英寸显示器发售：2K 360Hz QD-OLED，3499 元",
       "url": "https://ithome.com/1/026/350.htm",
@@ -2136,21 +2998,6 @@
       "types": [
         "release"
       ]
-    },
-    {
-      "id": "61ddf65e7b7b8d7c",
-      "title": "张一鸣再谈字节AI：最早2029年追平OpenAI与Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16NE5CZm16OHE5dWI2c3dXbER1VDBCMUtkaTJHZ0wxVF9qRTVCRGdtd1V2YXFPamNQVjZfZC1CQ3BiU0Q5OTJIT1F1a3VhNFU?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T18:50:28+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "9ea9836e36e0005f",
@@ -2342,23 +3189,6 @@
       "types": []
     },
     {
-      "id": "a4b83cae746ea37a",
-      "title": "联合航空禁止Muse、Instinct等AI智能体预订航班",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PYVNaQVg5UDdEYmZFaktVU3Y5dDVRaHI4c3ZhV2dKbTFiUGxrblQwWkIxMzViTWpSQnJ6SjVLSjROM3FndkpzMmVEZmx0cWZhYlJrT2dRRjE?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T18:01:17+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
       "id": "98e35e0c420cc1c7",
       "title": "Nebuly wants to help enterprises understand exactly what their AI investments are worth after raising $21M",
       "url": "https://siliconangle.com/2026/11/12/nebuly-wants-to-help-enterprises-understand-exactly-what-their-ai-investments-are-worth-after-raising-21m",
@@ -2481,6 +3311,23 @@
       "models": [],
       "topics": [
         "coding"
+      ],
+      "types": []
+    },
+    {
+      "id": "26e83c8accbc0645",
+      "title": "大湾区首家通用具身智能大模型完成备案",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVlE3YkVYbmE1ZHdPSWxlZVNKM21hTEZ5elBfckRxNktJV0V5amFZVVQwZUx6X1BVTEVBeUFRamdaSzN5NTJhTG4zaU5kd3hMMWE3UzVBSHUxai1peXpVb1ZUMVNzM1Z5U3JCVHM2LTZSMVlHMEFqRU1WUllZODYwdlU4R2lsdGhJcUxzU05KcnpBdURDR0tYSFhR?oc=5",
+      "source_id": "xinhua",
+      "source_name": "新华网",
+      "source_home": "https://www.news.cn",
+      "published": "2026-11-12T17:25:44+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics"
       ],
       "types": []
     },
@@ -2611,40 +3458,6 @@
         "research",
         "business"
       ]
-    },
-    {
-      "id": "15fafa3be5ff5e9d",
-      "title": "美科技监督项目呼吁民主党收紧科技监管，出台AI与数据中心新规",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ydEMyUURHY0JtRTduOGg2RUxnOHhNbFViQ29ja3NmMENpZmVxOHVaUUFlX3NNcmRFMEhMU3RBZHhmNmJzZlA3eUgwenA2OWlfRFhBQ21aZjA?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T17:06:01+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": [
-        "policy"
-      ]
-    },
-    {
-      "id": "7e72dc9b59e7a61a",
-      "title": "日本拟就安全风险对AI企业设置处罚条款",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CRGFncEFkRVExLXI0NkhlUVBBTEtBdUVOWkpPTFZRdVY3MGY5YjdlVGFQanNiNHB5SUxucndVWE0yaC14ZGdOczRPVEIwd0h6Vl9IaE5SOHA?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T17:01:10+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "safety"
-      ],
-      "types": []
     },
     {
       "id": "2a2ee89316286330",
@@ -2915,7 +3728,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T15:20:22+08:00",
-      "excerpt": "Article URL: https://pirateface.co/articles/every-ai-model-should-be-a-torrent Comments URL: https://news.ycombinator.com/item?id=50464055 Points: 31 # Comments: 14",
+      "excerpt": "Article URL: https://pirateface.co/articles/every-ai-model-should-be-a-torrent Comments URL: https://news.ycombinator.com/item?id=50464055 Points: 33 # Comments: 14",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3258,7 +4071,7 @@
     },
     {
       "id": "2e686fde9180369b",
-      "title": "The AI megatrade’s mounting portfolio concentration risk problem",
+      "title": "The bond market is starting to choke on AI debt",
       "url": "https://ft.com/content/2f4d39dd-dee8-4620-996d-3fe978b7522b",
       "source_id": "ft",
       "source_name": "Financial Times",
@@ -4940,7 +5753,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T05:24:35+08:00",
-      "excerpt": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 613 # Comments: 632",
+      "excerpt": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 637 # Comments: 663",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -5414,6 +6227,23 @@
       "types": []
     },
     {
+      "id": "b35af1b8d77925a5",
+      "title": "AI代码暴涨30%现实交付为0？SoduWork为失控Agent立规矩",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TY05YYlgwNkphQkxsa21mN1VNWUVtcjFySFU4eTkzZzZ5YXRncDFxS3RUUGxxSnJoR1dremRPNkRoa2l3NkxxVEU1WnVVbl94VFZZ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:41:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
+      "types": []
+    },
+    {
       "id": "808edecb22284507",
       "title": "AI代码暴涨30%，现实交付却为0？SoduWork要给脱缰的Agent立规矩",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1PbVdyYzRkTzNCUW1fZmdFaENCUTVrcTU4cHJseGE1Q24xYWpvVmpHTFlPaFg0M0dxT0JweDhDQU5wM1JNeFY5LWdOWDE3dw?oc=5",
@@ -5448,6 +6278,21 @@
       ]
     },
     {
+      "id": "754d3b2eea72f572",
+      "title": "李彦宏为何要打造AI时代新厂房？深度解析百度智能云AI工厂布局战略逻辑",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9STFFKNWczdnVmSmdENjk2TTdlZXl2VUx0c3JFbXZYVDREVGhUbm9PSExZOU1OWWNPdHpQaC02cGJueHZXU0xHODRsZE1rVFBWMWhB?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:38:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "6f3c74a04fea158f",
       "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
       "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips",
@@ -5480,6 +6325,21 @@
       "types": []
     },
     {
+      "id": "b8b00f70d8ed6853",
+      "title": "AI能从DNA锁定致病细胞了，谷歌AlphaGenome 2帮助糖尿病癌症寻找新药靶点",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00eTlRSTFIdkZ2bVVTdFdvNjVFajd1dnRuUUVuSEIzNFVudkJwTlp0TUVqMW1HbU9LaEhxanBPX2VQUjVZRy1Sdkp4X2V2Zw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:33:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "6f2a8ffb4ce2a3aa",
       "title": "AI漫剧的风口，吹不动普通人的发财梦",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XamRjMlczRDNvemxRd3d4NG4xYmQ1Sjd1VVZHQ2tDbmNVdklLT0d2QjFDY2FJRWloVWp4ME1qeVMtSFZ4NGFWN0JZN3RyZw?oc=5",
@@ -5495,9 +6355,39 @@
       "types": []
     },
     {
+      "id": "b46c554e5a39da1d",
+      "title": "2024 AI漫剧风口来袭 普通人靠AI漫剧实现发财梦为何难落地",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1tRFFDY2VwM29UUjBHQUh0NDVhM2RmeUNNdzhvc3B5Q0pka0g0NUI1QzEya005WlZsZFVTSGVJT3JaZjl3VkJreVBQdjNEekt6Ml9v?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:32:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "ec77ae9cc4ed75e3",
       "title": "Character.AI都要破产了，AI陪伴却开始闷声赚大钱",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkYTQ3MVhucnVZa1NMVlJvSXJDWERCUXA1amc3QkpLeElSNnU0aV9tajRWUE9wWG1odGxQYnQ3YnRiNWxURTcxb3hsV0tFZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:31:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "1b9f5f3347f7cdcf",
+      "title": "Character.AI濒临破产 AI陪伴赛道逆势闷声赚大钱",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2Yi1MZXozenowclpSaXMyNXZrTFZ5UFJKRGljREFPZmIyRVdCU1lTd2pCUHdlcnZaeUhUcXJtUnNUR3oxVjY1UGNKd19aWVQzbFIw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -5530,6 +6420,21 @@
       "id": "5728040ebbeb66f1",
       "title": "游戏爆火后，离被AI抄袭只剩一星期",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9ZdWJCT3ZaTzZDUE9sTlFKcXVkbURYVjVhLXUwSlJhU2ZEZGlaUS1RUEZHUUxxRkx3ek1SRnIyVWZzaTB4d3YzWldlOUJoZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:28:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "bb7ebc5e29821706",
+      "title": "游戏爆火后 距离被AI抄袭仅剩一星期",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9WVzc2M09paHBCdUk4ejFOMDl2Qjl3TFN6SUdOV3FPeWZJQXhleHdqcEJjTlFBeUtrMlIyQUQzQ01QdURJZzYwaUZaRnlWS3dXa3Fz?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -5609,6 +6514,25 @@
       "types": []
     },
     {
+      "id": "eca2fe5fcb055abd",
+      "title": "千亿美元AI云市场，算力军备竞赛之后拼什么？",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9lNldQZFA0cm40RzNzb3lsc3FyWk0xRUNVVkxwLVRBMXY1MmtwQUlzYWVTTGVxOEFiN3dXc1dSYlpVYTVQakg3Z1hfbjNDbXBw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:12:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
       "id": "4443c3f3c02e5e8a",
       "title": "Retirement Savings Are Fueling the AI Bubble",
       "url": "https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble",
@@ -5616,7 +6540,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T03:06:43+08:00",
-      "excerpt": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 162 # Comments: 177",
+      "excerpt": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 164 # Comments: 184",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -5677,6 +6601,36 @@
       "types": []
     },
     {
+      "id": "2dca23700360e9f0",
+      "title": "张一鸣再谈字节AI：最早2029年追平OpenAI与Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RMmptSjFRWkFBRUd1NGJoc2RTTllxZHNaa2F6VGRzZlFXYmhoX3RtNzVHRUxVRW44LXBqRlFxeEY1c1VoMDE1aURLUy1mdw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T02:48:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "1784c6116bea082d",
+      "title": "英国第三季度经济扩张0.7%，人工智能成为“额外增长引擎”",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5zcEVTZjUwQ2c4emE0Umt2aUxyMEhVNWJZWTBxNUhIcjVKZ19Pb1I3TmdiTExsMjZxOVpHMmNtdWU0WmE5RnpnamFjMmRjT04yVkJtQzk3S2o?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T02:45:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "8c8ec26635df108d",
       "title": "Laser-armed AI submarine robots patrol Norwegian salmon farms, killing sea lice",
       "url": "https://tomshardware.com/tech-industry/drones/3-500-ai-laser-robots-patrol-norwegian-salmon-farms-killing-sea-lice-parasites-get-zapped-by-high-tech-alternative-to-harsh-chemical-baths",
@@ -5707,6 +6661,21 @@
       "types": [
         "review"
       ]
+    },
+    {
+      "id": "6b6fce0fe05f8bd0",
+      "title": "摩根大通：股票ETF资金流入强劲，凸显出对AI交易至关重要的逢低买盘",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5wb2VUd0ROSHR1Z0dyeFpNc0ZnUWMwNXFSek1OZTVDeWdBYWRCRmQxMXlHb3dVVGg3bUxsTkM2SkVpWU52VzcwMEVaVThCZ2FKR0haSzk0NlY?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T02:37:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "a285beab135c11e7",
@@ -5746,7 +6715,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T02:32:42+08:00",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 503 # Comments: 148",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 532 # Comments: 153",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -5835,6 +6804,23 @@
       "platforms": [
         "x"
       ]
+    },
+    {
+      "id": "a4b83cae746ea37a",
+      "title": "联合航空禁止Muse、Instinct等AI智能体预订航班",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9PYVNaQVg5UDdEYmZFaktVU3Y5dDVRaHI4c3ZhV2dKbTFiUGxrblQwWkIxMzViTWpSQnJ6SjVLSjROM3FndkpzMmVEZmx0cWZhYlJrT2dRRjE?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T01:52:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
     },
     {
       "id": "a86580df3883cdb1",
@@ -6039,6 +7025,23 @@
       ]
     },
     {
+      "id": "15fafa3be5ff5e9d",
+      "title": "美科技监督项目呼吁民主党收紧科技监管，出台AI与数据中心新规",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ydEMyUURHY0JtRTduOGg2RUxnOHhNbFViQ29ja3NmMENpZmVxOHVaUUFlX3NNcmRFMEhMU3RBZHhmNmJzZlA3eUgwenA2OWlfRFhBQ21aZjA?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T01:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "policy"
+      ]
+    },
+    {
       "id": "6898bbd8e5e292e4",
       "title": "Claude can collaborate in your team meetings soon – like an intern",
       "url": "https://zdnet.com/innovation/claude-meetings-workplace-features",
@@ -6099,7 +7102,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T00:33:28+08:00",
-      "excerpt": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 122 # Comments: 109",
+      "excerpt": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 124 # Comments: 109",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -6159,6 +7162,23 @@
       "models": [],
       "topics": [
         "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "7e72dc9b59e7a61a",
+      "title": "日本拟就安全风险对AI企业设置处罚条款",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1CRGFncEFkRVExLXI0NkhlUVBBTEtBdUVOWkpPTFZRdVY3MGY5YjdlVGFQanNiNHB5SUxucndVWE0yaC14ZGdOczRPVEIwd0h6Vl9IaE5SOHA?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T00:18:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "safety"
       ],
       "types": []
     },
@@ -7120,7 +8140,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T20:05:22+08:00",
-      "excerpt": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1018 # Comments: 376",
+      "excerpt": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1022 # Comments: 384",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -7239,6 +8259,21 @@
       "id": "bd7e96eec81cd47a",
       "title": "你单曲循环的歌 正被300元AI音乐挤出歌单",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1QMVhXZG4xb3BsM3M2NGpOUllQZXRnZWhHTHljUE1LaFVCeWhiOWRHWVhEV3FfMlYyR1UyWjdKVklHTE51alhwU2J2Uy1xWEpZNFkw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T19:33:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "ed33ac620a197717",
+      "title": "你单曲循环的歌，正在被300元的AI音乐挤出歌单",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Kd0RIMjhGTk9nZlZQRkdCSGczMVdCS3FoUEV1NE5ycHRjWFM0VGhCcGhFLUthbGZEeTZkUDNfX3M2UG55MHgyWFRRMkdpdw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -7404,6 +8439,23 @@
       "types": []
     },
     {
+      "id": "9659f7f66482c185",
+      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+      "url": "https://wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-11T19:00:00+08:00",
+      "excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "8a431ee42516e2b4",
       "title": "百度推出大模型交易平台词元所，日均调用Token超7000亿",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xazJVX09BeXZGX1M0b0NOWnZZRWxqN2ZzcDFaMHF1VnAwMEZXaS1URHpGdTZNdjQ3MjBiVkYwMUU1RkpURFA4dWRwWWkySzR3YUM0ckk1SHg?oc=5",
@@ -7421,23 +8473,6 @@
       "types": [
         "release"
       ]
-    },
-    {
-      "id": "9659f7f66482c185",
-      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
-      "url": "https://wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged",
-      "source_id": "wired",
-      "source_name": "WIRED",
-      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
-      "published": "2026-11-11T19:00:00+08:00",
-      "excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": []
     },
     {
       "id": "1eafea34d3112999",
@@ -7782,6 +8817,24 @@
       "types": []
     },
     {
+      "id": "4e94c4a2a9ff5649",
+      "title": "AI数据中心初创公司Torus完成5亿美元融资，推出集成储能系统的模块化数据中心",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IbWlaanhfYWZjd2pkU1NrV0JXU2xMSkIyQmg5SUNleEJNQlY3dHRSLWdGbURPVml4T21KbDRoMWxBT3IyS25uZ3M4R0R3VzhsVXVmYXY3cV8?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T16:49:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "business"
+      ]
+    },
+    {
       "id": "f69c81b292d509c2",
       "title": "AI data center startup Torus has closed a $500 million financing round and launched a modular data center integrated with energy storage systems.",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oWEg1NDh4bzVBbkptaUI3NXp4ZmoxUng1bnl2em0yUGhPTnh1aExoSzBuSUo3WjZCZmtuZXhRSnpQMlJBV3Y4c25aMDlxLWVJdkNEdXlnTk05QmI4Q2FXWQ?oc=5",
@@ -7798,24 +8851,6 @@
       ],
       "types": [
         "release"
-      ]
-    },
-    {
-      "id": "4e94c4a2a9ff5649",
-      "title": "AI数据中心初创公司Torus完成5亿美元融资，推出集成储能系统的模块化数据中心",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IbWlaanhfYWZjd2pkU1NrV0JXU2xMSkIyQmg5SUNleEJNQlY3dHRSLWdGbURPVml4T21KbDRoMWxBT3IyS25uZ3M4R0R3VzhsVXVmYXY3cV8?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-11T16:49:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": [
-        "release",
-        "business"
       ]
     },
     {
@@ -8306,6 +9341,21 @@
       ]
     },
     {
+      "id": "67da3890358368de",
+      "title": "AI时代，我们的工作方式该如何改变？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sVTFnX2ZTSlZqZjJNSGE5cEhNbzRfR0UyZkFrbXBxSGZ0Q3ZqODRqcnk0VTQ3cFZSRDVHZ0ZXSmZNM1I2dVhZNkJWMU0tZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T15:06:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "1da6b8e43fa54e49",
       "title": "AI时代工作方式革新指南：职场人如何借助人工智能实现高效转型与职业升级",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE95bHZHdGNoM0JPRnNpV0JlSkY4Tm9XY042TU1tcS1RQTdIQnlnVHA0RlpaRlViYjdURjJITFlKUC1ScC1rUGNMMnI2emlVNzZVT19Z?oc=5",
@@ -8322,21 +9372,6 @@
         "review",
         "product"
       ]
-    },
-    {
-      "id": "67da3890358368de",
-      "title": "AI时代，我们的工作方式该如何改变？",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5sVTFnX2ZTSlZqZjJNSGE5cEhNbzRfR0UyZkFrbXBxSGZ0Q3ZqODRqcnk0VTQ3cFZSRDVHZ0ZXSmZNM1I2dVhZNkJWMU0tZw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-11T15:06:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "f669f496b89aea74",
@@ -8988,7 +10023,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T08:15:33+08:00",
-      "excerpt": "Article URL: https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/ Comments URL: https://news.ycombinator.com/item?id=50448174 Points: 58 # Comments: 86",
+      "excerpt": "Article URL: https://www.niemanlab.org/2026/11/ai-is-becoming-an-information-gateway-audiences-still-dont-want-it-making-their-news/ Comments URL: https://news.ycombinator.com/item?id=50448174 Points: 58 # Comments: 88",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -9217,7 +10252,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T06:17:56+08:00",
-      "excerpt": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 456 # Comments: 218",
+      "excerpt": "Article URL: https://www.vulncheck.com/blog/anthropic-glasswing-november-update Comments URL: https://news.ycombinator.com/item?id=50447074 Points: 457 # Comments: 217",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -9322,7 +10357,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T05:25:03+08:00",
-      "excerpt": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 543 # Comments: 545",
+      "excerpt": "Article URL: https://9to5mac.com/2026/11/10/apple-has-new-mac-app-coming-to-make-running-local-ai-models-easy/ Comments URL: https://news.ycombinator.com/item?id=50446520 Points: 547 # Comments: 549",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -9860,26 +10895,6 @@
       ]
     },
     {
-      "id": "d88c7f4e6e98ab4a",
-      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
-      "url": "https://arxiv.org/abs/2611.14511v1",
-      "source_id": "arxiv",
-      "source_name": "arXiv",
-      "source_home": "https://arxiv.org",
-      "published": "2026-11-11T02:56:32+08:00",
-      "excerpt": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent",
-        "science"
-      ],
-      "types": [
-        "research"
-      ]
-    },
-    {
       "id": "3e1919c777ea2db3",
       "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
       "url": "https://latent.space/p/naiveai",
@@ -9899,6 +10914,26 @@
       "types": [
         "review",
         "opinion"
+      ]
+    },
+    {
+      "id": "d88c7f4e6e98ab4a",
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "url": "https://arxiv.org/abs/2611.14511v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-11T02:56:32+08:00",
+      "excerpt": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "science"
+      ],
+      "types": [
+        "research"
       ]
     },
     {
@@ -10583,7 +11618,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T01:55:07+08:00",
-      "excerpt": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 286 # Comments: 217",
+      "excerpt": "Article URL: https://claude.com/resources/articles/sheets-whiteboards-data Comments URL: https://news.ycombinator.com/item?id=50443716 Points: 288 # Comments: 217",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -10693,7 +11728,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T01:44:44+08:00",
-      "excerpt": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 136 # Comments: 86",
+      "excerpt": "Article URL: https://babuschk.in/posts/2026-01-25-life-on-claude-nine.html Comments URL: https://news.ycombinator.com/item?id=50443587 Points: 137 # Comments: 86",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -11515,7 +12550,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T00:07:15+08:00",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ Comments URL: https://news.ycombinator.com/item?id=50442303 Points: 294 # Comments: 164",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/ Comments URL: https://news.ycombinator.com/item?id=50442303 Points: 295 # Comments: 164",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -13096,9 +14131,9 @@
       ]
     },
     {
-      "id": "3ac2cf6cde380052",
-      "title": "恋陪AI大败局",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3UnR4RzItOGRabnFXNFhHbDhtQkNEcTBLQ0tlQXh5RUMxc3habnNlNnVwRFdEZ3hmZWdlMWZpTGNOdXBEMml4N2U0VklQQQ?oc=5",
+      "id": "5eddd31d471cf235",
+      "title": "恋陪AI大败局：深度复盘项目崩塌核心原因与行业警示",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lN1FVX1JQZkwxWFhocHRUODhDRFJfMjJfaXZRMmNFOUxEcHVwYU1EbllRUnctREZSQ3NFVHpUM0ZvYWI4ZjMwNjI2U3JWc3FnY3Zn?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -13111,9 +14146,9 @@
       "types": []
     },
     {
-      "id": "5eddd31d471cf235",
-      "title": "恋陪AI大败局：深度复盘项目崩塌核心原因与行业警示",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lN1FVX1JQZkwxWFhocHRUODhDRFJfMjJfaXZRMmNFOUxEcHVwYU1EbllRUnctREZSQ3NFVHpUM0ZvYWI4ZjMwNjI2U3JWc3FnY3Zn?oc=5",
+      "id": "3ac2cf6cde380052",
+      "title": "恋陪AI大败局",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3UnR4RzItOGRabnFXNFhHbDhtQkNEcTBLQ0tlQXh5RUMxc3habnNlNnVwRFdEZ3hmZWdlMWZpTGNOdXBEMml4N2U0VklQQQ?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -18477,6 +19512,25 @@
       ]
     },
     {
+      "id": "7abf4a18227a5e6e",
+      "title": "以“真实工作”检验机器人价值，XROGO在CeMAT ASIA发布机器人到岗计划",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBINmlvdHdkUmJkU0IzdGd3STNxRHYzT2RDNXQwcXZ4Wnd5LUlNV0VnaVYyM2lsVWRva1VURjUtcGt4SnlOZ0ZwUU1RUzZHMjhMUi1vTA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-05T13:25:37+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
       "id": "de8d79e1dcf3d78e",
       "title": "A tiny supercurrent could unlock quantum information without destroying it",
       "url": "https://sciencedaily.com/releases/2026/11/261102202831.htm",
@@ -20337,6 +21391,21 @@
       ]
     },
     {
+      "id": "32b16d2feff36dc5",
+      "title": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5LTVNyWm4zMHo2MHlkNDNaOVRWRFBGdHNLNGFTLVpobUZPQ0xUaEpfYUU2emx2MUJodzNuaW40dmU0Tmp5V0FlbkJlR3U3Mnh1SzgzSQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-02T21:36:41+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "efcf00e7bea340af",
       "title": "The U.S. Census Bureau and “Super Intelligence”",
       "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence",
@@ -20428,6 +21497,23 @@
       ],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "cbc7ba5f5139050f",
+      "title": "小米开源了个150元的AI小玩意，火到配件都涨价了",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9tQ2M3RG5uakpRZ00zX2tQS0FodFRXNHVaeThzZy1EaEYyU0p3aGdCQ2s4M25qdmE5dG94SlUxaVVTM0Y2Ykw2SWdVZEQ3TjUwN3NFWA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-02T16:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ]
     },
     {
       "id": "7e2b6e137b9f38cc",
@@ -20582,6 +21668,21 @@
       "types": []
     },
     {
+      "id": "0f2e1d63874cda95",
+      "title": "DeepSeek公布下一代agent harness理念",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rZEkxd0toWW5FQ0FybU12VnZ2MUViVWpLWHFKcF9tMW9vS29vRXpCN0VRSm42akQ5eGVDNzRSc2dIMjZwcXFYMGhncUdtYUtSUnlv?oc=5",
+      "source_id": "wallstreetcn",
+      "source_name": "华尔街见闻",
+      "source_home": "https://wallstreetcn.com",
+      "published": "2026-11-01T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "5a99d454c0e7227a",
       "title": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9NejNwVkNUbTROU1BaX1cwV0gzcUNIdUlQaFpBeVhwTjZJaTBuUV9zLXRLN25iQ2RnSGd3S2wxRGVtY1A0OUxUSnJlT0stbkhCT2JBRw?oc=5",
@@ -20611,21 +21712,6 @@
       "topics": [
         "robotics"
       ],
-      "types": []
-    },
-    {
-      "id": "0f2e1d63874cda95",
-      "title": "DeepSeek公布下一代agent harness理念",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9rZEkxd0toWW5FQ0FybU12VnZ2MUViVWpLWHFKcF9tMW9vS29vRXpCN0VRSm42akQ5eGVDNzRSc2dIMjZwcXFYMGhncUdtYUtSUnlv?oc=5",
-      "source_id": "wallstreetcn",
-      "source_name": "华尔街见闻",
-      "source_home": "https://wallstreetcn.com",
-      "published": "2026-11-01T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
       "types": []
     },
     {
@@ -20698,6 +21784,21 @@
       "types": []
     },
     {
+      "id": "8611cba3e8a213f0",
+      "title": "奥特曼：PC上装内存太浪费，最好留给AI数据中心",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sUHBudGFCbWFCdW0xSHZxTEo0a3U2QzBfTmdaNnlPaUpaV01YTVpQdVVuTi1UNF8wektZTnNIQ2JuX0I2dEI2ZlJYWHdnMzRiQl9B?oc=5",
+      "source_id": "wallstreetcn",
+      "source_name": "华尔街见闻",
+      "source_home": "https://wallstreetcn.com",
+      "published": "2026-10-31T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "d881bd3234697883",
       "title": "世界模型首次指导设计芯片！超大核NPU700TOPS，99%算力可用",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1DR3A3M0N1cU95TjJqS0Z5REtGWDNuVHBoX2xpSElwQ3NBVlctUVJLVDJuNEJPdjZ2cm9IbjN6UTlTU0ltZ0xQOG1JWnMxZ0pZOE04Sg?oc=5",
@@ -20747,21 +21848,6 @@
       "types": [
         "release"
       ]
-    },
-    {
-      "id": "8611cba3e8a213f0",
-      "title": "奥特曼：PC上装内存太浪费，最好留给AI数据中心",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sUHBudGFCbWFCdW0xSHZxTEo0a3U2QzBfTmdaNnlPaUpaV01YTVpQdVVuTi1UNF8wektZTnNIQ2JuX0I2dEI2ZlJYWHdnMzRiQl9B?oc=5",
-      "source_id": "wallstreetcn",
-      "source_name": "华尔街见闻",
-      "source_home": "https://wallstreetcn.com",
-      "published": "2026-10-31T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "04cad409e8e7f30f",
@@ -21857,6 +22943,36 @@
       "types": []
     },
     {
+      "id": "50da5e6273890fde",
+      "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iNVZGNGlEY2NFR3kzR2pzSHotR05WQkpVamZDRGEtT3NpOGlnTE0tZmtBcWh2V2c3YzMyMFZqbzdVbXJOZURPYW15cWtsQS1GbEFqUQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-10-29T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "0954e7a876e66b20",
+      "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PVmN4VU9qOEpaSXliRVFlMTFVdld2Sk1Uc0xnX1NsZUp3QURYdGxDeXpDeEFoV1Bnb0ktRFJYa29fMlR6S1BWbGNodzB3d2JVcmNTWA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-10-29T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "2d9928289658e986",
       "title": "How Ropes & Gray is developing AI for transactional diligence",
       "url": "https://openai.com/index/ropes-gray-ai-diligence",
@@ -21872,21 +22988,6 @@
       "types": [
         "review"
       ]
-    },
-    {
-      "id": "50da5e6273890fde",
-      "title": "物理学也要被AI攻陷了？5道20多年量子公开问题被突破",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5iNVZGNGlEY2NFR3kzR2pzSHotR05WQkpVamZDRGEtT3NpOGlnTE0tZmtBcWh2V2c3YzMyMFZqbzdVbXJOZURPYW15cWtsQS1GbEFqUQ?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-29T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "f587a008837b8869",
@@ -21971,21 +23072,6 @@
       "types": [
         "release"
       ]
-    },
-    {
-      "id": "0954e7a876e66b20",
-      "title": "刚刚，扩散模型杀进Agent主场！350亿参数，速度比Jev快一倍",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5PVmN4VU9qOEpaSXliRVFlMTFVdld2Sk1Uc0xnX1NsZUp3QURYdGxDeXpDeEFoV1Bnb0ktRFJYa29fMlR6S1BWbGNodzB3d2JVcmNTWA?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-29T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "b6b2974ff8598e57",
@@ -22857,6 +23943,23 @@
       ]
     },
     {
+      "id": "6e466f71a26c6bc7",
+      "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Gczh6WmFxVHNnTnlCR09iTDFUclpSbTBzZENrd0dYNjExMFJoUDJpeXFydEx4QV8zVTBCUXZESFlVY1liLU9ibTZVWXRGSHIzRGplSQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-10-27T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics"
+      ],
+      "types": []
+    },
+    {
       "id": "a3a879144b2984ac",
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
@@ -22876,6 +23979,23 @@
       "types": [
         "business"
       ]
+    },
+    {
+      "id": "aca40f7b8635769b",
+      "title": "OpenAI掀翻计算机科学30年基石，还解决了挂谷猜想",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80RkQ1bjVXemQzdUg3THhIeFB2VFF0dlRQdVlHUW15Uk55TURGSXViel84S2NXRnptR3BXbWJFU1AzZERTQThsbTZDRG1MZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-10-27T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": []
     },
     {
       "id": "26c5fcb884712658",
@@ -22907,23 +24027,6 @@
       "region": "cn",
       "models": [],
       "topics": [],
-      "types": []
-    },
-    {
-      "id": "6e466f71a26c6bc7",
-      "title": "2026全球开发者先锋大会暨国际具身智能技能大赛圆满落幕",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1Gczh6WmFxVHNnTnlCR09iTDFUclpSbTBzZENrd0dYNjExMFJoUDJpeXFydEx4QV8zVTBCUXZESFlVY1liLU9ibTZVWXRGSHIzRGplSQ?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-27T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "robotics"
-      ],
       "types": []
     },
     {
@@ -23014,23 +24117,6 @@
       "types": [
         "release"
       ]
-    },
-    {
-      "id": "aca40f7b8635769b",
-      "title": "OpenAI掀翻计算机科学30年基石，还解决了挂谷猜想",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80RkQ1bjVXemQzdUg3THhIeFB2VFF0dlRQdVlHUW15Uk55TURGSXViel84S2NXRnptR3BXbWJFU1AzZERTQThsbTZDRG1MZw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-10-27T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "science"
-      ],
-      "types": []
     },
     {
       "id": "ffb4d3665a1d4c50",
@@ -23540,6 +24626,21 @@
       "types": []
     },
     {
+      "id": "91b0e23b001814b5",
+      "title": "意外！79%企业GPU利用率竟不足一半",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FaWttOGdnekFSVFg3Y2UySkdTcUFFb2V2Zi1YdkpCYnhGWXFTdmcxOHlqLWg1eEJLT3JhNkdCcmptY2lqMWdIbnhBSnpjVE1CZ3JB?oc=5",
+      "source_id": "wallstreetcn",
+      "source_name": "华尔街见闻",
+      "source_home": "https://wallstreetcn.com",
+      "published": "2026-10-26T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "1ff94b7f632257bf",
       "title": "KV Cache砍掉99%，单卡吞吐飙6倍，港科CMU联手岩山科技开源新模型",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9KWVR4TFZOVktKQTFZcXBrZ0tGNjUyVXpxZEc0MllIZGx4Z2RlV29RYlBFTkx3SE91c1c0dFBqWW9XQlFvSklQWm9mOFZSWl9CSFpTeg?oc=5",
@@ -23572,21 +24673,6 @@
       "types": [
         "business"
       ]
-    },
-    {
-      "id": "91b0e23b001814b5",
-      "title": "意外！79%企业GPU利用率竟不足一半",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1FaWttOGdnekFSVFg3Y2UySkdTcUFFb2V2Zi1YdkpCYnhGWXFTdmcxOHlqLWg1eEJLT3JhNkdCcmptY2lqMWdIbnhBSnpjVE1CZ3JB?oc=5",
-      "source_id": "wallstreetcn",
-      "source_name": "华尔街见闻",
-      "source_home": "https://wallstreetcn.com",
-      "published": "2026-10-26T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "08f18b5dbd9e90d1",
@@ -26189,40 +27275,6 @@
       "types": []
     },
     {
-      "id": "cd0033d2dac0fc45",
-      "title": "Claude reveals ECDSA curve origins",
-      "url": "https://anthropic.com/news/ecdsa-curve-origins",
-      "source_id": "anthropic",
-      "source_name": "Anthropic",
-      "source_home": "https://www.anthropic.com/news",
-      "published": "2026-10-16T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "claude"
-      ],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "4075521a18b1a5bd",
-      "title": "Designing more efficient quantum circuits with Claude",
-      "url": "https://anthropic.com/news/designing-efficient-quantum-circuits",
-      "source_id": "anthropic",
-      "source_name": "Anthropic",
-      "source_home": "https://www.anthropic.com/news",
-      "published": "2026-10-16T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "claude"
-      ],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "24115df8dd812f9b",
       "title": "The AI expectations gap",
       "url": "https://anthropic.com/news/ai-expectations-gap",
@@ -26260,6 +27312,40 @@
       "id": "e013a60c733258f3",
       "title": "Working at the frontier shapes expectations for the future",
       "url": "https://anthropic.com/news/expectations-for-the-future",
+      "source_id": "anthropic",
+      "source_name": "Anthropic",
+      "source_home": "https://www.anthropic.com/news",
+      "published": "2026-10-16T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "cd0033d2dac0fc45",
+      "title": "Claude reveals ECDSA curve origins",
+      "url": "https://anthropic.com/news/ecdsa-curve-origins",
+      "source_id": "anthropic",
+      "source_name": "Anthropic",
+      "source_home": "https://www.anthropic.com/news",
+      "published": "2026-10-16T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "4075521a18b1a5bd",
+      "title": "Designing more efficient quantum circuits with Claude",
+      "url": "https://anthropic.com/news/designing-efficient-quantum-circuits",
       "source_id": "anthropic",
       "source_name": "Anthropic",
       "source_home": "https://www.anthropic.com/news",
@@ -27277,82 +28363,6 @@
         "business",
         "product"
       ]
-    },
-    {
-      "id": "550c4c02e9ff21a9",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-14T01:05:48+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "8c1ae583acc37b1e",
-      "title": "Gemini 4️⃣ Argon ✨ is now rolling out globally.",
-      "url": "https://x.com/GoogleAI/status/2110039860077527293",
-      "source_id": "x-googleai",
-      "source_name": "Google AI（推特）",
-      "source_home": "https://x.com/GoogleAI",
-      "published": "2026-10-14T00:07:59+08:00",
-      "excerpt": "Our frontier model is built for complex, real-world tasks across coding, finance, legal, cybersecurity, and science. Check out how you can use Argon in your favorite Google product 🧵",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [
-        "coding",
-        "science"
-      ],
-      "types": [],
-      "platforms": [
-        "x"
-      ]
-    },
-    {
-      "id": "2bad0427cfe4e7d6",
-      "title": "Gemini 4 Argon begins rolling out in Gemini app and Antigravity, but only if you pay",
-      "url": "https://arstechnica.com/ai/2026/10/gemini-4-argon-begins-rolling-out-in-gemini-app-and-antigravity-but-only-if-you-pay",
-      "source_id": "arstechnica",
-      "source_name": "Ars Technica",
-      "source_home": "https://arstechnica.com/tag/artificial-intelligence/",
-      "published": "2026-10-14T00:00:02+08:00",
-      "excerpt": "Developers will get 50 percent discounted API rates through November.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "66cb1e68848fee2d",
-      "title": "Gemini 4 Argon: Built to solve your hardest problems",
-      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon",
-      "source_id": "google-ai",
-      "source_name": "Google AI",
-      "source_home": "https://blog.google/technology/ai/",
-      "published": "2026-10-14T00:00:00+08:00",
-      "excerpt": "TBD",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": []
     }
   ]
 }
