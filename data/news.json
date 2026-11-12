@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-12T22:47:49+08:00",
+  "updated_at": "2026-11-12T22:51:05+08:00",
   "window_days": 30,
-  "item_count": 1387,
+  "item_count": 1433,
   "taxonomy": {
     "models": [
       {
         "id": "gpt",
         "name": "GPT",
-        "count": 53
+        "count": 60
       },
       {
         "id": "claude",
         "name": "Claude",
-        "count": 108
+        "count": 114
       },
       {
         "id": "gemini",
         "name": "Gemini",
-        "count": 54
+        "count": 55
       },
       {
         "id": "llama",
@@ -27,7 +27,7 @@
       {
         "id": "qwen",
         "name": "通义千问",
-        "count": 8
+        "count": 9
       },
       {
         "id": "deepseek",
@@ -149,37 +149,37 @@
       {
         "id": "audio",
         "name": "语音",
-        "count": 23
+        "count": 24
       },
       {
         "id": "coding",
         "name": "编程",
-        "count": 94
+        "count": 98
       },
       {
         "id": "agent",
         "name": "Agent",
-        "count": 207
+        "count": 214
       },
       {
         "id": "reasoning",
         "name": "推理",
-        "count": 23
+        "count": 25
       },
       {
         "id": "search",
         "name": "搜索",
-        "count": 19
+        "count": 24
       },
       {
         "id": "robotics",
         "name": "机器人",
-        "count": 39
+        "count": 40
       },
       {
         "id": "science",
         "name": "科学",
-        "count": 42
+        "count": 44
       },
       {
         "id": "education",
@@ -189,66 +189,66 @@
       {
         "id": "healthcare",
         "name": "医疗",
-        "count": 20
+        "count": 21
       },
       {
         "id": "chip",
         "name": "算力芯片",
-        "count": 194
+        "count": 199
       },
       {
         "id": "safety",
         "name": "安全对齐",
-        "count": 43
+        "count": 44
       }
     ],
     "types": [
       {
         "id": "release",
         "name": "发布",
-        "count": 235
+        "count": 245
       },
       {
         "id": "research",
         "name": "研究论文",
-        "count": 188
+        "count": 190
       },
       {
         "id": "business",
         "name": "融资/商业",
-        "count": 102
+        "count": 107
       },
       {
         "id": "policy",
         "name": "政策/安全",
-        "count": 40
+        "count": 41
       },
       {
         "id": "opensource",
         "name": "开源",
-        "count": 100
+        "count": 104
       },
       {
         "id": "review",
         "name": "教程/评测",
-        "count": 90
+        "count": 93
       },
       {
         "id": "product",
         "name": "产品更新",
-        "count": 95
+        "count": 97
       },
       {
         "id": "opinion",
         "name": "观点评论",
-        "count": 49
+        "count": 50
       }
     ],
     "platforms": [
       {
         "id": "x",
         "name": "推特",
-        "count": 249
+        "count": 276
       }
     ]
   },
@@ -307,6 +307,16 @@
       "id": "x-anthropic",
       "name": "Anthropic（推特）",
       "home": "https://x.com/AnthropicAI",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 12
+    },
+    {
+      "id": "x-cohere",
+      "name": "Cohere（推特）",
+      "home": "https://x.com/cohere",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -374,6 +384,26 @@
       "count": 12
     },
     {
+      "id": "x-nvidia",
+      "name": "NVIDIA（推特）",
+      "home": "https://x.com/nvidia",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 12
+    },
+    {
+      "id": "x-perplexity",
+      "name": "Perplexity（推特）",
+      "home": "https://x.com/perplexity_ai",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 12
+    },
+    {
       "id": "pytorch",
       "name": "PyTorch",
       "home": "https://pytorch.org/blog/",
@@ -434,9 +464,19 @@
       "count": 11
     },
     {
-      "id": "x-nvidia",
-      "name": "NVIDIA（推特）",
-      "home": "https://x.com/nvidia",
+      "id": "x-metaai",
+      "name": "Meta AI（推特）",
+      "home": "https://x.com/AIatMeta",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 11
+    },
+    {
+      "id": "x-openai",
+      "name": "OpenAI（推特）",
+      "home": "https://x.com/OpenAI",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -457,6 +497,16 @@
       "id": "apple-ml",
       "name": "Apple Machine Learning",
       "home": "https://machinelearning.apple.com/",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 10
+    },
+    {
+      "id": "x-claude",
+      "name": "Claude（推特）",
+      "home": "https://x.com/claudeai",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -504,6 +554,16 @@
       "count": 9
     },
     {
+      "id": "x-openaidevs",
+      "name": "OpenAI 开发者（推特）",
+      "home": "https://x.com/OpenAIDevs",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 9
+    },
+    {
       "id": "x-baidu",
       "name": "百度（推特）",
       "home": "https://x.com/Baidu_Inc",
@@ -512,16 +572,6 @@
       "ok": true,
       "error": "",
       "count": 9
-    },
-    {
-      "id": "x-cohere",
-      "name": "Cohere（推特）",
-      "home": "https://x.com/cohere",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 8
     },
     {
       "id": "x-kimi",
@@ -534,39 +584,9 @@
       "count": 8
     },
     {
-      "id": "x-openaidevs",
-      "name": "OpenAI 开发者（推特）",
-      "home": "https://x.com/OpenAIDevs",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 8
-    },
-    {
-      "id": "x-openai",
-      "name": "OpenAI（推特）",
-      "home": "https://x.com/OpenAI",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 8
-    },
-    {
       "id": "cloudflare-ai",
       "name": "Cloudflare",
       "home": "https://blog.cloudflare.com/tag/ai/",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 7
-    },
-    {
-      "id": "x-perplexity",
-      "name": "Perplexity（推特）",
-      "home": "https://x.com/perplexity_ai",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -632,26 +652,6 @@
       "ok": true,
       "error": "",
       "count": 5
-    },
-    {
-      "id": "x-claude",
-      "name": "Claude（推特）",
-      "home": "https://x.com/claudeai",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 4
-    },
-    {
-      "id": "x-metaai",
-      "name": "Meta AI（推特）",
-      "home": "https://x.com/AIatMeta",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 4
     },
     {
       "id": "microsoft-ai",
@@ -741,7 +741,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 145
+      "count": 164
     },
     {
       "id": "qbitai",
@@ -989,8 +989,8 @@
       "home": "https://www.leiphone.com/",
       "region": "cn",
       "official": false,
-      "ok": false,
-      "error": "http none",
+      "ok": true,
+      "error": "",
       "count": 8
     },
     {
@@ -1039,8 +1039,8 @@
       "home": "https://importai.substack.com/",
       "region": "intl",
       "official": false,
-      "ok": true,
-      "error": "",
+      "ok": false,
+      "error": "http 403",
       "count": 4
     },
     {
@@ -1405,7 +1405,7 @@
     },
     {
       "id": "729cef541139b1a6",
-      "title": "即刻生效！英伟达宣布黄仁勋辞去总裁、首席执行官和董事会成员职务",
+      "title": "即刻生效！黄仁勋辞去英伟达总裁、首席执行官和董事会成员职务",
       "url": "https://ithome.com/1/026/394.htm",
       "source_id": "ithome",
       "source_name": "IT之家",
@@ -1855,6 +1855,21 @@
       ]
     },
     {
+      "id": "219862fa9caa5478",
+      "title": "AI能从DNA锁定致病细胞了，谷歌AlphaGenome 2帮助糖尿病癌症寻找新药靶点",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9VeVdVWXVKcVlqV2haWnpFblFBOElhWVpQNU5Ba3ZodHpFUDFJemR5MmxnVlNpdncxem5uTFQ1Wlk4Y0gyZmtwYjdwS2E1Ym8?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T19:35:53+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "c71956fa6b0c9115",
       "title": "AWS 首席 AI 和技术官马特 · 伍德：优秀的工程师要爱上问题，而非现成解法",
       "url": "https://ithome.com/1/026/359.htm",
@@ -2121,6 +2136,21 @@
       "types": [
         "release"
       ]
+    },
+    {
+      "id": "61ddf65e7b7b8d7c",
+      "title": "张一鸣再谈字节AI：最早2029年追平OpenAI与Anthropic",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE16NE5CZm16OHE5dWI2c3dXbER1VDBCMUtkaTJHZ0wxVF9qRTVCRGdtd1V2YXFPamNQVjZfZC1CQ3BiU0Q5OTJIT1F1a3VhNFU?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T18:50:28+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "9ea9836e36e0005f",
@@ -2528,21 +2558,23 @@
       ]
     },
     {
-      "id": "d5ed9db42b0c9b2f",
+      "id": "6812ee4f6467dc59",
       "title": "姚期智杨植麟首次联手给 AI 出的博士级题目，Kimi 多画出了「关键一条边」",
-      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBOQ010cENseUhXbDBmQ1NNanFtbkdKYmNMM01MeGNuVi1RYWMwU2JkQTVtZDk4WGlYMy1scDNjV1RlVHNWRFpNOWlTaXFmY0pUT19mYkVCOVg4ZHVtRVZxQVJvS1F3Ukszcnc?oc=5",
+      "url": "https://leiphone.com/category/ai/3vRqaeAILJdgRlhL.html",
       "source_id": "leiphone",
       "source_name": "雷峰网",
-      "source_home": "https://www.leiphone.com",
+      "source_home": "https://www.leiphone.com/",
       "published": "2026-11-12T17:09:00+08:00",
-      "excerpt": "",
+      "excerpt": "Kimi 刷新 629 条边图论参考纪录，只多加了1条边，为什么数学界等了这么多年？ 作者丨 郑佳美 编辑丨岑 峰 给 124 个点连线，不能出现三角形，也不能出现四边形。此前的参考记录是 629 条——数学界认为这已经接近极限。而Kimi K3 构造出了 630 条边的图，并通过程序验证。 多1条边，听起来不多。但在组合数学里，你每试图多塞进一条边，都需要在全图 124 个点之间重新完成一次精密的结构大重构。",
       "lang": "zh",
       "region": "cn",
       "models": [
         "kimi"
       ],
       "topics": [],
-      "types": []
+      "types": [
+        "opinion"
+      ]
     },
     {
       "id": "f7bc603b24ae4c92",
@@ -2731,6 +2763,21 @@
       "topics": [
         "safety"
       ],
+      "types": []
+    },
+    {
+      "id": "b253494966c71c47",
+      "title": "一条街区如何托举AI时代的“一人公司”？",
+      "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFAyaXFWMmNrV2lCaUR2QWZhbFJabUxxNVhRakZzelZfU0dwLWVJRFBrMXJSbTU3QlhHYjVyRjI0TzdfaW9VZHpFYS1nUQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T16:00:51+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
       "types": []
     },
     {
@@ -4274,6 +4321,21 @@
       "types": []
     },
     {
+      "id": "50898ba060a6d25b",
+      "title": "AI制药，开始卷实验室了",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE8zd1RYSmc2bF9rNGZYZ1ZwVGV2dGtrcU5oM2xOdnlaU0JYbUhTc3VCRTlSZHlyS2pxNzA3NXZqNTZxZDUxUEV6eWtkbnNlQ1Jt?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T08:28:59+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "28ae560c0c8be60e",
       "title": "反数据中心浪潮下，AI交易还能走多远？关键看GPU租赁价格",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBlRVgxNVRlRjhEc3VEeW53aFZUSEI5bmpqa1BmeWppZW9wekphZHVRdTB4RHd3VUdPa0Q5eWktZExFVUItdjltd09iSnpnQQ?oc=5",
@@ -5418,21 +5480,6 @@
       "types": []
     },
     {
-      "id": "b8b00f70d8ed6853",
-      "title": "AI能从DNA锁定致病细胞了，谷歌AlphaGenome 2帮助糖尿病癌症寻找新药靶点",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE00eTlRSTFIdkZ2bVVTdFdvNjVFajd1dnRuUUVuSEIzNFVudkJwTlp0TUVqMW1HbU9LaEhxanBPX2VQUjVZRy1Sdkp4X2V2Zw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T03:33:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "6f2a8ffb4ce2a3aa",
       "title": "AI漫剧的风口，吹不动普通人的发财梦",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XamRjMlczRDNvemxRd3d4NG4xYmQ1Sjd1VVZHQ2tDbmNVdklLT0d2QjFDY2FJRWloVWp4ME1qeVMtSFZ4NGFWN0JZN3RyZw?oc=5",
@@ -5625,21 +5672,6 @@
       "excerpt": "The cloud computing group has benefited from a hitherto forgiving junk bond market",
       "lang": "en",
       "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "2dca23700360e9f0",
-      "title": "张一鸣再谈字节AI：最早2029年追平OpenAI与Anthropic",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9RMmptSjFRWkFBRUd1NGJoc2RTTllxZHNaa2F6VGRzZlFXYmhoX3RtNzVHRUxVRW44LXBqRlFxeEY1c1VoMDE1aURLUy1mdw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T02:48:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
       "models": [],
       "topics": [],
       "types": []
@@ -5958,21 +5990,6 @@
       "types": []
     },
     {
-      "id": "a7761420660dcf3a",
-      "title": "A Startup Wants to Fight AI Bioweapons With AI",
-      "url": "https://wired.com/story/startup-fights-ai-bioweapons-with-ai",
-      "source_id": "wired",
-      "source_name": "WIRED",
-      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
-      "published": "2026-11-12T01:00:00+08:00",
-      "excerpt": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "6a701461aeac17a9",
       "title": "Validating GPU Platforms with Runtime AI Inventory via the NVIDIA DSX AI Factory",
       "url": "https://developer.nvidia.com/blog/validating-gpu-platforms-with-runtime-ai-inventory-via-the-nvidia-dsx-ai-factory",
@@ -5987,6 +6004,21 @@
       "topics": [
         "chip"
       ],
+      "types": []
+    },
+    {
+      "id": "a7761420660dcf3a",
+      "title": "A Startup Wants to Fight AI Bioweapons With AI",
+      "url": "https://wired.com/story/startup-fights-ai-bioweapons-with-ai",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-12T01:00:00+08:00",
+      "excerpt": "Radical Numerics has developed a model that it says can identify natural and AI-engineered pathogens without an internet connection.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
       "types": []
     },
     {
@@ -6023,6 +6055,23 @@
       "topics": [],
       "types": [
         "release"
+      ]
+    },
+    {
+      "id": "fd1e59d26e9615b7",
+      "title": "霍华德·马克斯最新备忘录：谁能从AI投资中赚到钱？",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16UkFGRGNINVpCZXVNbXdncE9BSURoc1RjVlh0YXY0SmFRaWlEVTNKVFlCLTVXRVV6bHZReWpiWHFHTlpHS19pZ0toaW8zVFJWZ2dR?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T00:34:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
       ]
     },
     {
@@ -6585,23 +6634,6 @@
       ]
     },
     {
-      "id": "6619f09dbc0d0a8f",
-      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
-      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
-      "published": "2026-11-11T23:00:00+08:00",
-      "excerpt": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
       "id": "ddb95c61a535c749",
       "title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
       "url": "https://theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
@@ -6619,6 +6651,23 @@
       "types": [
         "release"
       ]
+    },
+    {
+      "id": "6619f09dbc0d0a8f",
+      "title": "Databricks’ new AI agent tells CEO Ali Ghodsi the unvarnished truth",
+      "url": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-11T23:00:00+08:00",
+      "excerpt": "With Databricks at 12,000 employees, AI Ghodsi is the first to admit that he can't know everyone and that they are unlikely to confess the things that go wrong to him. But he doesn't need them to",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
     },
     {
       "id": "e879c6fc35d4933f",
@@ -6778,6 +6827,21 @@
       "types": []
     },
     {
+      "id": "6e40d6043154dab3",
+      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+      "url": "https://theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "source_id": "theverge",
+      "source_name": "The Verge",
+      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
+      "published": "2026-11-11T22:00:00+08:00",
+      "excerpt": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "0ccfb511c0c877ba",
       "title": "Plurai wants to help AI agents work better using the same approach that helped get self-driving cars to roads",
       "url": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads",
@@ -6792,21 +6856,6 @@
       "topics": [
         "agent"
       ],
-      "types": []
-    },
-    {
-      "id": "6e40d6043154dab3",
-      "title": "Adobe’s AI experiments let you walk around in photos and interview your characters",
-      "url": "https://theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
-      "source_id": "theverge",
-      "source_name": "The Verge",
-      "source_home": "https://www.theverge.com/ai-artificial-intelligence",
-      "published": "2026-11-11T22:00:00+08:00",
-      "excerpt": "Some of the most impressive tech that Adobe showcases at its annual Max conference each year is the experimental features it's developing",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
       "types": []
     },
     {
@@ -7355,23 +7404,6 @@
       "types": []
     },
     {
-      "id": "9659f7f66482c185",
-      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
-      "url": "https://wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged",
-      "source_id": "wired",
-      "source_name": "WIRED",
-      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
-      "published": "2026-11-11T19:00:00+08:00",
-      "excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "8a431ee42516e2b4",
       "title": "百度推出大模型交易平台词元所，日均调用Token超7000亿",
       "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5xazJVX09BeXZGX1M0b0NOWnZZRWxqN2ZzcDFaMHF1VnAwMEZXaS1URHpGdTZNdjQ3MjBiVkYwMUU1RkpURFA4dWRwWWkySzR3YUM0ckk1SHg?oc=5",
@@ -7389,6 +7421,23 @@
       "types": [
         "release"
       ]
+    },
+    {
+      "id": "9659f7f66482c185",
+      "title": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+      "url": "https://wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged",
+      "source_id": "wired",
+      "source_name": "WIRED",
+      "source_home": "https://www.wired.com/tag/artificial-intelligence/",
+      "published": "2026-11-11T19:00:00+08:00",
+      "excerpt": "The young girl’s parents allege that she used Gemini via her school Chromebook to plan her suicide, but the school’s monitoring systems didn’t know until it was almost too late.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": []
     },
     {
       "id": "1eafea34d3112999",
@@ -7733,24 +7782,6 @@
       "types": []
     },
     {
-      "id": "4e94c4a2a9ff5649",
-      "title": "AI数据中心初创公司Torus完成5亿美元融资，推出集成储能系统的模块化数据中心",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IbWlaanhfYWZjd2pkU1NrV0JXU2xMSkIyQmg5SUNleEJNQlY3dHRSLWdGbURPVml4T21KbDRoMWxBT3IyS25uZ3M4R0R3VzhsVXVmYXY3cV8?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-11T16:49:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": [
-        "release",
-        "business"
-      ]
-    },
-    {
       "id": "f69c81b292d509c2",
       "title": "AI data center startup Torus has closed a $500 million financing round and launched a modular data center integrated with energy storage systems.",
       "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5oWEg1NDh4bzVBbkptaUI3NXp4ZmoxUng1bnl2em0yUGhPTnh1aExoSzBuSUo3WjZCZmtuZXhRSnpQMlJBV3Y4c25aMDlxLWVJdkNEdXlnTk05QmI4Q2FXWQ?oc=5",
@@ -7767,6 +7798,24 @@
       ],
       "types": [
         "release"
+      ]
+    },
+    {
+      "id": "4e94c4a2a9ff5649",
+      "title": "AI数据中心初创公司Torus完成5亿美元融资，推出集成储能系统的模块化数据中心",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IbWlaanhfYWZjd2pkU1NrV0JXU2xMSkIyQmg5SUNleEJNQlY3dHRSLWdGbURPVml4T21KbDRoMWxBT3IyS25uZ3M4R0R3VzhsVXVmYXY3cV8?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T16:49:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "business"
       ]
     },
     {
@@ -9811,6 +9860,26 @@
       ]
     },
     {
+      "id": "d88c7f4e6e98ab4a",
+      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
+      "url": "https://arxiv.org/abs/2611.14511v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-11T02:56:32+08:00",
+      "excerpt": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "science"
+      ],
+      "types": [
+        "research"
+      ]
+    },
+    {
       "id": "3e1919c777ea2db3",
       "title": "NaiveAI Promises 2,100 Tokens per Second. How Well Does It Code?",
       "url": "https://latent.space/p/naiveai",
@@ -9830,26 +9899,6 @@
       "types": [
         "review",
         "opinion"
-      ]
-    },
-    {
-      "id": "d88c7f4e6e98ab4a",
-      "title": "Pyrite: Building and Benchmarking Protein-Ligand Pose Ranking Agents",
-      "url": "https://arxiv.org/abs/2611.14511v1",
-      "source_id": "arxiv",
-      "source_name": "arXiv",
-      "source_home": "https://arxiv.org",
-      "published": "2026-11-11T02:56:32+08:00",
-      "excerpt": "Predicting how a ligand binds to its target is central to small-molecule drug discovery. Modern cofolding models can generate diverse candidate poses, but reliably ranking these candidates remains challenging",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent",
-        "science"
-      ],
-      "types": [
-        "research"
       ]
     },
     {
@@ -11813,47 +11862,6 @@
       ]
     },
     {
-      "id": "ee23fff8b07a6ad2",
-      "title": "Reddit launches AI-powered Reviews feature – with 10,000 products to start",
-      "url": "https://zdnet.com/innovation/reddit-reviews-feature",
-      "source_id": "zdnet",
-      "source_name": "ZDNET",
-      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
-      "published": "2026-11-10T23:00:00+08:00",
-      "excerpt": "Reddit is adding AI-generated product reviews that compile real user sentiment from across communities. Here’s how they work.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "release",
-        "product"
-      ]
-    },
-    {
-      "id": "7da1b2b4758f6148",
-      "title": "Gemini Robotics 2.5: Accelerating Physical Intelligence",
-      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
-      "source_id": "deepmind",
-      "source_name": "Google DeepMind",
-      "source_home": "https://deepmind.google/blog/",
-      "published": "2026-11-10T23:00:00+08:00",
-      "excerpt": "Introducing Gemini Robotics 2.5, our most capable vision-language-action model enhancing dexterity, reliability, and safety for real-world environments.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gemini"
-      ],
-      "topics": [
-        "multimodal",
-        "robotics",
-        "safety"
-      ],
-      "types": [
-        "release"
-      ]
-    },
-    {
       "id": "1dc08ada76bb0ad2",
       "title": "Agent Substrate: Advancing Kubernetes for Agents at Scale",
       "url": "https://developer.nvidia.com/blog/agent-substrate-advancing-kubernetes-for-agents-at-scale",
@@ -11908,6 +11916,47 @@
       "types": [
         "release",
         "opensource"
+      ]
+    },
+    {
+      "id": "ee23fff8b07a6ad2",
+      "title": "Reddit launches AI-powered Reviews feature – with 10,000 products to start",
+      "url": "https://zdnet.com/innovation/reddit-reviews-feature",
+      "source_id": "zdnet",
+      "source_name": "ZDNET",
+      "source_home": "https://www.zdnet.com/topic/artificial-intelligence/",
+      "published": "2026-11-10T23:00:00+08:00",
+      "excerpt": "Reddit is adding AI-generated product reviews that compile real user sentiment from across communities. Here’s how they work.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "product"
+      ]
+    },
+    {
+      "id": "7da1b2b4758f6148",
+      "title": "Gemini Robotics 2.5: Accelerating Physical Intelligence",
+      "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence",
+      "source_id": "deepmind",
+      "source_name": "Google DeepMind",
+      "source_home": "https://deepmind.google/blog/",
+      "published": "2026-11-10T23:00:00+08:00",
+      "excerpt": "Introducing Gemini Robotics 2.5, our most capable vision-language-action model enhancing dexterity, reliability, and safety for real-world environments.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [
+        "multimodal",
+        "robotics",
+        "safety"
+      ],
+      "types": [
+        "release"
       ]
     },
     {
@@ -13047,9 +13096,9 @@
       ]
     },
     {
-      "id": "5eddd31d471cf235",
-      "title": "恋陪AI大败局：深度复盘项目崩塌核心原因与行业警示",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lN1FVX1JQZkwxWFhocHRUODhDRFJfMjJfaXZRMmNFOUxEcHVwYU1EbllRUnctREZSQ3NFVHpUM0ZvYWI4ZjMwNjI2U3JWc3FnY3Zn?oc=5",
+      "id": "3ac2cf6cde380052",
+      "title": "恋陪AI大败局",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3UnR4RzItOGRabnFXNFhHbDhtQkNEcTBLQ0tlQXh5RUMxc3habnNlNnVwRFdEZ3hmZWdlMWZpTGNOdXBEMml4N2U0VklQQQ?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -13062,9 +13111,9 @@
       "types": []
     },
     {
-      "id": "3ac2cf6cde380052",
-      "title": "恋陪AI大败局",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFA3UnR4RzItOGRabnFXNFhHbDhtQkNEcTBLQ0tlQXh5RUMxc3habnNlNnVwRFdEZ3hmZWdlMWZpTGNOdXBEMml4N2U0VklQQQ?oc=5",
+      "id": "5eddd31d471cf235",
+      "title": "恋陪AI大败局：深度复盘项目崩塌核心原因与行业警示",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9lN1FVX1JQZkwxWFhocHRUODhDRFJfMjJfaXZRMmNFOUxEcHVwYU1EbllRUnctREZSQ3NFVHpUM0ZvYWI4ZjMwNjI2U3JWc3FnY3Zn?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -13502,6 +13551,21 @@
       "types": [
         "business"
       ]
+    },
+    {
+      "id": "1179cb14fc4e1707",
+      "title": "《持械入宋》单部赚千万，手搓AI短剧为何难复制暴富神话",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9GUF9mMFBWSTZ3Y0g5b3B1b2kwTVpqMGtkSHp3MUNBTGVkMjUwX0FDQXd6eVhTa0NNM1ZkdHlKMUVWTC1acXhNMGhlSVN3Zw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-10T15:49:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "1d3d29347e66b0e8",
@@ -14430,57 +14494,6 @@
       ]
     },
     {
-      "id": "724fae9251483a53",
-      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
-      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-11-10T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "3229de0d919212c3",
-      "title": "Decision Models in Hugging Face",
-      "url": "https://huggingface.co/blog/decision",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-11-10T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "1ff74ee2cb106637",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-10T08:00:00+08:00",
-      "excerpt": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
       "id": "0df0bcd411cfca0b",
       "title": "Evaluating the Evaluators: Investigating LLM Judges for Personalized Writing Style Assessment",
       "url": "https://machinelearning.apple.com/research/evaluating-evaluators-llm-judges",
@@ -14530,6 +14543,57 @@
       "types": [
         "research"
       ]
+    },
+    {
+      "id": "724fae9251483a53",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-11-10T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "3229de0d919212c3",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-11-10T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "1ff74ee2cb106637",
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-10T08:00:00+08:00",
+      "excerpt": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
     },
     {
       "id": "26b496ffaa34d818",
@@ -15121,6 +15185,32 @@
       ]
     },
     {
+      "id": "5c4e665bb07c8457",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2, designed to tackle the most daunting technical challenges.",
+      "url": "https://x.com/claudeai/status/2119867114450268322",
+      "source_id": "x-claude",
+      "source_name": "Claude（推特）",
+      "source_home": "https://x.com/claudeai",
+      "published": "2026-11-10T02:57:59+08:00",
+      "excerpt": "They’re capable collaborators on ambitious projects in many fields, and show improvements in areas like coding, reasoning, and vision.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [
+        "coding",
+        "reasoning"
+      ],
+      "types": [
+        "release",
+        "product"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "67b9076779fb9ce3",
       "title": "G7易流7700亿Token背后：物流AI从屏幕走向一线现场｜最前线",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3RG5UbmphcE5iUzFiQlpURnlVUGZ4UXBGN0paZmN2VXMydXh1NkZsZWQ3dHRzUFBZOWlIam15WFhfRUhHUnYtY3VNT25tQQ?oc=5",
@@ -15471,6 +15561,23 @@
       ]
     },
     {
+      "id": "c6f83920fa8b380b",
+      "title": "手机芯片困在AI的繁荣里",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5yanhTZmtkMnhzRkhBNVNrR2lUam5RcnpXVHJRNE53NGVXZXQtZUJmS2ZfR19BcjhCUExva2l2a3pwUWZ4M3lHOFRGYmkzUQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-09T21:41:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "eed50b97e7877e59",
       "title": "Import AI 480: Self-sustaining space economies; AI for science progress, and Meta builds perfect hands for a superintelligence",
       "url": "https://importai.substack.com/p/import-ai-480-self-sustaining-space",
@@ -15490,6 +15597,23 @@
       ]
     },
     {
+      "id": "05bd9f0351a0c3a2",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "source_id": "mittr",
+      "source_name": "MIT Technology Review",
+      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "published": "2026-11-09T21:00:00+08:00",
+      "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "review"
+      ]
+    },
+    {
       "id": "f37b680abcf7adcb",
       "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
       "url": "https://openai.com/index/control-room",
@@ -15506,23 +15630,6 @@
       ],
       "types": [
         "research"
-      ]
-    },
-    {
-      "id": "05bd9f0351a0c3a2",
-      "title": "Innovating with AI in the special chemicals industry",
-      "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
-      "source_id": "mittr",
-      "source_name": "MIT Technology Review",
-      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "published": "2026-11-09T21:00:00+08:00",
-      "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "review"
       ]
     },
     {
@@ -15638,6 +15745,21 @@
         "opensource",
         "product"
       ]
+    },
+    {
+      "id": "2d36ebc42f09a8b6",
+      "title": "对手想按下暂停键，中国AI的时间窗口开了吗？",
+      "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1rSzBIZVJLQ0FnVTVzYXVYVGRCZWQ4N0RKMWExbVhyRlRyYXloVUI0WmZfbEVVNEl6TGJsSmhTNUVXelNBbjRIRHpUMDFwSW5D?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-09T17:24:09+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "b2f8e5d0e2c412da",
@@ -16000,6 +16122,21 @@
       ]
     },
     {
+      "id": "1938ed34093f472f",
+      "title": "前OpenAI员工看吐，AI研发AI冲线“终极超级智能”，停建全球机房也晚了",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBGUkc0cWduRG5DREV4aXU5ODdoUDJrZXBZLWdzd1NveTFjcTA1NmhJdmhMY29rLVRYUHM5OXNRazlrVWRFT1dxM1hDcER3UQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-09T05:43:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "9c7e75a27e82f37a",
       "title": "How Stanford Teaches AI-Native Engineering — Mihail Eric, Monaco",
       "url": "https://latent.space/p/cs146s",
@@ -16056,6 +16193,87 @@
       ]
     },
     {
+      "id": "18ce9316ec158169",
+      "title": "从数据服务到全球AI产业投资： 00后创业者尚立卓的产业布局新路径",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBpNkdRXzNITk5PLXNNQjI3LW1ETjRoY2FqVzRVV1JSZlhNS0M2QTd4Z2V5ckVzcnI5NUIyQy1VdEZzU1lsVjJtbFhlcUJxZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-09T02:32:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "c8a8b3bcdf49025b",
+      "title": "“AI毁了我的计算机学位”",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hdGZHOHlPME01akhyOUluT01mcG92VXpVb05McHdENlhsVzFKUENKQS1kM0QwbGk2OTVka2oyU0Rha0ZEdWpWRUJFQUs0Zw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-09T00:35:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "af38f1f543eaf20e",
+      "title": "通用大模型逼近，谁来为世界模型买单？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9oQ2Zrc1c5UWZ1MWsxNzJYcmpYdzJVYmlhbWVuaVlGMXJlNnA4MG9uRDRnRkR5LXN5WE9QclZsLW1IeGVfamtxcnlZbjg4Zw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-09T00:01:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "98e7e0287e5e334a",
+      "title": "GPT-6.2首测，网友：终于有个能压倒Opus 5.5的了？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9DM2NnT3lUSlRvUUtrVVBDY0VoUGU0OHZtbFc5Vms1SlZGZnNjVjdYa2EzZ0VSRzVocFhNUV9TdFM4LTRQZ0xKVjlzQXpOdw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-08T23:26:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gpt"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "02f5194229f16ffd",
+      "title": "欧美AI基建大崩盘：算力之争转向成本战，中国AI的机会来了？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBVcGM2V0I5UDJPRXRGbnY2N1VwNmRWbk5YQ0NJYVhpeHMwR05DR29aODcxejlnUzdsUVZxTndjdU0xUkgwWVdyRGEzY0RUUQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-08T21:18:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "7ac41c82e120c533",
       "title": "终端侧AI：从单点应用走向智能体体验",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9YN3JyN2ZZTURaZTgtOFFVNzVtbE14Sk5aZy1jNmJsdDM1TDdHdDFEZnBtdHJtYjk0Wm5aSm1vU3JtVW40RWNBaTF4c0h3RjN3Tkh2dA?oc=5",
@@ -16087,6 +16305,23 @@
       "region": "cn",
       "models": [],
       "topics": [],
+      "types": []
+    },
+    {
+      "id": "c39626cba9d705a3",
+      "title": "一个月73.8亿次提交，GitHub被AI代码挤爆，增配400万核还不够",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0td2lsZlZJLV8zV1dQU1pJakMyOGhDdXJDdVhDZkk4VmpaU01xZjJaSWVnNlUtanFaUmk0bERiRVNCSHAtNUVRbVRHZ1pMQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-08T15:37:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
       "types": []
     },
     {
@@ -16183,6 +16418,25 @@
         "review",
         "product"
       ]
+    },
+    {
+      "id": "20c60edd18d30612",
+      "title": "GPT-6之后，具身大模型画地为牢！明年自研预算估计悬了",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5GeWRzcjlDVFNZM3FxX3JzaWFJLVF2UG4zMEN2MlhWNlNDaUoySFk5RTJhVEdHcS0yT1NRZTJxT3huaHM3VlVlVW03ME9Ddw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-08T00:26:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gpt"
+      ],
+      "topics": [
+        "robotics"
+      ],
+      "types": []
     },
     {
       "id": "1a1103b4104b20cd",
@@ -17387,6 +17641,21 @@
       ]
     },
     {
+      "id": "13c114943a3b8e57",
+      "title": "Tibo被调岗，GPT重置键换主了",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxUzJ2QWpFVV9TN053NGlBM3lnNnJEejdlMDlHWVc4X0NYb2Z5M3dvcElTYTJ0b2ItbGJKVVN5Y2Y4NjFzc1JiWVBON1RMZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-06T04:40:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "c88b52d0b21039c7",
       "title": "Cult.fit builds operational muscle with Codex",
       "url": "https://openai.com/index/cultfit-builds-with-codex",
@@ -17507,6 +17776,30 @@
       ],
       "topics": [],
       "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "b20a1ccf41da266c",
+      "title": "Introducing Personal Finance in Claude, in beta in the US.",
+      "url": "https://x.com/claudeai/status/2118403114890137895",
+      "source_id": "x-claude",
+      "source_name": "Claude（推特）",
+      "source_home": "https://x.com/claudeai",
+      "published": "2026-11-06T02:00:35+08:00",
+      "excerpt": "Connect the accounts you choose, and Claude answers your money questions in everyday language, from your own balances and transactions. Access is read-only, and Claude can't move, manage, or invest your money.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [
+        "release",
+        "business",
+        "product"
+      ],
       "platforms": [
         "x"
       ]
@@ -17683,6 +17976,24 @@
       ]
     },
     {
+      "id": "48f399a0d9a24cf0",
+      "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
+      "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-11-06T01:00:00+08:00",
+      "excerpt": "One underperforming GPU can slow an entire distributed training job. The node may pass basic health checks and show normal utilization, leaving operators to...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "healthcare",
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "b58fee4edbbb5f7a",
       "title": "Australian universities are creating AI-native graduates",
       "url": "https://openai.com/index/australian-universities-ai-native-graduates",
@@ -17700,22 +18011,27 @@
       "types": []
     },
     {
-      "id": "48f399a0d9a24cf0",
-      "title": "Configure, Certify, and Operate Kubernetes GPU Clusters with NVIDIA DSX OS",
-      "url": "https://developer.nvidia.com/blog/configure-certify-and-operate-kubernetes-gpu-clusters-with-nvidia-dsx-os",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-11-06T01:00:00+08:00",
-      "excerpt": "One underperforming GPU can slow an entire distributed training job. The node may pass basic health checks and show normal utilization, leaving operators to...",
+      "id": "98fd7d1e47e25bd5",
+      "title": "Private Safety Processing lets OpenAI review related API requests for safety without retaining…",
+      "url": "https://x.com/OpenAIDevs/status/2118386439675420743",
+      "source_id": "x-openaidevs",
+      "source_name": "OpenAI 开发者（推特）",
+      "source_home": "https://x.com/OpenAIDevs",
+      "published": "2026-11-06T00:54:19+08:00",
+      "excerpt": "your prompts or responses. Records stay in your environment, where an automated safety agent reviews them without OpenAI personnel being able to access your content.",
       "lang": "en",
       "region": "intl",
       "models": [],
       "topics": [
-        "healthcare",
-        "chip"
+        "agent",
+        "safety"
       ],
-      "types": []
+      "types": [
+        "review"
+      ],
+      "platforms": [
+        "x"
+      ]
     },
     {
       "id": "56e9d2f7b1ad12ee",
@@ -17788,6 +18104,23 @@
       ]
     },
     {
+      "id": "34aa5b1d1b261a3e",
+      "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory",
+      "url": "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-11-06T00:00:00+08:00",
+      "excerpt": "In an AI factory, high bandwidth memory (HBM)is the fastest, most expensive, and most contested memory tier. Every byte spent on a redundant weight copy, an...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "763a8148826c7aad",
       "title": "Formally verifying agent-written full-stack web apps with PDD Kit",
       "url": "https://microsoft.com/en-us/research/blog/formally-verifying-agent-written-full-stack-web-apps-with-pdd-kit",
@@ -17806,23 +18139,6 @@
         "research",
         "review"
       ]
-    },
-    {
-      "id": "34aa5b1d1b261a3e",
-      "title": "Five Ways NVIDIA Co-Design Maximizes the Value of Every Byte in the AI Factory",
-      "url": "https://developer.nvidia.com/blog/five-ways-nvidia-co-design-maximizes-the-value-of-every-byte-in-the-ai-factory",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-11-06T00:00:00+08:00",
-      "excerpt": "In an AI factory, high bandwidth memory (HBM)is the fastest, most expensive, and most contested memory tier. Every byte spent on a redundant weight copy, an...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
     },
     {
       "id": "4b16c1c5888789c5",
@@ -18050,6 +18366,42 @@
       ]
     },
     {
+      "id": "30820f2119aa24b5",
+      "title": "GPT-6.2 Astra 要来了，厉娜",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1zemVQNy05QlRkOGsxSWJlZnRSaDMwdUdsbGVsV2pIT3NHbmc1SWROZEZzVG9uamhvRTYwcjFSbUFsZ25iVFdudUtKRnRWZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-05T15:46:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gpt"
+      ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "65e8e12bd53881ed",
+      "title": "刚刚，GPT-6 Cyber 正式发布，AI 最强的矛也成了最强的盾",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFB3TkFyaktwMXVhbk5wRnR5cVlpS29iT3VOQUlNMk9vQi1uVWZWMllkdTVXTy1nNTE1UkVna3FJSkRJSGtyT0FGalZMSU5kUQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-05T15:45:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gpt"
+      ],
+      "topics": [],
+      "types": [
+        "release"
+      ]
+    },
+    {
       "id": "69e3b9fed7a4fdb9",
       "title": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBORzROWXRZZWlrMTZjREV5cDl0Y0FDUFZJbWNhWUQtakVLdmEzQTRCNWxPX2taMk00NlFPWDNuSjVpZ2hHRGpYM3hqVzlOb1pLWTJOMg?oc=5",
@@ -18245,6 +18597,23 @@
       "types": []
     },
     {
+      "id": "7a69c1b89eda0814",
+      "title": "Faster Retrieval for Better, More Efficient RAG",
+      "url": "https://machinelearning.apple.com/research/faster-retrieval",
+      "source_id": "apple-ml",
+      "source_name": "Apple Machine Learning",
+      "source_home": "https://machinelearning.apple.com/",
+      "published": "2026-11-05T08:00:00+08:00",
+      "excerpt": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG)",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "search"
+      ],
+      "types": []
+    },
+    {
       "id": "89209ab642b10e25",
       "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "url": "https://huggingface.co/blog/phonon-tts",
@@ -18281,23 +18650,6 @@
         "research",
         "business"
       ]
-    },
-    {
-      "id": "7a69c1b89eda0814",
-      "title": "Faster Retrieval for Better, More Efficient RAG",
-      "url": "https://machinelearning.apple.com/research/faster-retrieval",
-      "source_id": "apple-ml",
-      "source_name": "Apple Machine Learning",
-      "source_home": "https://machinelearning.apple.com/",
-      "published": "2026-11-05T08:00:00+08:00",
-      "excerpt": "Maximum inner product search (MIPS) sits at the core of recommendation systems, search, and retrieval-augmented generation (RAG)",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "search"
-      ],
-      "types": []
     },
     {
       "id": "b6a42bfbd3b3466a",
@@ -18887,6 +19239,21 @@
       ]
     },
     {
+      "id": "6e54218b5d1a6425",
+      "title": "Anthropic微微发力，AI中转站的天就要塌了？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1kVHMyb0o1c3lRYmptcTFXLURTcjZjak5CNGZwMjgyMWdqbXB2LXlsdjZSUFZUUlhnWmViQjNBaGphUFFFcUwwbC1zYzhNUQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-04T15:41:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "75679f5aa60bfcf8",
       "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
       "url": "https://openai.com/index/daybreak-red-aws-govcloud",
@@ -18948,6 +19315,40 @@
       ]
     },
     {
+      "id": "6dce07a68e3e73d4",
+      "title": "Together Compiler: Continual Compilation for AI inference",
+      "url": "https://together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
+      "source_id": "together",
+      "source_name": "Together AI",
+      "source_home": "https://www.together.ai/blog",
+      "published": "2026-11-04T08:00:00+08:00",
+      "excerpt": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "c85c05ceb65f5eda",
+      "title": "Polymorphic Inference: self-tuning inference for open models",
+      "url": "https://together.ai/blog/polymorphic-inference",
+      "source_id": "together",
+      "source_name": "Together AI",
+      "source_home": "https://www.together.ai/blog",
+      "published": "2026-11-04T08:00:00+08:00",
+      "excerpt": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
+    },
+    {
       "id": "0a437d67f2effbc5",
       "title": "Introducing Images 2.6",
       "url": "https://openai.com/index/introducing-images-2-6",
@@ -18990,40 +19391,6 @@
       "types": []
     },
     {
-      "id": "6dce07a68e3e73d4",
-      "title": "Together Compiler: Continual Compilation for AI inference",
-      "url": "https://together.ai/blog/together-compiler-continual-compilation-for-ai-inference",
-      "source_id": "together",
-      "source_name": "Together AI",
-      "source_home": "https://www.together.ai/blog",
-      "published": "2026-11-04T08:00:00+08:00",
-      "excerpt": "Together Compiler uses agents and persistent engines to optimize open models in under 24 hours, delivering up to 3.7x higher throughput as traffic changes.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
-      "id": "c85c05ceb65f5eda",
-      "title": "Polymorphic Inference: self-tuning inference for open models",
-      "url": "https://together.ai/blog/polymorphic-inference",
-      "source_id": "together",
-      "source_name": "Together AI",
-      "source_home": "https://www.together.ai/blog",
-      "published": "2026-11-04T08:00:00+08:00",
-      "excerpt": "Models, traffic and chips are constantly changing. Polymorphic Inference adapts to each, and Together Compiler uses AI agents to keep production inference tuned.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": []
-    },
-    {
       "id": "ca723d01cd9ec798",
       "title": "Investigating vault particles with Claude",
       "url": "https://anthropic.com/news/investigating-vault-particles-with-claude",
@@ -19058,6 +19425,21 @@
       "types": [
         "release"
       ]
+    },
+    {
+      "id": "1aa9a9787bc63c2f",
+      "title": "字节扣子、腾讯元器接连下线：大厂AI产品洗牌清退潮",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80dlBzQ3dqd0pseWZzT1FSMFNVc1FuM2dKbmZOQ25FUkR3NTRhaDJEMGRHQ2lLVVduaFdQTEM1aDN5LS1KTDYtZHFtcVdWZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-04T04:27:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "d8521e9d1aa9f008",
@@ -19118,6 +19500,28 @@
       "types": [
         "release"
       ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "9a0d63ec82a37826",
+      "title": "ChatGPT and Codex are helping engineers build for the physical world.",
+      "url": "https://x.com/OpenAI/status/2117692475775258785",
+      "source_id": "x-openai",
+      "source_name": "OpenAI（推特）",
+      "source_home": "https://x.com/OpenAI",
+      "published": "2026-11-04T02:56:45+08:00",
+      "excerpt": "We’re sharing our progress across mechanical design, electrical engineering, and simulation—from helping our hardware teams iterate faster to testing new workflows with industry collaborators.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gpt"
+      ],
+      "topics": [
+        "coding"
+      ],
+      "types": [],
       "platforms": [
         "x"
       ]
@@ -19508,6 +19912,24 @@
       ]
     },
     {
+      "id": "7e8b72f62dbb18a5",
+      "title": "As AI becomes more capable at finding vulnerabilities, defenders need to put it to work before attackers do.",
+      "url": "https://x.com/OpenAI/status/2117444048227123277",
+      "source_id": "x-openai",
+      "source_name": "OpenAI（推特）",
+      "source_home": "https://x.com/OpenAI",
+      "published": "2026-11-03T10:29:35+08:00",
+      "excerpt": "We’re planning our next internal security sprint at OpenAI and partnering with Cathedral Systems, whose researchers will use our models alongside our teams to challenge our defenses",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "7735e8078653d371",
       "title": "MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5MT25RR3NXN1JNa2xZVW02T2ROdkRiVXR2ZWc5RjZCbjVJVDlpTHU3Zlk1TjNMem0zVmxyMjRuenBqM0MzTGtoVUJMX3Q5UFNGR29QWQ?oc=5",
@@ -19521,6 +19943,21 @@
       "models": [
         "gpt"
       ],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "f20aa0a9a1f223ed",
+      "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
+      "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
+      "source_id": "apple-ml",
+      "source_name": "Apple Machine Learning",
+      "source_home": "https://machinelearning.apple.com/",
+      "published": "2026-11-03T08:00:00+08:00",
+      "excerpt": "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
       "topics": [],
       "types": []
     },
@@ -19567,21 +20004,6 @@
       "source_home": "https://openai.com/news",
       "published": "2026-11-03T08:00:00+08:00",
       "excerpt": "Jill Hazelbaker will join OpenAI as Chief Corporate Affairs Officer, leading the company’s global communications and corporate positioning.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "f20aa0a9a1f223ed",
-      "title": "Attention to Mamba: A Recipe for Cross-Architecture Distillation",
-      "url": "https://machinelearning.apple.com/research/attention-mamba-distillation",
-      "source_id": "apple-ml",
-      "source_name": "Apple Machine Learning",
-      "source_home": "https://machinelearning.apple.com/",
-      "published": "2026-11-03T08:00:00+08:00",
-      "excerpt": "State Space Models (SSMs) such as Mamba have become a popular alternative to Transformer models, due to their reduced memory consumption and higher throughput at generation compared to their Attention-based",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -19702,6 +20124,23 @@
       ]
     },
     {
+      "id": "1ea828d9cbeb2842",
+      "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
+      "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-11-03T02:00:00+08:00",
+      "excerpt": "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "6fd6ad7938fa5bc5",
       "title": "Rewarding defenders with bigger bug bounties",
       "url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties",
@@ -19732,23 +20171,6 @@
       "region": "intl",
       "models": [],
       "topics": [],
-      "types": []
-    },
-    {
-      "id": "1ea828d9cbeb2842",
-      "title": "Making Kubernetes AI-Ready for NVIDIA Vera Rubin on Day One",
-      "url": "https://developer.nvidia.com/blog/making-kubernetes-ai-ready-for-nvidia-vera-rubin-on-day-one",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-11-03T02:00:00+08:00",
-      "excerpt": "Configuring and optimizing Kubernetes for new GPU hardware such as NVIDIA Vera Rubin is complex and error-prone. Drivers, kernels, runtimes, networking,...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
       "types": []
     },
     {
@@ -19786,23 +20208,25 @@
       ]
     },
     {
-      "id": "ca1c10f5e43f722e",
-      "title": "Raising the quality of insights in agentic analytics",
-      "url": "https://technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
-      "source_id": "mittr",
-      "source_name": "MIT Technology Review",
-      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "published": "2026-11-03T01:00:00+08:00",
-      "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization",
+      "id": "ebc77ece2c5a60d6",
+      "title": "For AGI to benefit all of humanity, it should help people with the everyday tasks that matter most to them.",
+      "url": "https://x.com/OpenAI/status/2117307611338997846",
+      "source_id": "x-openai",
+      "source_name": "OpenAI（推特）",
+      "source_home": "https://x.com/OpenAI",
+      "published": "2026-11-03T01:27:26+08:00",
+      "excerpt": "So we built LifeVal, a new benchmark shaped by feedback from thousands of ChatGPT users on where they most want help from a personal assistant—from finding childcare to accessing government services to managing personal",
       "lang": "en",
       "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
+      "models": [
+        "gpt"
       ],
+      "topics": [],
       "types": [
-        "business",
         "review"
+      ],
+      "platforms": [
+        "x"
       ]
     },
     {
@@ -19821,6 +20245,26 @@
         "chip"
       ],
       "types": []
+    },
+    {
+      "id": "ca1c10f5e43f722e",
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics",
+      "source_id": "mittr",
+      "source_name": "MIT Technology Review",
+      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "published": "2026-11-03T01:00:00+08:00",
+      "excerpt": "In just a few years, generative AI has changed the face of enterprise analytics, notably by making analytics accessible to users across the organization",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "business",
+        "review"
+      ]
     },
     {
       "id": "fcfd6740eb17fc15",
@@ -20510,6 +20954,26 @@
       ]
     },
     {
+      "id": "1ae0e05bec22fabd",
+      "title": "We’re renaming our Max plans:",
+      "url": "https://x.com/claudeai/status/2116220869479428500",
+      "source_id": "x-claude",
+      "source_name": "Claude（推特）",
+      "source_home": "https://x.com/claudeai",
+      "published": "2026-10-31T01:29:07+08:00",
+      "excerpt": "Max 5x → Max Max 20x → Ultra Max is still $100/month, and Ultra is still $200. If you’re a subscriber, there’s nothing you need to do",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "125e4db0c3bdf151",
       "title": "See how finance teams are using Copilot Cowork, from quarterly close to recurring forecast updates.",
       "url": "https://x.com/MSFTCopilot/status/2116213544966398386",
@@ -20966,6 +21430,26 @@
       ]
     },
     {
+      "id": "245a5c5b7658d05b",
+      "title": "We're humbled by the support from the country that raised our founders and defined our values.",
+      "url": "https://x.com/cohere/status/2115883991089729780",
+      "source_id": "x-cohere",
+      "source_name": "Cohere（推特）",
+      "source_home": "https://x.com/cohere",
+      "published": "2026-10-30T03:10:29+08:00",
+      "excerpt": "Looking forward to continue building in Canada, for Canadians 🇨🇦 Secure, sovereign AI. Built in Canada for the benefit of all Canadians.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "business"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "4f4bed045acfcb54",
       "title": "Trump ignored intel on China’s Nvidia spy to protect company’s stock, report says",
       "url": "https://arstechnica.com/tech-policy/2026/10/report-trump-did-nothing-with-intel-that-china-planted-spy-close-to-nvidia-ceo",
@@ -21027,6 +21511,26 @@
       ]
     },
     {
+      "id": "9ab95042c76e5320",
+      "title": "A few upgrades to the Claude mobile apps this week:",
+      "url": "https://x.com/claudeai/status/2115859377488072879",
+      "source_id": "x-claude",
+      "source_name": "Claude（推特）",
+      "source_home": "https://x.com/claudeai",
+      "published": "2026-10-30T01:32:41+08:00",
+      "excerpt": "On iPad and iPhone Duo: what Claude makes now opens beside the chat instead of over it, and goes full screen when you want a closer look.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "7bf0065ceb1646f5",
       "title": "An updated Model Spec for more capable and beneficial AI",
       "url": "https://openai.com/index/updated-model-spec",
@@ -21041,6 +21545,24 @@
       "topics": [],
       "types": [
         "review"
+      ]
+    },
+    {
+      "id": "226638c87f74e1e8",
+      "title": "\"Cohere is a Canadian success story being written before our eyes\" - Prime Minister @MarkJCarney",
+      "url": "https://x.com/cohere/status/2115850155102552457",
+      "source_id": "x-cohere",
+      "source_name": "Cohere（推特）",
+      "source_home": "https://x.com/cohere",
+      "published": "2026-10-30T00:56:02+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
       ]
     },
     {
@@ -21141,6 +21663,27 @@
         "coding"
       ],
       "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "ba65a719f9a1e2b7",
+      "title": "We're proud to announce the initial close of our Series E, targeting up to CAD $7 billion at a…",
+      "url": "https://x.com/cohere/status/2115833490126336507",
+      "source_id": "x-cohere",
+      "source_name": "Cohere（推特）",
+      "source_home": "https://x.com/cohere",
+      "published": "2026-10-29T23:49:48+08:00",
+      "excerpt": "CAD $35.7 billion valuation; marking the largest private financing round in Canadian startup history.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "business"
+      ],
       "platforms": [
         "x"
       ]
@@ -21631,6 +22174,29 @@
       ]
     },
     {
+      "id": "aee868d2cfdcc216",
+      "title": "Today we're announcing support for university research at @Caltech, @OhioStateMed, @LSU…",
+      "url": "https://x.com/AIatMeta/status/2115490919923548307",
+      "source_id": "x-metaai",
+      "source_name": "Meta AI（推特）",
+      "source_home": "https://x.com/AIatMeta",
+      "published": "2026-10-29T01:08:33+08:00",
+      "excerpt": "@IndianaUniv, and @UTHealthHouston to help advance breakthroughs across science and medicine. As part of the support for university researchers, we’ll provide access to our latest Muse models",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": [
+        "release",
+        "research"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "9066ef64accfce85",
       "title": "Announcing Gemini 4 Carbon, our strongest model with state-of-the-art cybersecurity and long horizon capabilities.",
       "url": "https://x.com/GoogleAI/status/2115489593818816591",
@@ -21691,6 +22257,29 @@
         "chip"
       ],
       "types": []
+    },
+    {
+      "id": "1218bbc2a7482128",
+      "title": "New in Claude for Legal: a gallery of ready-made artifacts for contract review, regulatory…",
+      "url": "https://x.com/claudeai/status/2115467192276025500",
+      "source_id": "x-claude",
+      "source_name": "Claude（推特）",
+      "source_home": "https://x.com/claudeai",
+      "published": "2026-10-28T23:34:16+08:00",
+      "excerpt": "horizon scans, cite checks, and more. Start from the built-in example, add your own documents and connectors, and share it with anyone across the business.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [
+        "policy",
+        "review"
+      ],
+      "platforms": [
+        "x"
+      ]
     },
     {
       "id": "75e2017ed4c5a2ec",
@@ -22208,6 +22797,23 @@
       ]
     },
     {
+      "id": "c6329a986f18633d",
+      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
+      "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-10-27T23:00:00+08:00",
+      "excerpt": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "d42fb1eb3362412f",
       "title": "Retell uses OpenAI models to help power 100M monthly calls",
       "url": "https://openai.com/index/retell-ai",
@@ -22230,23 +22836,6 @@
         "business",
         "review"
       ]
-    },
-    {
-      "id": "c6329a986f18633d",
-      "title": "3 Ways to Boost MoE Inference on NVIDIA DGX Spark",
-      "url": "https://developer.nvidia.com/blog/3-ways-to-boost-moe-inference-on-nvidia-dgx-spark",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-10-27T23:00:00+08:00",
-      "excerpt": "Generating tokens faster starts with identifying what limits inference performance. In the batch-size-1 evaluation of Ling-3.0-flash from Inclusion AI on NVIDIA...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
     },
     {
       "id": "42c92fbc7a083083",
@@ -22444,6 +23033,23 @@
       "types": []
     },
     {
+      "id": "ffb4d3665a1d4c50",
+      "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
+      "url": "https://together.ai/blog/auto-repair-for-together-gpu-clusters",
+      "source_id": "together",
+      "source_name": "Together AI",
+      "source_home": "https://www.together.ai/blog",
+      "published": "2026-10-27T08:00:00+08:00",
+      "excerpt": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "8cb333260a17a324",
       "title": "How Check Point accelerates vulnerability research with Daybreak",
       "url": "https://openai.com/index/check-point-daybreak",
@@ -22475,23 +23081,6 @@
         "grok"
       ],
       "topics": [],
-      "types": []
-    },
-    {
-      "id": "ffb4d3665a1d4c50",
-      "title": "Auto repair for Together GPU Clusters: from GPU fault to healthy node",
-      "url": "https://together.ai/blog/auto-repair-for-together-gpu-clusters",
-      "source_id": "together",
-      "source_name": "Together AI",
-      "source_home": "https://www.together.ai/blog",
-      "published": "2026-10-27T08:00:00+08:00",
-      "excerpt": "Together GPU Clusters auto repair detects GPU, host and fabric faults, picks the lightest fix, and lets you decide per fault and per Xid code which repairs run automatically. Here is how it works.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
       "types": []
     },
     {
@@ -22545,6 +23134,28 @@
       "topics": [],
       "types": [
         "business"
+      ]
+    },
+    {
+      "id": "96af7e4be34d11cc",
+      "title": "Trace, raw tokens, & minimal reproduction script found here on @huggingface…",
+      "url": "https://x.com/cohere/status/2114851140349448460",
+      "source_id": "x-cohere",
+      "source_name": "Cohere（推特）",
+      "source_home": "https://x.com/cohere",
+      "published": "2026-10-27T06:46:18+08:00",
+      "excerpt": "https://huggingface.co/datasets/CohereLabs/10-2026-qwen-investigation-traces",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "qwen"
+      ],
+      "topics": [],
+      "types": [
+        "opensource"
+      ],
+      "platforms": [
+        "x"
       ]
     },
     {
@@ -22625,6 +23236,26 @@
         "audio"
       ],
       "types": []
+    },
+    {
+      "id": "cfe8b42c1ec754a5",
+      "title": "More than 25,000 nonprofits now use Claude. Most are small, local teams.",
+      "url": "https://x.com/claudeai/status/2114780227465338985",
+      "source_id": "x-claude",
+      "source_name": "Claude（推特）",
+      "source_home": "https://x.com/claudeai",
+      "published": "2026-10-27T02:04:31+08:00",
+      "excerpt": "We’re expanding Claude for Nonprofits with a plugin built with around 30 of them, adding skills for fundraising, marketing",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
     },
     {
       "id": "d57e9a8a9f2db5fe",
@@ -23730,6 +24361,23 @@
       ]
     },
     {
+      "id": "676b58ceeee7bff8",
+      "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
+      "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes",
+      "source_id": "nvidia-dev",
+      "source_name": "NVIDIA Developer",
+      "source_home": "https://developer.nvidia.com/blog",
+      "published": "2026-10-23T00:00:00+08:00",
+      "excerpt": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
       "id": "ccc3219ff3a46714",
       "title": "Flint-interactive: A language for creating interactive data visualizations",
       "url": "https://microsoft.com/en-us/research/blog/flint-interactive-a-language-for-creating-interactive-data-visualizations",
@@ -23747,23 +24395,6 @@
       "types": [
         "research"
       ]
-    },
-    {
-      "id": "676b58ceeee7bff8",
-      "title": "Running Frontier-Class AI Models Across 8 NVIDIA DGX Spark Nodes",
-      "url": "https://developer.nvidia.com/blog/running-frontier-class-ai-models-across-8-nvidia-dgx-spark-nodes",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-10-23T00:00:00+08:00",
-      "excerpt": "AI developers aren’t just running a single model anymore—they’re orchestrating multiple models in parallel, chaining inference calls, and experimenting...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": []
     },
     {
       "id": "e4def151132c1e8c",
@@ -23942,6 +24573,28 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "6b7e4381d5478caf",
+      "title": "Read the news ⬇️…",
+      "url": "https://x.com/nvidia/status/2113136526645493791",
+      "source_id": "x-nvidia",
+      "source_name": "NVIDIA（推特）",
+      "source_home": "https://x.com/nvidia",
+      "published": "2026-10-22T13:13:02+08:00",
+      "excerpt": "https://nvidianews.nvidia.com/news/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europes-infrastructure-deployment",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ],
+      "platforms": [
+        "x"
+      ]
     },
     {
       "id": "20dc4bc869298a71",
@@ -24320,23 +24973,6 @@
       ]
     },
     {
-      "id": "74fcf21eca7add4a",
-      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
-      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-10-21T21:00:00+08:00",
-      "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gpt"
-      ],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "50afaf72bfb9fbf4",
       "title": "How Commerce.com and Cloudflare are getting storefronts ready for AI agents",
       "url": "https://blog.cloudflare.com/webmcp-commerce",
@@ -24351,6 +24987,23 @@
       "topics": [
         "agent"
       ],
+      "types": []
+    },
+    {
+      "id": "74fcf21eca7add4a",
+      "title": "ChatGPT Ads expands to 26 new countries as over 100,000 advertisers have used the platform",
+      "url": "https://openai.com/index/chatgpt-ads-expands-26-new-countries",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-10-21T21:00:00+08:00",
+      "excerpt": "From local businesses to global brands, more advertisers can now reach people as they explore, compare and decide what to buy in ChatGPT.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gpt"
+      ],
+      "topics": [],
       "types": []
     },
     {
@@ -24576,6 +25229,21 @@
       ]
     },
     {
+      "id": "68027f97a084b43c",
+      "title": "Pixels to Tokens: Token Space Efficient Active Learning for Low-Budget Semantic Segmentation",
+      "url": "https://machinelearning.apple.com/research/pixels-tokens-active-learning",
+      "source_id": "apple-ml",
+      "source_name": "Apple Machine Learning",
+      "source_home": "https://machinelearning.apple.com/",
+      "published": "2026-10-21T08:00:00+08:00",
+      "excerpt": "While foundation models and vision transformers (ViTs) have redefined visual representations, current active learning (AL) strategies for these backbones largely operate at the patch or region level",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "9201054eeb4c743a",
       "title": "Cloudflare links vulnerability discovery to defense with OpenAI",
       "url": "https://openai.com/index/cloudflare-cyber",
@@ -24604,21 +25272,6 @@
       "source_home": "https://openai.com/news",
       "published": "2026-10-21T08:00:00+08:00",
       "excerpt": "OpenAI outlines a blueprint for empowering cyber defenders with frontier AI, stronger safeguards, modernized cybersecurity, and more resilient public institutions.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "68027f97a084b43c",
-      "title": "Pixels to Tokens: Token Space Efficient Active Learning for Low-Budget Semantic Segmentation",
-      "url": "https://machinelearning.apple.com/research/pixels-tokens-active-learning",
-      "source_id": "apple-ml",
-      "source_name": "Apple Machine Learning",
-      "source_home": "https://machinelearning.apple.com/",
-      "published": "2026-10-21T08:00:00+08:00",
-      "excerpt": "While foundation models and vision transformers (ViTs) have redefined visual representations, current active learning (AL) strategies for these backbones largely operate at the patch or region level",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -24699,6 +25352,27 @@
       "topics": [],
       "types": [
         "opinion"
+      ]
+    },
+    {
+      "id": "cfbbae39c5fbb2a6",
+      "title": "Perplexity Computer can now run fully local on your Mac.",
+      "url": "https://x.com/perplexity_ai/status/2112571597798461920",
+      "source_id": "x-perplexity",
+      "source_name": "Perplexity（推特）",
+      "source_home": "https://x.com/perplexity_ai",
+      "published": "2026-10-20T23:48:13+08:00",
+      "excerpt": "Work with your native Mac apps and local files, and run tasks without sending sensitive data to the cloud. The model and the agent both run on your Mac. Available now in the Perplexity Mac app.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "search"
+      ],
+      "types": [],
+      "platforms": [
+        "x"
       ]
     },
     {
@@ -24972,6 +25646,29 @@
       ]
     },
     {
+      "id": "33f24142a356d50c",
+      "title": "Today we published a technical report on Muse Glimmer, our 30B open-weight model built for…",
+      "url": "https://x.com/AIatMeta/status/2112265822274302066",
+      "source_id": "x-metaai",
+      "source_name": "Meta AI（推特）",
+      "source_home": "https://x.com/AIatMeta",
+      "published": "2026-10-20T03:33:10+08:00",
+      "excerpt": "agentic tasks on consumer hardware. It runs at practical speeds on a Mac or PC with a single consumer GPU at 4-bit precision, and leads comparably-sized open models on tool use and multi-step planning",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "chip"
+      ],
+      "types": [
+        "opensource"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "fa45f57b682bff93",
       "title": "Cutting our inference bill by 68% by being obsessive about optimization",
       "url": "https://blog.cloudflare.com/obsessive-inference-optimization",
@@ -24985,6 +25682,24 @@
       "models": [],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "f468142970285170",
+      "title": "We trained our Muse foundational models, including Muse Wonder, at Prometheus, our…",
+      "url": "https://x.com/AIatMeta/status/2112245968750145561",
+      "source_id": "x-metaai",
+      "source_name": "Meta AI（推特）",
+      "source_home": "https://x.com/AIatMeta",
+      "published": "2026-10-20T02:14:17+08:00",
+      "excerpt": "gigawatt-scale supercluster in New Albany, Ohio. Across a supercluster with hundreds of thousands of GPUs, even one underperforming host can slow an entire training run",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
     },
     {
       "id": "bd9b3f35c98c2300",
@@ -25140,23 +25855,6 @@
       ]
     },
     {
-      "id": "9dbc0d55ff9123c6",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-19T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
       "id": "ff29f2e74f0b217c",
       "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
       "url": "https://together.ai/blog/together-post-training",
@@ -25173,6 +25871,23 @@
       ],
       "topics": [],
       "types": []
+    },
+    {
+      "id": "9dbc0d55ff9123c6",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-10-19T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ]
     },
     {
       "id": "66d5720ec836838d",
@@ -25335,6 +26050,30 @@
         "coding"
       ],
       "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "b4ca6e4c210b0710",
+      "title": "Gemini 4 Argon sets a new record on WANDR.",
+      "url": "https://x.com/perplexity_ai/status/2111110772747321460",
+      "source_id": "x-perplexity",
+      "source_name": "Perplexity（推特）",
+      "source_home": "https://x.com/perplexity_ai",
+      "published": "2026-10-16T23:03:25+08:00",
+      "excerpt": "It is now available in Perplexity for Pro and Max subscribers.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [
+        "search"
+      ],
+      "types": [
+        "release"
+      ],
       "platforms": [
         "x"
       ]
@@ -25535,6 +26274,26 @@
       "types": []
     },
     {
+      "id": "81868fd23b0972ce",
+      "title": "We’re proud to share that Meta Omnilingual Automatic Speech Recognition (ASR) has been named…",
+      "url": "https://x.com/AIatMeta/status/2110861420321759269",
+      "source_id": "x-metaai",
+      "source_name": "Meta AI（推特）",
+      "source_home": "https://x.com/AIatMeta",
+      "published": "2026-10-16T06:32:35+08:00",
+      "excerpt": "one of @TIME’s Best Inventions of 2026! Meta Omnilingual ASR is a suite of models providing ASR capabilities for over 1,600 languages, including 500 low-coverage languages never before served by any ASR system",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "audio"
+      ],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "a72d1e4da6b0e106",
       "title": "Bringing GPT-Rosalind to academic research labs",
       "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
@@ -25550,6 +26309,30 @@
       "types": [
         "release",
         "research"
+      ]
+    },
+    {
+      "id": "e7b1df9f1bbaebc3",
+      "title": "NVIDIA’s Nemotron 3.5 Super VL is now available in Perplexity for Pro and Max subscribers, and in Agent API.",
+      "url": "https://x.com/perplexity_ai/status/2110793639727358422",
+      "source_id": "x-perplexity",
+      "source_name": "Perplexity（推特）",
+      "source_home": "https://x.com/perplexity_ai",
+      "published": "2026-10-16T02:03:15+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "search",
+        "chip"
+      ],
+      "types": [
+        "release"
+      ],
+      "platforms": [
+        "x"
       ]
     },
     {
@@ -25591,6 +26374,54 @@
       ],
       "types": [
         "release"
+      ]
+    },
+    {
+      "id": "5c16a9c6461b4496",
+      "title": "Today we’re releasing Muse Spark Open, the most capable US open-weight model to date.",
+      "url": "https://x.com/AIatMeta/status/2110779754274292212",
+      "source_id": "x-metaai",
+      "source_name": "Meta AI（推特）",
+      "source_home": "https://x.com/AIatMeta",
+      "published": "2026-10-16T01:08:04+08:00",
+      "excerpt": "Built for coding and agentic work, it excels at long-horizon tasks, complex software engineering, and multi-step reasoning",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent",
+        "reasoning"
+      ],
+      "types": [
+        "release",
+        "opensource"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "9bde913d8d162b2f",
+      "title": "We're open sourcing SPACE, the sandbox platform that runs every task in Perplexity Computer.",
+      "url": "https://x.com/perplexity_ai/status/2110778478312481167",
+      "source_id": "x-perplexity",
+      "source_name": "Perplexity（推特）",
+      "source_home": "https://x.com/perplexity_ai",
+      "published": "2026-10-16T01:03:00+08:00",
+      "excerpt": "SPACE gives each agent task its own Firecracker microVM and controls credentials and outbound traffic from outside the VM. Available now under Apache 2.0: https://github.com/perplexityai/SPACE?tab=Apache-2.0-1-ov-file",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "search"
+      ],
+      "types": [
+        "opensource"
+      ],
+      "platforms": [
+        "x"
       ]
     },
     {
@@ -25728,6 +26559,21 @@
       ]
     },
     {
+      "id": "5dbfd745016de291",
+      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
+      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web",
+      "source_id": "cloudflare-ai",
+      "source_name": "Cloudflare",
+      "source_home": "https://blog.cloudflare.com/tag/ai/",
+      "published": "2026-10-15T21:00:00+08:00",
+      "excerpt": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "fa14b8f7db4605df",
       "title": "Teaching students to think and learn through questions",
       "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
@@ -25743,21 +26589,6 @@
       "types": [
         "research"
       ]
-    },
-    {
-      "id": "5dbfd745016de291",
-      "title": "Cloudflare and OpenAI: Making AI discovery better for everyone",
-      "url": "https://blog.cloudflare.com/cloudflare-openai-discovery-agentic-web",
-      "source_id": "cloudflare-ai",
-      "source_name": "Cloudflare",
-      "source_home": "https://blog.cloudflare.com/tag/ai/",
-      "published": "2026-10-15T21:00:00+08:00",
-      "excerpt": "How Cloudflare and OpenAI are working together to help AI find useful content, keep up with changes, and make fewer wasted requests — making the experience better for users and website owners alike.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "3a11e60ee8cf431d",
@@ -25816,63 +26647,6 @@
       "types": [
         "release",
         "opensource"
-      ]
-    },
-    {
-      "id": "9d251ac6836a600d",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "multimodal"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "3733c75a28bf26df",
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "url": "https://huggingface.co/blog/flux-3",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "flux"
-      ],
-      "topics": [
-        "image"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "dd00c04c9b95848e",
-      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-      "url": "https://openai.com/index/sullivan-cromwell",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "review"
       ]
     },
     {
@@ -25952,6 +26726,63 @@
       ]
     },
     {
+      "id": "9d251ac6836a600d",
+      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
+      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "multimodal"
+      ],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "3733c75a28bf26df",
+      "title": "Welcome FLUX.3 Image Klein in Diffusers",
+      "url": "https://huggingface.co/blog/flux-3",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "flux"
+      ],
+      "topics": [
+        "image"
+      ],
+      "types": [
+        "opensource"
+      ]
+    },
+    {
+      "id": "dd00c04c9b95848e",
+      "title": "Sullivan & Cromwell brings legal expertise into agreement review",
+      "url": "https://openai.com/index/sullivan-cromwell",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "review"
+      ]
+    },
+    {
       "id": "227d02ee5d0460b9",
       "title": "An update on independent evaluators",
       "url": "https://anthropic.com/news/an-update-on-independent-evaluators",
@@ -25971,6 +26802,26 @@
       ]
     },
     {
+      "id": "f1e1cd9748578310",
+      "title": "Muse Wonder and Muse Wonder Full deliver SOTA performance on personal and professional agentic tasks.",
+      "url": "https://x.com/AIatMeta/status/2110517571149807685",
+      "source_id": "x-metaai",
+      "source_name": "Meta AI（推特）",
+      "source_home": "https://x.com/AIatMeta",
+      "published": "2026-10-15T07:46:15+08:00",
+      "excerpt": "Learn more about the models on our researcher blog: https://go.meta.me/musewonder",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
       "id": "b5bf2a8338b1fa40",
       "title": "Steering AI Beyond Automation",
       "url": "https://normaltech.ai/p/steering-ai-beyond-automation",
@@ -25985,6 +26836,53 @@
       "topics": [],
       "types": [
         "research"
+      ]
+    },
+    {
+      "id": "102bf5f6e93aadda",
+      "title": "We’re exploring how AI can accelerate health science research.",
+      "url": "https://x.com/AIatMeta/status/2110441716507693450",
+      "source_id": "x-metaai",
+      "source_name": "Meta AI（推特）",
+      "source_home": "https://x.com/AIatMeta",
+      "published": "2026-10-15T02:44:49+08:00",
+      "excerpt": "While AI has made significant breakthroughs in formal sciences like mathematics, health data science depends on imperfect real-world data and consequential choices about cohorts, variables, and causal assumptions",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "science",
+        "healthcare"
+      ],
+      "types": [
+        "research"
+      ],
+      "platforms": [
+        "x"
+      ]
+    },
+    {
+      "id": "4223e562150d83e1",
+      "title": "Ultrafast versions of GPT-6 Astra and SOL 6.1 are now available in Perplexity Computer for Max subscribers.",
+      "url": "https://x.com/perplexity_ai/status/2110415710073819389",
+      "source_id": "x-perplexity",
+      "source_name": "Perplexity（推特）",
+      "source_home": "https://x.com/perplexity_ai",
+      "published": "2026-10-15T01:01:29+08:00",
+      "excerpt": "Both generate tokens faster, completing long Computer tasks sooner. Choose Astra or SOL 6.1 under Custom, then set speed to Ultrafast.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gpt"
+      ],
+      "topics": [
+        "search"
+      ],
+      "types": [
+        "release"
+      ],
+      "platforms": [
+        "x"
       ]
     },
     {
