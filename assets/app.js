@@ -13,6 +13,7 @@
     models: [],
     topics: [],
     types: [],
+    platforms: [],
     sources: [],
     region: [],
     lang: [],
@@ -116,6 +117,7 @@
     state.models = list("m");
     state.topics = list("f");
     state.types = list("t");
+    state.platforms = list("p");
     state.sources = list("s");
     state.region = list("r");
     state.lang = list("l");
@@ -131,6 +133,7 @@
     put("m", state.models);
     put("f", state.topics);
     put("t", state.types);
+    put("p", state.platforms);
     put("s", state.sources);
     put("r", state.region);
     put("l", state.lang);
@@ -174,6 +177,7 @@
     if (skip !== "models" && !orHas(state.models, item.models || [])) return false;
     if (skip !== "topics" && !orHas(state.topics, item.topics || [])) return false;
     if (skip !== "types" && !orHas(state.types, item.types || [])) return false;
+    if (skip !== "platforms" && !orHas(state.platforms, item.platforms || [])) return false;
     if (skip !== "sources" && !orHas(state.sources, [item.source_id])) return false;
     if (skip !== "region" && !orHas(state.region, [item.region])) return false;
     if (skip !== "lang" && !orHas(state.lang, [item.lang])) return false;
@@ -193,6 +197,7 @@
       if (key === "models") vals = it.models || [];
       else if (key === "topics") vals = it.topics || [];
       else if (key === "types") vals = it.types || [];
+      else if (key === "platforms") vals = it.platforms || [];
       else if (key === "sources") vals = [it.source_id];
       else if (key === "region") vals = [it.region];
       else if (key === "lang") vals = [it.lang];
@@ -212,6 +217,7 @@
     return (
       (state.q ? 1 : 0) +
       state.models.length + state.topics.length + state.types.length +
+      state.platforms.length +
       state.sources.length + state.region.length + state.lang.length +
       (state.range !== "30d" ? 1 : 0) +
       (state.fav ? 1 : 0)
@@ -223,6 +229,7 @@
     state.models = [];
     state.topics = [];
     state.types = [];
+    state.platforms = [];
     state.sources = [];
     state.region = [];
     state.lang = [];
@@ -235,7 +242,7 @@
   function nameOf(group, id) {
     const tax = state.data.taxonomy || {};
     const map = {
-      models: tax.models, topics: tax.topics, types: tax.types,
+      models: tax.models, topics: tax.topics, types: tax.types, platforms: tax.platforms,
     };
     if (map[group]) {
       const t = map[group].find((x) => x.id === id);
@@ -295,6 +302,7 @@
     const modelItems = tax.models.filter((t) => t.count > 0 || state.models.includes(t.id));
     const topicItems = tax.topics.filter((t) => t.count > 0 || state.topics.includes(t.id));
     const typeItems = tax.types.filter((t) => t.count > 0 || state.types.includes(t.id));
+    const platformItems = ((tax.platforms || []).filter((t) => t.count > 0 || state.platforms.includes(t.id)));
     const srcItems = sources.map((s) => ({ id: s.id, name: s.name, official: s.official }));
     // official first already from payload; keep it
 
@@ -320,6 +328,10 @@
         ${chipGroup("types", typeItems, { limit: 16, always: true })}
       </section>
       <section class="fg">
+        <div class="fg-title">平台</div>
+        ${chipGroup("platforms", platformItems, { always: true })}
+      </section>
+      <section class="fg">
         <div class="fg-title">来源</div>
         ${chipGroup("sources", srcItems, { limit: 12 })}
       </section>
@@ -342,6 +354,7 @@
     state.models.forEach((id) => add("models", id));
     state.topics.forEach((id) => add("topics", id));
     state.types.forEach((id) => add("types", id));
+    state.platforms.forEach((id) => add("platforms", id));
     state.sources.forEach((id) => add("sources", id));
     state.region.forEach((id) => add("region", id));
     state.lang.forEach((id) => add("lang", id));
@@ -349,7 +362,7 @@
     if (state.q) chips.push({ group: "q", id: state.q, name: "“" + state.q + "”" });
     if (state.fav) chips.push({ group: "fav", id: "1", name: "只看收藏" });
 
-    const labels = { models: "模型", topics: "功能", types: "类型", sources: "来源", region: "地区", lang: "语言", range: "时间", q: "搜索", fav: "" };
+    const labels = { models: "模型", topics: "功能", types: "类型", platforms: "平台", sources: "来源", region: "地区", lang: "语言", range: "时间", q: "搜索", fav: "" };
     if (!chips.length) {
       els.activeBar.hidden = true;
       els.activeBar.innerHTML = "";
@@ -384,6 +397,7 @@
     push("models", item.models, tax.models);
     push("topics", item.topics, tax.topics);
     push("types", item.types, tax.types);
+    push("platforms", item.platforms, tax.platforms);
     return parts.join("");
   }
 
@@ -487,8 +501,8 @@
       `<li><a href="${esc(s.home)}" target="_blank" rel="noopener noreferrer">${s.official ? '<span class="off-dot" title="实验室 / 官方"></span>' : ""}<span>${esc(s.name)}</span><span class="n">${s.count}</span></a></li>`
     )).join("")}</ul>`;
     els.aboutBody.innerHTML = `
-      <p>观澜收集实验室、研究机构与科技媒体公开发布的人工智能资讯。每条都标明来源，并链回原文；发布时间按北京时间显示。</p>
-      <p>标签按标题与摘要中的关键词自动归类，可按模型、功能、类型、来源、地区和语言多重组合筛选。组内为「任一」，组与组之间为「同时满足」。筛选条件会写进地址栏，方便分享。</p>
+      <p>观澜收集实验室、研究机构与科技媒体公开发布的人工智能资讯，亦收录各实验室、产品与媒体的官方推特账号。每条都标明来源，并链回原文；发布时间按北京时间显示。</p>
+      <p>标签按标题与摘要中的关键词自动归类，可按模型、功能、类型、平台、来源、地区和语言多重组合筛选。组内为「任一」，组与组之间为「同时满足」。筛选条件会写进地址栏，方便分享。点选「推特」可只看来自官方账号的帖子。</p>
       <p>收藏保存在本机浏览器中，不会上传。</p>
       <p>最近更新：${esc(fmtFull(data.updated_at))}（北京时间）。窗口约为最近 ${data.window_days || 30} 天，当前 ${data.item_count} 条。</p>
       <h3>实验室与官方</h3>

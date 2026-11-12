@@ -26,9 +26,11 @@ OUT_PATH = ROOT / "data" / "news.json"
 SHANGHAI = ZoneInfo("Asia/Shanghai")
 UTC = timezone.utc
 WINDOW_DAYS = 30
-MAX_ITEMS = 1400
+MAX_ITEMS = 1800
 MAX_ARXIV = 50
+MAX_X_PER_ACCOUNT = 12
 EXCERPT_LEN = 220
+X_TITLE_LEN = 96
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
@@ -89,6 +91,10 @@ TYPES = [
     ("review", "教程/评测"),
     ("product", "产品更新"),
     ("opinion", "观点评论"),
+]
+
+PLATFORMS = [
+    ("x", "推特"),
 ]
 
 MODEL_RULES = {
@@ -418,6 +424,68 @@ FEEDS = [
          )),
 ]
 
+X_FEEDS = [
+    dict(id="x-openai", name="OpenAI（推特）", handle="OpenAI",
+         region="intl", official=True, ai_only=True, home="https://x.com/OpenAI", kind="x"),
+    dict(id="x-openaidevs", name="OpenAI 开发者（推特）", handle="OpenAIDevs",
+         region="intl", official=True, ai_only=True, home="https://x.com/OpenAIDevs", kind="x"),
+    dict(id="x-anthropic", name="Anthropic（推特）", handle="AnthropicAI",
+         region="intl", official=True, ai_only=True, home="https://x.com/AnthropicAI", kind="x"),
+    dict(id="x-claude", name="Claude（推特）", handle="claudeai",
+         region="intl", official=True, ai_only=True, home="https://x.com/claudeai", kind="x"),
+    dict(id="x-deepmind", name="Google DeepMind（推特）", handle="GoogleDeepMind",
+         region="intl", official=True, ai_only=True, home="https://x.com/GoogleDeepMind", kind="x"),
+    dict(id="x-googleai", name="Google AI（推特）", handle="GoogleAI",
+         region="intl", official=True, ai_only=True, home="https://x.com/GoogleAI", kind="x"),
+    dict(id="x-gemini", name="Gemini（推特）", handle="GeminiApp",
+         region="intl", official=True, ai_only=True, home="https://x.com/GeminiApp", kind="x"),
+    dict(id="x-metaai", name="Meta AI（推特）", handle="AIatMeta",
+         region="intl", official=True, ai_only=True, home="https://x.com/AIatMeta", kind="x"),
+    dict(id="x-microsoftai", name="Microsoft AI（推特）", handle="MicrosoftAI",
+         region="intl", official=True, ai_only=True, home="https://x.com/MicrosoftAI", kind="x"),
+    dict(id="x-copilot", name="Microsoft Copilot（推特）", handle="MSFTCopilot",
+         region="intl", official=True, ai_only=True, home="https://x.com/MSFTCopilot", kind="x"),
+    dict(id="x-msftresearch", name="Microsoft Research（推特）", handle="MSFTResearch",
+         region="intl", official=True, ai_only=False, home="https://x.com/MSFTResearch", kind="x"),
+    dict(id="x-nvidia", name="NVIDIA（推特）", handle="nvidia",
+         region="intl", official=True, ai_only=False, home="https://x.com/nvidia", kind="x"),
+    dict(id="x-nvidiaai", name="NVIDIA AI（推特）", handle="NVIDIAAI",
+         region="intl", official=True, ai_only=True, home="https://x.com/NVIDIAAI", kind="x"),
+    dict(id="x-huggingface", name="Hugging Face（推特）", handle="huggingface",
+         region="intl", official=True, ai_only=True, home="https://x.com/huggingface", kind="x"),
+    dict(id="x-mistral", name="Mistral（推特）", handle="MistralAI",
+         region="intl", official=True, ai_only=True, home="https://x.com/MistralAI", kind="x"),
+    dict(id="x-qwen", name="Qwen（推特）", handle="Alibaba_Qwen",
+         region="cn", official=True, ai_only=True, home="https://x.com/Alibaba_Qwen", kind="x"),
+    dict(id="x-deepseek", name="DeepSeek（推特）", handle="deepseek_ai",
+         region="cn", official=True, ai_only=True, home="https://x.com/deepseek_ai", kind="x"),
+    dict(id="x-kimi", name="Kimi（推特）", handle="Kimi_Moonshot",
+         region="cn", official=True, ai_only=True, home="https://x.com/Kimi_Moonshot", kind="x"),
+    dict(id="x-stability", name="Stability AI（推特）", handle="StabilityAI",
+         region="intl", official=True, ai_only=True, home="https://x.com/StabilityAI", kind="x"),
+    dict(id="x-midjourney", name="Midjourney（推特）", handle="midjourney",
+         region="intl", official=True, ai_only=True, home="https://x.com/midjourney", kind="x"),
+    dict(id="x-runway", name="Runway（推特）", handle="runwayml",
+         region="intl", official=True, ai_only=True, home="https://x.com/runwayml", kind="x"),
+    dict(id="x-perplexity", name="Perplexity（推特）", handle="perplexity_ai",
+         region="intl", official=True, ai_only=True, home="https://x.com/perplexity_ai", kind="x"),
+    dict(id="x-cohere", name="Cohere（推特）", handle="cohere",
+         region="intl", official=True, ai_only=True, home="https://x.com/cohere", kind="x"),
+    dict(id="x-together", name="Together AI（推特）", handle="togethercompute",
+         region="intl", official=True, ai_only=True, home="https://x.com/togethercompute", kind="x"),
+    dict(id="x-minimax", name="MiniMax（推特）", handle="MiniMax_AI",
+         region="cn", official=True, ai_only=True, home="https://x.com/MiniMax_AI", kind="x"),
+    dict(id="x-hunyuan", name="混元（推特）", handle="TencentHunyuan",
+         region="cn", official=True, ai_only=True, home="https://x.com/TencentHunyuan", kind="x"),
+    dict(id="x-kling", name="可灵（推特）", handle="Kling_ai",
+         region="cn", official=True, ai_only=True, home="https://x.com/Kling_ai", kind="x"),
+    dict(id="x-baidu", name="百度（推特）", handle="Baidu_Inc",
+         region="cn", official=True, ai_only=False, home="https://x.com/Baidu_Inc", kind="x"),
+    dict(id="x-jiqizhixin", name="机器之心（推特）", handle="jiqizhixin",
+         region="cn", official=False, ai_only=True, home="https://x.com/jiqizhixin", kind="x"),
+]
+
+
 GNEWS_PUBLISHERS = {
     "机器之心": ("jiqizhixin", "机器之心", "https://www.jiqizhixin.com"),
     "量子位": ("qbitai", "量子位", "https://www.qbitai.com"),
@@ -731,6 +799,7 @@ def make_item(
     extra_models=None,
     extra_topics=None,
     extra_types=None,
+    platforms=None,
 ):
     title = clean_title(title)
     url = (url or "").strip()
@@ -762,7 +831,7 @@ def make_item(
         published = (published - timedelta(hours=8))
         if published - now > timedelta(minutes=40):
             published = now
-    return {
+    item = {
         "id": item_id(url),
         "title": title,
         "url": url,
@@ -777,6 +846,10 @@ def make_item(
         "topics": topics,
         "types": types,
     }
+    if platforms:
+        item["platforms"] = list(platforms)
+    return item
+
 
 def entry_link(entry) -> str:
     link = (entry.get("link") or "").strip()
@@ -1242,6 +1315,151 @@ def within_window(iso_s: str, cutoff: datetime) -> bool:
     return dt >= cutoff
 
 
+
+STATUS_RE = re.compile(
+    r"(?:https?://)?(?:www\.)?(?:twitter|x)\.com/([^/?#]+)/status/(\d+)",
+    re.I,
+)
+THREAD_NUM_RE = re.compile(r"^\(\s*(\d+)\s*/\s*(\d+)\s*\)")
+REPLY_RE = re.compile(r"^(?:@[A-Za-z0-9_]+\s+)+")
+RT_RE = re.compile(r"^(?:RT\s+@|Reposted from\s+)", re.I)
+MEDIA_ONLY_RE = re.compile(r"^(?:Media|https?://(?:pbs|video)\.twimg\.com\S*)$", re.I)
+
+
+def tweet_permalink(url: str) -> str:
+    if not url:
+        return ""
+    m = STATUS_RE.search(url)
+    if m:
+        return "https://x.com/%s/status/%s" % (m.group(1), m.group(2))
+    return url.strip()
+
+
+def tweet_handle_from_url(url: str) -> str:
+    m = STATUS_RE.search(url or "")
+    return m.group(1) if m else ""
+
+
+def tweet_body(entry) -> str:
+    raw = entry_excerpt(entry) or entry.get("title") or ""
+    raw = re.sub(r"(?is)<script[^>]*>.*?</script>", " ", raw)
+    raw = re.sub(r"(?is)<style[^>]*>.*?</style>", " ", raw)
+    raw = re.sub(r"(?is)<img[^>]*>", " ", raw)
+    raw = re.sub(
+        r'(?is)<a[^>]+href="[^"]*(?:pbs|video)\.twimg\.com[^"]*"[^>]*>.*?</a>',
+        " ",
+        raw,
+    )
+    raw = re.sub(r"(?i)<br\s*/?>", "\n", raw)
+    raw = re.sub(r"(?i)</p>", "\n", raw)
+    raw = TAG_RE.sub(" ", raw)
+    raw = htmlmod.unescape(raw)
+    lines = []
+    for ln in raw.splitlines():
+        t = WS_RE.sub(" ", ln).strip()
+        if t and not MEDIA_ONLY_RE.match(t):
+            lines.append(t)
+    return "\n".join(lines).strip()
+
+
+def tweet_title_excerpt(text: str) -> tuple[str, str]:
+    compact = WS_RE.sub(" ", text).strip()
+    if not compact:
+        return "", ""
+    if len(compact) <= X_TITLE_LEN:
+        return compact, ""
+    para = text.strip().split("\n", 1)
+    first = WS_RE.sub(" ", para[0]).strip()
+    if 18 <= len(first) <= X_TITLE_LEN + 24:
+        rest = para[1] if len(para) > 1 else compact[len(first):].strip()
+        rest = WS_RE.sub(" ", rest).strip()
+        if rest == first:
+            rest = ""
+        return first, rest
+    m = re.search(r"(.+?[。！？.!?])(\s+|$)", compact)
+    if m and 18 <= len(m.group(1)) <= X_TITLE_LEN + 24:
+        title = m.group(1).strip()
+        rest = compact[m.end():].strip()
+        return title, rest
+    cut = compact[:X_TITLE_LEN]
+    if " " in cut:
+        cut = cut.rsplit(" ", 1)[0]
+    cut = cut.rstrip("，,;:、")
+    rest = compact[len(cut):].lstrip(" ….,;:，、")
+    return cut + "…", rest
+
+
+def is_original_tweet(url: str, text: str, handle: str) -> bool:
+    author = tweet_handle_from_url(url)
+    if not author or author.lower() != handle.lower():
+        return False
+    if RT_RE.match(text):
+        return False
+    if REPLY_RE.match(text):
+        return False
+    m = THREAD_NUM_RE.match(text)
+    if m and int(m.group(1)) > 1:
+        return False
+    return True
+
+
+def fetch_x_raw(handle: str):
+    urls = [
+        "https://fxtwitter.com/%s/feed.xml?count=50" % handle,
+        "https://fxtwitter.com/%s/feed.xml" % handle,
+        "https://fxtwitter.com/%s/feed.atom.xml" % handle,
+    ]
+    for url in urls:
+        for attempt in range(3):
+            r = http_get(url, timeout=28, retries=2, pause=1.6)
+            if r is not None and r.status_code == 200 and r.content:
+                raw = r.content
+                if b"<item" in raw or b"<entry" in raw:
+                    return raw
+            time.sleep(1.1 * (attempt + 1))
+    return None
+
+
+def parse_x_feed(feed: dict) -> list:
+    handle = feed.get("handle") or ""
+    raw = fetch_x_raw(handle)
+    if not raw:
+        raise RuntimeError("未能取得订阅")
+    parsed = feedparser.parse(raw)
+    items = []
+    seen = set()
+    for e in parsed.entries:
+        url = tweet_permalink(entry_link(e))
+        text = tweet_body(e)
+        if not url or not text:
+            continue
+        if not is_original_tweet(url, text, handle):
+            continue
+        if url in seen:
+            continue
+        seen.add(url)
+        dt = entry_date(e)
+        if not dt:
+            continue
+        title, excerpt = tweet_title_excerpt(text)
+        it = make_item(
+            title=title,
+            url=url,
+            source_id=feed["id"],
+            source_name=feed["name"],
+            source_home=feed["home"],
+            published=dt,
+            excerpt=excerpt,
+            region=feed["region"],
+            platforms=["x"],
+        )
+        if it:
+            items.append(it)
+        if len(items) >= MAX_X_PER_ACCOUNT * 2:
+            break
+    return items
+
+
 def load_existing() -> list:
     if not OUT_PATH.exists():
         return []
@@ -1250,6 +1468,22 @@ def load_existing() -> list:
         return data.get("items") or []
     except Exception:
         return []
+
+
+def collapse_x_threads(items: list, window_sec: int = 180) -> list:
+    if len(items) <= 1:
+        return items
+    ordered = sorted(items, key=lambda x: x["published"])
+    out = []
+    last = None
+    for it in ordered:
+        dt = parse_date(it["published"])
+        if last is not None and dt and (dt - last).total_seconds() < window_sec:
+            continue
+        out.append(it)
+        last = dt
+    out.sort(key=lambda x: x["published"], reverse=True)
+    return out
 
 
 def fetch_one(feed: dict, cutoff: datetime):
@@ -1266,7 +1500,9 @@ def fetch_one(feed: dict, cutoff: datetime):
     kind = feed.get("kind", "rss")
     items = []
     try:
-        if kind == "anthropic":
+        if kind == "x":
+            items = parse_x_feed(feed)
+        elif kind == "anthropic":
             r = http_get(feed["home"])
             if r is None or r.status_code != 200:
                 info["error"] = "http %s" % getattr(r, "status_code", "none")
@@ -1314,6 +1550,9 @@ def fetch_one(feed: dict, cutoff: datetime):
             if not is_ai_related(it["title"], it["excerpt"], it["source_id"], feed.get("ai_only", False)):
                 continue
             kept.append(it)
+        if kind == "x":
+            kept = collapse_x_threads(kept)
+            kept = kept[:MAX_X_PER_ACCOUNT]
         info["ok"] = True
         info["count"] = len(kept)
         return info, kept
@@ -1322,7 +1561,7 @@ def fetch_one(feed: dict, cutoff: datetime):
         return info, []
 
 
-OFFICIAL_IDS = {f["id"] for f in FEEDS if f.get("official")} | {"arxiv"}
+OFFICIAL_IDS = {f["id"] for f in FEEDS + X_FEEDS if f.get("official")} | {"arxiv"}
 
 
 def merge(old: list, new: list, cutoff: datetime) -> list:
@@ -1394,7 +1633,7 @@ def build_payload(items: list, sources: list, generated: datetime) -> dict:
         }
     catalog = []
     seen = set()
-    for f in FEEDS:
+    for f in FEEDS + X_FEEDS:
         if f.get("kind") == "gnews":
             continue
         rec = next((s for s in sources if s["id"] == f["id"]), None)
@@ -1436,6 +1675,7 @@ def build_payload(items: list, sources: list, generated: datetime) -> dict:
             "models": counts("models", MODELS),
             "topics": counts("topics", TOPICS),
             "types": counts("types", TYPES),
+            "platforms": counts("platforms", PLATFORMS),
         },
         "sources": catalog,
         "items": items,
@@ -1460,24 +1700,29 @@ def main() -> int:
     sources_info = []
     fresh = []
 
-    with ThreadPoolExecutor(max_workers=10) as ex:
-        futs = {ex.submit(fetch_one, f, cutoff): f for f in FEEDS}
-        for fut in as_completed(futs):
-            feed = futs[fut]
-            try:
-                info, items = fut.result()
-            except Exception as e:
-                info = {
-                    "id": feed["id"], "name": feed["name"], "home": feed["home"],
-                    "region": feed["region"], "official": bool(feed.get("official")),
-                    "ok": False, "count": 0, "error": "%s: %s" % (type(e).__name__, e),
-                }
-                items = []
-            sources_info.append(info)
-            fresh.extend(items)
-            flag = "OK" if info["ok"] else "FAIL"
-            extra = "  %s" % info["error"] if info["error"] else ""
-            print("  %s  %-22s  %4d 条%s" % (flag, info["name"][:22], info["count"], extra), flush=True)
+    def collect(feeds, workers):
+        with ThreadPoolExecutor(max_workers=workers) as ex:
+            futs = {ex.submit(fetch_one, f, cutoff): f for f in feeds}
+            for fut in as_completed(futs):
+                feed = futs[fut]
+                try:
+                    info, items = fut.result()
+                except Exception as e:
+                    info = {
+                        "id": feed["id"], "name": feed["name"], "home": feed["home"],
+                        "region": feed["region"], "official": bool(feed.get("official")),
+                        "ok": False, "count": 0, "error": "%s: %s" % (type(e).__name__, e),
+                    }
+                    items = []
+                sources_info.append(info)
+                fresh.extend(items)
+                flag = "OK" if info["ok"] else "FAIL"
+                extra = "  %s" % info["error"] if info["error"] else ""
+                print("  %s  %-22s  %4d 条%s" % (flag, info["name"][:22], info["count"], extra), flush=True)
+
+    collect(FEEDS, 10)
+    print("抓取官方推特账号…", flush=True)
+    collect(X_FEEDS, 3)
 
     merged = merge(existing, fresh, cutoff)
     payload = build_payload(merged, sources_info, now)
@@ -1493,7 +1738,7 @@ def main() -> int:
         ),
         flush=True,
     )
-    for group, label in (("models", "模型"), ("topics", "功能"), ("types", "类型")):
+    for group, label in (("models", "模型"), ("topics", "功能"), ("types", "类型"), ("platforms", "平台")):
         tops = [t for t in payload["taxonomy"][group] if t["count"]]
         tops.sort(key=lambda x: -x["count"])
         brief = "、".join("%s %d" % (t["name"], t["count"]) for t in tops[:10])
