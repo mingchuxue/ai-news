@@ -4,6 +4,8 @@
 
   const DATA_URL = "data/news.json";
   const FAV_KEY = "guanlan-favs";
+  const AUTO_KEY = "guanlan-auto-zh";
+  const CACHE_KEY = "guanlan-zh-cache";
   const TZ = "Asia/Shanghai";
   const SRC_HUES = [162, 28, 210, 42, 280, 190, 8, 125, 330, 50, 240, 80];
 
@@ -21,6 +23,9 @@
     sort: "newest",
     fav: false,
     favs: new Set(),
+    autoZh: false,
+    showZh: new Set(),
+    hideZh: new Set(),
     limit: 50,
   };
   const PAGE = 50;
@@ -160,7 +165,11 @@
 
   function matchesSearch(item, q) {
     if (!q) return true;
-    const hay = (item.title + " " + (item.excerpt || "") + " " + item.source_name).toLowerCase();
+    const zh = cachedZh(item);
+    const hay = (
+      item.title + " " + (item.excerpt || "") + " " + item.source_name +
+      (zh ? " " + zh.title + " " + (zh.excerpt || "") : "")
+    ).toLowerCase();
     return q.split(/\s+/).filter(Boolean).every((w) => hay.includes(w));
   }
 
@@ -382,6 +391,271 @@
   }
 
   const EXT = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 16l9-9M11 7h6v6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+  const TR_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18L8.2 6.5 12.4 18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><path d="M5.6 13.5h5.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M15 7.5h6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M18 7.5c.15 3.6 1.9 6.2 3.2 8.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M15.2 13.2h6.2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>`;
+
+  const zhMem = new Map();
+  const zhPending = new Set();
+  const zhQueue = [];
+  let zhActive = 0;
+  let zhFailStreak = 0;
+  let zhNoteTimer = 0;
+
+  function srcHash(item) {
+    const s = (item.title || "") + "\n" + (item.excerpt || "");
+    let h = 2166136261;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 16777619);
+    }
+    return (h >>> 0).toString(36);
+  }
+
+  function isZhItem(item) {
+    const lang = String(item.lang || "").toLowerCase();
+    if (lang.startsWith("zh")) return true;
+    const t = item.title || "";
+    const cjk = (t.match(/[\u3400-\u9fff]/g) || []).length;
+    const letters = (t.match(/[A-Za-z\u3400-\u9fff]/g) || []).length;
+    return letters > 0 && cjk / letters >= 0.35;
+  }
+
+  function cachedZh(item) {
+    if (!item) return null;
+    const h = srcHash(item);
+    const mem = zhMem.get(item.id);
+    if (mem && mem.hash === h) return mem;
+    if (item.title_zh) {
+      const rec = { title: item.title_zh, excerpt: item.excerpt_zh || "", hash: h };
+      zhMem.set(item.id, rec);
+      return rec;
+    }
+    return null;
+  }
+
+  function loadZhMem() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(CACHE_KEY) || "[]");
+      if (!Array.isArray(raw)) return;
+      raw.forEach((row) => {
+        if (row && row.id && row.t && row.h) {
+          zhMem.set(row.id, { title: row.t, excerpt: row.e || "", hash: row.h });
+        }
+      });
+    } catch (e) { /* ignore */ }
+  }
+
+  function saveZhMem() {
+    try {
+      const rows = [];
+      zhMem.forEach((v, id) => { rows.push({ id, t: v.title, e: v.excerpt, h: v.hash }); });
+      const slim = rows.length > 900 ? rows.slice(-900) : rows;
+      localStorage.setItem(CACHE_KEY, JSON.stringify(slim));
+    } catch (e) {
+      try { localStorage.removeItem(CACHE_KEY); } catch (e2) { /* ignore */ }
+    }
+  }
+
+  function loadAutoZh() {
+    try { state.autoZh = localStorage.getItem(AUTO_KEY) === "1"; } catch (e) { state.autoZh = false; }
+  }
+
+  function saveAutoZh() {
+    try { localStorage.setItem(AUTO_KEY, state.autoZh ? "1" : "0"); } catch (e) { /* ignore */ }
+  }
+
+  function shouldShowZh(item) {
+    if (!item || isZhItem(item)) return false;
+    if (state.hideZh.has(item.id)) return false;
+    return state.autoZh || state.showZh.has(item.id);
+  }
+
+  function itemById(id) {
+    const items = (state.data && state.data.items) || [];
+    return items.find((x) => x.id === id);
+  }
+
+  function parseMtList(data, n) {
+    if (!Array.isArray(data) || data.length < n) return null;
+    const out = [];
+    for (let i = 0; i < data.length; i++) {
+      const row = data[i];
+      if (typeof row === "string") out.push(row);
+      else if (Array.isArray(row) && typeof row[0] === "string") out.push(row[0]);
+      else return null;
+    }
+    if (out.length < n) return null;
+    return out.slice(0, n).map((s) => String(s).trim());
+  }
+
+  async function mtGoogle(parts) {
+    const body = new URLSearchParams();
+    parts.forEach((p) => body.append("q", p));
+    const res = await fetch(
+      "https://clients5.google.com/translate_a/t?client=dict-chrome-ex&sl=auto&tl=zh-CN",
+      { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body }
+    );
+    const ctype = res.headers.get("content-type") || "";
+    if (!res.ok || !ctype.includes("json")) throw new Error("google");
+    const data = await res.json();
+    const out = parseMtList(data, parts.length);
+    if (!out) throw new Error("google-parse");
+    return out;
+  }
+
+  async function mtMemory(parts, lang) {
+    const pair = (lang && lang !== "zh" ? lang : "Autodetect") + "|zh-CN";
+    const out = [];
+    for (const p of parts) {
+      const url = "https://api.mymemory.translated.net/get?q=" +
+        encodeURIComponent(p) + "&langpair=" + encodeURIComponent(pair);
+      const res = await fetch(url);
+      if (!res.ok) throw new Error("memory");
+      const data = await res.json();
+      const t = data && data.responseData && data.responseData.translatedText;
+      if (!t || data.responseStatus !== 200) throw new Error("memory");
+      if (/^MYMEMORY WARNING/i.test(t)) throw new Error("quota");
+      out.push(String(t).trim());
+    }
+    return out;
+  }
+
+  async function translateParts(parts, lang) {
+    try { return await mtGoogle(parts); } catch (e) { /* try fallback */ }
+    return await mtMemory(parts, lang);
+  }
+
+  function enqueueZh(item) {
+    if (!item || isZhItem(item) || cachedZh(item) || zhPending.has(item.id)) return;
+    zhPending.add(item.id);
+    zhQueue.push(item);
+    paintCard(item.id);
+    pumpZh();
+  }
+
+  function pumpZh() {
+    while (zhActive < 2 && zhQueue.length) {
+      const item = zhQueue.shift();
+      zhActive++;
+      runZh(item).finally(() => {
+        zhActive--;
+        pumpZh();
+      });
+    }
+  }
+
+  async function runZh(item) {
+    const parts = [item.title || ""];
+    if (item.excerpt) parts.push(item.excerpt);
+    try {
+      const got = await translateParts(parts, item.lang || "en");
+      if (!got || !got[0]) throw new Error("empty");
+      zhMem.set(item.id, {
+        title: got[0],
+        excerpt: item.excerpt ? (got[1] || "") : "",
+        hash: srcHash(item),
+      });
+      saveZhMem();
+      zhFailStreak = 0;
+      showTrNote("");
+    } catch (e) {
+      zhFailStreak++;
+      if (zhFailStreak >= 4) {
+        showTrNote("翻译暂时不可用，请稍后再试。已译出的条目不受影响。");
+      }
+    }
+    zhPending.delete(item.id);
+    paintCard(item.id);
+  }
+
+  function showTrNote(msg) {
+    const el = $("tr-note");
+    if (!el) return;
+    if (zhNoteTimer) clearTimeout(zhNoteTimer);
+    if (!msg) { el.hidden = true; el.textContent = ""; return; }
+    el.hidden = false;
+    el.textContent = msg;
+    zhNoteTimer = setTimeout(() => { el.hidden = true; }, 8000);
+  }
+
+  function paintCard(id) {
+    const card = els.feed && els.feed.querySelector('.card[data-id="' + id + '"]');
+    if (!card) return;
+    const item = itemById(id);
+    if (!item) return;
+    const rec = cachedZh(item);
+    const showing = shouldShowZh(item) && !!rec;
+    const pending = zhPending.has(item.id) && !rec;
+    const h2 = card.querySelector("h2");
+    const h2a = h2 && h2.querySelector("a");
+    const excerpt = card.querySelector(".excerpt");
+    const btn = card.querySelector("[data-trans]");
+    if (h2a) h2a.textContent = showing ? rec.title : item.title;
+    if (excerpt) excerpt.textContent = showing ? (rec.excerpt || item.excerpt || "") : (item.excerpt || "");
+    card.classList.toggle("is-translated", showing);
+    let mark = h2 && h2.querySelector(".tr-mark");
+    if (showing) {
+      if (!mark && h2 && h2a) {
+        mark = document.createElement("span");
+        mark.className = "tr-mark";
+        mark.textContent = "译文";
+        h2.insertBefore(mark, h2a);
+      }
+    } else if (mark) {
+      mark.remove();
+    }
+    if (btn) {
+      btn.classList.toggle("is-busy", pending);
+      btn.classList.remove("is-err");
+      btn.setAttribute("aria-pressed", showing ? "true" : "false");
+      const label = pending ? "翻译中" : (showing ? "查看原文" : "翻译");
+      const lab = btn.querySelector(".tr-label");
+      if (lab) lab.textContent = label;
+      btn.setAttribute("aria-label", label);
+    }
+  }
+
+  function scheduleVisibleTranslations() {
+    if (!state.autoZh || !els.feed) return;
+    const cards = els.feed.querySelectorAll(".card[data-id]");
+    cards.forEach((card) => {
+      const item = itemById(card.getAttribute("data-id"));
+      if (!item || isZhItem(item) || state.hideZh.has(item.id)) return;
+      if (!cachedZh(item)) enqueueZh(item);
+    });
+  }
+
+  function onTransClick(id) {
+    const item = itemById(id);
+    if (!item || isZhItem(item)) return;
+    const showing = shouldShowZh(item) && cachedZh(item);
+    const pending = zhPending.has(item.id) && !cachedZh(item);
+    if (showing || pending) {
+      state.hideZh.add(id);
+      state.showZh.delete(id);
+      paintCard(id);
+      return;
+    }
+    state.hideZh.delete(id);
+    state.showZh.add(id);
+    if (cachedZh(item)) {
+      paintCard(id);
+      return;
+    }
+    enqueueZh(item);
+  }
+
+  function setAutoZh(on) {
+    state.autoZh = !!on;
+    saveAutoZh();
+    if (state.autoZh) state.hideZh = new Set();
+    else {
+      state.showZh = new Set();
+      state.hideZh = new Set();
+    }
+    if (els.btnAuto) els.btnAuto.setAttribute("aria-pressed", state.autoZh ? "true" : "false");
+    if (state.data) renderFeed();
+  }
+
   const STAR = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.6l1.7 3.7 4 .5-3 2.8.8 4-3.5-2-3.5 2 .8-4-3-2.8 4-.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
 
   function tagButtons(item) {
@@ -404,8 +678,20 @@
   function cardHTML(item) {
     const starred = state.favs.has(item.id);
     const color = sourceColor(item.source_id);
+    const chinese = isZhItem(item);
+    const rec = chinese ? null : cachedZh(item);
+    const showing = !chinese && shouldShowZh(item) && !!rec;
+    const pending = !chinese && zhPending.has(item.id) && !rec;
+    const title = showing ? rec.title : item.title;
+    const excerpt = showing ? (rec.excerpt || item.excerpt || "") : (item.excerpt || "");
+    let transBtn = "";
+    if (!chinese) {
+      const label = pending ? "翻译中" : (showing ? "查看原文" : "翻译");
+      transBtn = `<button type="button" class="tr-btn${pending ? " is-busy" : ""}" data-trans="${esc(item.id)}" aria-pressed="${showing ? "true" : "false"}" aria-label="${esc(label)}">${TR_ICON}<span class="tr-label">${esc(label)}</span></button>`;
+    }
+    const mark = showing ? `<span class="tr-mark">译文</span>` : "";
     return `
-      <article class="card" data-id="${esc(item.id)}">
+      <article class="card${showing ? " is-translated" : ""}" data-id="${esc(item.id)}">
         <div class="card-top">
           <a class="source" href="${esc(item.source_home || item.url)}" target="_blank" rel="noopener noreferrer">
             <span class="dot" style="background:${color}"></span>${esc(item.source_name)}
@@ -413,11 +699,11 @@
           <time datetime="${esc(item.published)}" title="${esc(fmtFull(item.published))}">${esc(relTime(item.published))}</time>
           <button type="button" class="star" data-star="${esc(item.id)}" aria-pressed="${starred}" aria-label="${starred ? "取消收藏" : "收藏"}">${STAR}</button>
         </div>
-        <h2><a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(item.title)}</a></h2>
-        ${item.excerpt ? `<p class="excerpt">${esc(item.excerpt)}</p>` : ""}
+        <h2>${mark}<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></h2>
+        ${excerpt ? `<p class="excerpt">${esc(excerpt)}</p>` : ""}
         <div class="card-foot">
           <ul class="tags">${tagButtons(item)}</ul>
-          <a class="orig" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">原文 ${EXT}</a>
+          <div class="card-acts">${transBtn}<a class="orig" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">原文 ${EXT}</a></div>
         </div>
       </article>`;
   }
@@ -475,6 +761,7 @@
         }
       });
       els.feed.innerHTML = html + moreBtn(n - Math.min(n, state.limit));
+      scheduleVisibleTranslations();
       return;
     }
 
@@ -491,6 +778,7 @@
       html += cardHTML(it);
     });
     els.feed.innerHTML = html + moreBtn(n - slice.length);
+    scheduleVisibleTranslations();
   }
 
   function renderAbout() {
@@ -504,12 +792,13 @@
       <p>观澜收集实验室、研究机构与科技媒体公开发布的人工智能资讯，亦收录各实验室、产品与媒体的官方推特账号。每条都标明来源，并链回原文；发布时间按北京时间显示。</p>
       <p>标签按标题与摘要中的关键词自动归类，可按模型、功能、类型、平台、来源、地区和语言多重组合筛选。组内为「任一」，组与组之间为「同时满足」。筛选条件会写进地址栏，方便分享。点选「推特」可只看来自官方账号的帖子。</p>
       <p>收藏保存在本机浏览器中，不会上传。</p>
+      <p>外文资讯可译为简体中文：每张卡片上有「翻译」，也可打开列表上方的「自动翻译」。默认先显示原文，译文由机器生成，仅供阅读参考，内容以原文为准。中文条目无需翻译。</p>
       <p>最近更新：${esc(fmtFull(data.updated_at))}（北京时间）。窗口约为最近 ${data.window_days || 30} 天，当前 ${data.item_count} 条。</p>
       <h3>实验室与官方</h3>
       ${list(official)}
       <h3>媒体与其他来源</h3>
       ${list(media)}
-      <p style="margin-top:22px;color:var(--faint);font-size:12.5px;">资讯来自各来源的公开订阅，标题与摘要保留原文，版权归原作者。本站只做整理与筛选，不代表各来源立场。</p>
+      <p style="margin-top:22px;color:var(--faint);font-size:12.5px;">资讯来自各来源的公开订阅，标题与摘要默认保留原文，版权归原作者。本站只做整理与筛选，不代表各来源立场。译文由机器生成，仅供阅读参考。</p>
     `;
   }
 
@@ -599,6 +888,11 @@
         update();
         return;
       }
+      const tr = e.target.closest("[data-trans]");
+      if (tr) {
+        onTransClick(tr.getAttribute("data-trans"));
+        return;
+      }
       const tag = e.target.closest(".tag[data-group]");
       if (tag) {
         const g = tag.getAttribute("data-group");
@@ -612,6 +906,9 @@
     });
 
     els.btnFav.addEventListener("click", () => { state.fav = !state.fav; update(); });
+    if (els.btnAuto) {
+      els.btnAuto.addEventListener("click", () => setAutoZh(!state.autoZh));
+    }
     els.btnReset.addEventListener("click", () => { resetAll(); update(); });
     els.btnEmptyReset.addEventListener("click", () => { resetAll(); update(); });
     els.btnAbout.addEventListener("click", () => { renderAbout(); els.about.showModal(); });
@@ -667,8 +964,12 @@
     els.mask = $("filters-mask");
     els.btnApply = $("btn-apply");
     els.badge = $("filter-badge");
+    els.btnAuto = $("btn-auto-zh");
 
     loadFavs();
+    loadZhMem();
+    loadAutoZh();
+    if (els.btnAuto) els.btnAuto.setAttribute("aria-pressed", state.autoZh ? "true" : "false");
     parseHash();
     if (state.q) els.q.value = state.q;
     skeleton();

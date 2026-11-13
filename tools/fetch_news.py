@@ -1590,6 +1590,7 @@ def merge(old: list, new: list, cutoff: datetime) -> list:
             by_title[title_key] = it
             return
         if prefer_new or score(it) >= score(existing):
+            _carry_translation(existing, it)
             old_url = normalize_url(existing["url"])
             if old_url in by_url and by_url[old_url] is existing:
                 del by_url[old_url]
@@ -1603,6 +1604,206 @@ def merge(old: list, new: list, cutoff: datetime) -> list:
     items = list(by_url.values())
     items.sort(key=lambda x: x["published"], reverse=True)
     return items[:MAX_ITEMS]
+
+
+def _is_zh_item(it: dict) -> bool:
+    lang = str(it.get("lang") or "").lower()
+    if lang.startswith("zh"):
+        return True
+    title = it.get("title") or ""
+    cjk = len(re.findall(r"[\u4e00-\u9fff]", title))
+    letters = len(re.findall(r"[A-Za-z\u4e00-\u9fff]", title))
+    return letters > 0 and cjk / letters >= 0.35
+
+
+def _carry_translation(old: dict, new: dict) -> None:
+    if old.get("title_zh") and old.get("title") == new.get("title"):
+        new["title_zh"] = old["title_zh"]
+    if "excerpt_zh" in old and old.get("excerpt") == new.get("excerpt"):
+        new["excerpt_zh"] = old["excerpt_zh"]
+
+
+def _parse_mt_list(data, n: int) -> list[str] | None:
+    rows = data if isinstance(data, list) else None
+    if not rows:
+        return None
+    out = []
+    for row in rows:
+        if isinstance(row, str):
+            out.append(row)
+        elif isinstance(row, list) and row and isinstance(row[0], str):
+            out.append(row[0])
+        else:
+            return None
+    if len(out) < n:
+        return None
+    return [s.strip() for s in out[:n]]
+
+
+def _translate_google(texts: list[str]) -> list[str] | None:
+    url = "https://clients5.google.com/translate_a/t"
+    params = {"client": "dict-chrome-ex", "sl": "auto", "tl": "zh-CN"}
+    try:
+        r = requests.post(
+            url,
+            params=params,
+            data=[("q", t) for t in texts],
+            headers={
+                "User-Agent": UA,
+                "Accept": "application/json, text/plain, */*",
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            timeout=22,
+        )
+    except requests.RequestException:
+        return None
+    ctype = (r.headers.get("content-type") or "").lower()
+    if r.status_code != 200 or "json" not in ctype:
+        return None
+    try:
+        data = r.json()
+    except ValueError:
+        return None
+    return _parse_mt_list(data, len(texts))
+
+
+def _translate_mymemory(texts: list[str], src: str = "en") -> list[str] | None:
+    out = []
+    pair = ("%s|zh-CN" % (src if src and src != "zh" else "Autodetect"))
+    for t in texts:
+        try:
+            r = requests.get(
+                "https://api.mymemory.translated.net/get",
+                params={"q": t, "langpair": pair},
+                headers={"User-Agent": UA, "Accept": "application/json"},
+                timeout=18,
+            )
+            if r.status_code != 200:
+                return None
+            data = r.json()
+        except (requests.RequestException, ValueError):
+            return None
+        text = (data.get("responseData") or {}).get("translatedText") or ""
+        if data.get("responseStatus") != 200 or not text:
+            return None
+        if re.match(r"^MYMEMORY WARNING", text, re.I):
+            return None
+        out.append(text.strip())
+    return out if len(out) == len(texts) else None
+
+
+_PROTECT = (
+    ("Hugging Face", "«HuggingFace»"),
+)
+_PROTECT_REVERT = (
+    ("«HuggingFace»", "Hugging Face"),
+    ("« HuggingFace »", "Hugging Face"),
+    ("《HuggingFace》", "Hugging Face"),
+    ("《 HuggingFace 》", "Hugging Face"),
+    ("拥抱脸部", "Hugging Face"),
+    ("拥抱面部", "Hugging Face"),
+    ("拥抱脸", "Hugging Face"),
+    ("HuggingFace", "Hugging Face"),
+)
+
+
+def _protect(texts: list[str]) -> list[str]:
+    out = []
+    for t in texts:
+        for a, b in _PROTECT:
+            t = t.replace(a, b)
+        out.append(t)
+    return out
+
+
+def _unprotect(texts: list[str]) -> list[str]:
+    out = []
+    for t in texts:
+        for a, b in _PROTECT_REVERT:
+            t = t.replace(a, b)
+        out.append(t)
+    return out
+
+
+def _translate_texts(texts: list[str], src: str = "en") -> list[str] | None:
+    texts = [t if t is not None else "" for t in texts]
+    if not texts:
+        return []
+    sent = _protect(texts)
+    got = _translate_google(sent)
+    if not got:
+        time.sleep(0.8)
+        got = _translate_google(sent)
+    if not got:
+        got = _translate_mymemory(sent, src)
+    if not got:
+        return None
+    return _unprotect(got)
+
+
+def fill_translations(items: list, pause: float = 0.28, checkpoint=None, batch_n: int = 4) -> int:
+    """Fill title_zh / excerpt_zh for non-Chinese items. Never raises."""
+    pending = []
+    for it in items:
+        if _is_zh_item(it):
+            it.pop("title_zh", None)
+            it.pop("excerpt_zh", None)
+            continue
+        if it.get("title_zh"):
+            continue
+        pending.append(it)
+    if not pending:
+        return 0
+    print("待译外文资讯 %d 条" % len(pending), flush=True)
+    done = 0
+    fails = 0
+    i = 0
+    while i < len(pending):
+        if fails >= 8:
+            print("翻译连续失败，余下 %d 条将留给下次更新" % (len(pending) - i), flush=True)
+            break
+        chunk = pending[i:i + batch_n]
+        texts = []
+        index = []  # (item, has_excerpt)
+        for it in chunk:
+            texts.append(it.get("title") or "")
+            if it.get("excerpt"):
+                texts.append(it["excerpt"])
+                index.append((it, True))
+            else:
+                index.append((it, False))
+        got = _translate_texts(texts, "en")
+        if not got:
+            fails += 1
+            time.sleep(pause * (fails + 2))
+            if batch_n > 1 and fails >= 3:
+                batch_n = 1
+            if fails < 8:
+                continue
+            break
+        fails = 0
+        k = 0
+        for it, has_ex in index:
+            title_zh = (got[k] or "").strip()
+            k += 1
+            excerpt_zh = ""
+            if has_ex:
+                excerpt_zh = (got[k] or "").strip()
+                k += 1
+            if not title_zh:
+                continue
+            it["title_zh"] = title_zh
+            if has_ex:
+                it["excerpt_zh"] = excerpt_zh
+            done += 1
+        i += len(chunk)
+        if done and done % 40 == 0:
+            print("  已译 %d / %d" % (done, len(pending)), flush=True)
+            if checkpoint:
+                checkpoint()
+        time.sleep(pause)
+    print("翻译完成 %d / %d 条" % (done, len(pending)), flush=True)
+    return done
 
 
 def build_payload(items: list, sources: list, generated: datetime) -> dict:
@@ -1686,9 +1887,33 @@ def main() -> int:
     parser = argparse.ArgumentParser(description="Fetch AI news into data/news.json")
     parser.add_argument("--days", type=int, default=WINDOW_DAYS)
     parser.add_argument("--out", type=Path, default=OUT_PATH)
+    parser.add_argument("--translate-only", action="store_true", help="只为已有条目补译文，不抓取")
     args = parser.parse_args()
     days = args.days
     out = args.out
+
+    if args.translate_only:
+        existing = load_existing()
+        if not existing:
+            print("没有已有资讯", flush=True)
+            return 1
+        try:
+            raw = json.loads(out.read_text(encoding="utf-8"))
+        except Exception:
+            raw = {"items": existing}
+
+        def checkpoint():
+            raw["items"] = existing
+            raw["item_count"] = len(existing)
+            out.parent.mkdir(parents=True, exist_ok=True)
+            tmp = out.with_suffix(".json.tmp")
+            tmp.write_text(json.dumps(raw, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            tmp.replace(out)
+
+        n = fill_translations(existing, checkpoint=checkpoint)
+        checkpoint()
+        print("已写入 %s（新增或补全译文 %d 条）" % (out, n), flush=True)
+        return 0
 
     now = datetime.now(SHANGHAI)
     cutoff = now - timedelta(days=days)
@@ -1725,6 +1950,10 @@ def main() -> int:
     collect(X_FEEDS, 3)
 
     merged = merge(existing, fresh, cutoff)
+    try:
+        fill_translations(merged)
+    except Exception as e:
+        print("翻译步骤出错，已跳过：%s: %s" % (type(e).__name__, e), flush=True)
     payload = build_payload(merged, sources_info, now)
     out.parent.mkdir(parents=True, exist_ok=True)
     tmp = out.with_suffix(".json.tmp")
