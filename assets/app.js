@@ -23,6 +23,12 @@
     sort: "newest",
     fav: false,
     favs: new Set(),
+    unread: false,
+    read: new Set(),
+    watchOnly: false,
+    watches: { keywords: [], tags: [] },
+    notify: false,
+    density: "comfortable",
     autoZh: false,
     showZh: new Set(),
     hideZh: new Set(),
@@ -32,6 +38,392 @@
 
   const $ = (id) => document.getElementById(id);
   const els = {};
+
+  const SORT_KEY = "guanlan-sort";
+  const READ_KEY = "guanlan-read";
+  const WATCH_KEY = "guanlan-watch";
+  const DENSITY_KEY = "guanlan-density";
+  const NOTIFY_KEY = "guanlan-notify";
+  const SEEN_KEY = "guanlan-watch-seen";
+  const SORTS = { newest: 1, oldest: 1, heat: 1, source: 1 };
+  const PREMIUM_MEDIA = [
+    "theverge", "techcrunch", "venturebeat", "mittr", "wired", "arstechnica",
+    "ft", "ieee", "guardian", "qbitai", "36kr", "latentspace", "importai",
+    "interconnects", "semianalysis", "lastweekinai", "simonwillison",
+    "oneusefulthing", "aisnakeoil", "hackernews", "leiphone", "infoq-cn",
+  ];
+
+  function validSort(v) {
+    return SORTS[v] ? v : "newest";
+  }
+  function loadSort() {
+    try { return validSort(localStorage.getItem(SORT_KEY) || "newest"); }
+    catch (e) { return "newest"; }
+  }
+  function saveSort(v) {
+    try { localStorage.setItem(SORT_KEY, v); } catch (e) { /* ignore */ }
+  }
+
+  function loadRead() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(READ_KEY) || "[]");
+      state.read = new Set(Array.isArray(raw) ? raw : []);
+    } catch (e) { state.read = new Set(); }
+  }
+  function saveRead() {
+    try { localStorage.setItem(READ_KEY, JSON.stringify([...state.read])); }
+    catch (e) { /* ignore */ }
+  }
+  function pruneRead() {
+    if (!state.data) return;
+    const ids = new Set((state.data.items || []).map((it) => it.id));
+    let gone = 0;
+    state.read.forEach((id) => {
+      if (!ids.has(id)) { state.read.delete(id); gone++; }
+    });
+    if (gone) saveRead();
+  }
+  function markRead(id, on) {
+    if (!id) return;
+    if (on === false) state.read.delete(id);
+    else state.read.add(id);
+    saveRead();
+    if (state.unread) { update(); return; }
+    if (els.feed) renderFeed();
+    else updateReadAllBtn();
+  }
+  function markFilteredRead() {
+    filtered().forEach((it) => state.read.add(it.id));
+    saveRead();
+    update();
+  }
+  function updateReadAllBtn() {
+    if (!els.btnReadAll) return;
+    if (!state.data) { els.btnReadAll.hidden = true; return; }
+    const items = filtered();
+    const hasUnread = items.some((it) => !state.read.has(it.id));
+    els.btnReadAll.hidden = !items.length || !hasUnread;
+  }
+
+  function emptyWatches() {
+    return { keywords: [], tags: [] };
+  }
+  function loadWatches() {
+    try {
+      const raw = JSON.parse(localStorage.getItem(WATCH_KEY) || "null");
+      const w = emptyWatches();
+      if (raw && Array.isArray(raw.keywords)) {
+        w.keywords = raw.keywords.filter((k) => typeof k === "string" && k.trim()).map((k) => k.trim()).slice(0, 30);
+      }
+      if (raw && Array.isArray(raw.tags)) {
+        w.tags = raw.tags.filter((t) => t && t.group && t.id).slice(0, 40);
+      }
+      state.watches = w;
+    } catch (e) { state.watches = emptyWatches(); }
+  }
+  function saveWatches() {
+    try { localStorage.setItem(WATCH_KEY, JSON.stringify(state.watches)); }
+    catch (e) { /* ignore */ }
+  }
+  function isWatchedConfigured() {
+    const w = state.watches || emptyWatches();
+    return w.keywords.length + w.tags.length > 0;
+  }
+  function isWatched(item) {
+    const w = state.watches || emptyWatches();
+    for (let i = 0; i < w.tags.length; i++) {
+      const t = w.tags[i];
+      if (t.group === "sources" && item.source_id === t.id) return true;
+      if (t.group === "models" && (item.models || []).includes(t.id)) return true;
+      if (t.group === "topics" && (item.topics || []).includes(t.id)) return true;
+      if (t.group === "types" && (item.types || []).includes(t.id)) return true;
+      if (t.group === "platforms" && (item.platforms || []).includes(t.id)) return true;
+    }
+    if (!w.keywords.length) return false;
+    const zh = cachedZh(item);
+    const hay = (
+      item.title + " " + (item.excerpt || "") + " " + item.source_name +
+      (item.title_zh ? " " + item.title_zh : "") +
+      (item.excerpt_zh ? " " + item.excerpt_zh : "") +
+      (zh ? " " + zh.title + " " + (zh.excerpt || "") : "")
+    ).toLowerCase();
+    return w.keywords.some((k) => hay.includes(k.toLowerCase()));
+  }
+  function addWatchKeyword(raw) {
+    const k = (raw || "").trim().replace(/\s+/g, " ");
+    if (!k) return;
+    if (k.length > 40) { toast("关键词请控制在 40 字以内"); return; }
+    const w = state.watches;
+    if (w.keywords.some((x) => x.toLowerCase() === k.toLowerCase())) {
+      toast("已经在关注里了");
+      return;
+    }
+    w.keywords.push(k);
+    saveWatches();
+    const wi = $("watch-input");
+    if (wi) wi.value = "";
+    update();
+  }
+  function addWatchTags(tags) {
+    const w = state.watches;
+    let n = 0;
+    tags.forEach((t) => {
+      if (!t.group || !t.id) return;
+      if (w.tags.some((x) => x.group === t.group && x.id === t.id)) return;
+      w.tags.push({ group: t.group, id: t.id });
+      n++;
+    });
+    if (n) { saveWatches(); update(); }
+    else toast("这些标签已经在关注里了");
+  }
+  function addWatchesFromFilters() {
+    const tags = [];
+    const push = (group, arr) => arr.forEach((id) => tags.push({ group, id }));
+    push("models", state.models);
+    push("topics", state.topics);
+    push("types", state.types);
+    push("platforms", state.platforms);
+    push("sources", state.sources);
+    if (!tags.length) { toast("请先选择要关注的标签"); return; }
+    addWatchTags(tags);
+  }
+  function removeWatch(kind, id, group) {
+    const w = state.watches;
+    if (kind === "kw") w.keywords = w.keywords.filter((k) => k !== id);
+    else w.tags = w.tags.filter((t) => !(t.group === group && t.id === id));
+    saveWatches();
+    if (!isWatchedConfigured()) state.watchOnly = false;
+    update();
+  }
+
+  function loadNotify() {
+    try { state.notify = localStorage.getItem(NOTIFY_KEY) === "1"; }
+    catch (e) { state.notify = false; }
+  }
+  function saveNotify() {
+    try { localStorage.setItem(NOTIFY_KEY, state.notify ? "1" : "0"); }
+    catch (e) { /* ignore */ }
+  }
+  function notifySupported() {
+    return typeof Notification !== "undefined" && !!window.isSecureContext;
+  }
+  async function setNotify(on) {
+    if (on) {
+      if (!notifySupported()) { toast("当前浏览器不支持通知"); return; }
+      if (!isWatchedConfigured()) { toast("请先添加关注的关键词或标签"); return; }
+      let perm = Notification.permission;
+      if (perm === "default") {
+        try { perm = await Notification.requestPermission(); }
+        catch (e) { perm = "denied"; }
+      }
+      if (perm !== "granted") {
+        state.notify = false;
+        saveNotify();
+        toast(perm === "denied" ? "浏览器未允许通知，可在站点设置里更改" : "未开启通知");
+        renderFilters();
+        return;
+      }
+      state.notify = true;
+      saveNotify();
+      try { localStorage.setItem(SEEN_KEY, new Date().toISOString()); } catch (e) { /* ignore */ }
+      toast("已开启。打开本页时，如有符合关注的新资讯会提醒");
+    } else {
+      state.notify = false;
+      saveNotify();
+    }
+    renderFilters();
+  }
+  function maybeNotify() {
+    if (!state.data) return;
+    let last = null;
+    try { last = localStorage.getItem(SEEN_KEY); } catch (e) { last = null; }
+    const nowIso = new Date().toISOString();
+    if (!last) {
+      try { localStorage.setItem(SEEN_KEY, nowIso); } catch (e) { /* ignore */ }
+      return;
+    }
+    const lastT = new Date(last).getTime();
+    if (!isFinite(lastT)) return;
+    const fresh = isWatchedConfigured()
+      ? (state.data.items || []).filter((it) => isWatched(it) && new Date(it.published).getTime() > lastT)
+      : [];
+    try { localStorage.setItem(SEEN_KEY, nowIso); } catch (e) { /* ignore */ }
+    if (!fresh.length || !state.notify || !notifySupported() || Notification.permission !== "granted") return;
+    const first = fresh[0];
+    const title = first.title_zh || first.title;
+    const body = fresh.length === 1 ? title : (fresh.length + " 条你关注的新资讯：" + title);
+    try {
+      const n = new Notification("观澜", { body: body, icon: "favicon.svg", lang: "zh-CN" });
+      n.onclick = function () { window.focus(); n.close(); };
+    } catch (e) { /* ignore */ }
+  }
+
+  function loadDensity() {
+    try {
+      const v = localStorage.getItem(DENSITY_KEY);
+      state.density = v === "compact" ? "compact" : "comfortable";
+    } catch (e) { state.density = "comfortable"; }
+  }
+  function applyDensity() {
+    document.body.classList.toggle("density-compact", state.density === "compact");
+    document.querySelectorAll("[data-density]").forEach((b) => {
+      b.setAttribute("aria-pressed", b.getAttribute("data-density") === state.density ? "true" : "false");
+    });
+  }
+  function setDensity(v) {
+    state.density = v === "compact" ? "compact" : "comfortable";
+    try { localStorage.setItem(DENSITY_KEY, state.density); } catch (e) { /* ignore */ }
+    applyDensity();
+  }
+
+  function isTweet(item) {
+    return (item.platforms || []).indexOf("x") >= 0 || String(item.source_id || "").indexOf("x-") === 0;
+  }
+  function sourceWeight(item) {
+    if (isTweet(item)) {
+      const src = sourceMeta(item.source_id);
+      return src && src.official ? 1.15 : 1.05;
+    }
+    if (item.source_id === "arxiv" || item.source_id === "arxiv-ai") return 1.25;
+    const src = sourceMeta(item.source_id);
+    if (src && src.official) return 1.55;
+    if (PREMIUM_MEDIA.indexOf(item.source_id) >= 0) return 1.25;
+    return 1;
+  }
+  function sourceMeta(id) {
+    const list = (state.data && state.data.sources) || [];
+    for (let i = 0; i < list.length; i++) if (list[i].id === id) return list[i];
+    return null;
+  }
+  function engagementTerm(item) {
+    const e = item.engagement;
+    if (!e || typeof e !== "object") return 0;
+    let raw = 0;
+    if ("likes" in e || "retweets" in e) {
+      raw = (e.likes || 0) + 2 * (e.retweets || 0) + 1.5 * (e.quotes || 0) + 0.4 * (e.replies || 0);
+    } else if ("points" in e) {
+      raw = (e.points || 0) + 0.25 * (e.comments || 0);
+    }
+    if (raw <= 0) return 0;
+    return Math.log10(1 + raw) * 0.45;
+  }
+  function heatScore(item) {
+    const t = new Date(item.published).getTime();
+    const ageH = Math.max(0, (Date.now() - t) / 3600000);
+    const recency = Math.pow(2, -ageH / 36);
+    return recency * (sourceWeight(item) + engagementTerm(item));
+  }
+
+  function fmtCount(n) {
+    n = Number(n) || 0;
+    if (n >= 10000) {
+      const w = n / 10000;
+      const s = w >= 10 ? String(Math.round(w)) : String(Math.round(w * 10) / 10);
+      return s + " 万";
+    }
+    return String(n);
+  }
+  function engHTML(item) {
+    const e = item.engagement;
+    if (!e) return "";
+    const bits = [];
+    if ("likes" in e || "retweets" in e) {
+      if (e.likes) bits.push(fmtCount(e.likes) + " 赞");
+      if (e.retweets) bits.push(fmtCount(e.retweets) + " 转");
+    } else if ("points" in e) {
+      bits.push(fmtCount(e.points) + " 点");
+      if (e.comments) bits.push(fmtCount(e.comments) + " 评");
+    }
+    if (!bits.length) return "";
+    const t = bits.join(" · ");
+    return `<span class="eng" title="${esc(t)}">${esc(t)}</span>`;
+  }
+
+  let toastTimer = 0;
+  function toast(msg) {
+    const el = $("toast");
+    if (!el) return;
+    el.textContent = msg;
+    el.hidden = false;
+    requestAnimationFrame(function () { el.classList.add("is-on"); });
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(function () {
+      el.classList.remove("is-on");
+      setTimeout(function () { el.hidden = true; }, 320);
+    }, 2500);
+  }
+
+  async function shareView() {
+    writeHash();
+    const url = location.href;
+    const title = "观澜 · 人工智能资讯";
+    try {
+      if (navigator.share && (navigator.maxTouchPoints > 0 || /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent || ""))) {
+        await navigator.share({ title: title, url: url });
+        return;
+      }
+    } catch (e) {
+      if (e && e.name === "AbortError") return;
+    }
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        await navigator.clipboard.writeText(url);
+      } else {
+        const ta = document.createElement("textarea");
+        ta.value = url;
+        ta.setAttribute("readonly", "");
+        ta.style.position = "fixed";
+        ta.style.left = "-9999px";
+        document.body.appendChild(ta);
+        ta.select();
+        document.execCommand("copy");
+        ta.remove();
+      }
+      toast("链接已复制，筛选与排列方式已包含");
+    } catch (e) {
+      toast("复制失败，请手动复制地址栏中的链接");
+    }
+  }
+
+  function watchSectionHTML() {
+    const w = state.watches || emptyWatches();
+    const chips = [];
+    w.keywords.forEach((k) => {
+      chips.push(
+        `<span class="chip" aria-pressed="true"><span>${esc(k)}</span>` +
+        `<button type="button" class="x" data-watch-del="kw" data-id="${esc(k)}" aria-label="取消关注 ${esc(k)}">×</button></span>`
+      );
+    });
+    w.tags.forEach((t) => {
+      const name = nameOf(t.group, t.id);
+      chips.push(
+        `<span class="chip" aria-pressed="true"><span>${esc(name)}</span>` +
+        `<button type="button" class="x" data-watch-del="tag" data-group="${esc(t.group)}" data-id="${esc(t.id)}" aria-label="取消关注 ${esc(name)}">×</button></span>`
+      );
+    });
+    const hasFilters = state.models.length + state.topics.length + state.types.length +
+      state.platforms.length + state.sources.length;
+    const denied = notifySupported() && Notification.permission === "denied";
+    const notifyOn = !!(state.notify && notifySupported() && Notification.permission === "granted");
+    const canNotify = notifySupported() && !denied;
+    return `
+      <section class="fg">
+        <div class="fg-title">我的关注</div>
+        <form class="watch-add" id="watch-form">
+          <input id="watch-input" type="text" maxlength="40" placeholder="添加关键词，如 GPT" autocomplete="off" />
+          <button type="submit">添加</button>
+        </form>
+        ${chips.length ? `<div class="watch-chips">${chips.join("")}</div>` : `<p class="watch-empty">添加后，相符的资讯会高亮，也可只看这些条目。</p>`}
+        ${hasFilters ? `<button type="button" class="watch-action" data-watch-from-filters>将当前已选标签加入关注</button>` : ""}
+        ${canNotify ? `<button type="button" class="auto-zh notify-row" id="btn-notify" aria-pressed="${notifyOn ? "true" : "false"}">
+          <span class="switch" aria-hidden="true"><i></i></span>
+          有新资讯时通知我
+        </button>
+        <p class="fg-hint">仅在打开本页时检查，通知在本机发出，不经过服务器。</p>` : (denied ? `<p class="fg-hint">浏览器已关闭通知，可在站点设置里重新允许。</p>` : "")}
+      </section>
+    `;
+  }
+
 
   function loadFavs() {
     try {
@@ -127,8 +519,18 @@
     state.region = list("r");
     state.lang = list("l");
     state.range = q.get("d") || "30d";
-    state.sort = q.get("o") || "newest";
+    const hasParams = !!(raw && (raw.includes("=") || raw.includes("&") || raw.length));
+    if (q.has("o")) {
+      state.sort = validSort(q.get("o"));
+      saveSort(state.sort);
+    } else if (!hasParams) {
+      state.sort = loadSort();
+    } else {
+      state.sort = "newest";
+    }
     state.fav = q.get("star") === "1";
+    state.unread = q.get("u") === "1";
+    state.watchOnly = q.get("w") === "1";
   }
 
   function writeHash() {
@@ -145,6 +547,8 @@
     if (state.range && state.range !== "30d") q.set("d", state.range);
     if (state.sort && state.sort !== "newest") q.set("o", state.sort);
     if (state.fav) q.set("star", "1");
+    if (state.unread) q.set("u", "1");
+    if (state.watchOnly) q.set("w", "1");
     const s = q.toString();
     const next = s ? "#?" + s : (location.pathname + location.search).split("#")[0] === location.href.split("#")[0] ? "#" : "";
     const url = s ? location.pathname + location.search + "#?" + s : location.pathname + location.search;
@@ -180,6 +584,8 @@
 
   function passFilters(item, skip) {
     if (state.fav && !state.favs.has(item.id)) return false;
+    if (state.unread && state.read.has(item.id)) return false;
+    if (state.watchOnly && !isWatched(item)) return false;
     if (!inRange(item)) return false;
     const q = state.q.trim().toLowerCase();
     if (q && !matchesSearch(item, q)) return false;
@@ -229,7 +635,9 @@
       state.platforms.length +
       state.sources.length + state.region.length + state.lang.length +
       (state.range !== "30d" ? 1 : 0) +
-      (state.fav ? 1 : 0)
+      (state.fav ? 1 : 0) +
+      (state.unread ? 1 : 0) +
+      (state.watchOnly ? 1 : 0)
     );
   }
 
@@ -243,8 +651,9 @@
     state.region = [];
     state.lang = [];
     state.range = "30d";
-    state.sort = "newest";
     state.fav = false;
+    state.unread = false;
+    state.watchOnly = false;
     if (els.q) els.q.value = "";
   }
 
@@ -264,6 +673,8 @@
     if (group === "region") return id === "cn" ? "国内" : "国际";
     if (group === "lang") return id === "zh" ? "中文" : "English";
     if (group === "range") return ({ "1d": "今天", "7d": "近 7 天", "30d": "近 30 天", all: "全部" })[id] || id;
+    if (group === "unread") return "只看未读";
+    if (group === "watch") return "我的关注";
     return id;
   }
 
@@ -280,12 +691,14 @@
     const official = sources.filter((s) => s.official);
     const others = sources.filter((s) => !s.official);
 
-    const seg = (key, options) => {
+    const seg = (key, options, cls) => {
       const buttons = options.map(([id, label]) => {
-        const on = state[key] === id;
+        let on;
+        if (key === "unreadMode") on = (state.unread ? "unread" : "all") === id;
+        else on = state[key] === id;
         return `<button type="button" data-seg="${key}" data-id="${esc(id)}" aria-pressed="${on}">${esc(label)}</button>`;
       }).join("");
-      return `<div class="seg" role="group">${buttons}</div>`;
+      return `<div class="seg${cls ? " " + cls : ""}" role="group">${buttons}</div>`;
     };
 
     const chipGroup = (group, items, opts) => {
@@ -315,15 +728,31 @@
     const srcItems = sources.map((s) => ({ id: s.id, name: s.name, official: s.official }));
     // official first already from payload; keep it
 
+    const keepWatch = (() => {
+      const el = els.filterBody.querySelector("#watch-input");
+      return {
+        value: el ? el.value : "",
+        focus: document.activeElement && document.activeElement.id === "watch-input",
+        start: el && document.activeElement === el ? el.selectionStart : null,
+        end: el && document.activeElement === el ? el.selectionEnd : null,
+      };
+    })();
+
     els.filterBody.innerHTML = `
       <section class="fg">
         <div class="fg-title">时间</div>
         ${seg("range", [["1d", "今天"], ["7d", "近 7 天"], ["30d", "近 30 天"], ["all", "全部"]])}
       </section>
       <section class="fg">
-        <div class="fg-title">排序</div>
-        ${seg("sort", [["newest", "最新优先"], ["source", "按来源"]])}
+        <div class="fg-title">排列方式</div>
+        ${seg("sort", [["newest", "最新"], ["oldest", "最早"], ["heat", "热度"], ["source", "来源"]], "is-quad")}
+        <p class="fg-hint">「热度」按发布时间衰减（约 36 小时减半），实验室与官方来源权重更高；推特计入赞、转帖与引用，Hacker News 计入点数，均为抓取时的真实数据，没有互动的条目不加这项分数。</p>
       </section>
+      <section class="fg">
+        <div class="fg-title">阅读</div>
+        ${seg("unreadMode", [["all", "全部"], ["unread", "只看未读"]])}
+      </section>
+      ${watchSectionHTML()}
       <section class="fg">
         <div class="fg-title">模型</div>
         ${chipGroup("models", modelItems, { limit: 14 })}
@@ -353,6 +782,17 @@
         ${chipGroup("lang", [{ id: "zh", name: "中文" }, { id: "en", name: "English" }], { always: true })}
       </section>
     `;
+
+    const wi = els.filterBody.querySelector("#watch-input");
+    if (wi) {
+      wi.value = keepWatch.value;
+      if (keepWatch.focus) {
+        wi.focus();
+        if (keepWatch.start != null) {
+          try { wi.setSelectionRange(keepWatch.start, keepWatch.end); } catch (e) { /* ignore */ }
+        }
+      }
+    }
   }
 
   function renderActive() {
@@ -370,8 +810,10 @@
     if (state.range !== "30d") chips.push({ group: "range", id: state.range, name: nameOf("range", state.range) });
     if (state.q) chips.push({ group: "q", id: state.q, name: "“" + state.q + "”" });
     if (state.fav) chips.push({ group: "fav", id: "1", name: "只看收藏" });
+    if (state.unread) chips.push({ group: "unread", id: "1", name: "只看未读" });
+    if (state.watchOnly) chips.push({ group: "watch", id: "1", name: "我的关注" });
 
-    const labels = { models: "模型", topics: "功能", types: "类型", platforms: "平台", sources: "来源", region: "地区", lang: "语言", range: "时间", q: "搜索", fav: "" };
+    const labels = { models: "模型", topics: "功能", types: "类型", platforms: "平台", sources: "来源", region: "地区", lang: "语言", range: "时间", q: "搜索", fav: "", unread: "", watch: "" };
     if (!chips.length) {
       els.activeBar.hidden = true;
       els.activeBar.innerHTML = "";
@@ -388,6 +830,7 @@
       else els.badge.hidden = true;
     }
     els.btnFav.setAttribute("aria-pressed", state.fav ? "true" : "false");
+    if (els.btnWatch) els.btnWatch.setAttribute("aria-pressed", state.watchOnly ? "true" : "false");
   }
 
   const EXT = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 16l9-9M11 7h6v6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
@@ -690,16 +1133,24 @@
       transBtn = `<button type="button" class="tr-btn${pending ? " is-busy" : ""}" data-trans="${esc(item.id)}" aria-pressed="${showing ? "true" : "false"}" aria-label="${esc(label)}">${TR_ICON}<span class="tr-label">${esc(label)}</span></button>`;
     }
     const mark = showing ? `<span class="tr-mark">译文</span>` : "";
+    const watched = isWatchedConfigured() && isWatched(item);
+    const read = state.read.has(item.id);
+    const watchMark = watched ? `<span class="watch-mark">关注</span>` : "";
+    const cls = "card" + (showing ? " is-translated" : "") + (read ? " is-read" : "") + (watched ? " is-watched" : "");
+    const readBtn = read
+      ? `<button type="button" class="read-tag" data-toggle-read="${esc(item.id)}" aria-label="标为未读" title="标为未读">已读</button>`
+      : "";
     return `
-      <article class="card${showing ? " is-translated" : ""}" data-id="${esc(item.id)}">
+      <article class="${cls}" data-id="${esc(item.id)}">
         <div class="card-top">
           <a class="source" href="${esc(item.source_home || item.url)}" target="_blank" rel="noopener noreferrer">
             <span class="dot" style="background:${color}"></span>${esc(item.source_name)}
           </a>
           <time datetime="${esc(item.published)}" title="${esc(fmtFull(item.published))}">${esc(relTime(item.published))}</time>
+          ${engHTML(item)}${readBtn}
           <button type="button" class="star" data-star="${esc(item.id)}" aria-pressed="${starred}" aria-label="${starred ? "取消收藏" : "收藏"}">${STAR}</button>
         </div>
-        <h2>${mark}<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></h2>
+        <h2>${watchMark}${mark}<a href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a></h2>
         ${excerpt ? `<p class="excerpt">${esc(excerpt)}</p>` : ""}
         <div class="card-foot">
           <ul class="tags">${tagButtons(item)}</ul>
@@ -710,6 +1161,22 @@
 
   function renderFeed() {
     let items = filtered();
+    if (state.sort === "oldest") {
+      items = items.slice().sort((a, b) => {
+        const d = new Date(a.published) - new Date(b.published);
+        return d !== 0 ? d : (a.id < b.id ? -1 : 1);
+      });
+    } else if (state.sort === "heat") {
+      items = items.slice().sort((a, b) => {
+        const d = heatScore(b) - heatScore(a);
+        return d !== 0 ? d : (new Date(b.published) - new Date(a.published));
+      });
+    } else if (state.sort !== "source") {
+      items = items.slice().sort((a, b) => {
+        const d = new Date(b.published) - new Date(a.published);
+        return d !== 0 ? d : (a.id < b.id ? -1 : 1);
+      });
+    }
     if (state.sort === "source") {
       const order = [];
       const groups = new Map();
@@ -728,19 +1195,37 @@
     }
 
     const n = items.filter((x) => !x._head).length;
-    els.count.innerHTML = state.fav
-      ? `收藏中的 <em>${n}</em> 条`
-      : `共 <em>${n}</em> 条资讯`;
+    let countLabel = `共 <em>${n}</em> 条资讯`;
+    if (state.fav && state.watchOnly && state.unread) countLabel = `关注且收藏的未读 <em>${n}</em> 条`;
+    else if (state.fav && state.unread) countLabel = `收藏中的未读 <em>${n}</em> 条`;
+    else if (state.watchOnly && state.unread) countLabel = `关注中的未读 <em>${n}</em> 条`;
+    else if (state.fav) countLabel = `收藏中的 <em>${n}</em> 条`;
+    else if (state.watchOnly) countLabel = `关注中的 <em>${n}</em> 条`;
+    else if (state.unread) countLabel = `未读 <em>${n}</em> 条`;
+    else if (state.sort === "heat") countLabel = `按热度排列，共 <em>${n}</em> 条`;
+    els.count.innerHTML = countLabel;
+    updateReadAllBtn();
 
     if (!n) {
       els.feed.innerHTML = "";
       els.empty.hidden = false;
-      els.empty.querySelector("h2").textContent = state.fav && !activeCount()
-        ? "还没有收藏"
-        : "这一段里还没有符合条件的资讯";
-      els.empty.querySelector("p").textContent = state.fav && !activeCount()
-        ? "在资讯卡片右上角点星标，即可在这里找到它。"
-        : "换一组标签，或把时间范围放宽一些。";
+      let emptyHead = "这一段里还没有符合条件的资讯";
+      let emptyBody = "换一组标签，或把时间范围放宽一些。";
+      if (state.fav && activeCount() === 1) {
+        emptyHead = "还没有收藏";
+        emptyBody = "在资讯卡片右上角点星标，即可在这里找到它。";
+      } else if (state.watchOnly && !isWatchedConfigured()) {
+        emptyHead = "还没有关注";
+        emptyBody = "在筛选栏的「我的关注」里添加关键词或标签。";
+      } else if (state.watchOnly) {
+        emptyHead = "暂无符合关注的资讯";
+        emptyBody = "试试添加更多关键词，或把时间范围放宽一些。";
+      } else if (state.unread) {
+        emptyHead = "这一段里的资讯都已读过了";
+        emptyBody = "关闭「只看未读」，或换一组筛选条件。";
+      }
+      els.empty.querySelector("h2").textContent = emptyHead;
+      els.empty.querySelector("p").textContent = emptyBody;
       return;
     }
     els.empty.hidden = true;
@@ -768,12 +1253,15 @@
     let html = "";
     let lastDay = "";
     const slice = items.slice(0, state.limit);
+    const byHeat = state.sort === "heat";
     slice.forEach((it) => {
-      const day = shanghaiDate(it.published);
-      if (day !== lastDay) {
-        lastDay = day;
-        const lb = dayLabel(day);
-        html += `<div class="day"><h2>${esc(lb.main)}</h2>${lb.sub ? `<span class="sub">${esc(lb.sub)}</span>` : ""}</div>`;
+      if (!byHeat) {
+        const day = shanghaiDate(it.published);
+        if (day !== lastDay) {
+          lastDay = day;
+          const lb = dayLabel(day);
+          html += `<div class="day"><h2>${esc(lb.main)}</h2>${lb.sub ? `<span class="sub">${esc(lb.sub)}</span>` : ""}</div>`;
+        }
       }
       html += cardHTML(it);
     });
@@ -791,7 +1279,8 @@
     els.aboutBody.innerHTML = `
       <p>观澜收集实验室、研究机构与科技媒体公开发布的人工智能资讯，亦收录各实验室、产品与媒体的官方推特账号。每条都标明来源，并链回原文；发布时间按北京时间显示。</p>
       <p>标签按标题与摘要中的关键词自动归类，可按模型、功能、类型、平台、来源、地区和语言多重组合筛选。组内为「任一」，组与组之间为「同时满足」。筛选条件会写进地址栏，方便分享。点选「推特」可只看来自官方账号的帖子。</p>
-      <p>收藏保存在本机浏览器中，不会上传。</p>
+      <p>列表可按最新、最早、热度或来源排列。「热度」综合时效与来源权重：刚发布的条目更高，约 36 小时衰减一半，实验室与官方来源权重大于一般媒体；推特计入赞、转帖与引用，Hacker News 计入点数，均为抓取时的真实数据，没有互动数据的条目不加这项分数。排列方式会写进地址栏，便于分享。</p>
+      <p>打开原文后该条会标为已读，可筛选「只看未读」。可添加关键词或标签作为「我的关注」，相符的条目会高亮，也可只看这些资讯；若允许通知，打开本页时如有符合的新资讯会在本机提醒。已读、关注与收藏都保存在本机浏览器中，不会上传。点「分享」可复制当前筛选与排列的链接。</p>
       <p>外文资讯可译为简体中文：每张卡片上有「翻译」，也可打开列表上方的「自动翻译」。默认先显示原文，译文由机器生成，仅供阅读参考，内容以原文为准。中文条目无需翻译。</p>
       <p>最近更新：${esc(fmtFull(data.updated_at))}（北京时间）。窗口约为最近 ${data.window_days || 30} 天，当前 ${data.item_count} 条。</p>
       <h3>实验室与官方</h3>
@@ -818,6 +1307,8 @@
     if (group === "all") { resetAll(); return; }
     if (group === "q") { state.q = ""; els.q.value = ""; return; }
     if (group === "fav") { state.fav = false; return; }
+    if (group === "unread") { state.unread = false; return; }
+    if (group === "watch") { state.watchOnly = false; return; }
     if (group === "range") { state.range = "30d"; return; }
     if (state[group] && Array.isArray(state[group])) {
       state[group] = state[group].filter((x) => x !== id);
@@ -838,6 +1329,15 @@
       if (e.key === "Escape") closeFilters();
     });
 
+    els.filterBody.addEventListener("submit", (e) => {
+      if (e.target && e.target.id === "watch-form") {
+        e.preventDefault();
+        const input = $("watch-input");
+        addWatchKeyword(input ? input.value : "");
+        if (input) input.value = "";
+      }
+    });
+
     els.filterBody.addEventListener("click", (e) => {
       const exp = e.target.closest("[data-expand]");
       if (exp) {
@@ -852,8 +1352,27 @@
       const seg = e.target.closest("[data-seg]");
       if (seg) {
         const key = seg.getAttribute("data-seg");
-        state[key] = seg.getAttribute("data-id");
+        const id = seg.getAttribute("data-id");
+        if (key === "unreadMode") {
+          state.unread = id === "unread";
+        } else {
+          state[key] = id;
+          if (key === "sort") saveSort(validSort(id));
+        }
         update();
+        return;
+      }
+      const watchDel = e.target.closest("[data-watch-del]");
+      if (watchDel) {
+        removeWatch(watchDel.getAttribute("data-watch-del"), watchDel.getAttribute("data-id"), watchDel.getAttribute("data-group"));
+        return;
+      }
+      if (e.target.closest("[data-watch-from-filters]")) {
+        addWatchesFromFilters();
+        return;
+      }
+      if (e.target.closest("#btn-notify")) {
+        setNotify(!state.notify || Notification.permission !== "granted");
         return;
       }
       const chip = e.target.closest("[data-group]");
@@ -872,12 +1391,25 @@
       update();
     });
 
+    const markOpen = (e) => {
+      const open = e.target.closest("h2 a, a.orig");
+      if (!open) return;
+      const card = open.closest(".card");
+      if (card) markRead(card.getAttribute("data-id"), true);
+    };
     els.feed.addEventListener("click", (e) => {
       if (e.target.closest("#btn-more")) {
         state.limit += PAGE;
         renderFeed();
         return;
       }
+      const tog = e.target.closest("[data-toggle-read]");
+      if (tog) {
+        const id = tog.getAttribute("data-toggle-read");
+        markRead(id, !state.read.has(id));
+        return;
+      }
+      markOpen(e);
       const star = e.target.closest("[data-star]");
       if (star) {
         const id = star.getAttribute("data-star");
@@ -905,7 +1437,29 @@
       }
     });
 
+    els.feed.addEventListener("auxclick", (e) => { if (e.button === 1) markOpen(e); });
+
     els.btnFav.addEventListener("click", () => { state.fav = !state.fav; update(); });
+    if (els.btnWatch) {
+      els.btnWatch.addEventListener("click", () => {
+        if (!state.watchOnly && !isWatchedConfigured()) {
+          toast("请先在筛选里添加关注的关键词或标签");
+          const input = els.filterBody && els.filterBody.querySelector("#watch-input");
+          if (els.btnFilter && window.matchMedia && window.matchMedia("(max-width: 860px)").matches) {
+            els.btnFilter.click();
+          }
+          if (input) input.focus();
+          return;
+        }
+        state.watchOnly = !state.watchOnly;
+        update();
+      });
+    }
+    if (els.btnShare) els.btnShare.addEventListener("click", () => { shareView(); });
+    if (els.btnReadAll) els.btnReadAll.addEventListener("click", () => { markFilteredRead(); });
+    document.querySelectorAll("[data-density]").forEach((b) => {
+      b.addEventListener("click", () => setDensity(b.getAttribute("data-density")));
+    });
     if (els.btnAuto) {
       els.btnAuto.addEventListener("click", () => setAutoZh(!state.autoZh));
     }
@@ -954,6 +1508,9 @@
     els.count = $("count");
     els.updated = $("updated");
     els.btnFav = $("btn-fav");
+    els.btnWatch = $("btn-watch");
+    els.btnShare = $("btn-share");
+    els.btnReadAll = $("btn-read-all");
     els.btnReset = $("btn-reset");
     els.btnEmptyReset = $("btn-empty-reset");
     els.btnAbout = $("btn-about");
@@ -967,6 +1524,11 @@
     els.btnAuto = $("btn-auto-zh");
 
     loadFavs();
+    loadRead();
+    loadWatches();
+    loadNotify();
+    loadDensity();
+    applyDensity();
     loadZhMem();
     loadAutoZh();
     if (els.btnAuto) els.btnAuto.setAttribute("aria-pressed", state.autoZh ? "true" : "false");
@@ -986,7 +1548,9 @@
       return;
     }
     setUpdated(state.data.updated_at);
+    pruneRead();
     update();
+    maybeNotify();
   }
 
   window.addEventListener("hashchange", () => {

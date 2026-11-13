@@ -1606,6 +1606,150 @@ def merge(old: list, new: list, cutoff: datetime) -> list:
     return items[:MAX_ITEMS]
 
 
+
+HN_POINTS_RE = re.compile(r"Points:\s*(\d+)", re.I)
+HN_COMMENTS_RE = re.compile(r"#\s*Comments:\s*(\d+)", re.I)
+
+
+def engagement_from_hn(text: str):
+    if not text:
+        return None
+    mp = HN_POINTS_RE.search(text)
+    if not mp:
+        return None
+    mc = HN_COMMENTS_RE.search(text)
+    out = {"points": int(mp.group(1))}
+    if mc:
+        out["comments"] = int(mc.group(1))
+    return out
+
+
+def _tweet_status(url: str) -> tuple[str, str] | tuple[None, None]:
+    m = STATUS_RE.search(url or "")
+    if not m:
+        return None, None
+    return m.group(1), m.group(2)
+
+
+def _stats_from_fxtweet(tweet: dict) -> dict | None:
+    if not tweet or not isinstance(tweet, dict):
+        return None
+    out = {}
+    for key in ("likes", "retweets", "replies", "quotes", "bookmarks", "views"):
+        val = tweet.get(key)
+        if isinstance(val, bool) or val is None:
+            continue
+        try:
+            n = int(val)
+        except (TypeError, ValueError):
+            continue
+        if n >= 0:
+            out[key] = n
+    return out or None
+
+
+def fetch_tweet_engagement(url: str) -> dict | None:
+    handle, tid = _tweet_status(url)
+    if not handle or not tid:
+        return None
+    api = "https://api.fxtwitter.com/%s/status/%s" % (handle, tid)
+    r = http_get(api, timeout=18, retries=2, pause=1.2)
+    if r is None or r.status_code != 200 or not r.content:
+        return None
+    try:
+        data = r.json()
+    except ValueError:
+        return None
+    tweet = data.get("tweet") if isinstance(data, dict) else None
+    return _stats_from_fxtweet(tweet or {})
+
+
+def apply_hn_engagement(items: list) -> int:
+    n = 0
+    for it in items:
+        if it.get("source_id") != "hackernews":
+            continue
+        got = engagement_from_hn(it.get("excerpt") or "")
+        if not got:
+            continue
+        old = it.get("engagement") if isinstance(it.get("engagement"), dict) else {}
+        if got != {k: old.get(k) for k in got}:
+            merged = dict(old)
+            merged.update(got)
+            it["engagement"] = merged
+            n += 1
+        elif not old:
+            it["engagement"] = got
+            n += 1
+    return n
+
+
+def fill_tweet_engagement(items: list, workers: int = 6, force: bool = False) -> int:
+    """Fill likes / retweets etc. from FxTwitter. Never invents numbers."""
+    pending = []
+    for it in items:
+        plats = it.get("platforms") or []
+        url = it.get("url") or ""
+        if "x" not in plats and "x.com/" not in url and "twitter.com/" not in url:
+            continue
+        if not force and isinstance(it.get("engagement"), dict) and (
+            "likes" in it["engagement"] or "retweets" in it["engagement"]
+        ):
+            continue
+        if _tweet_status(url)[1]:
+            pending.append(it)
+    if not pending:
+        return 0
+    print("待取推特互动 %d 条" % len(pending), flush=True)
+    done = 0
+    failed = 0
+
+    def one(it):
+        return it, fetch_tweet_engagement(it.get("url") or "")
+
+    with ThreadPoolExecutor(max_workers=workers) as ex:
+        futs = [ex.submit(one, it) for it in pending]
+        for fut in as_completed(futs):
+            try:
+                it, stats = fut.result()
+            except Exception:
+                failed += 1
+                continue
+            if not stats:
+                failed += 1
+                continue
+            it["engagement"] = stats
+            done += 1
+            if done % 80 == 0:
+                print("  已取互动 %d / %d" % (done, len(pending)), flush=True)
+    print("推特互动完成 %d / %d 条（未取到 %d）" % (done, len(pending), failed), flush=True)
+    return done
+
+
+def enrich_engagement(items: list, force_tweets: bool = False) -> int:
+    n = apply_hn_engagement(items)
+    n += fill_tweet_engagement(items, force=force_tweets)
+    return n
+
+
+def write_existing_payload(out: Path, items: list, extra: dict | None = None) -> None:
+    if out.exists():
+        try:
+            raw = json.loads(out.read_text(encoding="utf-8"))
+        except Exception:
+            raw = {}
+    else:
+        raw = {}
+    if extra:
+        raw.update(extra)
+    raw["items"] = items
+    raw["item_count"] = len(items)
+    out.parent.mkdir(parents=True, exist_ok=True)
+    tmp = out.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(raw, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    tmp.replace(out)
+
+
 def _is_zh_item(it: dict) -> bool:
     lang = str(it.get("lang") or "").lower()
     if lang.startswith("zh"):
@@ -1621,6 +1765,8 @@ def _carry_translation(old: dict, new: dict) -> None:
         new["title_zh"] = old["title_zh"]
     if "excerpt_zh" in old and old.get("excerpt") == new.get("excerpt"):
         new["excerpt_zh"] = old["excerpt_zh"]
+    if old.get("engagement") and not new.get("engagement"):
+        new["engagement"] = old["engagement"]
 
 
 def _parse_mt_list(data, n: int) -> list[str] | None:
@@ -1888,9 +2034,21 @@ def main() -> int:
     parser.add_argument("--days", type=int, default=WINDOW_DAYS)
     parser.add_argument("--out", type=Path, default=OUT_PATH)
     parser.add_argument("--translate-only", action="store_true", help="只为已有条目补译文，不抓取")
+    parser.add_argument("--engage-only", action="store_true", help="只为已有条目补互动数据，不抓取")
+    parser.add_argument("--refresh-engagement", action="store_true", help="重新抓取已有推特的互动数据")
     args = parser.parse_args()
     days = args.days
     out = args.out
+
+    if args.engage_only:
+        existing = load_existing()
+        if not existing:
+            print("没有已有资讯", flush=True)
+            return 1
+        n = enrich_engagement(existing, force_tweets=args.refresh_engagement)
+        write_existing_payload(out, existing)
+        print("已写入 %s（更新互动 %d 条）" % (out, n), flush=True)
+        return 0
 
     if args.translate_only:
         existing = load_existing()
@@ -1954,6 +2112,10 @@ def main() -> int:
         fill_translations(merged)
     except Exception as e:
         print("翻译步骤出错，已跳过：%s: %s" % (type(e).__name__, e), flush=True)
+    try:
+        enrich_engagement(merged, force_tweets=True)
+    except Exception as e:
+        print("互动数据步骤出错，已跳过：%s: %s" % (type(e).__name__, e), flush=True)
     payload = build_payload(merged, sources_info, now)
     out.parent.mkdir(parents=True, exist_ok=True)
     tmp = out.with_suffix(".json.tmp")
