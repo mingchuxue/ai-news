@@ -1239,7 +1239,7 @@
       let shown = 0;
       items.forEach((it) => {
         if (it._head) {
-          if (shown < state.limit) html += `<div class="day"><h2>${esc(it.source_name)}</h2></div>`;
+          if (shown < state.limit) html += `<div class="day" data-k="s-${esc(it.source_name)}"><h2>${esc(it.source_name)}</h2></div>`;
         } else if (shown < state.limit) {
           html += cardHTML(it);
           shown++;
@@ -1260,7 +1260,7 @@
         if (day !== lastDay) {
           lastDay = day;
           const lb = dayLabel(day);
-          html += `<div class="day"><h2>${esc(lb.main)}</h2>${lb.sub ? `<span class="sub">${esc(lb.sub)}</span>` : ""}</div>`;
+          html += `<div class="day" data-k="d-${esc(day)}"><h2>${esc(lb.main)}</h2>${lb.sub ? `<span class="sub">${esc(lb.sub)}</span>` : ""}</div>`;
         }
       }
       html += cardHTML(it);
