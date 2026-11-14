@@ -79,8 +79,14 @@
         <div class="meta-left">
           <p class="count" id="count">正在载入…</p>
           <button type="button" class="text-btn read-all" id="btn-read-all" hidden>全部标为已读</button>
+          <button type="button" class="text-btn" id="btn-export-fav" hidden>导出收藏</button>
         </div>
         <div class="meta-right">
+          <div class="seg seg-mini" role="group" aria-label="字号" id="fs-seg">
+            <button type="button" data-fs="s" aria-pressed="false">小</button>
+            <button type="button" data-fs="m" aria-pressed="true">中</button>
+            <button type="button" data-fs="l" aria-pressed="false">大</button>
+          </div>
           <div class="seg seg-mini" role="group" aria-label="列表疏密">
             <button type="button" data-density="comfortable" aria-pressed="true">舒适</button>
             <button type="button" data-density="compact" aria-pressed="false">紧凑</button>
@@ -93,6 +99,7 @@
         </div>
       </div>
       <p class="tr-note" id="tr-note" hidden></p>
+      <div class="hot-tags" id="hot-tags" hidden></div>
       <div id="feed" class="feed" aria-live="polite"></div>
       <div id="empty" class="empty" hidden>
         <svg class="empty-mark" viewBox="0 0 36 28" aria-hidden="true">

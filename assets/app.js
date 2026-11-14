@@ -830,6 +830,9 @@
       else els.badge.hidden = true;
     }
     els.btnFav.setAttribute("aria-pressed", state.fav ? "true" : "false");
+    const ef = $("btn-export-fav");
+    if (ef) ef.hidden = !state.fav || !state.favs.size;
+    renderHotTags();
     if (els.btnWatch) els.btnWatch.setAttribute("aria-pressed", state.watchOnly ? "true" : "false");
   }
 
@@ -1549,8 +1552,87 @@
     }
     setUpdated(state.data.updated_at);
     pruneRead();
+    bindExtras();
     update();
     maybeNotify();
+  }
+
+  /* ---------- 近 24 小时热门标签、字号、导出收藏 ---------- */
+  let hotCache = null;
+  function hotTags() {
+    if (hotCache || !state.data) return hotCache || [];
+    const items = state.data.items || [];
+    let newest = 0;
+    items.forEach((it) => { const t = new Date(it.published).getTime(); if (t > newest) newest = t; });
+    const since = newest - 24 * 3600 * 1000, counts = {};
+    items.forEach((it) => {
+      if (new Date(it.published).getTime() < since) return;
+      ["models", "topics"].forEach((g) => (it[g] || []).forEach((id) => { const k = g + "|" + id; counts[k] = (counts[k] || 0) + 1; }));
+    });
+    const tax = state.data.taxonomy || {};
+    hotCache = Object.keys(counts).filter((k) => counts[k] >= 2).sort((a, b) => counts[b] - counts[a]).slice(0, 10).map((k) => {
+      const [g, id] = k.split("|");
+      const t = (tax[g] || []).find((x) => x.id === id);
+      return { g, id, name: t ? t.name : id, n: counts[k] };
+    });
+    return hotCache;
+  }
+  function renderHotTags() {
+    const box = $("hot-tags");
+    if (!box) return;
+    const list = hotTags();
+    if (!list.length) { box.hidden = true; return; }
+    box.hidden = false;
+    box.innerHTML = `<span class="ht-label">近 24 小时热门</span>` + list.map((t) => {
+      const on = Array.isArray(state[t.g]) && state[t.g].includes(t.id);
+      return `<button type="button" class="hot-tag" data-hg="${t.g}" data-hid="${esc(t.id)}" aria-pressed="${on}">${esc(t.name)}<span class="n">${t.n}</span></button>`;
+    }).join("");
+  }
+  const FS_KEY = "guanlan.fontsize";
+  function applyFont(v) {
+    v = v === "s" || v === "l" ? v : "m";
+    document.body.classList.toggle("fs-s", v === "s");
+    document.body.classList.toggle("fs-l", v === "l");
+    document.querySelectorAll("[data-fs]").forEach((b) => b.setAttribute("aria-pressed", b.getAttribute("data-fs") === v ? "true" : "false"));
+    return v;
+  }
+  function exportFavs() {
+    const items = (state.data && state.data.items || []).filter((it) => state.favs.has(it.id));
+    if (!items.length) { toast("收藏里还没有当前保留期内的资讯"); return; }
+    const d = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" }).format(new Date());
+    const md = "# 观澜 · 收藏\n\n导出于 " + d + "，共 " + items.length + " 条\n\n" + items.map((it) =>
+      "- [" + String(it.title || "").replace(/[\[\]]/g, "") + "](" + it.url + ")  \n  " + (it.source_name || "") + " · " + shanghaiDate(it.published)
+    ).join("\n") + "\n";
+    const a = document.createElement("a");
+    a.href = URL.createObjectURL(new Blob([md], { type: "text/markdown;charset=utf-8" }));
+    a.download = "观澜-收藏-" + d + ".md";
+    document.body.appendChild(a); a.click(); a.remove();
+    setTimeout(() => URL.revokeObjectURL(a.href), 2000);
+    toast("已导出 " + items.length + " 条收藏");
+  }
+  function bindExtras() {
+    let fs = "m";
+    try { fs = localStorage.getItem(FS_KEY) || "m"; } catch (e) { /* ignore */ }
+    applyFont(fs);
+    const seg = $("fs-seg");
+    if (seg) seg.addEventListener("click", (e) => {
+      const b = e.target.closest("[data-fs]");
+      if (!b) return;
+      const v = applyFont(b.getAttribute("data-fs"));
+      try { localStorage.setItem(FS_KEY, v); } catch (err) { /* ignore */ }
+    });
+    const ef = $("btn-export-fav");
+    if (ef) ef.addEventListener("click", exportFavs);
+    const box = $("hot-tags");
+    if (box) box.addEventListener("click", (e) => {
+      const b = e.target.closest(".hot-tag");
+      if (!b) return;
+      const g = b.getAttribute("data-hg"), id = b.getAttribute("data-hid");
+      if (!Array.isArray(state[g])) return;
+      const i = state[g].indexOf(id);
+      if (i >= 0) state[g].splice(i, 1); else state[g].push(id);
+      update();
+    });
   }
 
   window.addEventListener("hashchange", () => {

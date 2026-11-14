@@ -835,3 +835,28 @@ body.density-compact .card.is-read { opacity: .92; }
   .meta-left { width: 100%; }
   .seg.is-quad { grid-template-columns: 1fr 1fr; }
 }
+
+/* ---------- 热门标签与字号 ---------- */
+.hot-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; margin: 0 0 14px; min-width: 0; max-width: 100%; }
+.ht-label { flex: none; white-space: nowrap; font-size: 11.5px; letter-spacing: .12em; color: var(--muted); margin-right: 4px; }
+.hot-tag {
+  display: inline-flex; align-items: center; gap: 5px;
+  height: 28px; padding: 0 11px; border-radius: 999px;
+  background: var(--paper); border: 1px solid var(--line); color: var(--ink-2);
+  font-size: 12.5px; transition: background .15s var(--ease), border-color .15s, color .15s;
+}
+.hot-tag .n { font-size: 11px; color: var(--faint); font-variant-numeric: tabular-nums; }
+.hot-tag:hover { border-color: var(--line-2); }
+.hot-tag[aria-pressed="true"] { background: var(--accent-soft); border-color: color-mix(in srgb, var(--accent) 30%, var(--line)); color: var(--accent); }
+.hot-tag[aria-pressed="true"] .n { color: var(--accent); }
+body.fs-s { --title-size: 15.5px; --excerpt-size: 12.5px; }
+body.fs-l { --title-size: 20.5px; --excerpt-size: 15.5px; }
+@media (max-width: 860px) {
+  body.fs-s { --title-size: 15px; }
+  body.fs-l { --title-size: 19px; }
+  .hot-tags { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; }
+  .meta-right { gap: 10px 14px; }
+  .hot-tags::-webkit-scrollbar { display: none; }
+  .hot-tag { flex: none; }
+}
+#main { min-width: 0; }
