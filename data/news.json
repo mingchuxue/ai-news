@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15T02:17:21+08:00",
+  "updated_at": "2026-11-15T07:59:07+08:00",
   "window_days": 30,
   "item_count": 1800,
   "taxonomy": {
@@ -7,17 +7,17 @@
       {
         "id": "gpt",
         "name": "GPT",
-        "count": 47
+        "count": 46
       },
       {
         "id": "claude",
         "name": "Claude",
-        "count": 116
+        "count": 117
       },
       {
         "id": "gemini",
         "name": "Gemini",
-        "count": 66
+        "count": 67
       },
       {
         "id": "llama",
@@ -42,7 +42,7 @@
       {
         "id": "mistral",
         "name": "Mistral",
-        "count": 13
+        "count": 11
       },
       {
         "id": "kimi",
@@ -72,7 +72,7 @@
       {
         "id": "minimax",
         "name": "MiniMax",
-        "count": 10
+        "count": 9
       },
       {
         "id": "yi",
@@ -82,7 +82,7 @@
       {
         "id": "copilot",
         "name": "Copilot",
-        "count": 8
+        "count": 6
       },
       {
         "id": "sora",
@@ -154,7 +154,7 @@
       {
         "id": "coding",
         "name": "编程",
-        "count": 100
+        "count": 96
       },
       {
         "id": "agent",
@@ -169,7 +169,7 @@
       {
         "id": "search",
         "name": "搜索",
-        "count": 21
+        "count": 20
       },
       {
         "id": "robotics",
@@ -179,7 +179,7 @@
       {
         "id": "science",
         "name": "科学",
-        "count": 53
+        "count": 54
       },
       {
         "id": "education",
@@ -194,12 +194,12 @@
       {
         "id": "chip",
         "name": "算力芯片",
-        "count": 356
+        "count": 358
       },
       {
         "id": "safety",
         "name": "安全对齐",
-        "count": 51
+        "count": 50
       }
     ],
     "types": [
@@ -216,7 +216,7 @@
       {
         "id": "business",
         "name": "融资/商业",
-        "count": 186
+        "count": 187
       },
       {
         "id": "policy",
@@ -226,17 +226,17 @@
       {
         "id": "opensource",
         "name": "开源",
-        "count": 96
+        "count": 94
       },
       {
         "id": "review",
         "name": "教程/评测",
-        "count": 97
+        "count": 96
       },
       {
         "id": "product",
         "name": "产品更新",
-        "count": 126
+        "count": 125
       },
       {
         "id": "opinion",
@@ -248,7 +248,7 @@
       {
         "id": "x",
         "name": "推特",
-        "count": 238
+        "count": 236
       }
     ]
   },
@@ -261,7 +261,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 46
+      "count": 44
     },
     {
       "id": "aws-ml",
@@ -281,7 +281,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 26
+      "count": 24
     },
     {
       "id": "huggingface",
@@ -364,16 +364,6 @@
       "count": 11
     },
     {
-      "id": "x-mistral",
-      "name": "Mistral（推特）",
-      "home": "https://x.com/MistralAI",
-      "region": "intl",
-      "official": true,
-      "ok": true,
-      "error": "",
-      "count": 11
-    },
-    {
       "id": "x-openai",
       "name": "OpenAI（推特）",
       "home": "https://x.com/OpenAI",
@@ -394,9 +384,9 @@
       "count": 11
     },
     {
-      "id": "x-cohere",
-      "name": "Cohere（推特）",
-      "home": "https://x.com/cohere",
+      "id": "x-mistral",
+      "name": "Mistral（推特）",
+      "home": "https://x.com/MistralAI",
       "region": "intl",
       "official": true,
       "ok": true,
@@ -412,6 +402,16 @@
       "ok": true,
       "error": "",
       "count": 10
+    },
+    {
+      "id": "x-cohere",
+      "name": "Cohere（推特）",
+      "home": "https://x.com/cohere",
+      "region": "intl",
+      "official": true,
+      "ok": true,
+      "error": "",
+      "count": 9
     },
     {
       "id": "google-ai",
@@ -601,7 +601,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 3
+      "count": 2
     },
     {
       "id": "microsoft-research",
@@ -611,7 +611,7 @@
       "official": true,
       "ok": true,
       "error": "",
-      "count": 3
+      "count": 2
     },
     {
       "id": "x-midjourney",
@@ -741,7 +741,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 232
+      "count": 233
     },
     {
       "id": "arxiv",
@@ -761,7 +761,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 151
+      "count": 152
     },
     {
       "id": "ithome",
@@ -771,7 +771,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 136
+      "count": 137
     },
     {
       "id": "qbitai",
@@ -781,7 +781,17 @@
       "official": false,
       "ok": false,
       "error": "http 403",
-      "count": 111
+      "count": 110
+    },
+    {
+      "id": "hackernews",
+      "name": "Hacker News",
+      "home": "https://news.ycombinator.com/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 52
     },
     {
       "id": "ft",
@@ -794,16 +804,6 @@
       "count": 51
     },
     {
-      "id": "hackernews",
-      "name": "Hacker News",
-      "home": "https://news.ycombinator.com/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 50
-    },
-    {
       "id": "siliconangle",
       "name": "SiliconANGLE",
       "home": "https://siliconangle.com/category/ai/",
@@ -811,7 +811,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 48
+      "count": 49
     },
     {
       "id": "techcrunch",
@@ -821,7 +821,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 47
+      "count": 48
     },
     {
       "id": "guardian",
@@ -831,7 +831,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 40
+      "count": 41
     },
     {
       "id": "zdnet",
@@ -881,7 +881,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 24
+      "count": 23
     },
     {
       "id": "x-jiqizhixin",
@@ -891,7 +891,7 @@
       "official": false,
       "ok": true,
       "error": "",
-      "count": 22
+      "count": 23
     },
     {
       "id": "simonwillison",
@@ -912,6 +912,16 @@
       "ok": true,
       "error": "",
       "count": 19
+    },
+    {
+      "id": "engadget",
+      "name": "Engadget",
+      "home": "https://www.engadget.com/",
+      "region": "intl",
+      "official": false,
+      "ok": true,
+      "error": "",
+      "count": 16
     },
     {
       "id": "infoq-cn",
@@ -942,16 +952,6 @@
       "ok": true,
       "error": "",
       "count": 16
-    },
-    {
-      "id": "engadget",
-      "name": "Engadget",
-      "home": "https://www.engadget.com/",
-      "region": "intl",
-      "official": false,
-      "ok": true,
-      "error": "",
-      "count": 15
     },
     {
       "id": "ifanr",
@@ -1156,6 +1156,157 @@
   ],
   "items": [
     {
+      "id": "2b75cddaa99fd58d",
+      "title": "一天暴涨 6 万：请愿恢复黄仁勋英伟达 CEO 职务人数突破 12 万人，马斯克也参与签名",
+      "url": "https://ithome.com/1/027/252.htm",
+      "source_id": "ithome",
+      "source_name": "IT之家",
+      "source_home": "https://www.ithome.com/",
+      "published": "2026-11-15T07:18:00+08:00",
+      "excerpt": "IT之家 11 月 15 日消息，今年 11 月 12 日，英伟达董事会今日宣布，黄仁勋辞去总裁、首席执行官及董事会成员职务，即刻生效。英伟达执行副总裁兼 CFO 科莱特 · 克雷斯同意出任临时 CEO，在董事会选出正式继任者前兼任这一职务，并继续担任执行副总裁和 CFO。 随后，一个名为“Stand with Jensen”的请愿活动在网上流传开来，要求英伟达董事会恢复黄仁勋的 CEO 职务。",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
+      "id": "4c864ec194b5113e",
+      "title": "How to get better results from Google Gemini",
+      "url": "https://engadget.com/2312834/how-to-get-better-results-google-gemini",
+      "source_id": "engadget",
+      "source_name": "Engadget",
+      "source_home": "https://www.engadget.com/",
+      "published": "2026-11-15T06:15:00+08:00",
+      "excerpt": "These tips and tricks will help you prompt Gemini better.",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "gemini"
+      ],
+      "topics": [],
+      "types": [
+        "review"
+      ],
+      "title_zh": "如何从 Google Gemini 获得更好的结果",
+      "excerpt_zh": "这些提示和技巧将帮助你更好地激励双子座。"
+    },
+    {
+      "id": "9a736294c460795d",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang",
+      "source_id": "techcrunch",
+      "source_name": "TechCrunch",
+      "source_home": "https://techcrunch.com/category/artificial-intelligence/",
+      "published": "2026-11-15T05:41:22+08:00",
+      "excerpt": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [],
+      "title_zh": "埃隆·马斯克 (Elon Musk) 和其他科技高管签署请愿书，呼吁 Nvidia 恢复黄仁勋 (Jensen Huang) 的职位",
+      "excerpt_zh": "截至周六下午，请愿书已吸引超过 115,000 个签名。"
+    },
+    {
+      "id": "580584b83c9c3e87",
+      "title": "英伟达两大机构投资者致信董事会：要求谨慎选择继任者 为黄仁勋回归保留可能",
+      "url": "https://cnbeta.com.tw/articles/tech/1586432.htm",
+      "source_id": "cnbeta",
+      "source_name": "cnBeta",
+      "source_home": "https://www.cnbeta.com.tw/",
+      "published": "2026-11-15T04:55:51+08:00",
+      "excerpt": "在黄仁勋突然辞去英伟达首席执行官职务后，围绕这家全球最大人工智能芯片公司的领导层变动，外界的关注正在迅速升温。当地时间11月13日，英伟达两家重要机构投资者向公司董事会提交联名信，要求董事会不要仓促确定新的永久首席执行官，而应采取更加审慎、充分的决策程序，并明确保留黄仁勋未来重新执掌公司的可能性。 阅读全文",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
+      "id": "cbee4f5f9ecf1234",
+      "title": "How can a robot tell whether a nearly identical camera view means progress or a failed grasp?",
+      "url": "https://x.com/jiqizhixin/status/2121691638388924825",
+      "source_id": "x-jiqizhixin",
+      "source_name": "机器之心（推特）",
+      "source_home": "https://x.com/jiqizhixin",
+      "published": "2026-11-15T03:48:00+08:00",
+      "excerpt": "Shanghai Jiao Tong University, Shanghai Innovation Institute and Noematrix introduce Value as Memory (VaM), an arXiv preprint that gives robot policies a compact history of task progress",
+      "lang": "en",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics"
+      ],
+      "types": [
+        "release",
+        "research"
+      ],
+      "platforms": [
+        "x"
+      ],
+      "title_zh": "机器人如何判断几乎相同的摄像机视图是否意味着进展或失败？",
+      "excerpt_zh": "上海交通大学、上海创新研究院和 Noematrix 推出了 Value as Memory (VaM)，这是一个 arXiv 预印本，为机器人策略提供任务进展的紧凑历史记录",
+      "engagement": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "bookmarks": 1,
+        "views": 330
+      }
+    },
+    {
+      "id": "dd3daee7bce994b2",
+      "title": "AT&T uses agentic AI to reinvent business processes from the ground up",
+      "url": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up",
+      "source_id": "siliconangle",
+      "source_name": "SiliconANGLE",
+      "source_home": "https://siliconangle.com/category/ai/",
+      "published": "2026-11-15T03:37:13+08:00",
+      "excerpt": "AT&T Corp. is moving beyond using artificial intelligence to improve employee productivity, increasingly applying autonomous agents to redesign how its business operates",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "product"
+      ],
+      "title_zh": "AT&T 使用代理人工智能从头开始重塑业务流程",
+      "excerpt_zh": "AT&T 公司正在超越使用人工智能来提高员工生产力，越来越多地应用自主代理来重新设计其业务运营方式"
+    },
+    {
+      "id": "d20f439d331ed0c9",
+      "title": "Art ‘must not be sacrificed on the altar of corporate profit’, Liberal senator says as AI policy debate rages",
+      "url": "https://theguardian.com/australia-news/2026/nov/15/art-over-profit-ai-policy-debate-andrew-mclachlan",
+      "source_id": "guardian",
+      "source_name": "The Guardian",
+      "source_home": "https://www.theguardian.com/technology/artificialintelligenceai",
+      "published": "2026-11-15T03:00:52+08:00",
+      "excerpt": "Andrew McLachlan says he chooses ‘real forests over virtual ones’ as he urges Labor government to consider AI’s impact on artists and environment Get our daily political email",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "policy"
+      ],
+      "title_zh": "随着人工智能政策辩论的激烈，自由党参议员表示，艺术“不能在企业利润的祭坛上被牺牲”",
+      "excerpt_zh": "安德鲁·麦克拉克兰 (Andrew McLachlan) 表示，他选择“真实的森林而不是虚拟的森林”，并敦促工党政府考虑人工智能对艺术家和环境的影响 获取我们的每日政治电子邮件"
+    },
+    {
       "id": "88354402006269c9",
       "title": "Google为Gemini推出个人财务分析功能 接入银行账户和信用卡 帮用户分析收支",
       "url": "https://cnbeta.com.tw/articles/tech/1586428.htm",
@@ -1212,13 +1363,32 @@
       "title_zh": "感谢巴塞罗那，让我们度过了愉快的三天！ 💚",
       "excerpt_zh": "在 @SmartCityExpo 2026 世界大会上，@NVIDIA 和我们的合作伙伴展示了城市如何将人工智能应用于公共服务、交通和基础设施。",
       "engagement": {
-        "likes": 35,
-        "retweets": 4,
-        "replies": 12,
-        "quotes": 2,
-        "bookmarks": 2,
-        "views": 3309
+        "likes": 69,
+        "retweets": 9,
+        "replies": 38,
+        "quotes": 3,
+        "bookmarks": 3,
+        "views": 8380
       }
+    },
+    {
+      "id": "b6f34700b44ae204",
+      "title": "Claude asked to renumber pages deletes professor's syllabus, year of notes",
+      "url": "https://tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-15T01:51:13+08:00",
+      "excerpt": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-b…",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [],
+      "title_zh": "克劳德要求重新编号页数删除了教授的教学大纲、年份笔记",
+      "excerpt_zh": "文章网址：https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-b…"
     },
     {
       "id": "b08cefd9996dfc5a",
@@ -1281,12 +1451,12 @@
       "title_zh": "人工智能正在帮助回收商看到废物的更多价值。 ♻️",
       "excerpt_zh": "了解视觉人工智能和机器人如何对旧衣服、瓶子和混合可回收物进行分类，回收可重复使用的材料并从垃圾填埋场转移数千吨",
       "engagement": {
-        "likes": 277,
-        "retweets": 25,
-        "replies": 207,
-        "quotes": 11,
-        "bookmarks": 23,
-        "views": 44060
+        "likes": 735,
+        "retweets": 53,
+        "replies": 538,
+        "quotes": 33,
+        "bookmarks": 67,
+        "views": 148938
       }
     },
     {
@@ -1309,6 +1479,25 @@
       "excerpt_zh": "一些政府已采取行动确认芯片供应承诺，而另一些政府则正在监测对当地项目的影响或解决正在进行的调查。"
     },
     {
+      "id": "220697e6ee7b719c",
+      "title": "Smuggling of 1.5M AI GPUs could be the cause of Huang's departure",
+      "url": "https://tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-chips-tracked-to-china-despite-export-controls",
+      "source_id": "hackernews",
+      "source_name": "Hacker News",
+      "source_home": "https://news.ycombinator.com/",
+      "published": "2026-11-14T23:58:57+08:00",
+      "excerpt": "Article URL: https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-c…",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [],
+      "title_zh": "走私 150 万块 AI GPU 可能是黄离开的原因",
+      "excerpt_zh": "文章网址：https://www.tomshardware.com/tech-industry/artificial-intelligence/mass-smuggling-of-nvidia-ai-gpus-could-be-the-underlying-cause-of-jensen-huangs-departure-analysts-claim-more-than-1-5-gigawatts-of-banned-c…"
+    },
+    {
       "id": "c7a109442d563513",
       "title": "马斯克再度力挺黄仁勋：没有他，英伟达将失去部分关键合作",
       "url": "https://ithome.com/1/027/247.htm",
@@ -1316,7 +1505,7 @@
       "source_name": "IT之家",
       "source_home": "https://www.ithome.com/",
       "published": "2026-11-14T23:28:14+08:00",
-      "excerpt": "IT之家 11 月 14 日消息，今天（14 日）晚间，马斯克在 X 平台发文称，随着黄仁勋离任 CEO，英伟达将 失去一些至关重要的商业合作 。 马斯克称赞黄仁勋在供应链管理方面表现出色，指出英伟达许多交易都是靠黄仁勋 与合作方握手达成的 ， 并没有签署书面合同 。 紧接着，马斯克又补充说：“如果黄仁勋答应向我交付算力，或者我要求加快零部件供应， 他每次都能说到做到 。当然，我们之后还是会补上采购订单，但我从来没有怀疑过他会兑现承诺。",
+      "excerpt": "IT之家 11 月 14 日消息，今天（14 日）晚间，马斯克在 X 平台发文称，随着黄仁勋离任 CEO，英伟达将 失去一些至关重要的商业合作 。 马斯克称赞黄仁勋在供应链管理方面表现出色，指出英伟达许多交易都是靠黄仁勋 与合作方握手达成的 ， 并没有签署书面合同 。 紧接着，马斯克又补充说：“如果黄仁勋答应向我交付算力，或者我要求加快零部件供应， 他每次都能说到做到 。",
       "lang": "zh",
       "region": "cn",
       "models": [],
@@ -1371,10 +1560,10 @@
       "engagement": {
         "likes": 3,
         "retweets": 0,
-        "replies": 2,
+        "replies": 5,
         "quotes": 1,
-        "bookmarks": 0,
-        "views": 579
+        "bookmarks": 1,
+        "views": 686
       }
     },
     {
@@ -1405,7 +1594,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T21:36:17+08:00",
-      "excerpt": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 127 # Comments: 163",
+      "excerpt": "Article URL: https://www.netmeister.org/blog/claude-delusion.html Comments URL: https://news.ycombinator.com/item?id=50496921 Points: 144 # Comments: 180",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -1414,10 +1603,9 @@
       "topics": [],
       "types": [],
       "title_zh": "克劳德错觉",
-      "excerpt_zh": "文章网址：https://www.netmeister.org/blog/claude-delusion.html 评论网址：https://news.ycombinator.com/item?id=50496921 积分：127 # 评论：163",
       "engagement": {
-        "points": 127,
-        "comments": 163
+        "points": 144,
+        "comments": 180
       }
     },
     {
@@ -1687,6 +1875,21 @@
       "types": []
     },
     {
+      "id": "69b76ee2012a4576",
+      "title": "湿实验",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5OT0NpWjAwVm4xZ1hBczFsNE8wZ3VSd2JqM0hOZHFyV2pFUjd6ZkVZN050VHE2T2VTNDFrcWdTQThqcWVHdVVDMVlBY0NLMmlURHpaSE55TGJJLWV2Y3YyMGZQZ3c?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-14T18:38:41+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "7c0f6731931216d0",
       "title": "库克接班，可能真是英伟达的最优解",
       "url": "https://tmtpost.com/8205427.html",
@@ -1701,6 +1904,21 @@
       "topics": [
         "chip"
       ],
+      "types": []
+    },
+    {
+      "id": "492f6ccaf9c8306d",
+      "title": "纸飞机",
+      "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1OeGtWdEFDcF92SGdqc2NZS3QtTnNYQktENTFFOGlGVmtCX0h0RlNMbzYteVNTYjFSS2gxLTZnbW16ZnlDS19OMnYzYlgyNERsUFJxWEVHeWZ0SEV3MWVQMWNBa0g?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-14T18:32:41+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
       "types": []
     },
     {
@@ -1820,6 +2038,26 @@
       "types": []
     },
     {
+      "id": "69f386f7b791b675",
+      "title": "「史上最严」湿实验预测基准发布！推理拉满、算力翻5倍也白搭",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fUjRjMVVPS3lkeEdUUXJYZ21PLUVDTklRVk84Z19aWm1raU5wUVRneXBQbFRlQ3BBc0VMVGpndHJqckc3NGwwd0pNbVA4Qnp2WGNIcA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-14T17:58:22+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "reasoning",
+        "chip"
+      ],
+      "types": [
+        "release"
+      ]
+    },
+    {
       "id": "4fbb2c84e8836f5b",
       "title": "价值判断：跌停板的投资机会和风险提示（11月13日）｜上市公司观察",
       "url": "https://tmtpost.com/8205442.html",
@@ -1839,26 +2077,6 @@
       "types": [
         "release",
         "business"
-      ]
-    },
-    {
-      "id": "fd0c8d223e03b398",
-      "title": "“史上最严”湿实验预测基准发布：推理拉满、算力翻5倍也白搭",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9jSVpTN2xyM01xU1RWT3RvWUxZQ1ZuOFNSaGt6XzNBd2theHZveGN3dGdLSzYwLUJLVmJYU2NVZHljZ0VYMnJuWTBzRlN5OFBpN0hv?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-14T17:52:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "reasoning",
-        "chip"
-      ],
-      "types": [
-        "release"
       ]
     },
     {
@@ -2012,10 +2230,10 @@
       "engagement": {
         "likes": 3,
         "retweets": 0,
-        "replies": 0,
+        "replies": 1,
         "quotes": 0,
         "bookmarks": 3,
-        "views": 656
+        "views": 716
       }
     },
     {
@@ -2535,7 +2753,7 @@
         "replies": 3,
         "quotes": 0,
         "bookmarks": 3,
-        "views": 824
+        "views": 884
       }
     },
     {
@@ -2576,7 +2794,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T10:52:59+08:00",
-      "excerpt": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 957 # Comments: 578",
+      "excerpt": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 1022 # Comments: 615",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -2587,10 +2805,9 @@
         "business"
       ],
       "title_zh": "据称，英伟达通过资助人工智能初创公司购买其 GPU 来制造稀缺性",
-      "excerpt_zh": "文章网址：https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus 评论网址：https://news.ycombinator.com/item?id=50493251 积分：957 # 评论：578",
       "engagement": {
-        "points": 957,
-        "comments": 578
+        "points": 1022,
+        "comments": 615
       }
     },
     {
@@ -2739,7 +2956,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T08:28:11+08:00",
-      "excerpt": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 97 # Comments: 90",
+      "excerpt": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 98 # Comments: 91",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -2750,10 +2967,9 @@
       ],
       "types": [],
       "title_zh": "Anthropic 升级 Claude 代码项目以运行并行 AI 工作人员",
-      "excerpt_zh": "文章网址：https://claude.com/resources/articles/projects-reDesigned 评论网址：https://news.ycombinator.com/item?id=50492141 积分：97 # 评论：90",
       "engagement": {
-        "points": 97,
-        "comments": 90
+        "points": 98,
+        "comments": 91
       }
     },
     {
@@ -2881,7 +3097,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 3053
+        "views": 3155
       }
     },
     {
@@ -2967,12 +3183,12 @@
       "title_zh": "恭喜 @thinkymachines 团队推出 Inkling 2 Small！",
       "excerpt_zh": "使用 NVIDIA NVFP4 在 GB300 NVL72 机架上仅用了 68 小时就对 594B 模型进行了预训练。了解团队如何进行如此规模的低精度训练",
       "engagement": {
-        "likes": 1681,
-        "retweets": 96,
-        "replies": 207,
-        "quotes": 12,
-        "bookmarks": 311,
-        "views": 140806
+        "likes": 1852,
+        "retweets": 100,
+        "replies": 217,
+        "quotes": 15,
+        "bookmarks": 338,
+        "views": 150862
       }
     },
     {
@@ -3098,7 +3314,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T06:39:15+08:00",
-      "excerpt": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 106 # Comments: 86",
+      "excerpt": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 109 # Comments: 87",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -3108,8 +3324,8 @@
       "types": [],
       "title_zh": "克劳德会议",
       "engagement": {
-        "points": 106,
-        "comments": 86
+        "points": 109,
+        "comments": 87
       }
     },
     {
@@ -3157,12 +3373,12 @@
       "title_zh": "如何从头开始构建小型编码模型？",
       "excerpt_zh": "@RicursiveAI 的 Dan Zhang 与 @zainhas 一起分析了 Ripple-65B 预览版背后的架构和决策：MoE 上的密集、坚持（和坚持）的消融，以及 RL 运行内部发生的情况",
       "engagement": {
-        "likes": 35,
+        "likes": 39,
         "retweets": 2,
         "replies": 8,
         "quotes": 3,
         "bookmarks": 9,
-        "views": 5248
+        "views": 6072
       }
     },
     {
@@ -3205,12 +3421,12 @@
       "title_zh": "失败的编辑可以为下一次尝试提供有用的证据。",
       "excerpt_zh": "来自蚂蚁集团及其合作者的 Mara Chain 通过可变提示、技能、工具和代码来研究人工智能系统优化。基础模型权重保持固定。 1",
       "engagement": {
-        "likes": 3,
-        "retweets": 1,
+        "likes": 4,
+        "retweets": 2,
         "replies": 2,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 768
+        "views": 791
       }
     },
     {
@@ -3235,12 +3451,12 @@
       "title_zh": "使用 Gemini 4 Hydrogen 将想法转变为成品视频。",
       "excerpt_zh": "使用自定义技能和简单的简介，Gemini 4 Hydrogen 制作了一部关于“氢”元素的精彩卷轴，采购公共领域的档案镜头并将其剪辑成带有清晰叙述的连续剪辑。",
       "engagement": {
-        "likes": 2122,
-        "retweets": 138,
-        "replies": 137,
-        "quotes": 56,
-        "bookmarks": 1092,
-        "views": 139573
+        "likes": 2470,
+        "retweets": 158,
+        "replies": 152,
+        "quotes": 63,
+        "bookmarks": 1447,
+        "views": 190524
       }
     },
     {
@@ -3492,12 +3708,12 @@
       "title_zh": "通过新的交互式演示尝试 Déjà View，现在无需编码即可在 @Hugging Face 上使用...",
       "excerpt_zh": "必需：https://huggingface.co/spaces/nvidia/dvlt",
       "engagement": {
-        "likes": 10,
+        "likes": 12,
         "retweets": 2,
         "replies": 2,
         "quotes": 0,
         "bookmarks": 4,
-        "views": 4041
+        "views": 4201
       }
     },
     {
@@ -3543,12 +3759,12 @@
       "title_zh": "开放建设意味着每个人都赢。",
       "excerpt_zh": "我们很高兴看到 llama.cpp v1.0.0 可用。我们最近在 North Micro Vision 中添加了 llama.cpp 支持，确保我们的最新架构现在都得到支持 🦙 更多 Cohere 开发支持即将推出！我们不是",
       "engagement": {
-        "likes": 202,
+        "likes": 210,
         "retweets": 8,
         "replies": 16,
         "quotes": 4,
         "bookmarks": 19,
-        "views": 7522
+        "views": 8423
       }
     },
     {
@@ -3598,7 +3814,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T03:51:56+08:00",
-      "excerpt": "Article URL: https://www.slopmanifesto.com/ Comments URL: https://news.ycombinator.com/item?id=50488769 Points: 214 # Comments: 127",
+      "excerpt": "Article URL: https://www.slopmanifesto.com/ Comments URL: https://news.ycombinator.com/item?id=50488769 Points: 216 # Comments: 129",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3606,8 +3822,8 @@
       "types": [],
       "title_zh": "没有人工智能障碍：宣言",
       "engagement": {
-        "points": 214,
-        "comments": 127
+        "points": 216,
+        "comments": 129
       }
     },
     {
@@ -3775,12 +3991,12 @@
       "title_zh": "安全评估对于了解模型是否准备好部署至关重要，这……",
       "excerpt_zh": "为此建立保障措施，以及培训和研究的重点。在我们的工程博客上，我们提供了有关如何设计、运行和报告它们的 10 条建议",
       "engagement": {
-        "likes": 2042,
-        "retweets": 187,
-        "replies": 410,
-        "quotes": 114,
-        "bookmarks": 753,
-        "views": 210056
+        "likes": 2102,
+        "retweets": 190,
+        "replies": 433,
+        "quotes": 120,
+        "bookmarks": 790,
+        "views": 221469
       }
     },
     {
@@ -3865,7 +4081,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T02:39:42+08:00",
-      "excerpt": "Article URL: https://www.dwarkesh.com/p/rsi Comments URL: https://news.ycombinator.com/item?id=50487854 Points: 64 # Comments: 105",
+      "excerpt": "Article URL: https://www.dwarkesh.com/p/rsi Comments URL: https://news.ycombinator.com/item?id=50487854 Points: 65 # Comments: 109",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3873,8 +4089,8 @@
       "types": [],
       "title_zh": "数学的雪崩即将来临，人工智能的发展即将到来",
       "engagement": {
-        "points": 64,
-        "comments": 105
+        "points": 65,
+        "comments": 109
       }
     },
     {
@@ -3885,7 +4101,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T02:14:38+08:00",
-      "excerpt": "Article URL: https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/ Comments URL: https://news.ycombinator.com/item?id=50487469 Points: 57 # Comments: 64",
+      "excerpt": "Article URL: https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/ Comments URL: https://news.ycombinator.com/item?id=50487469 Points: 58 # Comments: 69",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -3893,8 +4109,8 @@
       "types": [],
       "title_zh": "我们是否会忽视书籍因人工智能而被销毁的情况？",
       "engagement": {
-        "points": 57,
-        "comments": 64
+        "points": 58,
+        "comments": 69
       }
     },
     {
@@ -4059,7 +4275,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-14T01:30:10+08:00",
-      "excerpt": "Article URL: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths Comments URL: https://news.ycombinator.com/item?id=50486748 Points: 414 #",
+      "excerpt": "Article URL: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths Comments URL: https://news.ycombinator.com/item?id=50486748 Points: 422 #",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -4068,10 +4284,10 @@
       ],
       "types": [],
       "engagement": {
-        "points": 414
+        "points": 422
       },
       "title_zh": "人工智能解锁哥德尔笔记本，据说其中包含数百个已证明的定理",
-      "excerpt_zh": "文章网址：https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths 评论网址：https://news.ycombinator.com/item?id=50486748 积分：414 #"
+      "excerpt_zh": "文章网址：https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths 评论网址：https://news.ycombinator.com/item?id=50486748 积分：422 #"
     },
     {
       "id": "2fba7734380a3c8f",
@@ -4098,12 +4314,12 @@
       "title_zh": "Max 订阅者现在可以在 Perplexity Mac 应用程序中使用队友。",
       "excerpt_zh": "队友会为你分担工作。他们单独或与其他团队成员一起处理质量保证、客户服务、研究、增长营销等工作。",
       "engagement": {
-        "likes": 466,
-        "retweets": 41,
-        "replies": 99,
-        "quotes": 37,
+        "likes": 478,
+        "retweets": 43,
+        "replies": 105,
+        "quotes": 38,
         "bookmarks": 76,
-        "views": 76131
+        "views": 79178
       }
     },
     {
@@ -4209,12 +4425,12 @@
       "title_zh": "使用 Gemini 4 Hydrogen 将世界各地的实时雷击变成现场生成配乐。 ⚡",
       "excerpt_zh": "Hydrogen 快速从想法转变为工作原型，构建了一个交互式 3D 地球仪，将每次撞击映射为视觉涟漪和现场环境音乐。",
       "engagement": {
-        "likes": 939,
-        "retweets": 65,
-        "replies": 75,
-        "quotes": 16,
-        "bookmarks": 172,
-        "views": 64664
+        "likes": 966,
+        "retweets": 67,
+        "replies": 78,
+        "quotes": 19,
+        "bookmarks": 179,
+        "views": 74004
       }
     },
     {
@@ -4241,12 +4457,12 @@
       ],
       "title_zh": "NVIDIA 💚 @SGL_project 和 Miles 社区推动开源 AI 向前发展。",
       "engagement": {
-        "likes": 175,
-        "retweets": 15,
-        "replies": 39,
+        "likes": 185,
+        "retweets": 16,
+        "replies": 40,
         "quotes": 6,
         "bookmarks": 11,
-        "views": 16413
+        "views": 16936
       }
     },
     {
@@ -4339,7 +4555,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 641
+        "views": 651
       }
     },
     {
@@ -4369,7 +4585,7 @@
         "replies": 2,
         "quotes": 0,
         "bookmarks": 0,
-        "views": 2897
+        "views": 2929
       }
     },
     {
@@ -4394,12 +4610,12 @@
       "title_zh": "美国东部时间中午 12 点进行直播：与摩根大通首席执行官 Jamie Dimon 和@DarioAmodei 进行炉边聊天。",
       "excerpt_zh": "https://www.youtube.com/live/YHEaEpeY3ew 法律免责声明：Anthropic 已就本通讯所涉及的发行向 SEC 提交了注册声明（包括招股说明书）",
       "engagement": {
-        "likes": 2167,
-        "retweets": 153,
-        "replies": 252,
-        "quotes": 91,
-        "bookmarks": 437,
-        "views": 363775
+        "likes": 2190,
+        "retweets": 156,
+        "replies": 254,
+        "quotes": 92,
+        "bookmarks": 438,
+        "views": 372361
       }
     },
     {
@@ -4539,7 +4755,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T23:29:10+08:00",
-      "excerpt": "Article URL: https://text.npr.org/nx-s1-6029408 Comments URL: https://news.ycombinator.com/item?id=50484960 Points: 191 # Comments: 185",
+      "excerpt": "Article URL: https://text.npr.org/nx-s1-6029408 Comments URL: https://news.ycombinator.com/item?id=50484960 Points: 192 # Comments: 191",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -4547,8 +4763,8 @@
       "types": [],
       "title_zh": "为什么谷歌要切断没有人工智能的学校的搜索服务？这是一些理论",
       "engagement": {
-        "points": 191,
-        "comments": 185
+        "points": 192,
+        "comments": 191
       }
     },
     {
@@ -4559,7 +4775,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T23:08:44+08:00",
-      "excerpt": "Article URL: https://www.youtube.com/watch?v=IRK8h67ol7Q Comments URL: https://news.ycombinator.com/item?id=50484658 Points: 438 # Comments: 619",
+      "excerpt": "Article URL: https://www.youtube.com/watch?v=IRK8h67ol7Q Comments URL: https://news.ycombinator.com/item?id=50484658 Points: 455 # Comments: 664",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -4567,12 +4783,11 @@
         "coding"
       ],
       "types": [],
-      "engagement": {
-        "points": 438,
-        "comments": 619
-      },
       "title_zh": "Jonathan Blow – 如果人工智能解决了编码问题，为什么我的软件还是一样？ [视频]",
-      "excerpt_zh": "文章网址：https://www.youtube.com/watch?v=IRK8h67ol7Q 评论网址：https://news.ycombinator.com/item?id=50484658 积分：438 # 评论：619"
+      "engagement": {
+        "points": 455,
+        "comments": 664
+      }
     },
     {
       "id": "a7933a21768cb129",
@@ -4769,12 +4984,12 @@
       "title_zh": "Praxis-1 现在在 SO-101 上运行。",
       "excerpt_zh": "该模型基于乐机器人社区共享的数千个数据集构建，在带有 NVFP4 的单个 RTX 5090 上运行。检查点和设置说明可用。 https://github.com/runwayml/praxis-1-oss。",
       "engagement": {
-        "likes": 92,
-        "retweets": 11,
-        "replies": 24,
+        "likes": 95,
+        "retweets": 12,
+        "replies": 25,
         "quotes": 10,
-        "bookmarks": 25,
-        "views": 10216
+        "bookmarks": 24,
+        "views": 11020
       }
     },
     {
@@ -4803,7 +5018,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T22:34:13+08:00",
-      "excerpt": "Article URL: https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11 Comments URL: https://news.ycombinator.com/item?id=50484110 Points: 34 # Comments: 72",
+      "excerpt": "Article URL: https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11 Comments URL: https://news.ycombinator.com/item?id=50484110 Points: 34 # Comments: 73",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -4816,7 +5031,7 @@
       "title_zh": "阿莫迪表示人工智能将在十年内治愈癌症。医生持怀疑态度",
       "engagement": {
         "points": 34,
-        "comments": 72
+        "comments": 73
       }
     },
     {
@@ -4892,12 +5107,12 @@
       "title_zh": "🚀 完整的 DeepSeek 应用程序体验，现在通过 API",
       "excerpt_zh": "搜索、文件、链接、安全和语音。 DeepSeek 应用程序背后的功能现在可通过 DeepSeek API 获得",
       "engagement": {
-        "likes": 10659,
-        "retweets": 1024,
-        "replies": 421,
-        "quotes": 504,
-        "bookmarks": 3266,
-        "views": 984762
+        "likes": 11383,
+        "retweets": 1134,
+        "replies": 440,
+        "quotes": 517,
+        "bookmarks": 3587,
+        "views": 1037129
       }
     },
     {
@@ -5053,12 +5268,12 @@
       "title_zh": "ERNIE 5.5 Flash 预览版有范围。",
       "excerpt_zh": "了解我们的开放权重基础模型可以构建什么，从可玩的世界和 3D 模型到研究报告和交互式工作簿。有一个您一直想要解决的项目吗？ 🧵 在 OpenRouter 上尝试一下 ↓",
       "engagement": {
-        "likes": 164,
+        "likes": 166,
         "retweets": 11,
         "replies": 13,
         "quotes": 1,
-        "bookmarks": 21,
-        "views": 6578
+        "bookmarks": 22,
+        "views": 6667
       }
     },
     {
@@ -5161,12 +5376,12 @@
       "title_zh": "准确的天气预报始于我们如何清晰地实时观察大气。 🌍",
       "excerpt_zh": "这就是为什么我们发布 PARDIG 和 SatWeave（WeatherNext 3 背后的基础数据集）来帮助研究人员和开发人员构建新的气候应用程序 🧵",
       "engagement": {
-        "likes": 654,
+        "likes": 663,
         "retweets": 95,
-        "replies": 188,
-        "quotes": 70,
-        "bookmarks": 209,
-        "views": 68798
+        "replies": 190,
+        "quotes": 75,
+        "bookmarks": 215,
+        "views": 71680
       }
     },
     {
@@ -5243,12 +5458,12 @@
       "title_zh": "在 @MagnusCarlsen 的世界锦标赛比赛中，方法是寻找位置......",
       "excerpt_zh": "比赛强度比开场准备更重要。这为投资人工智能的企业提供了一个教训：战略决策的价值部分取决于它留下的选择",
       "engagement": {
-        "likes": 130,
+        "likes": 131,
         "retweets": 10,
         "replies": 8,
         "quotes": 5,
         "bookmarks": 27,
-        "views": 50843
+        "views": 52820
       }
     },
     {
@@ -5584,7 +5799,7 @@
         "replies": 1,
         "quotes": 0,
         "bookmarks": 3,
-        "views": 895
+        "views": 903
       }
     },
     {
@@ -5595,7 +5810,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T19:13:46+08:00",
-      "excerpt": "Article URL: https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/ Comments URL: https://news.ycombinator.com/item?id=50481870 Points: 360 # Comments: 227",
+      "excerpt": "Article URL: https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/ Comments URL: https://news.ycombinator.com/item?id=50481870 Points: 363 # Comments: 230",
       "lang": "en",
       "region": "intl",
       "models": [],
@@ -5603,8 +5818,8 @@
       "types": [],
       "title_zh": "人工智能正在破坏作家和读者之间的信任",
       "engagement": {
-        "points": 360,
-        "comments": 227
+        "points": 363,
+        "comments": 230
       }
     },
     {
@@ -5767,7 +5982,7 @@
       "source_name": "Hacker News",
       "source_home": "https://news.ycombinator.com/",
       "published": "2026-11-13T18:18:13+08:00",
-      "excerpt": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 489 # Comments: 390",
+      "excerpt": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 493 # Comments: 390",
       "lang": "en",
       "region": "intl",
       "models": [
@@ -5779,7 +5994,7 @@
       "types": [],
       "title_zh": "claude.ai、Claude Code 和 platform.claude.com 上的错误增加",
       "engagement": {
-        "points": 489,
+        "points": 493,
         "comments": 390
       }
     },
@@ -6270,12 +6485,12 @@
       "title_zh": "人工分析网络指数排名第 3，CWE-Bench-AA 排名第 1 🎉🎉🎉",
       "excerpt_zh": "腾讯的 Hy4 在人工分析网络指数上排名第三，在 CWE-Bench-AA 上排名第一 @TencentHunyuan 的 Hy4 在人工分析网络指数上得分为 58%，领先 DeepSeek V4.1 Flash 1017（最大值）1 分",
       "engagement": {
-        "likes": 199,
+        "likes": 200,
         "retweets": 7,
         "replies": 13,
         "quotes": 0,
         "bookmarks": 9,
-        "views": 13684
+        "views": 13883
       }
     },
     {
@@ -6653,7 +6868,7 @@
         "replies": 4,
         "quotes": 0,
         "bookmarks": 4,
-        "views": 4355
+        "views": 4383
       }
     },
     {
@@ -6948,7 +7163,7 @@
         "replies": 2,
         "quotes": 0,
         "bookmarks": 3,
-        "views": 856
+        "views": 866
       }
     },
     {
@@ -7952,9 +8167,9 @@
         "likes": 103,
         "retweets": 11,
         "replies": 38,
-        "quotes": 15,
+        "quotes": 16,
         "bookmarks": 19,
-        "views": 15207
+        "views": 15527
       }
     },
     {
@@ -7984,7 +8199,7 @@
         "replies": 3,
         "quotes": 0,
         "bookmarks": 72,
-        "views": 4220
+        "views": 4278
       }
     },
     {
@@ -8141,7 +8356,7 @@
         "replies": 2,
         "quotes": 0,
         "bookmarks": 4,
-        "views": 892
+        "views": 899
       }
     },
     {
@@ -8387,7 +8602,7 @@
         "replies": 2,
         "quotes": 1,
         "bookmarks": 0,
-        "views": 2221
+        "views": 2242
       }
     },
     {
@@ -8602,7 +8817,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 4187
+        "views": 4282
       }
     },
     {
@@ -8665,12 +8880,12 @@
       "title_zh": "MAI-Transcribe-2 是世界上最好的转录模型，现已广泛应用于……",
       "excerpt_zh": "用于生产用例的 Microsoft Foundry！目前音频每小时的价格仅为 0.10 美元。快来用它来建造吧！尝试最快的 MAI-Transcribe-2",
       "engagement": {
-        "likes": 209,
-        "retweets": 12,
+        "likes": 211,
+        "retweets": 13,
         "replies": 18,
         "quotes": 5,
         "bookmarks": 51,
-        "views": 8991
+        "views": 9089
       }
     },
     {
@@ -8855,7 +9070,7 @@
         "replies": 6,
         "quotes": 3,
         "bookmarks": 1,
-        "views": 3234
+        "views": 3275
       }
     },
     {
@@ -8981,12 +9196,12 @@
       "title_zh": "当负责创建交互式 3D 水和玻璃可视化器时，Gemini 4 Hydrogen 能够……",
       "excerpt_zh": "使用 WebGL2 和纯数学模拟实时光折射、反射和色散。",
       "engagement": {
-        "likes": 1180,
-        "retweets": 78,
+        "likes": 1192,
+        "retweets": 80,
         "replies": 80,
         "quotes": 22,
-        "bookmarks": 210,
-        "views": 1122177
+        "bookmarks": 217,
+        "views": 1183328
       }
     },
     {
@@ -9047,12 +9262,12 @@
       "title_zh": "Microsoft Ignite 将于下周（11 月 17 日）启动！",
       "excerpt_zh": "MAI 团队带来了一些新东西：新模型、演示以及来自构建者的演讲会议。",
       "engagement": {
-        "likes": 984,
+        "likes": 985,
         "retweets": 70,
-        "replies": 55,
+        "replies": 56,
         "quotes": 16,
-        "bookmarks": 141,
-        "views": 54639
+        "bookmarks": 142,
+        "views": 55192
       }
     },
     {
@@ -9139,12 +9354,12 @@
       "title_zh": "介绍克劳德会议：将克劳德添加到您团队的视频通话中，它会构建文档......",
       "excerpt_zh": "当您还在说话时，白板和其他工件就在您身边。开始推出团队和企业计划的测试版。",
       "engagement": {
-        "likes": 79169,
-        "retweets": 5009,
-        "replies": 2204,
-        "quotes": 5271,
-        "bookmarks": 19695,
-        "views": 9190383
+        "likes": 80483,
+        "retweets": 5089,
+        "replies": 2233,
+        "quotes": 5312,
+        "bookmarks": 20274,
+        "views": 9630159
       }
     },
     {
@@ -9371,7 +9586,7 @@
         "replies": 0,
         "quotes": 1,
         "bookmarks": 2,
-        "views": 1929
+        "views": 1957
       }
     },
     {
@@ -9522,12 +9737,12 @@
       ],
       "title_zh": "在我们展望未来之前先回顾一下……自构建以来，我们已经发货了 14 个模型。",
       "engagement": {
-        "likes": 190,
+        "likes": 191,
         "retweets": 19,
         "replies": 22,
         "quotes": 0,
         "bookmarks": 29,
-        "views": 14371
+        "views": 14672
       }
     },
     {
@@ -9559,7 +9774,7 @@
         "replies": 10,
         "quotes": 11,
         "bookmarks": 4,
-        "views": 777
+        "views": 782
       }
     },
     {
@@ -10503,12 +10718,12 @@
       "title_zh": "Gemini 4 Hydrogen 今天向全球所有桌面、移动和网络用户推出。",
       "excerpt_zh": "当适合提示的型号时，免费用户将可以通过自动型号选择来访问 Gemini 4 Hydrogen。了解有关 Gemini 车型和汽车车型选择的更多信息：https://goo.gle/4AxH40q",
       "engagement": {
-        "likes": 207,
+        "likes": 208,
         "retweets": 8,
         "replies": 4,
         "quotes": 6,
         "bookmarks": 21,
-        "views": 35046
+        "views": 35252
       }
     },
     {
@@ -10555,12 +10770,12 @@
       "title_zh": "今天，我们通过推出 Gemini 4 Hydrogen 来拓展 Gemini 4 车型系列。",
       "excerpt_zh": "Gemini 4 Carbon 可以解决您最棘手的问题，而 Hydrogen 则可以为每个人带来尖端智能 - 为日常编码和代理工作流程提供速度和效率",
       "engagement": {
-        "likes": 2229,
+        "likes": 2230,
         "retweets": 185,
-        "replies": 125,
+        "replies": 127,
         "quotes": 63,
-        "bookmarks": 217,
-        "views": 118795
+        "bookmarks": 218,
+        "views": 120277
       }
     },
     {
@@ -10585,12 +10800,12 @@
       "title_zh": "Gemini 4 Hydrogen 就在这里，为每个人带来尖端智能，为日常提供快速帮助。",
       "excerpt_zh": "它使您可以更轻松地完成工作，更严格地遵循您的指示，调用正确的工具，并让您以更少的来回获得可靠的输出。 🧵",
       "engagement": {
-        "likes": 7474,
-        "retweets": 753,
-        "replies": 406,
-        "quotes": 402,
-        "bookmarks": 861,
-        "views": 3251212
+        "likes": 7497,
+        "retweets": 755,
+        "replies": 408,
+        "quotes": 403,
+        "bookmarks": 863,
+        "views": 3481874
       }
     },
     {
@@ -10637,12 +10852,12 @@
       "title_zh": "了解 Gemini 4 Hydrogen：专为快速编码、多模式合成和日常工作流程而构建。",
       "excerpt_zh": "它完成任务的速度比 3.8 Flash 快 2.5 倍，并且在@ArtificialAnlys 智能指数上超过 Argon。",
       "engagement": {
-        "likes": 7351,
-        "retweets": 614,
-        "replies": 433,
+        "likes": 7395,
+        "retweets": 618,
+        "replies": 439,
         "quotes": 497,
-        "bookmarks": 825,
-        "views": 1486923
+        "bookmarks": 829,
+        "views": 1501106
       }
     },
     {
@@ -10752,7 +10967,7 @@
     },
     {
       "id": "2e66941eb4f672d3",
-      "title": "You can force Gemini to forget about you now – how to edit its Memory",
+      "title": "I checked Gemini’s new Memory summary to see what it knew about me – how to see and edit yours",
       "url": "https://zdnet.com/innovation/google-gemini-memory-summary-user-control",
       "source_id": "zdnet",
       "source_name": "ZDNET",
@@ -10768,8 +10983,8 @@
       "types": [
         "review"
       ],
-      "title_zh": "你现在可以强迫双子座忘记你——如何编辑它的记忆",
-      "excerpt_zh": "名为“内存摘要”的新选项可让您查看和控制 Gemini AI 了解的有关您的信息。"
+      "excerpt_zh": "名为“内存摘要”的新选项可让您查看和控制 Gemini AI 了解的有关您的信息。",
+      "title_zh": "我检查了双子座的新记忆摘要，看看它对我的了解如何 - 如何查看和编辑你的记忆摘要"
     },
     {
       "id": "d2fa2b07888470c1",
@@ -11668,6 +11883,25 @@
       ]
     },
     {
+      "id": "6021785c694601f4",
+      "title": "英伟达新掌门AI融资动向引关注曾砍半2500亿数据中心担保遭黄仁勋嘲讽“只会财务”是“惊弓之鹿”",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBRMlRiZnNfX1UxdWcyYzd4bHJIbVVDUWRjWWtrNElTTW12dklzSFJNRUFnUHhfY0ZTSmtIYjV4M0Jwbkx5emtzQlg3cFg0OFRxa1pv?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-13T00:36:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "chip"
+      ],
+      "types": [
+        "business"
+      ]
+    },
+    {
       "id": "a29301eb91a1fa9d",
       "title": "《GTA 6》来了，但AI可能砸掉主机游戏这门生意",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5KX3hVUnVIZFEtNzJkZTRQc3VDSEg0T1FjdGRJMGVuakQ3UlRwcGRjVXVRWURQb2JkY1UyZXZ2ck9IS3lDQ0VzTWM4dlBPUQ?oc=5",
@@ -12230,12 +12464,12 @@
       "title_zh": "戴上 Gemini 智能眼镜，让您的双眼保持明亮，让您的一天充满活力。",
       "excerpt_zh": "只需说“嘿双子座”即可探索街头艺术、从前面的书架上获取图书推荐、实时翻译或当场查看日历",
       "engagement": {
-        "likes": 1708,
+        "likes": 1711,
         "retweets": 122,
         "replies": 108,
         "quotes": 59,
         "bookmarks": 262,
-        "views": 129993
+        "views": 130576
       }
     },
     {
@@ -12606,12 +12840,12 @@
       "title_zh": "Runway 现已支持 3D。",
       "excerpt_zh": "使用 Tripo H3.1 从文本或图像生成详细的 3D 模型，或上传您自己的模型。选择任意角度并将其用作下一张图像或视频的参考。导出模型以在其他 3D 工具中使用",
       "engagement": {
-        "likes": 219,
+        "likes": 220,
         "retweets": 37,
         "replies": 52,
-        "quotes": 36,
-        "bookmarks": 91,
-        "views": 31870
+        "quotes": 37,
+        "bookmarks": 93,
+        "views": 32771
       }
     },
     {
@@ -12662,7 +12896,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 0,
-        "views": 873
+        "views": 875
       }
     },
     {
@@ -12890,7 +13124,7 @@
         "replies": 0,
         "quotes": 1,
         "bookmarks": 3,
-        "views": 660
+        "views": 661
       }
     },
     {
@@ -13502,12 +13736,12 @@
       "title_zh": "寻找罕见疾病的确切遗传原因就像大海捞针一样。 🪡",
       "excerpt_zh": "在我们的播客中，@fryrsquared 与 @Avsecz 和 @adamgayoso 探讨了 AlphaGenome 2 如何帮助科学家测试数百万个 DNA 变化，以找到人类健康的重要线索",
       "engagement": {
-        "likes": 645,
+        "likes": 647,
         "retweets": 74,
-        "replies": 124,
+        "replies": 126,
         "quotes": 22,
         "bookmarks": 152,
-        "views": 268953
+        "views": 269711
       }
     },
     {
@@ -13534,12 +13768,12 @@
       "title_zh": "我们的首次公开募股：https://ipo.anthropic.com",
       "excerpt_zh": "法律免责声明：Anthropic 已就本通讯相关的发行向 SEC 提交了注册声明（包括招股说明书）",
       "engagement": {
-        "likes": 10378,
-        "retweets": 1014,
-        "replies": 1036,
+        "likes": 10384,
+        "retweets": 1016,
+        "replies": 1038,
         "quotes": 889,
-        "bookmarks": 2800,
-        "views": 3191454
+        "bookmarks": 2802,
+        "views": 3203941
       }
     },
     {
@@ -13829,7 +14063,7 @@
         "replies": 9,
         "quotes": 4,
         "bookmarks": 7,
-        "views": 181613
+        "views": 181681
       }
     },
     {
@@ -14015,23 +14249,6 @@
       "types": []
     },
     {
-      "id": "c8a0a0efa9f189b0",
-      "title": "速度飙升2.5倍，谷歌再发新模型Hydrogen：多项实测超越GPT-6.1 Terra",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GSXBVa2NCWjI0dnpud0c2LUNIeXBVTUZ0bmhYNzJ4QW40VzdMM3lmRjVMWm9Jcm9xVEtHTWEtNzJzbFcwMjJjdHN3SC15Zw?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T18:07:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": [
-        "review"
-      ]
-    },
-    {
       "id": "cb12a6975c78f983",
       "title": "谷歌新模型Hydrogen发布：速度飙升2.5倍 多项实测超越GPT-6.1 Terra",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FM3A4UG8xeG9INUNrYmZ5OGVsdXl5dFBlZm02Vjk1VXcwUjEzRVZRdXBhVGxTVVlSZnMzRmN0VDNmeVdnSUhlVXVkblRoOWtCaXpj?oc=5",
@@ -14046,6 +14263,23 @@
       "topics": [],
       "types": [
         "release",
+        "review"
+      ]
+    },
+    {
+      "id": "c8a0a0efa9f189b0",
+      "title": "速度飙升2.5倍，谷歌再发新模型Hydrogen：多项实测超越GPT-6.1 Terra",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1GSXBVa2NCWjI0dnpud0c2LUNIeXBVTUZ0bmhYNzJ4QW40VzdMM3lmRjVMWm9Jcm9xVEtHTWEtNzJzbFcwMjJjdHN3SC15Zw?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T18:07:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": [
         "review"
       ]
     },
@@ -14130,7 +14364,7 @@
         "replies": 2,
         "quotes": 1,
         "bookmarks": 2,
-        "views": 343498
+        "views": 343552
       }
     },
     {
@@ -14269,7 +14503,7 @@
         "replies": 2,
         "quotes": 1,
         "bookmarks": 4,
-        "views": 162348
+        "views": 162377
       }
     },
     {
@@ -14487,7 +14721,7 @@
         "replies": 2,
         "quotes": 0,
         "bookmarks": 2,
-        "views": 732
+        "views": 734
       }
     },
     {
@@ -14570,9 +14804,9 @@
       "types": []
     },
     {
-      "id": "5ba34be3b02a035c",
-      "title": "一张显卡卖到5万元，AI把游戏玩家挤出市场？",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XTTZydlZNTkpsVWF3NUJaeTUxVlVUUDAwYVhIcUh4OWVQajZHc3ppZGZlcjZoWEpWNFNreWZMOVZzMnRZcjZyUEx3N0M4Zw?oc=5",
+      "id": "4c0ae95ec979b7b5",
+      "title": "华泰证券：AI产业内部或沿回报验证分化",
+      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iZm5NbTdLMjBBbTBiQmMyWkVxelZRZko1R3VlLWJkaURqWmZzUGI4dWNBa1loNkRVM3pPbkR6WER5SEg5OUxUY1ZLX1RlVzFFU01jVnRsSFI?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -14585,9 +14819,9 @@
       "types": []
     },
     {
-      "id": "4c0ae95ec979b7b5",
-      "title": "华泰证券：AI产业内部或沿回报验证分化",
-      "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1iZm5NbTdLMjBBbTBiQmMyWkVxelZRZko1R3VlLWJkaURqWmZzUGI4dWNBa1loNkRVM3pPbkR6WER5SEg5OUxUY1ZLX1RlVzFFU01jVnRsSFI?oc=5",
+      "id": "5ba34be3b02a035c",
+      "title": "一张显卡卖到5万元，AI把游戏玩家挤出市场？",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5XTTZydlZNTkpsVWF3NUJaeTUxVlVUUDAwYVhIcUh4OWVQajZHc3ppZGZlcjZoWEpWNFNreWZMOVZzMnRZcjZyUEx3N0M4Zw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -14921,7 +15155,7 @@
         "replies": 45,
         "quotes": 19,
         "bookmarks": 16,
-        "views": 284423
+        "views": 284494
       }
     },
     {
@@ -15469,7 +15703,7 @@
         "replies": 11,
         "quotes": 1,
         "bookmarks": 16,
-        "views": 3937
+        "views": 3944
       }
     },
     {
@@ -15683,7 +15917,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 0,
-        "views": 1066
+        "views": 1068
       }
     },
     {
@@ -15776,7 +16010,7 @@
         "replies": 1,
         "quotes": 1,
         "bookmarks": 4,
-        "views": 827
+        "views": 830
       }
     },
     {
@@ -15866,7 +16100,7 @@
         "replies": 0,
         "quotes": 3,
         "bookmarks": 3,
-        "views": 114411
+        "views": 114431
       }
     },
     {
@@ -16354,36 +16588,6 @@
       "types": []
     },
     {
-      "id": "5cf1b23a434d4b8b",
-      "title": "Codex is being used by @laraavci_ to support European tech founders.",
-      "url": "https://x.com/OpenAIDevs/status/2120669165283680644",
-      "source_id": "x-openaidevs",
-      "source_name": "OpenAI 开发者（推特）",
-      "source_home": "https://x.com/OpenAIDevs",
-      "published": "2026-11-12T08:05:03+08:00",
-      "excerpt": "Her sites and games brought over 30,000 visitors in under 4 days.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "coding"
-      ],
-      "types": [],
-      "platforms": [
-        "x"
-      ],
-      "title_zh": "@laraavci_ 使用 Codex 来支持欧洲科技创始人。",
-      "excerpt_zh": "她的网站和游戏在 4 天内吸引了超过 30,000 名访问者。",
-      "engagement": {
-        "likes": 544,
-        "retweets": 41,
-        "replies": 112,
-        "quotes": 24,
-        "bookmarks": 96,
-        "views": 121498
-      }
-    },
-    {
       "id": "b6e0d74b1dfa2944",
       "title": "Mariko Mori has pushed the boundaries of art for three decades.",
       "url": "https://x.com/claudeai/status/2120669165316915259",
@@ -16405,12 +16609,42 @@
       "title_zh": "森真理子三十年来不断突破艺术的界限。",
       "excerpt_zh": "在她的回顾展“All That Shines”中，她让克劳德为计算机生成的动画编写代码，以新的视频装置的形式呈现。",
       "engagement": {
-        "likes": 5986,
-        "retweets": 368,
-        "replies": 307,
-        "quotes": 167,
+        "likes": 5992,
+        "retweets": 371,
+        "replies": 309,
+        "quotes": 168,
         "bookmarks": 1381,
-        "views": 484187
+        "views": 488742
+      }
+    },
+    {
+      "id": "5cf1b23a434d4b8b",
+      "title": "Codex is being used by @laraavci_ to support European tech founders.",
+      "url": "https://x.com/OpenAIDevs/status/2120669165283680644",
+      "source_id": "x-openaidevs",
+      "source_name": "OpenAI 开发者（推特）",
+      "source_home": "https://x.com/OpenAIDevs",
+      "published": "2026-11-12T08:05:03+08:00",
+      "excerpt": "Her sites and games brought over 30,000 visitors in under 4 days.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
+      "types": [],
+      "platforms": [
+        "x"
+      ],
+      "title_zh": "@laraavci_ 使用 Codex 来支持欧洲科技创始人。",
+      "excerpt_zh": "她的网站和游戏在 4 天内吸引了超过 30,000 名访问者。",
+      "engagement": {
+        "likes": 547,
+        "retweets": 41,
+        "replies": 114,
+        "quotes": 24,
+        "bookmarks": 96,
+        "views": 123296
       }
     },
     {
@@ -16582,21 +16816,6 @@
       "types": [],
       "title_zh": "检测 Amazon SageMaker HyperPod 上的静默数据损坏并从中恢复",
       "excerpt_zh": "无声数据损坏是一种 GPU 故障，它返回错误但可信的数字，没有错误，悄悄地毒害分布式训练"
-    },
-    {
-      "id": "2669cf609dbcfded",
-      "title": "AI 让获取知识变快，我们的记忆却在衰退",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NSWRsUkE1bDhPYmUyS3Y4X3lTVmhJY1JSLWppaGxtMGZqZFV1azBuYjBfZHdxYU9yYXBmZTJkaHk1NXlHUTdnekRFYnhjUQ?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
-      "published": "2026-11-12T07:28:59+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     },
     {
       "id": "b91248042740580a",
@@ -16861,7 +17080,7 @@
         "replies": 9,
         "quotes": 0,
         "bookmarks": 8,
-        "views": 3016
+        "views": 3022
       }
     },
     {
@@ -16891,7 +17110,7 @@
         "replies": 1,
         "quotes": 1,
         "bookmarks": 22,
-        "views": 7289
+        "views": 7323
       }
     },
     {
@@ -16962,12 +17181,12 @@
       "title_zh": "继续建设吧，韩国！ 🇰🇷💚",
       "excerpt_zh": "感谢所有参加首尔 @NVIDIA Agentic AI 黑客马拉松的人。决赛入围者展示了他们的代理，获胜团队赢得了 NVIDIA DGX Spark！ 🔥",
       "engagement": {
-        "likes": 239,
+        "likes": 240,
         "retweets": 11,
-        "replies": 46,
+        "replies": 47,
         "quotes": 3,
         "bookmarks": 13,
-        "views": 23959
+        "views": 24074
       }
     },
     {
@@ -17008,9 +17227,9 @@
         "likes": 4,
         "retweets": 0,
         "replies": 1,
-        "quotes": 0,
+        "quotes": 1,
         "bookmarks": 0,
-        "views": 649
+        "views": 650
       }
     },
     {
@@ -17059,12 +17278,12 @@
       "title_zh": "我们正在扩大与 @elevenlabs 的合作，为全球企业和政府带来语音代理。",
       "excerpt_zh": "借助 ElevenAgents 中的 NVIDIA Nemotron 模型，组织在构建和定制语音代理的方式上有了更多选择",
       "engagement": {
-        "likes": 1250,
+        "likes": 1253,
         "retweets": 82,
-        "replies": 786,
+        "replies": 789,
         "quotes": 58,
         "bookmarks": 114,
-        "views": 400158
+        "views": 402297
       }
     },
     {
@@ -17089,12 +17308,12 @@
       "title_zh": "现在就在 Apple CarPlay 上与 Gemini 讨论一下。 🚗",
       "excerpt_zh": "只需点击 CarPlay 屏幕或侧栏上的 Gemini 应用程序图标，即可轻松从手机中接听对话、探索您感兴趣的主题，或使用 Gemini Live 大声进行头脑风暴。",
       "engagement": {
-        "likes": 744,
+        "likes": 745,
         "retweets": 67,
         "replies": 72,
         "quotes": 38,
         "bookmarks": 62,
-        "views": 76239
+        "views": 76541
       }
     },
     {
@@ -17123,12 +17342,12 @@
       "title_zh": "更多型号选择。使用 Microsoft Copilot 完成工作的更多方法。",
       "excerpt_zh": "Anthropic 的 Claude Fable 5.2 正在 Copilot Cowork 和 Copilot Studio 中推出，为复杂任务带来增强的推理和编码功能",
       "engagement": {
-        "likes": 384,
+        "likes": 385,
         "retweets": 29,
         "replies": 67,
         "quotes": 14,
         "bookmarks": 91,
-        "views": 84550
+        "views": 84714
       }
     },
     {
@@ -17175,12 +17394,12 @@
       "title_zh": "使用《神鬼寓言 5.2》在 Claude 内部创作《Runway》。",
       "excerpt_zh": "从想法到可演奏的电子长笛：Runway 中的概念、Blender 中的原型以及最终的纹理和渲染返回 Runway。请看下面。",
       "engagement": {
-        "likes": 201,
-        "retweets": 17,
+        "likes": 202,
+        "retweets": 16,
         "replies": 44,
         "quotes": 14,
-        "bookmarks": 110,
-        "views": 33421
+        "bookmarks": 109,
+        "views": 33523
       }
     },
     {
@@ -17300,12 +17519,12 @@
       "title_zh": "Déjà View 是一种可以将从不同角度拍摄的照片转换为 3D 几何形状和相机位置的模型。",
       "excerpt_zh": "通过循环单个变压器块，这个 117M 参数的模型在五个基准测试中，使用相当或更少的计算，可以匹配或超越高达 10 倍的模型",
       "engagement": {
-        "likes": 1003,
-        "retweets": 114,
-        "replies": 61,
+        "likes": 1009,
+        "retweets": 116,
+        "replies": 62,
         "quotes": 26,
-        "bookmarks": 587,
-        "views": 77439
+        "bookmarks": 589,
+        "views": 78156
       }
     },
     {
@@ -17336,7 +17555,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 5211
+        "views": 5263
       }
     },
     {
@@ -17441,7 +17660,7 @@
         "replies": 16,
         "quotes": 1,
         "bookmarks": 0,
-        "views": 16052
+        "views": 16135
       }
     },
     {
@@ -17563,12 +17782,12 @@
       "title_zh": "在这个退伍军人节，我们向所有曾服役过的人致敬，包括 NVIDIA 社区的退伍军人。",
       "excerpt_zh": "感谢您的服务。 📍 NVIDIA 总部，加利福尼亚州圣克拉拉",
       "engagement": {
-        "likes": 1416,
+        "likes": 1417,
         "retweets": 87,
-        "replies": 196,
+        "replies": 198,
         "quotes": 36,
-        "bookmarks": 74,
-        "views": 274221
+        "bookmarks": 75,
+        "views": 275744
       }
     },
     {
@@ -17815,9 +18034,9 @@
       "types": []
     },
     {
-      "id": "ec77ae9cc4ed75e3",
-      "title": "Character.AI都要破产了，AI陪伴却开始闷声赚大钱",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkYTQ3MVhucnVZa1NMVlJvSXJDWERCUXA1amc3QkpLeElSNnU0aV9tajRWUE9wWG1odGxQYnQ3YnRiNWxURTcxb3hsV0tFZw?oc=5",
+      "id": "1b9f5f3347f7cdcf",
+      "title": "Character.AI濒临破产 AI陪伴赛道逆势闷声赚大钱",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2Yi1MZXozenowclpSaXMyNXZrTFZ5UFJKRGljREFPZmIyRVdCU1lTd2pCUHdlcnZaeUhUcXJtUnNUR3oxVjY1UGNKd19aWVQzbFIw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -17830,9 +18049,9 @@
       "types": []
     },
     {
-      "id": "1b9f5f3347f7cdcf",
-      "title": "Character.AI濒临破产 AI陪伴赛道逆势闷声赚大钱",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA2Yi1MZXozenowclpSaXMyNXZrTFZ5UFJKRGljREFPZmIyRVdCU1lTd2pCUHdlcnZaeUhUcXJtUnNUR3oxVjY1UGNKd19aWVQzbFIw?oc=5",
+      "id": "ec77ae9cc4ed75e3",
+      "title": "Character.AI都要破产了，AI陪伴却开始闷声赚大钱",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBkYTQ3MVhucnVZa1NMVlJvSXJDWERCUXA1amc3QkpLeElSNnU0aV9tajRWUE9wWG1odGxQYnQ3YnRiNWxURTcxb3hsV0tFZw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -17911,9 +18130,9 @@
       "excerpt_zh": "英伟达首席执行官黄仁勋必须在周三结束之前回答众议院共和党人的电话，要求就他与涉嫌中国间谍的事件举行闭门简报会。"
     },
     {
-      "id": "bc4eef8b6ffd067a",
-      "title": "WorkBuddy、Codex把AI竞争推向任务交付，可靠性成为硬门槛",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85QkJmcml0TWVNamo3LXk5THRJN25Vdk0zZUR5S1J0Q0FqUWo5V0EwSWtOOGtSQnJxa3N0Nm1XTVJ3bmVVaHRzTDdDVmItQQ?oc=5",
+      "id": "a39354e3be9e0419",
+      "title": "WorkBuddy与Codex将AI竞争推向任务交付阶段 可靠性成行业核心硬门槛",
+      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01Wm1lNHZzNmtqN2g0Ukp1V1ZqUFRmaXBqMmNXaVplMml5QnVVVHEzNHZlNkt2SmdfNGRuSWRsTG5NZy1ZR2ZmbHF4YV9LNWgzdmdz?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -17926,9 +18145,9 @@
       "types": []
     },
     {
-      "id": "a39354e3be9e0419",
-      "title": "WorkBuddy与Codex将AI竞争推向任务交付阶段 可靠性成行业核心硬门槛",
-      "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE01Wm1lNHZzNmtqN2g0Ukp1V1ZqUFRmaXBqMmNXaVplMml5QnVVVHEzNHZlNkt2SmdfNGRuSWRsTG5NZy1ZR2ZmbHF4YV9LNWgzdmdz?oc=5",
+      "id": "bc4eef8b6ffd067a",
+      "title": "WorkBuddy、Codex把AI竞争推向任务交付，可靠性成为硬门槛",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85QkJmcml0TWVNamo3LXk5THRJN25Vdk0zZUR5S1J0Q0FqUWo5V0EwSWtOOGtSQnJxa3N0Nm1XTVJ3bmVVaHRzTDdDVmItQQ?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -17966,6 +18185,21 @@
       "id": "ef49997b8b340866",
       "title": "AI短剧越做越快，红果为何被一张脸难住？",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yN2xmcTA2OVh3WTZINTcxQTFHb2lUbHpUOEZpUUNpOHZHU1U1YmdxNWpUTktTbFZZUWF1MGdtOXQ3VEg5SG9ZQnh5aHhvQQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-12T03:17:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "9b9b93284d6519a4",
+      "title": "腾讯跌去三成：一台强劲的现金牛，正在被AI账单重新定价",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9TRXBxREZTZnFyaEoyTGFhZnRuRzNnaE04am8xN0NjNG9xaGNqMFZkcXNsTVpBSEo0V21WRlI1aGtaMWhyRjZpbDZXMWJSdw?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -18043,7 +18277,7 @@
         "replies": 26,
         "quotes": 3,
         "bookmarks": 25,
-        "views": 10173
+        "views": 10369
       }
     },
     {
@@ -18071,7 +18305,7 @@
         "replies": 10,
         "quotes": 1,
         "bookmarks": 3,
-        "views": 6067
+        "views": 6108
       }
     },
     {
@@ -18258,12 +18492,12 @@
       "title_zh": "我们正在发布关于红队 SPACE（我们的计算机代理虚拟机沙箱）研究结果的新研究。",
       "excerpt_zh": "我们给 12 个模型分配了两项任务：逃离虚拟机以从主机获取凭证，并绕过 SPACE 的网络策略以到达被阻止的 URL",
       "engagement": {
-        "likes": 251,
+        "likes": 252,
         "retweets": 31,
         "replies": 85,
         "quotes": 30,
-        "bookmarks": 74,
-        "views": 47988
+        "bookmarks": 75,
+        "views": 48209
       }
     },
     {
@@ -18292,12 +18526,12 @@
       ],
       "title_zh": "4K 版 Seedance 2.5 现已推出。现已在《跑道》上发售。",
       "engagement": {
-        "likes": 589,
+        "likes": 588,
         "retweets": 44,
         "replies": 39,
         "quotes": 25,
         "bookmarks": 187,
-        "views": 90589
+        "views": 90751
       }
     },
     {
@@ -18873,7 +19107,7 @@
         "replies": 3,
         "quotes": 1,
         "bookmarks": 7,
-        "views": 1111
+        "views": 1112
       }
     },
     {
@@ -19030,7 +19264,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 0,
-        "views": 2608
+        "views": 2613
       }
     },
     {
@@ -19096,7 +19330,7 @@
         "replies": 30,
         "quotes": 5,
         "bookmarks": 26,
-        "views": 61721
+        "views": 61810
       }
     },
     {
@@ -19253,12 +19487,12 @@
       "title_zh": "今天，我们向所有人提供 Praxis-1。",
       "excerpt_zh": "我们最先进的世界动作模型将视频预训练转变为对真实机器人的控制，并且它在 Apache 2.0 下附带开放权重，可以在您自己的硬件上运行和微调。",
       "engagement": {
-        "likes": 608,
+        "likes": 609,
         "retweets": 97,
         "replies": 120,
         "quotes": 121,
-        "bookmarks": 289,
-        "views": 91806
+        "bookmarks": 288,
+        "views": 92572
       }
     },
     {
@@ -19283,12 +19517,12 @@
       "title_zh": "您的心脏、大脑和免疫系统共享相同的 DNA 序列。",
       "excerpt_zh": "那么，单个字母的变化如何影响某些细胞的疾病，同时不影响其他细胞呢？ AlphaGenome 2 是我们的新人工智能模型，可放大特定细胞，帮助科学家了解导致疾病的原因。 🧵",
       "engagement": {
-        "likes": 2995,
+        "likes": 3004,
         "retweets": 468,
-        "replies": 271,
+        "replies": 272,
         "quotes": 258,
-        "bookmarks": 1166,
-        "views": 487088
+        "bookmarks": 1167,
+        "views": 488355
       }
     },
     {
@@ -20162,12 +20396,12 @@
       "title_zh": "是什么让人工智能生成的世界真正充满活力？",
       "excerpt_zh": "对于 AIK Studio 总监兼负责人 TaeWoo Kang 来说，它需要的不仅仅是一个引人注目的主题。从火爆的社交视频到公共机构的人工智能电影，他的作品让整个世界变得栩栩如生，每个细节都很重要",
       "engagement": {
-        "likes": 1345,
+        "likes": 1343,
         "retweets": 66,
         "replies": 53,
         "quotes": 1,
         "bookmarks": 247,
-        "views": 297274
+        "views": 297596
       }
     },
     {
@@ -20215,12 +20449,12 @@
       "title_zh": "实时转录在现场环境中是什么样子？",
       "excerpt_zh": "🎙 我们在巴黎 AI Engineer 大会上使用 Voxtral Transcribe 3 实时捕捉每一次主舞台演讲。我们通过上下文偏差提高了准确性",
       "engagement": {
-        "likes": 324,
+        "likes": 325,
         "retweets": 33,
         "replies": 77,
         "quotes": 20,
         "bookmarks": 30,
-        "views": 24279
+        "views": 24860
       }
     },
     {
@@ -20320,12 +20554,12 @@
       "title_zh": "AI 首次在数学上证明了 @signalapp 的协议在代码级别是安全的。",
       "excerpt_zh": "使用我们突破性的 AlphaProof 代码框架，我们验证了消息应用程序的加密系统 - 该系统每天保护数十亿条私人消息。",
       "engagement": {
-        "likes": 1936,
+        "likes": 1937,
         "retweets": 220,
         "replies": 318,
         "quotes": 178,
-        "bookmarks": 387,
-        "views": 144779
+        "bookmarks": 388,
+        "views": 145204
       }
     },
     {
@@ -20539,7 +20773,7 @@
         "replies": 7,
         "quotes": 1,
         "bookmarks": 9,
-        "views": 6843
+        "views": 6872
       }
     },
     {
@@ -20739,7 +20973,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 0,
-        "views": 657
+        "views": 658
       }
     },
     {
@@ -21223,7 +21457,7 @@
         "replies": 6,
         "quotes": 1,
         "bookmarks": 7,
-        "views": 6044
+        "views": 6063
       }
     },
     {
@@ -21562,7 +21796,7 @@
         "replies": 3,
         "quotes": 3,
         "bookmarks": 36,
-        "views": 9812
+        "views": 9828
       }
     },
     {
@@ -21968,6 +22202,21 @@
       "id": "a2c1c6d0050f37e1",
       "title": "AI加速知识获取时代 我们的记忆为何正在衰退",
       "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uYTBNeVY2TU41QzA1dTM3MlVoanNGM0IzREUxX1FHbDJoMENFYUgwalZSTXExWEQydDVTNEd2RzV5Ti1EQm8xZ1lqX0pEMHZobmxV?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-11T15:24:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
+      "id": "2669cf609dbcfded",
+      "title": "AI 让获取知识变快，我们的记忆却在衰退",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5NSWRsUkE1bDhPYmUyS3Y4X3lTVmhJY1JSLWppaGxtMGZqZFV1azBuYjBfZHdxYU9yYXBmZTJkaHk1NXlHUTdnekRFYnhjUQ?oc=5",
       "source_id": "36kr",
       "source_name": "36氪",
       "source_home": "https://www.36kr.com",
@@ -22423,12 +22672,12 @@
       "title_zh": "ERNIE 5.5 Flash 预览版刚刚登陆！ 🔥",
       "excerpt_zh": "ERNIE 系列中最新的开放权重基础模型建立在专为高效推理而设计的新架构之上，可在编码、3D 建模、知识工作和内容创建方面提供更强大的性能",
       "engagement": {
-        "likes": 1548,
+        "likes": 1549,
         "retweets": 168,
         "replies": 159,
         "quotes": 176,
-        "bookmarks": 442,
-        "views": 278786
+        "bookmarks": 441,
+        "views": 279078
       }
     },
     {
@@ -22534,7 +22783,7 @@
         "replies": 16,
         "quotes": 1,
         "bookmarks": 31,
-        "views": 12270
+        "views": 12353
       }
     },
     {
@@ -22567,7 +22816,7 @@
         "replies": 1,
         "quotes": 0,
         "bookmarks": 2,
-        "views": 666
+        "views": 669
       }
     },
     {
@@ -22773,7 +23022,7 @@
         "replies": 18,
         "quotes": 5,
         "bookmarks": 17,
-        "views": 12080
+        "views": 12122
       }
     },
     {
@@ -23008,7 +23257,7 @@
         "replies": 4,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 699
+        "views": 701
       }
     },
     {
@@ -23133,7 +23382,7 @@
         "replies": 24,
         "quotes": 14,
         "bookmarks": 147,
-        "views": 19023
+        "views": 19062
       }
     },
     {
@@ -23481,7 +23730,7 @@
         "replies": 5,
         "quotes": 0,
         "bookmarks": 4,
-        "views": 2527
+        "views": 2531
       }
     },
     {
@@ -23532,10 +23781,10 @@
       "engagement": {
         "likes": 602,
         "retweets": 50,
-        "replies": 110,
+        "replies": 111,
         "quotes": 25,
         "bookmarks": 213,
-        "views": 102142
+        "views": 103062
       }
     },
     {
@@ -23561,12 +23810,12 @@
       "title_zh": "OpenShell 正在加入 @CloudNativeFdn 💚",
       "excerpt_zh": "帮助塑造 AI 代理访问数据、使用凭证和执行代码的方式。如果您是建筑代理商，我们很乐意提供您的意见！查看该项目并做出贡献👇 保护 AI 代理从运行时层开始",
       "engagement": {
-        "likes": 321,
+        "likes": 322,
         "retweets": 46,
         "replies": 33,
         "quotes": 11,
         "bookmarks": 75,
-        "views": 24377
+        "views": 24427
       }
     },
     {
@@ -23755,7 +24004,7 @@
         "replies": 2,
         "quotes": 0,
         "bookmarks": 11,
-        "views": 2857
+        "views": 2861
       }
     },
     {
@@ -24085,7 +24334,7 @@
         "replies": 8,
         "quotes": 2,
         "bookmarks": 65,
-        "views": 11575
+        "views": 11585
       }
     },
     {
@@ -24324,7 +24573,7 @@
         "replies": 0,
         "quotes": 1,
         "bookmarks": 1,
-        "views": 675
+        "views": 676
       }
     },
     {
@@ -24495,7 +24744,7 @@
         "replies": 168,
         "quotes": 76,
         "bookmarks": 130,
-        "views": 100101
+        "views": 100302
       }
     },
     {
@@ -24562,12 +24811,12 @@
       "title_zh": "现在处于测试阶段：ChatGPT 中的企业。",
       "excerpt_zh": "认领您的业务、管理您的信息并深入了解人们如何与您互动。符合条件的企业还可以建立业务代理来回答客户的问题并帮助他们探索您提供的服务",
       "engagement": {
-        "likes": 17710,
-        "retweets": 1435,
-        "replies": 1448,
-        "quotes": 1542,
-        "bookmarks": 19207,
-        "views": 6077735
+        "likes": 17735,
+        "retweets": 1438,
+        "replies": 1457,
+        "quotes": 1546,
+        "bookmarks": 19209,
+        "views": 6098213
       }
     },
     {
@@ -24673,7 +24922,7 @@
         "replies": 3,
         "quotes": 1,
         "bookmarks": 10,
-        "views": 12172
+        "views": 12201
       }
     },
     {
@@ -24846,12 +25095,12 @@
       "title_zh": "现在，您可以在@NotionHQ、@v0、@ampcode、@kilocode...等工具中使用您的 ChatGPT 商业计划。",
       "excerpt_zh": "@warpdotdev、@NousResearch 的 Hermes、@openclaw、@opencode 等。通过使用 ChatGPT 登录来连接以开始。",
       "engagement": {
-        "likes": 1046,
+        "likes": 1047,
         "retweets": 81,
-        "replies": 162,
+        "replies": 163,
         "quotes": 83,
         "bookmarks": 234,
-        "views": 183576
+        "views": 184320
       }
     },
     {
@@ -25007,10 +25256,10 @@
       "engagement": {
         "likes": 522,
         "retweets": 42,
-        "replies": 66,
+        "replies": 67,
         "quotes": 17,
         "bookmarks": 61,
-        "views": 42289
+        "views": 42457
       }
     },
     {
@@ -25135,12 +25384,12 @@
       "title_zh": "今天开始推出：Claude Whiteboards、Claude Sheets 和 Claude Data。",
       "excerpt_zh": "在板上思考计划，在工作表中构建跟踪器，并用数据讲述故事。",
       "engagement": {
-        "likes": 64271,
-        "retweets": 5270,
+        "likes": 64292,
+        "retweets": 5273,
         "replies": 1540,
-        "quotes": 3843,
-        "bookmarks": 29470,
-        "views": 12289084
+        "quotes": 3846,
+        "bookmarks": 29459,
+        "views": 12298844
       }
     },
     {
@@ -25287,8 +25536,8 @@
         "retweets": 157,
         "replies": 487,
         "quotes": 126,
-        "bookmarks": 332,
-        "views": 555862
+        "bookmarks": 331,
+        "views": 559052
       }
     },
     {
@@ -25331,12 +25580,12 @@
       ],
       "title_zh": "本地 AI 301：量化 https://x.com/i/broadcasts/2rJXOgajpOqeZP",
       "engagement": {
-        "likes": 742,
+        "likes": 743,
         "retweets": 103,
         "replies": 69,
         "quotes": 17,
-        "bookmarks": 583,
-        "views": 68329
+        "bookmarks": 584,
+        "views": 68994
       }
     },
     {
@@ -25478,12 +25727,12 @@
       "title_zh": "想象一下对您做出回应的视频。",
       "excerpt_zh": "在我们最新的内部视图中，@Ryan__Stephen 是 Runway Labs 的设计师和原型师，探索实时视频如何改变我们学习、创造和协作的方式。",
       "engagement": {
-        "likes": 97,
+        "likes": 98,
         "retweets": 12,
         "replies": 22,
         "quotes": 6,
-        "bookmarks": 26,
-        "views": 13602
+        "bookmarks": 27,
+        "views": 13644
       }
     },
     {
@@ -25769,7 +26018,7 @@
         "replies": 13,
         "quotes": 9,
         "bookmarks": 60,
-        "views": 21328
+        "views": 21368
       }
     },
     {
@@ -25840,12 +26089,12 @@
       "title_zh": "我们最强的前沿型号 Gemini 4 Carbon 现已上市。",
       "excerpt_zh": "Carbon 专为深度复杂、长期的工作流程而构建，可推动前沿模型的智能，在跨复杂知识工作的代理工作流程中提供前沿性能",
       "engagement": {
-        "likes": 8609,
+        "likes": 8612,
         "retweets": 842,
-        "replies": 328,
+        "replies": 329,
         "quotes": 254,
-        "bookmarks": 2513,
-        "views": 636397
+        "bookmarks": 2511,
+        "views": 637154
       }
     },
     {
@@ -25871,12 +26120,12 @@
       "title_zh": "NVIDIA Alpamayo 2 Edge 现已推出，为车辆带来实时自适应 AI 推理。 🚘",
       "excerpt_zh": "从让行人到为迎面驶来的公交车腾出空间，观察它如何规划行驶路径并在需要时解释其决定",
       "engagement": {
-        "likes": 727,
+        "likes": 729,
         "retweets": 92,
-        "replies": 250,
+        "replies": 253,
         "quotes": 76,
-        "bookmarks": 65,
-        "views": 242315
+        "bookmarks": 66,
+        "views": 243532
       }
     },
     {
@@ -25932,7 +26181,7 @@
         "replies": 230,
         "quotes": 102,
         "bookmarks": 244,
-        "views": 250931
+        "views": 251257
       }
     },
     {
@@ -26107,7 +26356,7 @@
         "replies": 27,
         "quotes": 4,
         "bookmarks": 162,
-        "views": 27531
+        "views": 27567
       }
     },
     {
@@ -26219,12 +26468,12 @@
       "title_zh": "Claude Fable 5.2 的早期实验线索：",
       "excerpt_zh": "细胞的 3D 模型，完全由一次一个细胞器的代码构建。由@kevin_t_ngo 构建。",
       "engagement": {
-        "likes": 17489,
+        "likes": 17495,
         "retweets": 1314,
-        "replies": 472,
+        "replies": 473,
         "quotes": 287,
-        "bookmarks": 6054,
-        "views": 1353464
+        "bookmarks": 6051,
+        "views": 1356557
       }
     },
     {
@@ -26289,12 +26538,12 @@
       "title_zh": "Gemini Robotics 2.5 现已推出。 🤖",
       "excerpt_zh": "我们最新的物理人工智能能够学习数百种日常技能 - 从折叠衣物和提供糕点到在工厂车间自动分类汽车零件。这是其功能的快照🧵",
       "engagement": {
-        "likes": 4641,
-        "retweets": 571,
+        "likes": 4642,
+        "retweets": 572,
         "replies": 370,
-        "quotes": 400,
-        "bookmarks": 1138,
-        "views": 485543
+        "quotes": 401,
+        "bookmarks": 1139,
+        "views": 486109
       }
     },
     {
@@ -27297,12 +27546,12 @@
       "title_zh": "Anthropic 已为其拟议的首次公开募股启动了路演……",
       "excerpt_zh": "https://www.anthropic.com/news/roadshow-launch 法律免责声明：与这些证券相关的注册声明已向 SEC 提交，但尚未生效",
       "engagement": {
-        "likes": 4956,
+        "likes": 4957,
         "retweets": 507,
         "replies": 607,
         "quotes": 505,
         "bookmarks": 804,
-        "views": 1368311
+        "views": 1370340
       }
     },
     {
@@ -28191,7 +28440,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 2,
-        "views": 733
+        "views": 734
       }
     },
     {
@@ -28850,7 +29099,7 @@
         "replies": 6,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 1800
+        "views": 1819
       }
     },
     {
@@ -28882,7 +29131,7 @@
         "replies": 15,
         "quotes": 0,
         "bookmarks": 2,
-        "views": 5209
+        "views": 5246
       }
     },
     {
@@ -29158,7 +29407,7 @@
         "replies": 9,
         "quotes": 1,
         "bookmarks": 17,
-        "views": 4759
+        "views": 4766
       }
     },
     {
@@ -29279,25 +29528,6 @@
       "title_zh": "Hugging Face中的决策模型"
     },
     {
-      "id": "1ff74ee2cb106637",
-      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
-      "url": "https://openai.com/index/cogent-security",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-10T08:00:00+08:00",
-      "excerpt": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": [],
-      "title_zh": "Cogent 与 OpenAI 为企业打造网络防御工厂",
-      "excerpt_zh": "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。"
-    },
-    {
       "id": "26b496ffaa34d818",
       "title": "Anthropic launches roadshow for proposed initial public offering",
       "url": "https://anthropic.com/news/roadshow-launch",
@@ -29316,6 +29546,25 @@
         "release"
       ],
       "title_zh": "Anthropic 为拟议的首次公开募股启动路演"
+    },
+    {
+      "id": "1ff74ee2cb106637",
+      "title": "Cogent and OpenAI build cyber defense factories for enterprises",
+      "url": "https://openai.com/index/cogent-security",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-10T08:00:00+08:00",
+      "excerpt": "Cogent combines OpenAI models with enterprise context to help automatically remediate vulnerabilities with agents.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [],
+      "title_zh": "Cogent 与 OpenAI 为企业打造网络防御工厂",
+      "excerpt_zh": "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。"
     },
     {
       "id": "ac841c16ab1a0f7b",
@@ -29484,12 +29733,12 @@
       "title_zh": "我们建立了控制室，这是一个中央系统，用于跟踪我们研究中的模型工作量……",
       "excerpt_zh": "基础设施，并在出现安全问题时迅速阻止它们。它连接每个研究推理工作负载，包括用于模型训练和评估的代理采样、数据处理等",
       "engagement": {
-        "likes": 4865,
+        "likes": 4866,
         "retweets": 367,
-        "replies": 827,
+        "replies": 831,
         "quotes": 347,
         "bookmarks": 1347,
-        "views": 986994
+        "views": 988595
       }
     },
     {
@@ -29519,10 +29768,10 @@
       "engagement": {
         "likes": 437,
         "retweets": 28,
-        "replies": 40,
+        "replies": 41,
         "quotes": 9,
         "bookmarks": 30,
-        "views": 36137
+        "views": 36516
       }
     },
     {
@@ -29552,7 +29801,7 @@
         "replies": 19,
         "quotes": 3,
         "bookmarks": 28,
-        "views": 11787
+        "views": 11806
       }
     },
     {
@@ -29577,12 +29826,12 @@
       "title_zh": "如果您通过价格表来比较型号，那么您就错过了一半的数学知识。",
       "excerpt_zh": "来自 NVIDIA 的 Jacob Loewenstein @spatialjlo 解释了为什么代币效率位于评估标准的首位，无论您是采用模型还是训练自己的模型",
       "engagement": {
-        "likes": 22,
+        "likes": 23,
         "retweets": 1,
         "replies": 7,
         "quotes": 1,
         "bookmarks": 3,
-        "views": 529311
+        "views": 579145
       }
     },
     {
@@ -29611,12 +29860,12 @@
       "title_zh": "在预发布测试期间，Claude Fable 5.2 和 Claude Mythos 5.2 致力于雄心勃勃的项目......",
       "excerpt_zh": "在许多不同的领域。这里有一些。根据一段提示，《神鬼寓言 5.2》设计了三种可用的电子设备，其中包括这款家庭语音助理中心。",
       "engagement": {
-        "likes": 43057,
+        "likes": 43060,
         "retweets": 2916,
         "replies": 811,
         "quotes": 1747,
-        "bookmarks": 17567,
-        "views": 7120833
+        "bookmarks": 17561,
+        "views": 7125619
       }
     },
     {
@@ -29728,10 +29977,10 @@
       "engagement": {
         "likes": 7778,
         "retweets": 527,
-        "replies": 690,
+        "replies": 691,
         "quotes": 489,
         "bookmarks": 2385,
-        "views": 1683906
+        "views": 1686568
       }
     },
     {
@@ -29876,7 +30125,7 @@
         "replies": 47,
         "quotes": 10,
         "bookmarks": 35,
-        "views": 38866
+        "views": 38972
       }
     },
     {
@@ -29906,9 +30155,9 @@
         "likes": 134,
         "retweets": 14,
         "replies": 33,
-        "quotes": 17,
+        "quotes": 18,
         "bookmarks": 44,
-        "views": 20215
+        "views": 20262
       }
     },
     {
@@ -29974,12 +30223,12 @@
       "title_zh": "克劳德寓言 5.2 和克劳德神话 5.2 现已推出：",
       "excerpt_zh": "隆重推出 Claude Fable 5.2 和 Claude Mythos 5.2，旨在解决最艰巨的技术挑战。他们是许多领域雄心勃勃的项目的有能力的合作者",
       "engagement": {
-        "likes": 15035,
+        "likes": 15036,
         "retweets": 939,
-        "replies": 614,
-        "quotes": 434,
+        "replies": 615,
+        "quotes": 435,
         "bookmarks": 953,
-        "views": 934694
+        "views": 936109
       }
     },
     {
@@ -30031,12 +30280,12 @@
       "title_zh": "隆重推出 Claude Fable 5.2 和 Claude Mythos 5.2，旨在解决最艰巨的技术挑战。",
       "excerpt_zh": "他们是许多领域雄心勃勃的项目的有力合作者，并在编码、推理和视觉等领域表现出进步。",
       "engagement": {
-        "likes": 95970,
-        "retweets": 9228,
-        "replies": 3117,
-        "quotes": 6939,
+        "likes": 95997,
+        "retweets": 9233,
+        "replies": 3121,
+        "quotes": 6943,
         "bookmarks": 15773,
-        "views": 18994472
+        "views": 19090474
       }
     },
     {
@@ -30076,12 +30325,12 @@
       "title_zh": "有没有想过构建自己的游戏？ Codex 版本 @modretro Chromatic 现已在 Supply Co. 上架。",
       "excerpt_zh": "借助 Codex 中的 ModRetro Chromatic 插件，您可以在手持设备上设计关卡、动画精灵并进行游戏测试。 Codex 构建您的 ROM 时进行 Speedrun 结账 😉",
       "engagement": {
-        "likes": 3317,
+        "likes": 3318,
         "retweets": 342,
         "replies": 379,
         "quotes": 365,
-        "bookmarks": 1153,
-        "views": 703732
+        "bookmarks": 1154,
+        "views": 704323
       }
     },
     {
@@ -30130,12 +30379,12 @@
       "title_zh": "今天我们要介绍 Muse Ember，这是我们最小且最高效的模型，专为复杂的......",
       "excerpt_zh": "推理执行和日常代理工作。 Muse Ember 可以跨应用程序承载工作流程、按顺序调用工具、运行测试并进行有针对性的代码修复",
       "engagement": {
-        "likes": 3359,
+        "likes": 3362,
         "retweets": 364,
-        "replies": 297,
+        "replies": 299,
         "quotes": 312,
-        "bookmarks": 653,
-        "views": 1299688
+        "bookmarks": 652,
+        "views": 1300922
       }
     },
     {
@@ -30223,7 +30472,7 @@
         "replies": 3,
         "quotes": 1,
         "bookmarks": 9,
-        "views": 5871
+        "views": 5874
       }
     },
     {
@@ -30310,12 +30559,12 @@
       "title_zh": "你的初稿不会自己写出来。这并不意味着您必须独自完成。",
       "excerpt_zh": "Word 中的 Copilot 将从您的电子邮件、会议和聊天中获取上下文，以创建您可以使用的初始草稿，这意味着您距离最终草稿又近了一步。",
       "engagement": {
-        "likes": 61,
+        "likes": 62,
         "retweets": 3,
         "replies": 32,
         "quotes": 3,
         "bookmarks": 12,
-        "views": 17019
+        "views": 17077
       }
     },
     {
@@ -30381,7 +30630,7 @@
         "replies": 3,
         "quotes": 0,
         "bookmarks": 2,
-        "views": 3945
+        "views": 3960
       }
     },
     {
@@ -30430,7 +30679,7 @@
         "replies": 20,
         "quotes": 4,
         "bookmarks": 10,
-        "views": 10330
+        "views": 10361
       }
     },
     {
@@ -30509,6 +30758,25 @@
       "excerpt_zh": "你认为我们什么时候能在月球上拥有机器人？"
     },
     {
+      "id": "05bd9f0351a0c3a2",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
+      "source_id": "mittr",
+      "source_name": "MIT Technology Review",
+      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
+      "published": "2026-11-09T21:00:00+08:00",
+      "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [
+        "review"
+      ],
+      "title_zh": "特殊化学品行业的人工智能创新",
+      "excerpt_zh": "随着公司寻求通过人工智能、云计算和高级建模加速创新，主要挑战是将新技术与可靠的数据、科学专业知识连接起来"
+    },
+    {
       "id": "f37b680abcf7adcb",
       "title": "Control Room: A central system to track and stop model workloads across our research infrastructure",
       "url": "https://openai.com/index/control-room",
@@ -30528,25 +30796,6 @@
       ],
       "title_zh": "控制室：一个中央系统，用于跟踪和停止我们研究基础设施中的模型工作负载",
       "excerpt_zh": "了解 OpenAI 的控制室如何跟踪我们研究基础设施中的模型工作负载，并在出现安全问题时快速阻止它们。"
-    },
-    {
-      "id": "05bd9f0351a0c3a2",
-      "title": "Innovating with AI in the special chemicals industry",
-      "url": "https://technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry",
-      "source_id": "mittr",
-      "source_name": "MIT Technology Review",
-      "source_home": "https://www.technologyreview.com/topic/artificial-intelligence/",
-      "published": "2026-11-09T21:00:00+08:00",
-      "excerpt": "As companies look to accelerate innovation with artificial intelligence, cloud computing, and advanced modeling, the primary challenge is connecting new technologies to reliable data, scientific expertise",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "review"
-      ],
-      "title_zh": "特殊化学品行业的人工智能创新",
-      "excerpt_zh": "随着公司寻求通过人工智能、云计算和高级建模加速创新，主要挑战是将新技术与可靠的数据、科学专业知识连接起来"
     },
     {
       "id": "7b1451fc786c34f9",
@@ -30598,7 +30847,7 @@
         "replies": 30,
         "quotes": 15,
         "bookmarks": 83,
-        "views": 235313
+        "views": 235320
       }
     },
     {
@@ -30869,7 +31118,7 @@
         "replies": 34,
         "quotes": 8,
         "bookmarks": 27,
-        "views": 21536
+        "views": 21561
       }
     },
     {
@@ -30954,7 +31203,7 @@
         "replies": 50,
         "quotes": 15,
         "bookmarks": 42,
-        "views": 30002
+        "views": 30029
       }
     },
     {
@@ -31004,7 +31253,7 @@
         "replies": 70,
         "quotes": 22,
         "bookmarks": 41,
-        "views": 57450
+        "views": 57476
       }
     },
     {
@@ -31055,7 +31304,7 @@
         "replies": 13,
         "quotes": 3,
         "bookmarks": 7,
-        "views": 3970
+        "views": 3973
       }
     },
     {
@@ -31102,7 +31351,7 @@
         "replies": 23,
         "quotes": 4,
         "bookmarks": 8,
-        "views": 7156
+        "views": 7201
       }
     },
     {
@@ -31233,12 +31482,12 @@
       ],
       "title_zh": "明天。",
       "engagement": {
-        "likes": 15818,
+        "likes": 15821,
         "retweets": 959,
         "replies": 775,
-        "quotes": 765,
-        "bookmarks": 2873,
-        "views": 2427918
+        "quotes": 766,
+        "bookmarks": 2872,
+        "views": 2428819
       }
     },
     {
@@ -31400,7 +31649,7 @@
         "replies": 31,
         "quotes": 10,
         "bookmarks": 44,
-        "views": 16411
+        "views": 16417
       }
     },
     {
@@ -31449,7 +31698,7 @@
         "replies": 2,
         "quotes": 1,
         "bookmarks": 0,
-        "views": 16880
+        "views": 16882
       }
     },
     {
@@ -31544,7 +31793,7 @@
         "replies": 38,
         "quotes": 4,
         "bookmarks": 8,
-        "views": 79624
+        "views": 79657
       }
     },
     {
@@ -31578,7 +31827,7 @@
         "replies": 17,
         "quotes": 3,
         "bookmarks": 19,
-        "views": 9190
+        "views": 9215
       }
     },
     {
@@ -31791,7 +32040,7 @@
         "replies": 124,
         "quotes": 45,
         "bookmarks": 427,
-        "views": 207352
+        "views": 207468
       }
     },
     {
@@ -31835,7 +32084,7 @@
         "replies": 138,
         "quotes": 37,
         "bookmarks": 282,
-        "views": 142929
+        "views": 143005
       }
     },
     {
@@ -31887,7 +32136,7 @@
         "replies": 27,
         "quotes": 6,
         "bookmarks": 19,
-        "views": 4530
+        "views": 4533
       }
     },
     {
@@ -31920,7 +32169,7 @@
         "replies": 29,
         "quotes": 1,
         "bookmarks": 5,
-        "views": 13570
+        "views": 13592
       }
     },
     {
@@ -31988,12 +32237,12 @@
       "title_zh": "记忆使克劳德能够从经验中学习。",
       "excerpt_zh": "在一篇新的工程博客文章中，我们分享了“梦想”如何帮助 Claude 组织所学知识、纠正错误并在下次更轻松地找到所需内容",
       "engagement": {
-        "likes": 14347,
+        "likes": 14349,
         "retweets": 1330,
-        "replies": 1081,
+        "replies": 1083,
         "quotes": 965,
-        "bookmarks": 12998,
-        "views": 2166898
+        "bookmarks": 12993,
+        "views": 2168133
       }
     },
     {
@@ -32022,12 +32271,12 @@
       "title_zh": "您的效果数据显示了下一轮创意准备就绪之前的工作日。",
       "excerpt_zh": "Runway Ads Lab 是旧金山的一个实践研讨会，旨在缩小这一差距。绩效、增长和品牌营销人员将在 Runway Ads 中共同打造",
       "engagement": {
-        "likes": 29,
+        "likes": 30,
         "retweets": 8,
         "replies": 11,
         "quotes": 1,
-        "bookmarks": 2,
-        "views": 11061
+        "bookmarks": 3,
+        "views": 11074
       }
     },
     {
@@ -32060,7 +32309,7 @@
         "replies": 3,
         "quotes": 0,
         "bookmarks": 9,
-        "views": 7922
+        "views": 7933
       }
     },
     {
@@ -32086,12 +32335,12 @@
       "title_zh": "将单个图像转变为可以使用 Lyra 2.0 探索的 3D 世界。",
       "excerpt_zh": "通过将视频生成与 3D 重建相结合，我们的研究人员可以沿着您选择的相机路径创建环境。 Lyra 借鉴了早期的观点并学会纠正累积的视觉错误",
       "engagement": {
-        "likes": 1096,
+        "likes": 1098,
         "retweets": 122,
         "replies": 62,
         "quotes": 45,
         "bookmarks": 743,
-        "views": 83195
+        "views": 83238
       }
     },
     {
@@ -32114,12 +32363,12 @@
       "title_zh": "我们与 @fmf_org 及其成员公司合作开发了一个新框架，以帮助确定何时……",
       "excerpt_zh": "绕过人工智能系统的防护措施可能会造成严重的网络损害，因此需要优先考虑更强的保护。 “……该框架是迈向评估和比较严重性的通用方法的重要一步。",
       "engagement": {
-        "likes": 1695,
+        "likes": 1694,
         "retweets": 130,
         "replies": 475,
         "quotes": 98,
         "bookmarks": 224,
-        "views": 468224
+        "views": 468908
       }
     },
     {
@@ -32146,12 +32395,12 @@
       "title_zh": "我们的科学博客上的新内容：人工智能如何开始改变科学建模。",
       "excerpt_zh": "科学模型帮助研究人员解释和预测现实世界的系统，例如单个神经细胞如何放电，或者中子星碰撞时会发生什么",
       "engagement": {
-        "likes": 3720,
-        "retweets": 407,
+        "likes": 3719,
+        "retweets": 408,
         "replies": 380,
         "quotes": 161,
-        "bookmarks": 1460,
-        "views": 501694
+        "bookmarks": 1458,
+        "views": 502433
       }
     },
     {
@@ -32184,7 +32433,7 @@
         "replies": 827,
         "quotes": 332,
         "bookmarks": 622,
-        "views": 915376
+        "views": 915933
       }
     },
     {
@@ -32233,7 +32482,7 @@
         "replies": 30,
         "quotes": 3,
         "bookmarks": 25,
-        "views": 8397
+        "views": 8408
       }
     },
     {
@@ -32261,7 +32510,7 @@
         "replies": 123,
         "quotes": 63,
         "bookmarks": 153,
-        "views": 100775
+        "views": 100899
       }
     },
     {
@@ -32289,12 +32538,12 @@
       "title_zh": "我们正在分享新的研究成果，展示人工智能代理如何加速压力测试加密的科学发展。",
       "excerpt_zh": "在人类的指导下，我们的模型发现了传统 1024 位 RSA 密码系统的两个主要弱点。我们的科学副总裁 @Pushmeet 解释了更多 ↓ https://x.com/pushmeet/status/2118752095859794390",
       "engagement": {
-        "likes": 1573,
+        "likes": 1574,
         "retweets": 207,
         "replies": 316,
-        "quotes": 158,
+        "quotes": 159,
         "bookmarks": 439,
-        "views": 177005
+        "views": 177096
       }
     },
     {
@@ -32348,7 +32597,7 @@
         "replies": 97,
         "quotes": 24,
         "bookmarks": 112,
-        "views": 43830
+        "views": 43959
       }
     },
     {
@@ -32382,7 +32631,7 @@
         "replies": 36,
         "quotes": 16,
         "bookmarks": 21,
-        "views": 20223
+        "views": 20243
       }
     },
     {
@@ -32480,11 +32729,11 @@
       "excerpt_zh": "线束适配器培训现已上线！我们正在使用 RL 在 @liquidai 的 LFM2.5 / LFM3 和 @thewebAI 最近的 Twil-9B 模型上训练 LoRA 适配器，使它们在代理任务上更加高效和准确！你",
       "engagement": {
         "likes": 324,
-        "retweets": 30,
-        "replies": 114,
+        "retweets": 31,
+        "replies": 115,
         "quotes": 10,
         "bookmarks": 148,
-        "views": 50929
+        "views": 51289
       }
     },
     {
@@ -32556,7 +32805,7 @@
         "replies": 19,
         "quotes": 1,
         "bookmarks": 9,
-        "views": 8651
+        "views": 8667
       }
     },
     {
@@ -32580,12 +32829,12 @@
       ],
       "title_zh": "生成开始了。",
       "engagement": {
-        "likes": 18756,
+        "likes": 18757,
         "retweets": 1470,
         "replies": 1730,
         "quotes": 1378,
-        "bookmarks": 1790,
-        "views": 2893446
+        "bookmarks": 1791,
+        "views": 2894780
       }
     },
     {
@@ -32617,7 +32866,7 @@
         "replies": 15,
         "quotes": 2,
         "bookmarks": 7,
-        "views": 6295
+        "views": 6315
       }
     },
     {
@@ -32664,12 +32913,12 @@
       "title_zh": "速度、空间、金钱、风险——赛车是最难拍摄的事物之一。",
       "excerpt_zh": "Redline 是我们最新的 Kling AI Original，由 Kling 4.0 提供支持，可以应对所有这些挑战，同时又不影响人类比赛的初衷",
       "engagement": {
-        "likes": 1568,
+        "likes": 1567,
         "retweets": 75,
         "replies": 62,
-        "quotes": 25,
+        "quotes": 26,
         "bookmarks": 208,
-        "views": 1118544
+        "views": 1118632
       }
     },
     {
@@ -32796,7 +33045,7 @@
         "replies": 15,
         "quotes": 0,
         "bookmarks": 12,
-        "views": 8596
+        "views": 8607
       }
     },
     {
@@ -32828,7 +33077,7 @@
         "replies": 12,
         "quotes": 0,
         "bookmarks": 6,
-        "views": 4856
+        "views": 4872
       }
     },
     {
@@ -32847,6 +33096,25 @@
       "types": [],
       "title_zh": "与 Hacktron 合作寻找 OpenAI 系统中的漏洞",
       "excerpt_zh": "OpenAI 正在与 Hacktron 合作，寻找漏洞、测试与第三方服务的连接，并利用前沿人工智能加强防御。"
+    },
+    {
+      "id": "85b1f760fcd182ca",
+      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvOTVRZEVtcTMxckNWS1U0TVA5aDBNNXN0a0dRcHBKNmxkS0tSUlFodC1FTXBvbkwxeUxQNG9aZm5LZU82RXpXMXZlamNyNnktOUtITg?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-06T16:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": [
+        "opensource"
+      ]
     },
     {
       "id": "275616f85a1378e4",
@@ -32890,7 +33158,7 @@
         "replies": 5,
         "quotes": 0,
         "bookmarks": 21,
-        "views": 8517
+        "views": 8526
       }
     },
     {
@@ -32954,7 +33222,7 @@
         "replies": 15,
         "quotes": 4,
         "bookmarks": 26,
-        "views": 23089
+        "views": 23099
       }
     },
     {
@@ -32971,25 +33239,6 @@
       "models": [],
       "topics": [],
       "types": []
-    },
-    {
-      "id": "85b1f760fcd182ca",
-      "title": "腾讯 Hy4 调用激增已十倍扩容，Agent 能力开源模型第一",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvOTVRZEVtcTMxckNWS1U0TVA5aDBNNXN0a0dRcHBKNmxkS0tSUlFodC1FTXBvbkwxeUxQNG9aZm5LZU82RXpXMXZlamNyNnktOUtITg?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-11-06T10:00:11+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "agent"
-      ],
-      "types": [
-        "opensource"
-      ]
     },
     {
       "id": "d4d4eb601e04ae25",
@@ -33020,7 +33269,7 @@
         "replies": 4,
         "quotes": 1,
         "bookmarks": 17,
-        "views": 10588
+        "views": 10590
       }
     },
     {
@@ -33050,7 +33299,7 @@
         "replies": 1,
         "quotes": 0,
         "bookmarks": 4,
-        "views": 4369
+        "views": 4376
       }
     },
     {
@@ -33070,6 +33319,24 @@
         "opensource"
       ],
       "title_zh": "埃及语和尼日利亚英语加入 Open ASR 排行榜"
+    },
+    {
+      "id": "16dc5fc75b8a0583",
+      "title": "Teaching AI to build scientific models",
+      "url": "https://anthropic.com/news/teaching-ai-to-build-scientific-models",
+      "source_id": "anthropic",
+      "source_name": "Anthropic",
+      "source_home": "https://www.anthropic.com/news",
+      "published": "2026-11-06T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [],
+      "title_zh": "教授人工智能建立科学模型"
     },
     {
       "id": "cfd4354afa14004f",
@@ -33093,24 +33360,6 @@
       ],
       "title_zh": "衡量人工智能代理如何处理日常湿实验室科学",
       "excerpt_zh": "OpenAI 推出了 BioBasicsBench，这是一个包含 100 项任务的基准测试，用于衡量 AI 代理解释原始实验数据和处理日常湿实验室科学的能力。"
-    },
-    {
-      "id": "16dc5fc75b8a0583",
-      "title": "Teaching AI to build scientific models",
-      "url": "https://anthropic.com/news/teaching-ai-to-build-scientific-models",
-      "source_id": "anthropic",
-      "source_name": "Anthropic",
-      "source_home": "https://www.anthropic.com/news",
-      "published": "2026-11-06T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "claude"
-      ],
-      "topics": [],
-      "types": [],
-      "title_zh": "教授人工智能建立科学模型"
     },
     {
       "id": "450b563c942bd4d3",
@@ -33140,7 +33389,7 @@
         "replies": 33,
         "quotes": 8,
         "bookmarks": 26,
-        "views": 17917
+        "views": 17930
       }
     },
     {
@@ -33187,7 +33436,7 @@
         "replies": 3,
         "quotes": 0,
         "bookmarks": 3,
-        "views": 2812
+        "views": 2814
       }
     },
     {
@@ -33252,7 +33501,7 @@
         "replies": 89,
         "quotes": 18,
         "bookmarks": 219,
-        "views": 40530
+        "views": 40719
       }
     },
     {
@@ -33285,7 +33534,7 @@
         "replies": 4,
         "quotes": 0,
         "bookmarks": 1,
-        "views": 2433
+        "views": 2435
       }
     },
     {
@@ -33316,7 +33565,7 @@
         "replies": 106,
         "quotes": 57,
         "bookmarks": 85,
-        "views": 82400
+        "views": 82501
       }
     },
     {
@@ -33349,7 +33598,7 @@
         "replies": 25,
         "quotes": 5,
         "bookmarks": 149,
-        "views": 21055
+        "views": 21066
       }
     },
     {
@@ -33374,12 +33623,12 @@
       "title_zh": "Gemini Omni 1.2 Flash 从今天开始向所有 Google AI 订阅者推出。",
       "excerpt_zh": "通过多轮对话编辑来优化视频，并在 Gemini 应用程序中享受更清晰的视觉稳定性。此外，Google AI Ultra 订阅者现在可以创建和编辑长达 15 秒的视频",
       "engagement": {
-        "likes": 1760,
+        "likes": 1759,
         "retweets": 154,
         "replies": 111,
         "quotes": 47,
-        "bookmarks": 295,
-        "views": 145040
+        "bookmarks": 294,
+        "views": 145166
       }
     },
     {
@@ -33408,12 +33657,12 @@
       "title_zh": "介绍克劳德的个人理财，在美国处于测试阶段。",
       "excerpt_zh": "连接您选择的账户，克劳德根据您自己的余额和交易，用日常语言回答您的资金问题。访问权限是只读的，克劳德无法移动、管理或投资您的资金。",
       "engagement": {
-        "likes": 46657,
+        "likes": 46658,
         "retweets": 2740,
         "replies": 1560,
-        "quotes": 2684,
-        "bookmarks": 20149,
-        "views": 11791504
+        "quotes": 2685,
+        "bookmarks": 20144,
+        "views": 11794435
       }
     },
     {
@@ -33448,7 +33697,7 @@
         "replies": 39,
         "quotes": 21,
         "bookmarks": 34,
-        "views": 21677
+        "views": 21695
       }
     },
     {
@@ -33482,7 +33731,7 @@
         "replies": 6,
         "quotes": 2,
         "bookmarks": 1,
-        "views": 3631
+        "views": 3632
       }
     },
     {
@@ -33529,12 +33778,12 @@
       "title_zh": "GPT-6 Cyber​​ 简介：安全研究的重大进步，结合了更强大的功能……",
       "excerpt_zh": "具有更好的模型对齐能力。该模型为我们昨天宣布的 Linux 内核研究以及 Mozilla、Palo Alto Networks、California 等公司的安全团队提供了支持",
       "engagement": {
-        "likes": 21511,
-        "retweets": 2023,
+        "likes": 21518,
+        "retweets": 2026,
         "replies": 1320,
         "quotes": 1445,
-        "bookmarks": 4198,
-        "views": 4224019
+        "bookmarks": 4199,
+        "views": 4225880
       }
     },
     {
@@ -33561,12 +33810,12 @@
       "title_zh": "认识 Gemini Omni 1.2 Flash ⚡️",
       "excerpt_zh": "我们使模型更具成本效益，将视频生成和编辑限制提高到 15 秒，并更新了场景随着时间的推移如何结合在一起",
       "engagement": {
-        "likes": 2573,
+        "likes": 2574,
         "retweets": 245,
         "replies": 163,
         "quotes": 147,
         "bookmarks": 734,
-        "views": 337096
+        "views": 337222
       }
     },
     {
@@ -33593,12 +33842,12 @@
       "title_zh": "介绍队友。",
       "excerpt_zh": "队友为你工作。他们承担工作，并利用您的计算机任务、技能、记忆和工具主动工作。队友与其他队友协作，并可以在 Slack 中向同事发送消息",
       "engagement": {
-        "likes": 1121,
+        "likes": 1122,
         "retweets": 113,
         "replies": 188,
         "quotes": 172,
-        "bookmarks": 360,
-        "views": 199331
+        "bookmarks": 359,
+        "views": 199811
       }
     },
     {
@@ -33712,7 +33961,7 @@
         "replies": 103,
         "quotes": 36,
         "bookmarks": 81,
-        "views": 69866
+        "views": 69906
       }
     },
     {
@@ -33860,12 +34109,12 @@
       "title_zh": "🆕 Le Chonk 带来了大脑。米斯特拉尔工作室让它发挥作用。",
       "excerpt_zh": "引入托管代理和应用程序，以及 Studio 中工作流程、企业连接、可观察性和评估的新功能。构建速度更快。部署在您选择的位置。保持控制。看看有什么可能。 🧵",
       "engagement": {
-        "likes": 831,
+        "likes": 832,
         "retweets": 101,
         "replies": 140,
         "quotes": 67,
         "bookmarks": 125,
-        "views": 63539
+        "views": 63663
       }
     },
     {
@@ -33919,7 +34168,7 @@
         "replies": 9,
         "quotes": 0,
         "bookmarks": 20,
-        "views": 14876
+        "views": 14884
       }
     },
     {
@@ -33988,7 +34237,7 @@
         "replies": 101,
         "quotes": 20,
         "bookmarks": 392,
-        "views": 58990
+        "views": 59111
       }
     },
     {
@@ -34021,7 +34270,7 @@
         "replies": 17,
         "quotes": 2,
         "bookmarks": 24,
-        "views": 32921
+        "views": 32924
       }
     },
     {
@@ -34055,8 +34304,25 @@
         "replies": 8,
         "quotes": 1,
         "bookmarks": 6,
-        "views": 6880
+        "views": 6882
       }
+    },
+    {
+      "id": "48d3c67f9a24be9a",
+      "title": "三条AI技术路线终将合流？智象创始人梅涛提出智能体化的世界模型",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9uZzcyZ0V0OGstSDZVWk9WMElyVjJ1MjFSQ3gzeEdhZ1JxS25OT3l2SDZRQmllSHhTZWd5SmtNbmw1RFZyOHZZanNBS055UHM4X2dKWQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-05T17:37:40+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "agent"
+      ],
+      "types": []
     },
     {
       "id": "53c56afbaf05f856",
@@ -34231,7 +34497,7 @@
         "replies": 30,
         "quotes": 2,
         "bookmarks": 10,
-        "views": 7685
+        "views": 7699
       }
     },
     {
@@ -34318,7 +34584,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 4,
-        "views": 6619
+        "views": 6620
       }
     },
     {
@@ -34481,12 +34747,12 @@
       "title_zh": "图像，升级 - 推出 ChatGPT Images 2.6。",
       "excerpt_zh": "现在有 GIF 和参考图像。此外，API 中还引入了两个新模型，图像生成速度提高了 50%。",
       "engagement": {
-        "likes": 21991,
+        "likes": 21990,
         "retweets": 1892,
         "replies": 1204,
         "quotes": 1985,
         "bookmarks": 4438,
-        "views": 3887339
+        "views": 3889122
       }
     },
     {
@@ -34511,12 +34777,12 @@
       "title_zh": "我们的安全研究人员建立了一个自主的网络漏洞发现、利用和修补管道。",
       "excerpt_zh": "在使用即将推出的网络模型的单次运行中，它验证并生成了针对 Linux 内核中 948 个本地权限升级漏洞的补丁，API 总成本为 120 万美元。",
       "engagement": {
-        "likes": 12830,
+        "likes": 12827,
         "retweets": 1342,
         "replies": 680,
         "quotes": 912,
-        "bookmarks": 4438,
-        "views": 2352071
+        "bookmarks": 4436,
+        "views": 2352775
       }
     },
     {
@@ -34603,8 +34869,8 @@
         "retweets": 529,
         "replies": 571,
         "quotes": 307,
-        "bookmarks": 1364,
-        "views": 1057379
+        "bookmarks": 1363,
+        "views": 1057870
       }
     },
     {
@@ -34695,7 +34961,7 @@
         "replies": 35,
         "quotes": 1,
         "bookmarks": 34,
-        "views": 23624
+        "views": 23660
       }
     },
     {
@@ -34764,7 +35030,7 @@
         "replies": 111,
         "quotes": 52,
         "bookmarks": 804,
-        "views": 193755
+        "views": 193823
       }
     },
     {
@@ -34848,12 +35114,12 @@
       "title_zh": "Runway Dev 现在使用 Claude Code，将 AI 视频、图像和音频引入您正在构建的任何应用程序中。",
       "excerpt_zh": "借助 Runway Dev 插件，Claude Code 可以将 Runway 的 API 构建到您的应用程序中。描述您的应用程序应该生成什么，并以 Runway 的方式编写集成。",
       "engagement": {
-        "likes": 147,
+        "likes": 148,
         "retweets": 24,
         "replies": 62,
         "quotes": 24,
-        "bookmarks": 45,
-        "views": 16288
+        "bookmarks": 46,
+        "views": 16306
       }
     },
     {
@@ -34881,12 +35147,12 @@
       "title_zh": "发布Kimi K3.1 Pro的模型权重：https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
       "excerpt_zh": "我们将继续推进开放情报。",
       "engagement": {
-        "likes": 8775,
+        "likes": 8776,
         "retweets": 852,
         "replies": 402,
         "quotes": 486,
         "bookmarks": 1598,
-        "views": 1584049
+        "views": 1585182
       }
     },
     {
@@ -34941,7 +35207,7 @@
         "replies": 97,
         "quotes": 12,
         "bookmarks": 77,
-        "views": 35867
+        "views": 35937
       }
     },
     {
@@ -34991,7 +35257,7 @@
         "replies": 19,
         "quotes": 5,
         "bookmarks": 22,
-        "views": 14603
+        "views": 14611
       }
     },
     {
@@ -35020,12 +35286,12 @@
       "title_zh": "Kling 4.0 Flash 现已全面上市！ ⚡",
       "excerpt_zh": "Kling 4.0 Flash 现在可通过 Kling AI 网站和 API 向所有人开放。您还可以通过 MCP、CLI 和 AI 插件访问它，为您的视频创建工作流程带来更大的灵活性",
       "engagement": {
-        "likes": 328,
+        "likes": 327,
         "retweets": 46,
         "replies": 66,
         "quotes": 29,
-        "bookmarks": 64,
-        "views": 24888
+        "bookmarks": 63,
+        "views": 24896
       }
     },
     {
@@ -35114,29 +35380,12 @@
       "excerpt_zh": "133 名特工绘制代码、寻找缺陷、测试攻击场景并确认错误。然后 Le Chonk 修补它。分类、重现、修补。以 90 倍速度显示。",
       "engagement": {
         "likes": 974,
-        "retweets": 116,
+        "retweets": 117,
         "replies": 181,
         "quotes": 59,
         "bookmarks": 161,
-        "views": 52083
+        "views": 52130
       }
-    },
-    {
-      "id": "7e63a60a01244394",
-      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZWUdGeDBZOENtZlF1LWwwRVZHYTVZdExvMm1qSmlOU05DdkVYbHpDZTRtVUh5aFNFMVBTZ3hpTlNGbTJhZ2xpVXBGTUxoek9iWjV5Uw?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-11-04T16:59:57+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "robotics"
-      ],
-      "types": []
     },
     {
       "id": "a4f4c423c5426033",
@@ -35171,6 +35420,23 @@
       "models": [],
       "topics": [
         "agent"
+      ],
+      "types": []
+    },
+    {
+      "id": "7e63a60a01244394",
+      "title": "超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ZWUdGeDBZOENtZlF1LWwwRVZHYTVZdExvMm1qSmlOU05DdkVYbHpDZTRtVUh5aFNFMVBTZ3hpTlNGbTJhZ2xpVXBGTUxoek9iWjV5Uw?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-04T16:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "robotics"
       ],
       "types": []
     },
@@ -35223,8 +35489,8 @@
         "retweets": 90,
         "replies": 32,
         "quotes": 25,
-        "bookmarks": 248,
-        "views": 51864
+        "bookmarks": 247,
+        "views": 51897
       }
     },
     {
@@ -35294,7 +35560,7 @@
         "replies": 24,
         "quotes": 2,
         "bookmarks": 16,
-        "views": 7017
+        "views": 7021
       }
     },
     {
@@ -35322,7 +35588,7 @@
         "replies": 7,
         "quotes": 2,
         "bookmarks": 11,
-        "views": 9160
+        "views": 9167
       }
     },
     {
@@ -35362,6 +35628,24 @@
       "types": [],
       "title_zh": "多态推理：开放模型的自调整推理",
       "excerpt_zh": "模式、流量、芯片都在不断变化。多态推理适应每种情况，而 Together Compiler 使用 AI 代理来保持生产推理的调整。"
+    },
+    {
+      "id": "ca723d01cd9ec798",
+      "title": "Investigating vault particles with Claude",
+      "url": "https://anthropic.com/news/investigating-vault-particles-with-claude",
+      "source_id": "anthropic",
+      "source_name": "Anthropic",
+      "source_home": "https://www.anthropic.com/news",
+      "published": "2026-11-04T08:00:00+08:00",
+      "excerpt": "",
+      "lang": "en",
+      "region": "intl",
+      "models": [
+        "claude"
+      ],
+      "topics": [],
+      "types": [],
+      "title_zh": "与克劳德一起研究金库粒子"
     },
     {
       "id": "0a437d67f2effbc5",
@@ -35408,24 +35692,6 @@
       "types": [],
       "title_zh": "DevRev 使用 GPT-6.1 Sol 提供自主自助服务",
       "excerpt_zh": "DevRev 使用 GPT-6.1 Sol 为计算机和操作员提供动力，平衡企业服务的推理、速度和成本。"
-    },
-    {
-      "id": "ca723d01cd9ec798",
-      "title": "Investigating vault particles with Claude",
-      "url": "https://anthropic.com/news/investigating-vault-particles-with-claude",
-      "source_id": "anthropic",
-      "source_name": "Anthropic",
-      "source_home": "https://www.anthropic.com/news",
-      "published": "2026-11-04T08:00:00+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "claude"
-      ],
-      "topics": [],
-      "types": [],
-      "title_zh": "与克劳德一起研究金库粒子"
     },
     {
       "id": "dc5e1e6807a1f078",
@@ -35488,12 +35754,12 @@
       "title_zh": "新人择研究：大型语言模型可证明推理的进展。",
       "excerpt_zh": "在这里，我们介绍一下FlashProve。 FlashProve 基于既定的加密技术，允许开发人员验证给定的响应是否来自给定的 AI 模型",
       "engagement": {
-        "likes": 5294,
+        "likes": 5293,
         "retweets": 540,
         "replies": 657,
         "quotes": 502,
         "bookmarks": 2200,
-        "views": 739417
+        "views": 739819
       }
     },
     {
@@ -35523,7 +35789,7 @@
         "replies": 0,
         "quotes": 0,
         "bookmarks": 0,
-        "views": 4503
+        "views": 4504
       }
     },
     {
@@ -35553,7 +35819,7 @@
         "replies": 29,
         "quotes": 8,
         "bookmarks": 32,
-        "views": 21820
+        "views": 21828
       }
     },
     {
@@ -35580,12 +35846,12 @@
       "title_zh": "ChatGPT 和 Codex 正在帮助工程师构建物理世界。",
       "excerpt_zh": "我们正在分享我们在机械设计、电气工程和仿真方面的进展，从帮助我们的硬件团队更快地迭代到与行业合作者测试新的工作流程。",
       "engagement": {
-        "likes": 8450,
+        "likes": 8446,
         "retweets": 753,
         "replies": 735,
         "quotes": 584,
         "bookmarks": 3035,
-        "views": 1415631
+        "views": 1415993
       }
     },
     {
@@ -35636,7 +35902,7 @@
         "replies": 90,
         "quotes": 22,
         "bookmarks": 55,
-        "views": 31490
+        "views": 31528
       }
     },
     {
@@ -35680,12 +35946,12 @@
       "title_zh": "Perplexity Computer 可以使电子商务业务的每个部分实现自动化。",
       "excerpt_zh": "直接在计算机内运行@Meta 广告、@klaviyo 中的电子邮件营销和@Shopify 商店。开始使用：https://pplx.ai/ecommerce",
       "engagement": {
-        "likes": 791,
+        "likes": 792,
         "retweets": 67,
         "replies": 101,
         "quotes": 55,
         "bookmarks": 758,
-        "views": 192975
+        "views": 193050
       }
     },
     {
@@ -35804,12 +36070,12 @@
       ],
       "title_zh": "4 实际生产力",
       "engagement": {
-        "likes": 2608,
+        "likes": 2607,
         "retweets": 165,
-        "replies": 187,
+        "replies": 186,
         "quotes": 184,
         "bookmarks": 651,
-        "views": 497164
+        "views": 497206
       }
     },
     {
@@ -35855,12 +36121,12 @@
       "title_zh": "我们委托 Mistral Large 4 为大约 19,000 个数据创建实时 3D 跟踪器……",
       "excerpt_zh": "围绕地球运行的卫星和碎片。该模型构建了一个可用的应用程序，像用户一样对其进行测试，使其速度更快，并通过了严格的验证。请认识轨道追踪：",
       "engagement": {
-        "likes": 1110,
+        "likes": 1111,
         "retweets": 117,
         "replies": 129,
         "quotes": 38,
-        "bookmarks": 148,
-        "views": 47558
+        "bookmarks": 149,
+        "views": 47591
       }
     },
     {
@@ -35915,7 +36181,7 @@
         "replies": 42,
         "quotes": 14,
         "bookmarks": 128,
-        "views": 43156
+        "views": 43180
       }
     },
     {
@@ -35936,12 +36202,12 @@
       "excerpt_zh": "2026 年 9 月 30 日晚，PyTorchKR 和 XCENA 共同主办了 KVCache Meetup 韩国。 PyTorchKR 是韩国主要的 AI/ML 社区，而 XCENA 是一家专注于.."
     },
     {
-      "id": "a278fa1fc8b29407",
-      "title": "普林斯顿AI Lab出题，「空间智能」大考：人类83.3%，大模型最高39.7%",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvR1BCZzM2U09wOHZlYk0zTTQ3aWhSSkluNWJkVTdZcDVVYUE4RnN3dDdIWmdvNm8wel9OeUhNcmg4eFJuLUhBb2NNSk04UQ?oc=5",
-      "source_id": "36kr",
-      "source_name": "36氪",
-      "source_home": "https://www.36kr.com",
+      "id": "ae18831b58e525af",
+      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmVmlwZmdnSEFSMWFXZ0NpV2NSUkljanBZVWw5dmcydHJoV3RESWZOUjA1MWRaOFh1dEdnZVQtTF9wT1hKWnpfdG1rREpYMFFESjFVdA?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
       "published": "2026-11-03T16:00:00+08:00",
       "excerpt": "",
       "lang": "zh",
@@ -35989,6 +36255,21 @@
       "excerpt_zh": "了解 Heimstaden 如何使用 OpenAI 的 ChatGPT Enterprise 和 Codex 来转变整个欧洲的物业管理、削减成本并赋予员工权力。"
     },
     {
+      "id": "a278fa1fc8b29407",
+      "title": "普林斯顿AI Lab出题，「空间智能」大考：人类83.3%，大模型最高39.7%",
+      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBvR1BCZzM2U09wOHZlYk0zTTQ3aWhSSkluNWJkVTdZcDVVYUE4RnN3dDdIWmdvNm8wel9OeUhNcmg4eFJuLUhBb2NNSk04UQ?oc=5",
+      "source_id": "36kr",
+      "source_name": "36氪",
+      "source_home": "https://www.36kr.com",
+      "published": "2026-11-03T16:00:00+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [],
+      "types": []
+    },
+    {
       "id": "087823f4e75ffb46",
       "title": "刚刚，Anthropic开源FlashProve，给大模型办了一张「防伪身份证」",
       "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5Da2tVczNvUGY0UHNYRXFiREkzR3NEN243bEZraS1SOGxqSkphTThUNE85ZEhUUk9CZDdhdlYyWFNWVGhqdWRKSXdjS0VjZw?oc=5",
@@ -36019,21 +36300,6 @@
       "models": [
         "gpt"
       ],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "ae18831b58e525af",
-      "title": "模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmVmlwZmdnSEFSMWFXZ0NpV2NSUkljanBZVWw5dmcydHJoV3RESWZOUjA1MWRaOFh1dEdnZVQtTF9wT1hKWnpfdG1rREpYMFFESjFVdA?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-11-03T16:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
       "topics": [],
       "types": []
     },
@@ -36165,13 +36431,30 @@
       "title_zh": "随着人工智能发现漏洞的能力越来越强，防御者需要在攻击者之前将其投入使用。",
       "excerpt_zh": "我们正在计划 OpenAI 的下一次内部安全冲刺，并与 Cathedral Systems 合作，后者的研究人员将与我们的团队一起使用我们的模型来挑战我们的防御",
       "engagement": {
-        "likes": 3614,
+        "likes": 3613,
         "retweets": 356,
         "replies": 568,
         "quotes": 260,
         "bookmarks": 707,
-        "views": 884192
+        "views": 884384
       }
+    },
+    {
+      "id": "5b4ac3193ccfe0a1",
+      "title": "B站举办2026超级科学晚，脑机接口、人造太阳等前沿科技齐亮相",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kckNKY20xSWstdXYtNHFjVC1mSXFJeGxZaDhzNWJibVdGQjJyYXBpYWl5Sk1OLXo3VTh5WTdsdTM1TFJBMTVNT2N3TV9RRlQ2M0VCYQ?oc=5",
+      "source_id": "qbitai",
+      "source_name": "量子位",
+      "source_home": "https://www.qbitai.com",
+      "published": "2026-11-03T10:02:05+08:00",
+      "excerpt": "",
+      "lang": "zh",
+      "region": "cn",
+      "models": [],
+      "topics": [
+        "science"
+      ],
+      "types": []
     },
     {
       "id": "f20aa0a9a1f223ed",
@@ -36370,10 +36653,10 @@
       "engagement": {
         "likes": 40541,
         "retweets": 3212,
-        "replies": 1238,
+        "replies": 1237,
         "quotes": 936,
-        "bookmarks": 61836,
-        "views": 14915979
+        "bookmarks": 61813,
+        "views": 14918253
       }
     },
     {
@@ -36494,12 +36777,12 @@
       "title_zh": "为了使 AGI 造福全人类，它应该帮助人们完成对他们来说最重要的日常任务。",
       "excerpt_zh": "因此，我们建立了 LifeVal，这是一个新的基准，根据数千名 ChatGPT 用户的反馈形成，这些用户最需要个人助理在哪些方面提供帮助——从寻找托儿服务到获得政府服务，再到管理个人信息。",
       "engagement": {
-        "likes": 6594,
+        "likes": 6595,
         "retweets": 471,
         "replies": 688,
         "quotes": 377,
         "bookmarks": 1538,
-        "views": 826444
+        "views": 826607
       }
     },
     {
@@ -36684,12 +36967,12 @@
       "title_zh": "我们要求 Mistral Large 4 展示破坏分子时会发生什么。 ⚛️",
       "excerpt_zh": "通过简短的提示，它从头开始编写了一个量子化学 SCF 求解器，验证了其输出，并围绕它构建了 3D 视图",
       "engagement": {
-        "likes": 1347,
+        "likes": 1345,
         "retweets": 125,
         "replies": 139,
         "quotes": 59,
         "bookmarks": 146,
-        "views": 60157
+        "views": 60182
       }
     },
     {
@@ -36810,44 +37093,6 @@
       "excerpt_zh": "想要更多本地人工智能，但又不想让大型科技公司开放一切"
     },
     {
-      "id": "598c6194c0d34c23",
-      "title": "Qodo builds context into AI code review with Codex",
-      "url": "https://openai.com/index/qodo-codex-plugin",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-02T08:00:00+08:00",
-      "excerpt": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "coding"
-      ],
-      "types": [
-        "review"
-      ],
-      "title_zh": "Qodo 使用 Codex 将上下文构建到 AI 代码审查中",
-      "excerpt_zh": "Qodo 将公司知识和编码标准引入 Codex，帮助开发人员在打开拉取请求之前捕获跨存储库的 P0 问题。"
-    },
-    {
-      "id": "ff138f709a7e7c37",
-      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
-      "url": "https://openai.com/index/dan-driscoll-joins-openai",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-11-02T08:00:00+08:00",
-      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [],
-      "title_zh": "OpenAI 任命 Dan Driscoll 为国家安全现代化高级顾问",
-      "excerpt_zh": "OpenAI 任命 Dan Driscoll 就负责任的人工智能提供建议，以促进国家安全现代化、网络弹性以及与美国盟友的合作。"
-    },
-    {
       "id": "9c7c8759efa30077",
       "title": "Introducing Grok Bot 1.0 Bots now work with your whole team, take on work without being asked, and get more done, faster. Read More",
       "url": "https://x.ai/news/grok-bot-1-0",
@@ -36886,6 +37131,44 @@
       "title_zh": "通过 Grok Bot 为每个团队提供一名数据科学家"
     },
     {
+      "id": "598c6194c0d34c23",
+      "title": "Qodo builds context into AI code review with Codex",
+      "url": "https://openai.com/index/qodo-codex-plugin",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-02T08:00:00+08:00",
+      "excerpt": "Qodo brings company knowledge and coding standards into Codex, helping developers catch P0 issues across repositories before opening a pull request.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [
+        "coding"
+      ],
+      "types": [
+        "review"
+      ],
+      "title_zh": "Qodo 使用 Codex 将上下文构建到 AI 代码审查中",
+      "excerpt_zh": "Qodo 将公司知识和编码标准引入 Codex，帮助开发人员在打开拉取请求之前捕获跨存储库的 P0 问题。"
+    },
+    {
+      "id": "ff138f709a7e7c37",
+      "title": "OpenAI appoints Dan Driscoll as Senior Counselor for National Security Modernization",
+      "url": "https://openai.com/index/dan-driscoll-joins-openai",
+      "source_id": "openai",
+      "source_name": "OpenAI",
+      "source_home": "https://openai.com/news",
+      "published": "2026-11-02T08:00:00+08:00",
+      "excerpt": "OpenAI appoints Dan Driscoll to advise on responsible AI for national security modernization, cyber resilience, and collaboration with U.S. allies.",
+      "lang": "en",
+      "region": "intl",
+      "models": [],
+      "topics": [],
+      "types": [],
+      "title_zh": "OpenAI 任命 Dan Driscoll 为国家安全现代化高级顾问",
+      "excerpt_zh": "OpenAI 任命 Dan Driscoll 就负责任的人工智能提供建议，以促进国家安全现代化、网络弹性以及与美国盟友的合作。"
+    },
+    {
       "id": "60c15dc0b0bbeb21",
       "title": "MiniMax M3.1 Flash, on more of your hardware.",
       "url": "https://x.com/MiniMax_AI/status/2116996123164569606",
@@ -36912,7 +37195,7 @@
         "replies": 92,
         "quotes": 29,
         "bookmarks": 197,
-        "views": 61263
+        "views": 61285
       }
     },
     {
@@ -37056,12 +37339,12 @@
       "title_zh": "我们构建 PlanAssist 是为了帮助英国政府规划官员加快全国范围内的建设和翻修工作。",
       "excerpt_zh": "它与 Gemini 一起构建，事实证明它可以将规划官员评估住户申请的时间减少多达 58%。现在，它已可供另外 12 个议会使用，以帮助他们更快地做出决策",
       "engagement": {
-        "likes": 1354,
-        "retweets": 145,
+        "likes": 1355,
+        "retweets": 144,
         "replies": 395,
         "quotes": 187,
         "bookmarks": 361,
-        "views": 196046
+        "views": 196093
       }
     },
     {
@@ -37224,12 +37507,12 @@
       "title_zh": "新人择研究：自动化微妙的突发失调研究。",
       "excerpt_zh": "红队是模型安全测试的重要组成部分，但它也受到研究人员时间的限制。为了看看我们是否可以自动化它，我们为数千个 Claude 代理设置了逃避训练数据监控的任务",
       "engagement": {
-        "likes": 4206,
+        "likes": 4205,
         "retweets": 395,
         "replies": 720,
         "quotes": 407,
-        "bookmarks": 1569,
-        "views": 884169
+        "bookmarks": 1568,
+        "views": 884449
       }
     },
     {
@@ -37259,7 +37542,7 @@
         "replies": 9,
         "quotes": 5,
         "bookmarks": 14,
-        "views": 20034
+        "views": 20040
       }
     },
     {
@@ -37289,7 +37572,7 @@
         "replies": 1,
         "quotes": 2,
         "bookmarks": 5,
-        "views": 6168
+        "views": 6172
       }
     },
     {
@@ -37319,7 +37602,7 @@
         "replies": 1,
         "quotes": 6,
         "bookmarks": 12,
-        "views": 7285
+        "views": 7287
       }
     },
     {
@@ -37344,12 +37627,12 @@
       "title_zh": "无论您是使用 Gemini 4 Argon 处理复杂的项目，还是将您喜爱的应用程序连接到...",
       "excerpt_zh": "Gemini，或者为重复提示创建自定义技能，我们最新的 Gemini Drops 让您触手可及的强大功能和个性化功能。这是新内容🧵",
       "engagement": {
-        "likes": 1679,
+        "likes": 1680,
         "retweets": 135,
         "replies": 159,
         "quotes": 59,
-        "bookmarks": 407,
-        "views": 1861081
+        "bookmarks": 406,
+        "views": 1861214
       }
     },
     {
@@ -37415,10 +37698,10 @@
       "engagement": {
         "likes": 1027,
         "retweets": 131,
-        "replies": 138,
+        "replies": 140,
         "quotes": 10,
         "bookmarks": 161,
-        "views": 175378
+        "views": 175955
       }
     },
     {
@@ -37467,336 +37750,8 @@
         "replies": 2860,
         "quotes": 2370,
         "bookmarks": 3800,
-        "views": 7457219
+        "views": 7458558
       }
-    },
-    {
-      "id": "125e4db0c3bdf151",
-      "title": "See how finance teams are using Copilot Cowork, from quarterly close to recurring forecast updates.",
-      "url": "https://x.com/MSFTCopilot/status/2116213544966398386",
-      "source_id": "x-copilot",
-      "source_name": "Microsoft Copilot（推特）",
-      "source_home": "https://x.com/MSFTCopilot",
-      "published": "2026-10-31T01:00:01+08:00",
-      "excerpt": "",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "copilot"
-      ],
-      "topics": [
-        "coding"
-      ],
-      "types": [],
-      "platforms": [
-        "x"
-      ],
-      "title_zh": "了解财务团队如何使用 Copilot Cowork，从季度结算到定期更新预测。",
-      "engagement": {
-        "likes": 16,
-        "retweets": 3,
-        "replies": 7,
-        "quotes": 0,
-        "bookmarks": 8,
-        "views": 4820
-      }
-    },
-    {
-      "id": "b5bd2734bcbd8d3c",
-      "title": "Build Specialized Agents on a Stack You Control with NVIDIA NemoClaw",
-      "url": "https://developer.nvidia.com/blog/build-specialized-agents-on-a-stack-you-control-with-nvidia-nemoclaw",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-10-31T00:00:00+08:00",
-      "excerpt": "Building an autonomous agent requires a model, a harness, and domain-specific tools. To deploy an agent more securely, developers need a runtime that enforces...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "agent",
-        "chip"
-      ],
-      "types": [],
-      "title_zh": "使用 NVIDIA NemoClaw 在您控制的堆栈上构建专业代理",
-      "excerpt_zh": "构建自主代理需要模型、工具和特定领域的工具。为了更安全地部署代理，开发人员需要一个运行时来强制执行..."
-    },
-    {
-      "id": "48d71d233ede8eb0",
-      "title": "We’re expanding our commitment to Canada 🇨🇦",
-      "url": "https://x.com/cohere/status/2116186531366949192",
-      "source_id": "x-cohere",
-      "source_name": "Cohere（推特）",
-      "source_home": "https://x.com/cohere",
-      "published": "2026-10-30T23:12:40+08:00",
-      "excerpt": "Cohere is advancing plans to invest more than C$4 billion in R&D and AI infrastructure and create over 1,500 jobs through 2031.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [
-        "business"
-      ],
-      "platforms": [
-        "x"
-      ],
-      "title_zh": "我们正在扩大对加拿大的承诺🇨🇦",
-      "excerpt_zh": "Cohere 正在推进计划，到 2031 年投资超过 40 亿加元用于研发和人工智能基础设施，并创造超过 1,500 个就业岗位。",
-      "engagement": {
-        "likes": 1147,
-        "retweets": 103,
-        "replies": 137,
-        "quotes": 31,
-        "bookmarks": 70,
-        "views": 66213
-      }
-    },
-    {
-      "id": "a283ca869f875377",
-      "title": "How to Check and Configure NVIDIA GPUDirect Storage for Your Platform",
-      "url": "https://developer.nvidia.com/blog/how-to-check-and-configure-nvidia-gpudirect-storage-for-your-platform",
-      "source_id": "nvidia-dev",
-      "source_name": "NVIDIA Developer",
-      "source_home": "https://developer.nvidia.com/blog",
-      "published": "2026-10-30T23:01:36+08:00",
-      "excerpt": "NVIDIA GPUDirect Storage (GDS) accelerates GPU storage access in on-premises and cloud environments. It provides a robust, portable, and efficient data path...",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [
-        "chip"
-      ],
-      "types": [
-        "review"
-      ],
-      "title_zh": "如何为您的平台检查和配置 NVIDIA GPUDirect 存储",
-      "excerpt_zh": "NVIDIA GPUDirect Storage (GDS) 可加速本地和云环境中的 GPU 存储访问。它提供了强大、便携且高效的数据路径..."
-    },
-    {
-      "id": "c76597c7b3989257",
-      "title": "From synthetic enterprise data evaluations to real Microsoft Copilot AI confidence",
-      "url": "https://microsoft.com/en-us/research/blog/from-synthetic-enterprise-data-evaluations-to-real-microsoft-copilot-ai-confidence",
-      "source_id": "microsoft-research",
-      "source_name": "Microsoft Research",
-      "source_home": "https://www.microsoft.com/en-us/research/blog/",
-      "published": "2026-10-30T21:05:28+08:00",
-      "excerpt": "Evaluating Microsoft Copilot at enterprise scale requires test data that captures the full complexity of real organizations",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "copilot"
-      ],
-      "topics": [
-        "coding"
-      ],
-      "types": [
-        "research"
-      ],
-      "title_zh": "从综合企业数据评估到真正的 Microsoft Copilot AI 信心",
-      "excerpt_zh": "在企业规模评估 Microsoft Copilot 需要能够捕获真实组织的全部复杂性的测试数据"
-    },
-    {
-      "id": "3a8197db2eee0631",
-      "title": "Three weeks of training camp for Le Chonk. No days off.",
-      "url": "https://x.com/MistralAI/status/2116105034673058023",
-      "source_id": "x-mistral",
-      "source_name": "Mistral（推特）",
-      "source_home": "https://x.com/MistralAI",
-      "published": "2026-10-30T17:48:50+08:00",
-      "excerpt": "Thanks for putting it to the test, @ThibaultJaigu and @RequestyAI. Impressed by the new @MistralAI large-4 update! The model update is much better at coding and performs as the 2nd best OSS model on our coding benchmark",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "mistral"
-      ],
-      "topics": [
-        "coding"
-      ],
-      "types": [
-        "review",
-        "product"
-      ],
-      "platforms": [
-        "x"
-      ],
-      "title_zh": "Le Chonk 为期三周的训练营。没有休息日。",
-      "excerpt_zh": "感谢@ThibaultJaigu 和@RequestyAI 对其进行测试。新的@MistralAI large-4 更新给我留下了深刻的印象！模型更新在编码方面表现得更好，并且在我们的编码基准测试中成为第二好的 OSS 模型",
-      "engagement": {
-        "likes": 980,
-        "retweets": 66,
-        "replies": 114,
-        "quotes": 17,
-        "bookmarks": 60,
-        "views": 51108
-      }
-    },
-    {
-      "id": "25cc4c9bb2e3e7e5",
-      "title": "Making it easier for websites to express AI training preferences",
-      "url": "https://openai.com/index/helping-websites-express-ai-training-preferences",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-10-30T17:30:00+08:00",
-      "excerpt": "OpenAI will honor a shared robots.txt signal to help website operators communicate their AI training preferences to participating providers.",
-      "lang": "en",
-      "region": "intl",
-      "models": [],
-      "topics": [],
-      "types": [],
-      "title_zh": "让网站更容易表达人工智能训练偏好",
-      "excerpt_zh": "OpenAI 将尊重共享的 robots.txt 信号，以帮助网站运营商向参与的提供商传达他们的 AI 培训偏好。"
-    },
-    {
-      "id": "c7606af40dbb903f",
-      "title": "Community safety report and new protections for teens",
-      "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens",
-      "source_id": "openai",
-      "source_name": "OpenAI",
-      "source_home": "https://openai.com/news",
-      "published": "2026-10-30T17:00:00+08:00",
-      "excerpt": "OpenAI is strengthening violence prevention in ChatGPT with expanded safeguards, earlier interventions, and a new commitment to public safety reporting.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "gpt"
-      ],
-      "topics": [
-        "safety"
-      ],
-      "types": [
-        "policy"
-      ],
-      "title_zh": "社区安全报告和针对青少年的新保护",
-      "excerpt_zh": "OpenAI 正在通过扩大保障措施、早期干预以及对公共安全报告的新承诺来加强 ChatGPT 中的暴力预防。"
-    },
-    {
-      "id": "371b1e06db16bd42",
-      "title": "[AINews] Building AIE CODE: The top Coding Agent Conference",
-      "url": "https://latent.space/p/ainews-building-aie-code-the-top-coding-agent-conference/",
-      "source_id": "latentspace",
-      "source_name": "Latent Space",
-      "source_home": "https://www.latent.space/",
-      "published": "2026-10-30T16:24:29+08:00",
-      "excerpt": "Mistral’s open-weight release, frontier monitoring, and the day’s AI Twitter and Reddit recaps.",
-      "lang": "en",
-      "region": "intl",
-      "models": [
-        "mistral"
-      ],
-      "topics": [
-        "coding",
-        "agent"
-      ],
-      "types": [
-        "release",
-        "opensource"
-      ],
-      "title_zh": "【AINews】构建AIE CODE：顶级编码代理大会",
-      "excerpt_zh": "Mistral 的开放式发布、前沿监控以及当天的 AI Twitter 和 Reddit 回顾。"
-    },
-    {
-      "id": "a46671c803a75559",
-      "title": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9fd3VFYmMzUXRpQmw1RGs0NkNJYjFvN1lKbTVGME45UU9jM2RwQ3M4OWRVRVFnaXNxN3lMQ3BOWHhlVDNYck90dXVNVUxsZFRUV09OMw?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-30T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "robotics"
-      ],
-      "types": []
-    },
-    {
-      "id": "12d13fc53e31465d",
-      "title": "百度 APP 发布四大 AI 升级，搜索已实现递归自我进化",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5rR1Z6Z01hTTRzbk9pdXk4akVBQzh3Ykp3YmZ5ZXhZQVM3Y0JaeFh4Uy0tT1RtUjhhTkU3cjRPNUsxa1ozTWhGeGpCQ0JHdkhpcVdYUw?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-30T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [
-        "search"
-      ],
-      "types": [
-        "release",
-        "product"
-      ]
-    },
-    {
-      "id": "9984b9d9e83f2fb5",
-      "title": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5KTmVPYUFaaEkydjNQOWlXaXpQZHlwemRyOHFtSFhnUTNVbk9fOTFPVTBkOFRQam1BZFNnX00wb1AyM1lfM0N5bVJFUEREVUY0X2pTRQ?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-30T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "d9a8f5a01f7546b7",
-      "title": "英伟达团队基于 MiniMax H3 开源视频增强方案，最高支持 4K 重生成",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1iaG5yUWVfdzVaaEhTbEM2eHlWODdhUGxnN3I0Uk5vYUVxTDZ5cXctOFA0WjB4cEVKeExrUnNGdERabTNSNlpJNzY2Y1JEVWhQZnYwbg?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-30T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [
-        "minimax"
-      ],
-      "topics": [
-        "chip"
-      ],
-      "types": [
-        "opensource"
-      ]
-    },
-    {
-      "id": "8b5e7f1c503dc402",
-      "title": "Claude新模型曝光：新Fable，新Opus…",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kVk9CN1lvOVl1WjZhbHd2VDVxbDdZSG0xS2hqNGdmYW05X2ZLYlVMRnJRYjNHcGhlc0dpVVk5RHc4dE9KbFVsMXZJb1pYVjRZTkNRbQ?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-30T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
-    },
-    {
-      "id": "35f333f6602d5997",
-      "title": "AI零帧起手写算子，反超DeepSeek人类手写巅峰：快了9.8%！",
-      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9kUXVMTC05cDluU2VHWVpiWFUzYlAwR29vbmdKWnBSTkNPbFZrbTVvMGVBNVJLbUUzQmxsTTlzMGZQRERHWGNyeHlxVl9sUGY2NENVcQ?oc=5",
-      "source_id": "qbitai",
-      "source_name": "量子位",
-      "source_home": "https://www.qbitai.com",
-      "published": "2026-10-30T15:00:00+08:00",
-      "excerpt": "",
-      "lang": "zh",
-      "region": "cn",
-      "models": [],
-      "topics": [],
-      "types": []
     }
   ]
 }
