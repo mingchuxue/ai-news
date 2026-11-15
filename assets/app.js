@@ -1102,6 +1102,7 @@
     if (state.data) renderFeed();
   }
 
+  const SHARE_ICON = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V4.5M8 8.2l4-3.7 4 3.7M5.5 13v5a1.5 1.5 0 0 0 1.5 1.5h10a1.5 1.5 0 0 0 1.5-1.5v-5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
   const STAR = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 4.6l1.7 3.7 4 .5-3 2.8.8 4-3.5-2-3.5 2 .8-4-3-2.8 4-.5z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>`;
 
   function tagButtons(item) {
@@ -1157,7 +1158,7 @@
         ${excerpt ? `<p class="excerpt">${esc(excerpt)}</p>` : ""}
         <div class="card-foot">
           <ul class="tags">${tagButtons(item)}</ul>
-          <div class="card-acts">${transBtn}<a class="orig" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">原文 ${EXT}</a></div>
+          <div class="card-acts">${transBtn}<button type="button" class="tr-btn sh-btn" data-share-item="${esc(item.id)}" aria-label="分享">${SHARE_ICON}<span class="tr-label">分享</span></button><a class="orig" href="${esc(item.url)}" target="_blank" rel="noopener noreferrer">原文 ${EXT}</a></div>
         </div>
       </article>`;
   }
@@ -1406,6 +1407,11 @@
         renderFeed();
         return;
       }
+      const shb = e.target.closest("[data-share-item]");
+      if (shb) {
+        shareItem(shb);
+        return;
+      }
       const tog = e.target.closest("[data-toggle-read]");
       if (tog) {
         const id = tog.getAttribute("data-toggle-read");
@@ -1610,6 +1616,68 @@
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
     toast("已导出 " + items.length + " 条收藏");
   }
+  async function shareItem(btn) {
+    const card = btn.closest(".card");
+    const a = card && card.querySelector("h2 a");
+    if (!a) return;
+    const title = a.textContent.trim(), url = a.href;
+    const src = card.querySelector(".source");
+    const text = title + (src ? "（" + src.textContent.trim() + "）" : "");
+    try {
+      if (navigator.share && (navigator.maxTouchPoints > 0 || /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent || ""))) {
+        await navigator.share({ title: title, text: text, url: url });
+        return;
+      }
+    } catch (e) {
+      if (e && e.name === "AbortError") return;
+    }
+    const full = text + "\n" + url;
+    const legacy = () => {
+      const ta = document.createElement("textarea");
+      ta.value = full;
+      ta.setAttribute("readonly", "");
+      ta.style.position = "fixed";
+      ta.style.opacity = "0";
+      document.body.appendChild(ta);
+      ta.select();
+      let ok = false;
+      try { ok = document.execCommand("copy"); } catch (e) { ok = false; }
+      ta.remove();
+      return ok;
+    };
+    let ok = false;
+    try {
+      if (navigator.clipboard && navigator.clipboard.writeText && window.isSecureContext) {
+        await navigator.clipboard.writeText(full);
+        ok = true;
+      }
+    } catch (e) { ok = false; }
+    if (!ok) ok = legacy();
+    toast(ok ? "已复制标题和链接" : "复制失败，请长按标题复制链接");
+  }
+
+  function bindToTop() {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.className = "to-top";
+    b.setAttribute("aria-label", "回到顶部");
+    b.title = "回到顶部";
+    b.innerHTML = `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>`;
+    document.body.appendChild(b);
+    let on = false, tick = false;
+    const check = () => {
+      tick = false;
+      const want = window.scrollY > 900;
+      if (want !== on) { on = want; b.classList.toggle("is-on", on); }
+    };
+    window.addEventListener("scroll", () => { if (!tick) { tick = true; requestAnimationFrame(check); } }, { passive: true });
+    b.addEventListener("click", () => {
+      const reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      window.scrollTo({ top: 0, behavior: reduce ? "auto" : "smooth" });
+    });
+    check();
+  }
+
   let kFocusId = "";
   function bindKeys() {
     document.addEventListener("keydown", (e) => {
@@ -1652,6 +1720,7 @@
 
   function bindExtras() {
     bindKeys();
+    bindToTop();
     let fs = "m";
     try { fs = localStorage.getItem(FS_KEY) || "m"; } catch (e) { /* ignore */ }
     applyFont(fs);
