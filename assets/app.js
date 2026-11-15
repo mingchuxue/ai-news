@@ -437,11 +437,16 @@
     localStorage.setItem(FAV_KEY, JSON.stringify([...state.favs]));
   }
 
+  const SH_FMT = new Intl.DateTimeFormat("en-CA", { timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit" });
+  const SH_MEMO = new Map();
   function shanghaiDate(iso) {
-    const d = new Date(iso);
-    const parts = new Intl.DateTimeFormat("en-CA", {
-      timeZone: TZ, year: "numeric", month: "2-digit", day: "2-digit",
-    }).format(d); // YYYY-MM-DD
+    const key = typeof iso === "string" ? iso : null;
+    if (key !== null && SH_MEMO.has(key)) return SH_MEMO.get(key);
+    const parts = SH_FMT.format(new Date(iso)); // YYYY-MM-DD
+    if (key !== null) {
+      if (SH_MEMO.size > 20000) SH_MEMO.clear();
+      SH_MEMO.set(key, parts);
+    }
     return parts;
   }
   function shanghaiNowDate() {
@@ -561,6 +566,7 @@
     const t = new Date(item.published).getTime();
     const now = Date.now();
     if (state.range === "all") return true;
+    if (/^\d{4}-\d{2}-\d{2}$/.test(state.range)) return shanghaiDate(item.published) === state.range;
     if (state.range === "1d") return shanghaiDate(item.published) === shanghaiNowDate();
     if (state.range === "7d") return t >= now - 7 * 86400 * 1000;
     if (state.range === "30d") return t >= now - 30 * 86400 * 1000;
@@ -672,6 +678,7 @@
     }
     if (group === "region") return id === "cn" ? "国内" : "国际";
     if (group === "lang") return id === "zh" ? "中文" : "English";
+    if (group === "range" && /^\d{4}-\d{2}-\d{2}$/.test(id)) return Number(id.slice(5, 7)) + " 月 " + Number(id.slice(8, 10)) + " 日";
     if (group === "range") return ({ "1d": "今天", "7d": "近 7 天", "30d": "近 30 天", all: "全部" })[id] || id;
     if (group === "unread") return "只看未读";
     if (group === "watch") return "我的关注";
@@ -738,10 +745,21 @@
       };
     })();
 
+    const dayOpts = (() => {
+      const today = shanghaiNowDate(), seen = {};
+      (data.items || []).forEach((it) => { const k = shanghaiDate(it.published); if (k !== today) seen[k] = (seen[k] || 0) + 1; });
+      const wk = ["日", "一", "二", "三", "四", "五", "六"];
+      return Object.keys(seen).sort().reverse().slice(0, 8).map((k) => {
+        const w = wk[new Date(k + "T12:00:00Z").getUTCDay()];
+        return [k, Number(k.slice(5, 7)) + "/" + Number(k.slice(8, 10)) + " 周" + w];
+      });
+    })();
+
     els.filterBody.innerHTML = `
       <section class="fg">
         <div class="fg-title">时间</div>
         ${seg("range", [["1d", "今天"], ["7d", "近 7 天"], ["30d", "近 30 天"], ["all", "全部"]])}
+        ${dayOpts.length ? `<div class="fg-sub">按日期回看</div>${seg("range", dayOpts, "is-days")}` : ""}
       </section>
       <section class="fg">
         <div class="fg-title">排列方式</div>
