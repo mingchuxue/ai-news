@@ -860,3 +860,4 @@ body.fs-l { --title-size: 20.5px; --excerpt-size: 15.5px; }
   .hot-tag { flex: none; }
 }
 #main { min-width: 0; }
+.card.k-focus { border-color: color-mix(in srgb, var(--accent) 55%, var(--line)); box-shadow: 0 0 0 3px var(--accent-soft), var(--shadow-2); }

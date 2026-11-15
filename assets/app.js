@@ -1610,7 +1610,48 @@
     setTimeout(() => URL.revokeObjectURL(a.href), 2000);
     toast("已导出 " + items.length + " 条收藏");
   }
+  let kFocusId = "";
+  function bindKeys() {
+    document.addEventListener("keydown", (e) => {
+      if (e.metaKey || e.ctrlKey || e.altKey || e.defaultPrevented) return;
+      const t = e.target || {};
+      if (/INPUT|TEXTAREA|SELECT/.test(t.tagName || "") || t.isContentEditable) return;
+      if (els.filters && els.filters.classList.contains("is-open")) return;
+      const k = e.key;
+      if (k === "?") { toast("j / k 上下切换 · o 打开原文 · s 收藏 · f 收藏夹 · / 搜索"); return; }
+      if (k === "f") { if (els.btnFav) els.btnFav.click(); return; }
+      const cards = Array.from(document.querySelectorAll("#feed .card"));
+      if (!cards.length) return;
+      let cur = document.querySelector("#feed .card.k-focus");
+      if (!cur && kFocusId) {
+        cur = cards.find((c) => c.dataset.id === kFocusId) || null;
+        if (cur) cur.classList.add("k-focus");
+      }
+      let i = cur ? cards.indexOf(cur) : -1;
+      if (k === "j" || k === "k") {
+        e.preventDefault();
+        i = i < 0 ? 0 : Math.max(0, Math.min(cards.length - 1, i + (k === "j" ? 1 : -1)));
+        if (cur) cur.classList.remove("k-focus");
+        cur = cards[i];
+        cur.classList.add("k-focus");
+        kFocusId = cur.dataset.id;
+        cur.scrollIntoView({ block: "center", behavior: "smooth" });
+        return;
+      }
+      if (!cur) return;
+      if (k === "s") {
+        const b = cur.querySelector(".star");
+        if (b) b.click();
+        const c = cards.length && Array.from(document.querySelectorAll("#feed .card")).find((x) => x.dataset.id === kFocusId);
+        if (c) c.classList.add("k-focus");
+        return;
+      }
+      if (k === "o" || k === "Enter") { const a = cur.querySelector("h2 a"); if (a) { e.preventDefault(); a.click(); } }
+    });
+  }
+
   function bindExtras() {
+    bindKeys();
     let fs = "m";
     try { fs = localStorage.getItem(FS_KEY) || "m"; } catch (e) { /* ignore */ }
     applyFont(fs);
